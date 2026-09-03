@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 drafts/codex/*.log
 drafts/codex/*.err
+resources/data/*.zip
+resources/data-agy/*.zip
