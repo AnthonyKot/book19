@@ -1,0 +1,11 @@
+# Research — trade-flow gaps (folder drafts/research/trade-flows)
+Question: which physical products does the Netherlands import from outside the EU, and which does it import from Poland, where an importer or distributor with English, Polish and Russian and EU-compliance skill could plausibly take a position, and what has changed 2023–2025?
+Sources to use: Eurostat Comext (EU trade by HS4/HS6, partner country) and CBS StatLine international trade in goods; use the bulk downloads or the API; for NL imports from non-EU partners and from Poland, list the top 40 HS4 lines by value with 2023→2025 change; flag lines where the goods need CE, packaging/EPR, food-contact or CRA compliance; check for each shortlisted line whether the import is dominated by a few large importers (public annual reports, trade-body data) or fragmented. Then Polish manufacturing capacity by sector (GUS statistics, Polish investment-agency reports, trade fairs) as the supply side. Candidates are distribution, agency or import positions, not manufacturing.
+
+## Shared rules (all research runs)
+- Public and published sources only; save every page or dataset you rely on as a plain-text excerpt under your own `sources/` folder with URL, publisher and fetch date 2026-09-03. Datasets: note URL and size; do not save files over 50 MB.
+- Never invent a number; every figure in the findings must trace to a saved excerpt or dataset.
+- Write files to disk the moment they exist (save as you go). Do NOT run git; other agents share this repo.
+- Screen every candidate against `drafts/edge-inventory.md` (the reader: A2 Dutch, English/Russian/Polish, EUR 100k, regulatory literacy, engineering habit, 30k LinkedIn audience) and two gates: the A2 gate (runnable with A2 Dutch, or a partner owns the Dutch customer) and the AI gate (does AI progress raise or lower demand for it by 2030).
+- Output `findings.md` in your folder: sources and their limits; the evidence tables; 4–6 ranked candidates, each ≤150 words: the opportunity, the demand evidence (with figures), the edge that applies, the A2 and AI gate results, the plausible first paid test, and the single fact that would kill it; then ≤120 honest words on whether this instrument found anything a Dutch founder could not.
+- Final reply ≤200 words: the ranked candidates and the honest paragraph.
