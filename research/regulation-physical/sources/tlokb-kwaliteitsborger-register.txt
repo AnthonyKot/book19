@@ -1,0 +1,13 @@
+Source: https://register.tlokb.nl/kb/kwaliteitsborger
+Publisher: Toelatingsorganisatie Kwaliteitsborging Bouw (TloKB)
+Fetch date: 2026-09-03
+Title: Register kwaliteitsborger (Wet kwaliteitsborging voor het bouwen - Wkb)
+
+Key Excerpts:
+"In dit register vindt u kwaliteitsborgers die gebruik mogen maken van een instrument voor kwaliteitsborging. Vanaf 1 januari 2024 is het gebruik van toegelaten instrumenten voor kwaliteitsborging verplicht voor bouwen in gevolgklasse 1."
+
+Register statistics (live data):
+- Total registered kwaliteitsborger entities: 72 (pageData: offset: 0, page: 0, pageSize: 10, total: 72)
+- Admitted instruments used: KOMO-instrument voor de Kwaliteitsborging (KiK) 2.3.1, BKapp 3.4 / 3.5, Instrument Kwaliteitsborging Garantiewaarborg (KGW) 3.3, SWK Instrument Kwaliteitsborging, etc.
+- Suspensions noted (as of 3 September 2026): 3 entities temporarily suspended (Bureau Kwaliteitsborging B.V. Amersfoort from 25 Aug 2026, Borgings Combinatie Nederland Heerlen from 24 Aug 2026, Signal Measurement and Control Systems B.V. Den Haag from 12 May 2026).
+- Net active admitted quality assurers in NL: 69 entities.

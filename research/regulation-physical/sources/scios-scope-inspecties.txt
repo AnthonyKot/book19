@@ -1,0 +1,15 @@
+Source: https://www.scios.nl/certificatieregeling
+Publisher: Stichting Certificatie Inspectie en Onderhoud van Stookinstallaties (SCIOS)
+Fetch date: 2026-09-03
+Title: SCIOS Certificatieregeling: Scope 8, Scope 10, Scope 12
+
+Key Excerpts:
+"Regeling scopes:
+- Scope 8: Inspectie van elektrische installaties (Arbowet / NEN 3140).
+- Scope 10: Inspectie van elektrisch materieel op brandrisico (NTA 8220; verplicht gesteld door Nederlandse bedrijfsverzekeraars).
+- Scope 12: Inspectie van zonnestroominstallaties (PV-systemen; geëist door verzekeraars bij zakelijke PV-daken).
+Toelating en examens:
+- Verplicht diploma Basiskennis Elektrotechniek (MBO-3/4 niveau).
+- Theorie- en praktijkexamen per Scope. Alle examens, Kennis- en Bekwaamheidseisen (KBE) en technisch documenten (TD14, TD18) zijn uitsluitend in het Nederlands (Dutch-only).
+- Inspecties mogen uitsluitend worden afgemeld in het SCIOS-portaal door een bedrijf met een SCIOS-bedrijfscertificaat afgegeven door een geaccrediteerde Certificatie-Instelling (CI).
+Marktsituatie: Aanhoudend zwaar tekort aan bevoegde Scope 8, 10 en 12 inspecteurs; wachttijden bij keuringen van zakelijke zonnepanelen en elektrische verdeelinrichtingen."

@@ -1,0 +1,13 @@
+Source: https://iplo.nl/regelgeving/besluit-bouwwerken-leefomgeving-bbl/
+Publisher: Informatiepunt Leefomgeving (IPLO) / Rijksoverheid
+Fetch date: 2026-09-03
+Title: Besluit bouwwerken leefomgeving (Bbl) - Laadinfrastructuur en Ecologische toets
+
+Key Excerpts:
+"Laadinfrastructuur voor e-mobility (art. 4.225 / art. 3.93a Bbl):
+- Deadline 1 januari 2025: Bestaande utiliteitsgebouwen met meer dan 20 parkeervakken moeten verplicht over minimaal 1 oplaadpunt voor elektrische voertuigen beschikken.
+- Nieuwbouw en ingrijpende renovatie utiliteit met >10 parkeervakken: minimaal 1 oplaadpunt en leidinginfrastructuur (loze leidingen) voor minimaal 1 op de 5 parkeervakken.
+- EPBD IV aanscherping per 2027: Uitbreiding van de verplichtingen naar 1 oplaadpunt per 10 vakken en 50% voorbekabeling bij >20 parkeervakken.
+Ecologische inventarisatie bij woningverduurzaming (Omgevingswet & Soortenbescherming):
+- Raad van State uitspraak: Spouwmuurisolatie zonder voorafgaand ecologisch onderzoek naar vleermuizen (Gewone dwergvleermuis) en broedvogels is verboden.
+- Uitvoering: Ecologen voeren sonisch vleermuisonderzoek uit of installateurs voeren natuurvriendelijk isoleren uit met endoscopische inspecties onder een gemeentelijk Soortenmanagementplan (SMP)."

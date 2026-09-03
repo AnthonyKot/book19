@@ -1,0 +1,53 @@
+TITLE: EP-W/EP-U energy-performance advisers and NOx/SCIOS Scope 6
+FETCH DATE: 2026-09-03
+
+SOURCE 1
+URL: https://www.rvo.nl/onderwerpen/wetten-en-regels-gebouwen/informatie-epa
+PUBLISHER: Netherlands Enterprise Agency (RVO)
+EXCERPT (paraphrased): Only a competent EP adviser may prepare energy labels. Training averages four to six days and examinations are offered by Cito, 't Examenpark and SNEI. EP-W/B covers existing housing; EP-W/D adds new housing; EP-U/B covers existing utility buildings and includes W/B competence; EP-U/D has the broadest competence. Advisers must either be BRL 9500-certified or join a certified umbrella organisation. All advisers undertake mandatory annual refresher training, and competent advisers appear in the Centraal Register Techniek.
+
+SOURCE 2
+URL: https://cito.nl/zakelijk/aanmelden-info-beroepsexamens/ep-examens/inschrijven-ep-examens/
+PUBLISHER: Cito
+EXCERPT (paraphrased): 2026 module prices excluding VAT are: Module 1 EUR 323.30, Module 2 EUR 371, Module 3 EUR 371, Module 4 Basis EUR 514.25, Module 4 Detail EUR 514.25, Module 5 EUR 318, WU Basis/Detail EUR 360.40, and MWA-W/U EUR 455.80. EP-W/B therefore requires four modules whose listed exam fees total EUR 1,579.55 excluding VAT (323.30 + 371 + 371 + 514.25). This arithmetic is derived from Cito's tariff table.
+
+SOURCE 3
+URL: https://www.etran.nl/opleidingen/ep-w-opleiding-tot-ep-w-adviseur-energielabel-adviseur-worden
+PUBLISHER: Etran (private provider)
+EXCERPT (paraphrased): Its EP-W/B course takes eight weeks excluding exams, starts from MBO-level-4 entry level and costs EUR 4,180.02 excluding VAT for the complete theory/practice programme or EUR 1,590 excluding VAT for classroom days without the practice programme. Provider example, not a compulsory national tariff.
+
+SOURCE 4
+URL: https://www.ep-academie.nl/courses/bijscholing-ep-w-2026/
+PUBLISHER: EP Academie (private provider)
+EXCERPT (paraphrased): Its 2026 accredited EP-W refresher plus final test costs EUR 375 excluding VAT, including the EUR 127.50 ISSO levy, and extends competence for one year. ISSO publication is extra.
+
+SOURCE 5
+URL: https://www.rvo.nl/onderwerpen/wetten-en-regels-gebouwen/ep-online
+PUBLISHER: RVO
+EXCERPT (paraphrased): EP-Online is the official national database in which advisers register energy-performance indicators and energy labels. An RVO account is required to register labels.
+
+SOURCE 6
+URL: https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen-kies-techniek
+PUBLISHER: UWV
+EXCERPT (paraphrased): UWV describes installation technology as promising because of the energy transition and climate measures and specifically names energy-performance advisers in construction. It states that many installation occupations remain tight to very tight and offer very good opportunities now and in coming years.
+
+SOURCE 7
+URL: https://www.onzejoost.nl/cursussen/verplichte-opfriscursus-energieprestatie-w-2026/
+PUBLISHER: Onze Joost (private accredited provider)
+EXCERPT (paraphrased): Its 2026 EP-W refresher is one 7.5-hour day and costs EUR 405 excluding VAT. Missing the required refresher makes the diploma invalid and requires retaking the full exam. Provider example.
+
+SOURCE 8
+URL: https://www.vanempelopleidingen.com/?CursusSoort=opleiding-scope-6&CursusSoortId=10&TabId=46
+PUBLISHER: Van Empel Opleidingen (private provider)
+EXCERPT (paraphrased): SCIOS Scope 6 trains specialists to measure, calculate and report emissions including NOx, SO2, CO, hydrocarbons and dust under SCIOS Technical Document 8 and prepares for the SCIOS Scope 6 examination.
+
+SOURCE 9
+URL: https://zoek.officielebekendmakingen.nl/stcrt-2025-1122.pdf
+PUBLISHER: Staatscourant / Government of the Netherlands
+DATASET NOTE: official PDF below 50 MB; relevant excerpt recorded, no binary saved.
+EXCERPT (paraphrased): SCIOS schemes certify companies and set education and experience requirements for people working within them. SCIOS addresses safety, reliability and environmental impact of combustion/heating, electrical and explosion-safe installations, and company certification operates against an ISO 9001-based scheme.
+
+LIMITS
+- No EP examination body found advertising an English examination. All public materials and sample exams found were Dutch; English availability must therefore be recorded as “none found/unconfirmed,” not a categorical legal prohibition.
+- “NOx adviser” is not a protected personal profession located in the regulated-professions sources. SCIOS Scope 6 is an emissions-measurement competence within a company-certification system, with experience requirements. Because a defensible current public cost, language and within-12-month novice route were not found, it is not treated as a viable candidate.
+- KNMI is a meteorological institute, not a general short licensing route for paid work, and is therefore irrelevant to this screen.

@@ -1,0 +1,103 @@
+SOURCE S30 — regulated/protected service rules
+Publisher: Netherlands Enterprise Agency, Business.gov.nl (official government portal)
+Fetch date for all pages: 2026-09-03
+
+ACCOUNTING
+URL: https://business.gov.nl/regulations/registration-consultation-accountants-register/
+Excerpt: the protected RA and AA accountant titles require registration in the NBA
+register; statutory audits require an AFM licence. Ordinary bookkeeping/tax-return help
+is outside those protected titles, but providers may not present themselves as RA/AA.
+
+DRIVING INSTRUCTION
+URL: https://business.gov.nl/regulations/certification-driving-instructors/
+Excerpt: paid driving instructors need a WRM competence card after theory and practical
+exams; the card is valid five years. The qualification route/exam uses Dutch.
+
+HEALTHCARE
+URL: https://business.gov.nl/regulations/registering-as-healthcare-professional/
+Excerpt: doctors and dentists are among the professions requiring BIG registration.
+Foreign qualifications must be recognised, sufficient Dutch demonstrated, and periodic
+re-registration requirements met. Non-clinical intake/navigation does not permit diagnosis
+or treatment and must remain under the clinical provider’s responsibility.
+
+CHILDCARE
+Registration URL: https://business.gov.nl/regulations/registration-childcare/
+Checklist URL: https://business.gov.nl/starting-your-business/starting-situations/checklist-for-starting-a-childcare-centre/
+Law URL: https://wetten.overheid.nl/BWBR0017017/2026-07-01
+Excerpt: a childcare centre must apply to the municipality for LRK registration at least
+10 weeks before opening and is inspected by the GGD. Staff generally need Dutch at
+3F/B2. The multilingual-childcare exception permits English, German or French for no
+more than 50% of daily hours—not Polish, Russian, Ukrainian or Belarusian. The statute
+contains narrow contextual exceptions, but a mainstream full-day “own-language
+childcare” offer does not fit the ordinary multilingual provision and the A2 founder
+could not personally fill a Dutch-language pedagogical role. Specialist advice would be
+needed before relying on an exception.
+
+LAWYERS AND SWORN TRANSLATORS
+Lawyer URL: https://business.gov.nl/regulations/registration-consultation-national-register-lawyers/
+Translator URL: https://business.gov.nl/regulations/registration-sworn-interpreters-translators/
+Excerpt: practising as an advocaat requires registration, a Dutch law degree and the
+three-year professional education route (with EEA recognition routes where applicable).
+Sworn translators/interpreters must be in the Rbtv, supply a VOG, meet language/skill
+levels (including C1/B2 routes), be sworn by a court and renew after five years. General
+legal information or non-sworn translation must not be presented as those protected acts.
+
+FOOD
+URL: https://business.gov.nl/regulations/registration-and-accreditation-netherlands-food-and-consumer-product-safety-authority/
+Excerpt: food businesses register each establishment with the NVWA; some handling of
+raw animal-origin products requires accreditation. Food-safety/HACCP rules also apply.
+
+GAS, REFRIGERATION AND HEAT-PUMP WORK
+URLs:
+https://business.gov.nl/regulations/co-certificate-gas-appliances/
+https://business.gov.nl/regulations/certificates-working-with-f-gases/
+Excerpt: installation, repair or maintenance of gas combustion appliances requires a
+CO-certified company and competent technicians. F-gas work requires personal and, for
+relevant companies, BRL100 company certification. General construction is not one
+licensed profession, but these installation acts are regulated.
+
+VEHICLE INSPECTION
+URL: https://business.gov.nl/regulations/performing-periodic-technical-inspections-motor-vehicles-apk/
+Excerpt: ordinary car repair is not a protected profession, but conducting APK inspections
+requires RDW recognition and an authorised inspector.
+
+FUNERAL TRANSPORT
+URL: https://business.gov.nl/regulations/transport-mortal-remains/
+Excerpt: cross-border transport requires the death documentation and, outside the relevant
+exceptions, a laissez-passer; hearse and coffin requirements apply. Transporting ashes
+normally does not require documents, although translated death/cremation certificates are
+advisable. Funeral director is not itself a protected profession; regulated transport and
+municipal/crematorium processes still require competent Dutch partners.
+Related parliamentary record: https://zoek.officielebekendmakingen.nl/kst-30696-9.html
+
+
+SOURCE S31 — financial advice and real-estate boundary
+Publisher: Netherlands Authority for the Financial Markets (AFM); NVM
+Fetch date: 2026-09-03
+AFM URL: https://www.afm.nl/nl-nl/sector/adviseurs-bemiddelaars-en-gevolmachtigde-agenten/vergunning-nodig
+AFM application URL: https://www.afm.nl/nl-nl/sector/adviseurs-bemiddelaars-en-gevolmachtigde-agenten/vergunning-aanvragen-of-wijzigen/vergunningaanvraag
+NVM report URL: https://www.nvm.nl/media/qepftfv1/onderzoeksrapport-samen-febr-21.pdf
+
+Excerpt:
+Advice on or mediation in financial products including mortgages and household insurance
+requires an AFM licence. Wft diplomas alone are insufficient: conditions also cover fit
+management, competent advisers, controlled operations, ownership transparency and,
+where relevant, professional-liability insurance. The property-agent title is not currently
+statutorily protected (the NVM report discusses whether it should be protected again), but
+regulated financial advice and formal valuation activities must be kept out of an unlicensed
+buyer/rental concierge.
+
+
+SOURCE S32 — temporary-employment authorisation
+Publisher: Netherlands Enterprise Agency, Business.gov.nl
+URL: https://business.gov.nl/amendments/certificate-for-temporary-employment-agencies/
+Fetch date: 2026-09-03
+
+Excerpt:
+The Wtta authorisation regime is expected to enter into force on 1 January 2027, with
+enforcement from 1 January 2028. Agencies must satisfy authorisation conditions including
+a €100,000 deposit, VOG, correct pay/tax compliance and approved housing where supplied.
+
+Limit: this page describes a future regime and explicitly says dates were expected at
+fetch time; implementation details can still change. The deposit alone consumes the
+reader’s stated €100,000 test-capital ceiling.

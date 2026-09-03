@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crowdfunding as a demand instrument (codex run) — The Third Engine</title>
+<link rel="stylesheet" href="../../static/style.css">
+<script src="../../static/theme.js"></script>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="../../index.html">The Third <span>Engine</span></a>
+  <nav class="site-nav"><a href="../../index.html">Candidates</a><a href="../../about.html">Method</a><button class="theme-toggle" type="button">☾ Dark</button></nav>
+</div></header>
+<main class="wrap wide">
+  <p class="kicker">Book 19 · Research memo · v0.1</p>
+  <h1>Crowdfunding as a paid-demand instrument: EU distribution gaps</h1>
+  <p class="note">A research memo, not an essay. Written by an agent from public sources on the date stated; every figure is meant to trace to a saved excerpt in the <code>sources/</code> folder beside this page. Source file in the repository: <code>drafts/reviews/crowdfunding-findings.md</code>.</p>
+<p><strong>Cut-off: 3 September 2026.</strong> The answer is narrower than the campaign leaderboards suggest. Of the 40 highest-grossing qualifying projects in the published Kickstarter data, 35 already have an established EU route, two sell directly into Europe without a European distributor, and three were not yet in EU retail. The defensible output is five leads for maker outreach and document diligence—not five ready-to-import SKUs.</p>
+<h2>Data and method</h2>
+<p>“Proven elsewhere” means a physical product launched in 2023–2026 by a non-EU creator/platform market, with at least USD 250,000 (or a documented local equivalent) and at least 1,000 backers/supporters. United Kingdom creators remain in scope. Kickstarter's <code>converted_pledged_amount</code> supplies USD; the Makuake screen converts JPY using the <a href="../../resources/sources/method/exchange-rate.md">ECB cross-rate note</a>. Campaign location is creator country, not buyer location.</p>
+<div class="table-wrap"><table><thead><tr><th>Platform</th><th>Public evidence used</th><th>What can and cannot be calculated</th></tr></thead><tbody>
+<tr><td>Kickstarter</td><td>Web Robots 2023-12-14 baseline and 2026-08-12 latest archive; URLs/MD5 in <a href="../../resources/data/README.md">data README</a></td><td>Funding, backers and observed completed-project success rate by category/country; 2026 is partial.</td></tr>
+<tr><td>Indiegogo</td><td>Web Robots 2025-10-13 archive and <a href="../../resources/sources/indiegogo/webrobots-and-top-2023.md">official 2023 roundup excerpt</a></td><td>Category amount and an inferred archive outcome through 2025. <code>perks_claimed</code> is blank/zero in this cohort, so backer totals and the two-part product screen are unavailable.</td></tr>
+<tr><td>Makuake</td><td><a href="../../resources/sources/makuake/official-2024-2025.md">Official 2025 annual report/award excerpt</a></td><td>Annual total and named leaders; no complete category/success denominator. Three products have enough amount and supporter evidence for the screen.</td></tr>
+<tr><td>Wadiz</td><td><a href="../../resources/sources/wadiz/2024-trend-report.md">Public 2023 trend-report excerpt</a></td><td>Editorial trends only. The site prohibits unauthorized crawling, so no project aggregate was built.</td></tr>
+<tr><td>Zeczec</td><td><a href="../../resources/sources/zeczec/platform-scale.md">Official profile excerpt</a></td><td>Cumulative platform scale, not a dated project leaderboard with both fields.</td></tr>
+<tr><td>JD / Modian</td><td><a href="../../resources/sources/jd/service-closure.md">JD closure</a>; <a href="../../resources/sources/modian/public-study.md">Modian study</a></td><td>JD product crowdfunding ended in 2022. The Modian study reports a project corpus but not a public row-level product table.</td></tr>
+<tr><td>Gulf</td><td><a href="../../resources/sources/gulf/platform-check.md">Official/public landscape excerpt</a></td><td>Current measurable scale is mainly equity/debt. A reward platform exists, but no qualifying public product table was found.</td></tr>
+</tbody></table></div>
+<p>The script and reproducible outputs are <a href="../../scripts/analyze_crowdfunding.py">analyze_crowdfunding.py</a>, <a href="platform-category-summary.csv">platform-category-summary.csv</a>, <a href="kickstarter-category-country.csv">kickstarter-category-country.csv</a>, <a href="proven-elsewhere.csv">proven-elsewhere.csv</a>, <a href="top-40-eu-check.csv">top-40-eu-check.csv</a>, and <a href="analysis-audit.json">analysis-audit.json</a>.</p>
+<h3>Kickstarter physical-category snapshot</h3>
+<p>Amounts and backers below are for successful projects in the observed archive cohort. “Rate” is successful / (successful + failed); live/other projects are excluded. Games here means only tabletop games and playing cards. Art is physical printing. Full year/category rows are in the platform CSV.</p>
+<div class="table-wrap"><table><thead><tr><th>Physical parent</th><th>Observed success rate 2023 / 2024 / 2025 / 2026</th><th>Successful pledged USD, 2023–2026</th><th>Backers, 2023–2026</th></tr></thead><tbody>
+<tr><td>Technology</td><td>75.00% / 82.47% / 81.81% / 85.81%</td><td>$795,131,529</td><td>2,109,686</td></tr>
+<tr><td>Design</td><td>98.60% / 86.54% / 84.05% / 86.84%</td><td>$344,389,578</td><td>2,159,758</td></tr>
+<tr><td>Tabletop/playing-card games</td><td>91.39% / 92.95% / 92.12% / 95.31%</td><td>$218,327,719</td><td>2,531,648</td></tr>
+<tr><td>Fashion</td><td>77.14% / 59.19% / 50.59% / 53.97%</td><td>$34,250,145</td><td>262,589</td></tr>
+<tr><td>Crafts</td><td>44.12% / 44.76% / 43.36% / 48.17%</td><td>$5,392,670</td><td>47,125</td></tr>
+<tr><td>Food</td><td>39.13% / 37.06% / 37.08% / 42.25%</td><td>$4,154,584</td><td>47,235</td></tr>
+<tr><td>Physical printing under Art</td><td>— / 75.00% / 70.00% / 85.71%</td><td>$185,950</td><td>2,243</td></tr>
+</tbody></table></div>
+<p>These rates are <strong>not platform-wide rates</strong>. Web Robots documents a Kickstarter category result cap and duplicate appearances across subcategories; the script deduplicates IDs, but cannot recover omitted projects. The unusually high observed Design/Games rates are a warning about discovery-page skew, not a finding that nearly every campaign succeeds.</p>
+<h3>Kickstarter creator-country snapshot</h3>
+<p>The full output has 541 year × country × category rows. The six largest non-EU creator countries by successful pledged amount are shown to keep the table short.</p>
+<div class="table-wrap"><table><thead><tr><th>Creator country</th><th>Completed projects</th><th>Observed success rate</th><th>Successful pledged USD</th><th>Backers on successful projects</th></tr></thead><tbody>
+<tr><td>United States</td><td>10,556</td><td>78.18%</td><td>$857,763,151</td><td>4,046,338</td></tr>
+<tr><td>Hong Kong</td><td>2,391</td><td>92.89%</td><td>$278,757,255</td><td>998,996</td></tr>
+<tr><td>United Kingdom</td><td>2,341</td><td>82.02%</td><td>$63,176,032</td><td>576,805</td></tr>
+<tr><td>Canada</td><td>1,183</td><td>78.53%</td><td>$36,295,762</td><td>290,933</td></tr>
+<tr><td>Australia</td><td>641</td><td>79.88%</td><td>$18,487,767</td><td>133,379</td></tr>
+<tr><td>Singapore</td><td>227</td><td>73.57%</td><td>$16,691,646</td><td>56,748</td></tr>
+</tbody></table></div>
+<h3>Indiegogo category snapshot</h3>
+<p>This is the archive cohort for 2023–2025, ranked by successful USD. Backers are reported as unavailable, not zero consumers. Non-USD campaigns contribute zero to the USD column; outcome is inferred from close date and funding percentage.</p>
+<div class="table-wrap"><table><thead><tr><th>Physical category</th><th>Completed</th><th>Inferred success rate</th><th>Successful USD</th><th>Backers</th></tr></thead><tbody>
+<tr><td>Travel &amp; Outdoors</td><td>218</td><td>4.59%</td><td>$5,850,229</td><td>unavailable</td></tr>
+<tr><td>Health &amp; Fitness</td><td>136</td><td>3.68%</td><td>$4,069,439</td><td>unavailable</td></tr>
+<tr><td>Energy &amp; Green Tech</td><td>40</td><td>2.50%</td><td>$2,247,960</td><td>unavailable</td></tr>
+<tr><td>Home</td><td>123</td><td>4.07%</td><td>$2,193,081</td><td>unavailable</td></tr>
+<tr><td>Productivity</td><td>108</td><td>10.19%</td><td>$1,683,628</td><td>unavailable</td></tr>
+<tr><td>Camera Gear</td><td>17</td><td>23.53%</td><td>$1,646,627</td><td>unavailable</td></tr>
+</tbody></table></div>
+<h2>Proven elsewhere and EU-seller audit</h2>
+<p>The machine-readable list contains <strong>647 qualifying rows: 644 Kickstarter projects plus three Makuake projects</strong>. The EU audit covers the top 40 by reference USD. <code>EU</code> means an EU shop, named European seller/distributor or EU warehouse route was found; <code>EU-direct</code> is the maker's explicit EU sales route; <code>Direct only</code> means a non-EU maker accepts EU destinations but no European distributor was found; <code>No EU retail</code> means no retail channel was found on the check date. Each search method, date and evidence URL is in the <a href="top-40-eu-check.csv">structured audit</a> and <a href="../../resources/sources/eu-seller-checks/top-40.md">saved check excerpt</a>. Compliance labels are triage, not legal conclusions.</p>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>Product</th><th>Launch / creator</th><th>Raised</th><th>Backers</th><th>EU status</th><th>CE/CRA relevance triage</th></tr></thead><tbody>
+<tr><td>1</td><td>eufyMake E1 UV printer</td><td>2025 US</td><td>$46,762,258</td><td>17,822</td><td>EU</td><td>electrical, machinery/UV, connected</td></tr>
+<tr><td>2</td><td>Official Cyberpunk TCG</td><td>2026 US</td><td>$28,353,088</td><td>50,773</td><td>EU</td><td>possible toy</td></tr>
+<tr><td>3</td><td>Snapmaker U1 3D printer</td><td>2025 US</td><td>$20,614,548</td><td>20,680</td><td>EU</td><td>electrical, machinery, connected</td></tr>
+<tr><td>4</td><td>XGIMI Titan Noir projector</td><td>2026 US</td><td>$19,372,823</td><td>6,178</td><td>EU</td><td>electrical, radio/connected, laser</td></tr>
+<tr><td>5</td><td>AWOL Aetherion projector</td><td>2026 US</td><td>$18,649,456</td><td>7,050</td><td>EU</td><td>electrical, radio/connected, laser</td></tr>
+<tr><td>6</td><td>NestWorks C500 CNC</td><td>2025 HK</td><td>$13,282,869</td><td>3,541</td><td><strong>No EU retail</strong></td><td>electrical, machinery, CRA interface triage</td></tr>
+<tr><td>7</td><td>Makera Z1 CNC</td><td>2025 HK</td><td>$12,407,876</td><td>8,284</td><td>EU</td><td>electrical, machinery, connected</td></tr>
+<tr><td>8</td><td>Smith Blade multi-tool</td><td>2025 CA</td><td>$11,172,733</td><td>38,323</td><td>EU</td><td>GPSR/packaging</td></tr>
+<tr><td>9</td><td>Valerion VisionMaster projector</td><td>2024 US</td><td>$10,921,452</td><td>4,824</td><td>EU</td><td>electrical, radio/connected, laser</td></tr>
+<tr><td>10</td><td>LiberNovo Omni chair</td><td>2025 HK</td><td>$10,232,267</td><td>11,620</td><td>EU</td><td>electrical, connected</td></tr>
+<tr><td>11</td><td>UGREEN AI NAS</td><td>2026 US</td><td>$8,844,449</td><td>3,872</td><td>EU</td><td>electrical, connected</td></tr>
+<tr><td>12</td><td>Nebula X1 Pro projector</td><td>2025 US</td><td>$8,243,808</td><td>2,322</td><td>EU</td><td>electrical, radio/connected, laser</td></tr>
+<tr><td>13</td><td>Lymow One robot mower</td><td>2024 US</td><td>$7,488,321</td><td>3,415</td><td>EU</td><td>electrical, machinery, radio/connected</td></tr>
+<tr><td>14</td><td>BB-777 boombox</td><td>2026 US</td><td>$7,131,764</td><td>9,334</td><td><strong>Direct only</strong></td><td>electrical, radio/connected, battery</td></tr>
+<tr><td>15</td><td>Game Changer: Home Edition</td><td>2026 US</td><td>$7,018,438</td><td>48,989</td><td><strong>No EU retail</strong></td><td>possible toy</td></tr>
+<tr><td>16</td><td>UGREEN NASync</td><td>2024 US</td><td>$6,678,664</td><td>13,285</td><td>EU</td><td>electrical, connected</td></tr>
+<tr><td>17</td><td>JetKVM</td><td>2024 US</td><td>$5,927,862</td><td>45,880</td><td>EU</td><td>electrical, connected</td></tr>
+<tr><td>18</td><td>AEKE S1 Pro home gym</td><td>2026 US</td><td>$5,866,348</td><td>1,885</td><td>EU</td><td>electrical, machinery, connected</td></tr>
+<tr><td>19</td><td>Anker SOLIX F3800</td><td>2023 US</td><td>$5,813,434</td><td>1,570</td><td>EU</td><td>electrical, battery</td></tr>
+<tr><td>20</td><td>XLASERLAB X1/X1Pro</td><td>2025 HK</td><td>$5,233,622</td><td>1,706</td><td>EU</td><td>electrical, machinery, laser</td></tr>
+<tr><td>21</td><td>xTool WonderPress</td><td>2026 US</td><td>$5,191,321</td><td>9,251</td><td>EU</td><td>electrical, machinery</td></tr>
+<tr><td>22</td><td>TIMEMORE electric grinder</td><td>2023 SG</td><td>$5,005,317</td><td>10,836</td><td>EU</td><td>electrical</td></tr>
+<tr><td>23</td><td>Meticulous Espresso</td><td>2023 US</td><td>$4,960,578</td><td>3,774</td><td>EU</td><td>electrical</td></tr>
+<tr><td>24</td><td>FibreSeeker 3</td><td>2025 US</td><td>$4,698,825</td><td>1,539</td><td>EU</td><td>electrical, machinery, connected</td></tr>
+<tr><td>25</td><td>RingConn Gen 2</td><td>2024 US</td><td>$4,415,966</td><td>18,428</td><td>EU</td><td>electrical, radio/connected, battery</td></tr>
+<tr><td>26</td><td>Longer ePrint UV printer</td><td>2025 US</td><td>$4,294,357</td><td>1,621</td><td>EU</td><td>electrical, machinery, connected</td></tr>
+<tr><td>27</td><td>iGarden Swim Jet X</td><td>2026 US</td><td>$4,243,667</td><td>2,093</td><td>EU</td><td>electrical, machinery, battery, connected</td></tr>
+<tr><td>28</td><td>Hestia smartphone telescope</td><td>2023 US</td><td>$4,129,095</td><td>13,983</td><td>EU</td><td>GPSR/optical product</td></tr>
+<tr><td>29</td><td>Titan 2 Elite phone</td><td>2026 HK</td><td>$4,079,856</td><td>8,836</td><td>EU</td><td>electrical, radio/connected, battery</td></tr>
+<tr><td>30</td><td>Circular Ring 2</td><td>2025 US</td><td>$4,078,500</td><td>13,695</td><td>EU</td><td>electrical, radio/connected, battery</td></tr>
+<tr><td>31</td><td>Rokid AI/AR Glasses</td><td>2025 HK</td><td>$4,029,730</td><td>5,875</td><td>EU</td><td>electrical, radio/connected, battery</td></tr>
+<tr><td>32</td><td>Pongbot Aura sports robot</td><td>2026 HK</td><td>$4,014,157</td><td>4,836</td><td>EU</td><td>electrical, machinery, radio/connected, battery</td></tr>
+<tr><td>33</td><td>Flux Keyboard</td><td>2023 AU</td><td>$3,602,284</td><td>8,171</td><td><strong>Direct only</strong></td><td>electrical, connected by USB</td></tr>
+<tr><td>34</td><td>ZX Spectrum Next Issue 3</td><td>2025 GB</td><td>$3,541,371</td><td>7,524</td><td>EU</td><td>electrical, data interface</td></tr>
+<tr><td>35</td><td>eufy S1 Pro robot vacuum</td><td>2024 US</td><td>$3,511,133</td><td>3,196</td><td>EU</td><td>electrical, machinery, radio/connected, battery</td></tr>
+<tr><td>36</td><td>Carvera Air CNC</td><td>2024 US</td><td>$3,469,320</td><td>2,098</td><td>EU</td><td>electrical, machinery, connected</td></tr>
+<tr><td>37</td><td>ELEGOO OrangeStorm Giga</td><td>2023 US</td><td>$3,386,996</td><td>2,005</td><td>EU</td><td>electrical, machinery, connected</td></tr>
+<tr><td>38</td><td>Kode Dot maker device</td><td>2025 US</td><td>$3,360,759</td><td>16,171</td><td>EU</td><td>electrical, data interface, battery</td></tr>
+<tr><td>39</td><td>Halliday AI glasses</td><td>2025 US</td><td>$3,305,917</td><td>8,023</td><td>EU-direct</td><td>electrical, radio/connected, battery, optical</td></tr>
+<tr><td>40</td><td>Night Storm X3</td><td>2025 US</td><td>$3,248,440</td><td>5,879</td><td><strong>No EU retail</strong></td><td>electrical, battery, optical/laser, CRA interface triage</td></tr>
+</tbody></table></div>
+<p>The three Makuake additions are below. Badge counts are lower bounds where marked; the amounts are the exact figures in Makuake's annual report.</p>
+<div class="table-wrap"><table><thead><tr><th>Product</th><th>2025 support purchases</th><th>Supporters</th><th>EU check on 2026-09-03</th></tr></thead><tbody>
+<tr><td>il modo Air wallet</td><td>JPY 226,212,500</td><td>at least 10,000</td><td>No European seller found; Japan and Taiwan channels found</td></tr>
+<tr><td>COFO Chair Pro 2</td><td>JPY 208,802,697</td><td>3,949</td><td>Global USD shop and Japan sellers; no European seller found</td></tr>
+<tr><td>iFLYTEK AINOTE Air 2</td><td>JPY 129,557,650</td><td>at least 1,000</td><td>Official German shop found</td></tr>
+</tbody></table></div>
+<h2>Ranked candidate opportunities</h2>
+<p>The ranking emphasizes channel gap, manufacturer readiness and how much EU regulatory execution can add. It is a contact list, contingent on maker consent and documents—not an invitation to copy products.</p>
+<h3>1. NestWorks C500 desktop CNC</h3>
+<p>Kickstarter launched 2025-11-04 and records <strong>$13,282,869 from 3,541 backers</strong>. No EU checkout or named reseller was found; the project was still moving through fulfillment. The route is an EU distribution agreement conditional on a technical-file audit, production sample and service-parts plan. Scope likely includes Machinery Directive 2006/42/EC for pre-transition placement and Regulation (EU) 2023/1230 from 2027-01-20, plus EMC 2014/30/EU, RoHS 2011/65/EU, WEEE 2012/19/EU, PPWR 2025/40 and RED/CRA 2024/2847 if its interfaces bring them into scope. <strong>Kill fact:</strong> the maker cannot provide a complete design risk assessment, test evidence and software/update access before the first EU order.</p>
+<h3>2. COFO Chair Pro 2 / COFO chair family</h3>
+<p>Makuake's 2025 report records <strong>JPY 208,802,697 and 3,949 supporters</strong>. COFO has Japan retail and a global USD shop, but the dated search found no European seller. This is a lower-technical-risk distribution agreement: EU responsible-person/traceability work under GPSR 2023/988, material declarations under REACH 1907/2006, localized warnings/assembly instructions, PPWR 2025/40 and national packaging EPR. A non-powered chair should not receive CE merely as a sales badge. Local spare parts and returns are the operating moat. <strong>Kill fact:</strong> landed freight plus bulky-product return reserve leaves no wholesale margin at a competitive EU price.</p>
+<h3>3. il modo Air wallet family</h3>
+<p>The 2025 Makuake result is <strong>JPY 226,212,500 with a badge for at least 10,000 supporters</strong>. The maker's public channels found were Japanese/Taiwanese; no European seller surfaced. Seek an authorized EU distribution and localization agreement, preserving the STATUSY design and brand. Work is GPSR 2023/988 traceability and complaint/recall process, REACH 1907/2006 evidence for leather dyes/metal parts, PPWR 2025/40, country packaging EPR and consumer-law returns; CE is not applicable to an ordinary wallet. The small parcel and no-electronics profile make this the cleanest validation pilot. <strong>Kill fact:</strong> handmade production capacity cannot support wholesale allocation after domestic orders.</p>
+<h3>4. BB-777 boombox</h3>
+<p>Kickstarter launched 2026-03-24 and records <strong>$7,131,764 from 9,334 backers</strong>. Bumpboxx now accepts EU destinations from its US-dollar shop, but no European distributor was found. An agreement could add EU inventory, repair/returns and compliance ownership. The published specification has Bluetooth, a 97.6 Wh Li-ion battery and 100–240 V AC input, triggering a serious file/test review under RED 2014/53/EU, EMC 2014/30/EU, LVD 2014/35/EU, RoHS, WEEE, Batteries Regulation 2023/1542, CRA 2024/2847, GPSR and PPWR/EPR. <strong>Kill fact:</strong> dangerous-goods freight, product weight and local warranty replacements erase distributor margin.</p>
+<h3>5. Night Storm X3 digital night vision</h3>
+<p>Kickstarter launched 2025-12-10 and records <strong>$3,248,440 from 5,879 backers</strong>. On the check date DVX called it Kickstarter-only, “not in stores” and said retail comes later: a clear moment to propose an authorized EU channel. The pre-scan must cover EMC, RoHS, WEEE, Batteries Regulation 2023/1542, GPSR, PPWR/EPR and laser/optical safety for the rangefinder. CRA 2024/2847 and RED apply only if the production interface/radio design meets their scope; the public page does not establish that. <strong>Kill fact:</strong> conformity or member-state use review shows the rangefinder/consumer positioning cannot be sold across the target EU markets without redesign or fragmented restrictions.</p>
+<h2>What this evidence does not prove</h2>
+<p>Backers are not necessarily unique consumers, a pledge is not delivered revenue, and a launch spike is not repeat retail demand. The best published delivery-risk check located is an older Kickstarter survey of 47,188 backers estimating about 9% project non-delivery, with a plausible 5%–14% range; it is context, not a 2023–2026 adjustment factor (<a href="../../resources/sources/method/fulfillment-risk.md">saved excerpt</a>). Campaign data also overrepresent English-language, launch-oriented products; creator country is not buyer geography; add-ons can inflate backer value; category caps omit projects; 2026 is incomplete; and EU availability can change immediately after the dated check. Before outreach becomes inventory, obtain delivered-unit counts, refund/chargeback and defect rates, repeat non-campaign sales, bill of materials, test reports, technical documentation, IP ownership, product-liability coverage, gross-margin schedule and territorial rights.</p>
+<h2>Honest answer: ideas or Amazon inventory?</h2>
+<p>Mostly <strong>things Europe already sells</strong>. Thirty-five of the top 40 already had an established EU route; two more sold direct to Europe, and only three were not yet retail products. FibreSeeker 3 looked like a gap until a Netherlands seller with a euro price surfaced, while iFLYTEK and RingConn were already localized. The cross-platform difference is therefore not a hidden warehouse of easy imports. It is <strong>three credible outreach leads plus two higher-risk channel bets</strong>, with the Japanese non-electrical families providing the cleanest tests and the CNC/audio/optics products providing the strongest regulatory moat. Any of the five can vanish on maker outreach, document review or landed economics.</p>
+  <nav class="chapter-nav" aria-label="Memo navigation"><span></span><a href="../../index.html">Candidates</a><span></span></nav>
+</main>
+<footer class="site-footer"><div class="wrap"><p>Nineteenth in a series built the same way. Corrections welcome.</p></div></footer>
+</body>
+</html>

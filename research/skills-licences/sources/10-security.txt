@@ -1,0 +1,49 @@
+TITLE: Private security — diploma, employee approval and company licence
+FETCH DATE: 2026-09-03
+
+SOURCE 1
+URL: https://business.gov.nl/regulations/licence-private-security-organisation/
+PUBLISHER: Netherlands Enterprise Agency (RVO), Business.gov.nl
+EXCERPT (paraphrased): A business that carries out security activities must have a licence from the Minister of Justice and Security. The licence is valid for a maximum of five years; renewal should be requested at least three months before expiry. Security staff need the prescribed diploma, the police chief's approval, a special identity card and an approved uniform. Managers also require consent.
+
+SOURCE 2
+URL: https://business.gov.nl/starting-your-business/starting-situations/starting-a-private-security-firm-step-by-step-plan/
+PUBLISHER: Netherlands Enterprise Agency (RVO), Business.gov.nl
+EXCERPT (paraphrased): “Security guard” is a protected profession and the SVPB Security Guard diploma is required. A private security firm needs a licence and permission for its manager. A self-employed guard working as a subcontractor does not need an own company licence when the licensed client supplies the uniform and security ID; arranging assignments independently and using one's own uniform requires an own licence.
+
+SOURCE 3
+URL: https://www.justis.nl/producten/particuliere-beveiliging-en-recherche/opleidingseisen
+PUBLISHER: Justis, Ministry of Justice and Security
+EXCERPT (paraphrased): A security employee must possess an SVPB diploma or an equivalent recognised diploma. A trainee may perform security work for at most 12 months if enrolled through a recognised educational institution and holding the required training statement. Screening and employee approval remain required.
+
+SOURCE 4
+URL: https://www.justis.nl/producten/particuliere-beveiliging-en-recherche/toestemming-medewerkers/legitimatiebewijs
+PUBLISHER: Justis, Ministry of Justice and Security
+EXCERPT (paraphrased): The security identity card costs EUR 26. A regular card is valid for no more than three years. A trainee card is valid for no more than 12 months and cannot be renewed.
+
+SOURCE 5
+URL: https://www.svpb.nl/examens-mbo/beveiliger-n2-27122/
+PUBLISHER: Stichting Vakexamens voor de Particuliere Beveiligingsorganisaties (SVPB)
+EXCERPT (paraphrased): For the current MBO Beveiliger N2 qualification 27122, candidates obtain both the educational institution's MBO diploma and the SVPB diploma after passing the required subjects. The practical examination includes occupation-specific English at CEFR A2. The page and qualification are otherwise Dutch-language; it does not advertise an English-language route.
+
+SOURCE 6
+URL: https://www.svpb.nl/wp-content/uploads/2025/11/Tarieven-examens-2026_website25.pdf
+PUBLISHER: SVPB
+DATASET NOTE: PDF, 5 pages, well below 50 MB. Not downloaded; figures transcribed from the published tariff table.
+EXCERPT: The 2026 gross tariffs for the legacy Beveiliger N2 25690 components shown are EUR 71.09 each for four theory/practical components and EUR 154.28 for the practical examination. Their arithmetic total is EUR 438.64. These are exam-component prices only, not tuition, and the current 27122 route may have different component requirements.
+
+SOURCE 7
+URL: https://vbot.nl/alle-opleidingen/veiligheid-beveiliging/beveiliger-2/
+PUBLISHER: VBOT Opleidingen (private training provider)
+EXCERPT (paraphrased): The adult Security Guard 2 course takes six to nine months. The advertised Flex home-study price is EUR 1,875 and classroom price EUR 2,766, plus EUR 125 registration. At least 240 internship hours are required. The provider says good command of Dutch is necessary. Provider prices are examples, not regulated national tariffs.
+
+SOURCE 8
+URL: https://www.uwv.nl/assets-kai/files/63956f9f-f057-445f-ad98-c3ce2c541b03/kansrijke-beroepen-2026-2027.pdf
+PUBLISHER: UWV
+DATASET NOTE: PDF, national “Kansrijke beroepen 2026–2027”, 20 pages, well below 50 MB. Not saved as binary; relevant list excerpt recorded here.
+EXCERPT (paraphrased): UWV's national promising-occupations list for 2026–2027 includes object security guards, complex/prison guards and security control-room staff. UWV describes the list as occupations offering good chances of work now and in the coming years; it is not a vacancy count or wage forecast.
+
+LIMITS
+- No official source found offering the core SVPB exams in English. “Occupation-specific English A2” is an assessed subject, not evidence that the whole examination is English.
+- The published provider course is illustrative and explicitly requires good Dutch; an A2-Dutch candidate should treat language as a gate.
+- The UWV evidence supports occupational hiring demand, not profitability of a new security company.

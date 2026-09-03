@@ -1,0 +1,43 @@
+TITLE: Forklift and statutory crane competence
+FETCH DATE: 2026-09-03
+
+SOURCE 1
+URL: https://www.arboportaal.nl/onderwerpen/veiligheid-op-het-werk/arbeidsmiddelen/gebruik-van-arbeidsmiddelen
+PUBLISHER: Dutch Ministry of Social Affairs and Employment, Arboportaal
+EXCERPT (paraphrased): Mobile work equipment such as a forklift generally requires specific expertise. Operators of mobile and tower cranes with capacity of 10 tonne-metres or more require a statutory proof of competence, and employers may use only qualified staff for that work. This distinguishes a market forklift certificate (evidence of instruction) from the legally mandatory crane credential.
+
+SOURCE 2
+URL: https://cursusgeregeld.nl/cursus/heftrucktraining-engels
+PUBLISHER: CursusGeregeld.nl (private provider/booking platform)
+EXCERPT (paraphrased): An English forklift beginner course, including English theory and practical examination and certificate, is offered in one day from EUR 259 excluding VAT. Some prior vehicle-control familiarity is expected. Provider example; there is no sole government issuer.
+
+SOURCE 3
+URL: https://www.arbocentrum.nl/heftruckcertificaat-kosten/
+PUBLISHER: ARBO Centrum (private provider)
+EXCERPT (paraphrased): Its one-day/six-hour forklift course in English costs EUR 366; issued certificates are advertised as valid for five years. This five-year convention is a provider/market validity period, not a statutory licence expiry.
+
+SOURCE 4
+URL: https://www.ozelopleidingen.nl/cursus/w4-01-mobile-crane-operator-305
+PUBLISHER: Özel Opleidingen (private TCVT course provider)
+EXCERPT (paraphrased): The English TCVT W4-01 Mobile Crane Operator course is eight days and costs EUR 4,750. Candidates with a positive recommendation pay TCVT RA EUR 195 excluding VAT for registry/app registration. The credential is legally required for lifting on a construction site with a mobile crane of at least 10 tonne-metres and/or hook height of at least 20 metres. The page describes duration as dependent on prior training and experience.
+
+SOURCE 5
+URL: https://academy.mammoet.com/machinist-mobiele-kraan/
+PUBLISHER: Mammoet Academy (private provider)
+EXCERPT (paraphrased): The W4-01 course is normally Dutch, but training and examination can be organised in English or German subject to availability. The displayed EUR 10,600 excluding VAT included exam and lunch but was stated valid only through 30 June 2026; it is retained only as evidence of language availability, not used as a current cost.
+
+SOURCE 6
+URL: https://somabedrijfsopleidingen.nl/cursussen/tcvt-machinist-mobiele-kraan/
+PUBLISHER: SOMA Bedrijfsopleidingen
+EXCERPT (paraphrased): W4-01 may take 10 days for candidates with sufficient background or 20 days for new future operators. The resulting TCVT registration is valid five years. An optional half-day entry assessment is EUR 420 excluding VAT.
+
+SOURCE 7
+URL: https://www.uwv.nl/assets-kai/files/63956f9f-f057-445f-ad98-c3ce2c541b03/kansrijke-beroepen-2026-2027.pdf
+PUBLISHER: UWV
+DATASET NOTE: 20-page national PDF below 50 MB; no binary saved.
+EXCERPT (paraphrased): The national 2026–2027 promising list includes forklift drivers/warehouse logistics roles and operators of mobile equipment/cranes in construction and transport groupings. The list is qualitative, not a vacancy count.
+
+LIMITS
+- Forklift certificates are competitive training evidence, not an exclusive personal licence and not permission to operate every workplace truck without employer instruction.
+- The English crane offer is a provider route; exact eligibility should be assessed before payment, and job access may also require C/CE driving entitlement depending on machine/role.
+

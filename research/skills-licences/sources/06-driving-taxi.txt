@@ -1,0 +1,78 @@
+Publisher: IBKI
+URL: https://ibki.nl/wrm/rij-instructeur-worden/stappenplannen/worden-categorie-b
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Entry: age 18+, valid B licence without codes 100/101/105, and at least vmbo-tl/gl or MBO-2;
+  otherwise take the WRM suitability test. Foreign diplomas must be checked.
+- Route has three theory exams, two practical exams and a compulsory stage; the last practical is
+  a lesson with a real learner. Parts 1/2 and failed retakes must be completed within one year.
+
+Publisher: IBKI
+URL: https://ibki.nl/support/veelgestelde-vragen/wrm/rij-instructeur-worden/Hoe-kan-ik-iemands-WRM-bevoegdheid-controleren
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Standard WRM authority card validity is five years; B/T stage cards last 12 months.
+
+Publisher: IBKI
+URL: https://ibki.nl/legal/wrm/examenreglement-geschiktheidstest-wrm
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- The instructor course and WRM examination are offered in Dutch; sufficient Dutch proficiency is
+  therefore necessary. No English examination is offered.
+
+Publisher: IBKI
+URL: https://ibki.nl/wrm/prijzen
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- 2026 VAT-free category-B fees: parts 1a EUR 136, 1b EUR 241, 2a EUR 136, 2b EUR 136 and central
+  3a EUR 467 (EUR 1,116 total, one attempt each). Suitability test EUR 136.
+- Five-year maintenance includes a practical assessment priced EUR 253 centrally.
+
+Publisher: WRM.nl (commercial provider; price/route snapshot)
+URL: https://wrm.nl/rijinstructeur-worden
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Complete training advertised at EUR 2,990 VAT-free plus EUR 1,116 official exams, including
+  five practice lessons and roughly 40 hours' stage; access lasts 12 months.
+- Renewal requires 18 hours of continuing education plus one practice assessment in five years.
+
+Publisher: RVO / Business.gov.nl
+URL: https://business.gov.nl/regulations/taxi-drivers-card-diploma/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Taxi work requires a CBR diploma and full or limited Kiwa driver card. Theory and practical
+  examinations are Dutch-only; practical entry requires a valid B licence.
+- Card application requires diploma, VOG and health certificate; validity is five years.
+
+Publisher: RVO / Business.gov.nl
+URL: https://business.gov.nl/regulations/permit-operate-taxi-service/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- A taxi business also needs a Kiwa operator licence, KVK registration and VOG. The permit is
+  indefinite but reviewed every five years; municipalities may add local requirements.
+
+Publisher: Kiwa Register
+URL: https://www.kiwaregister.com/getmedia/1326a697-4d0b-41b3-a5f9-a1321afce696/Kiwa-Register_Voorstel-tarieven-2026.pdf
+Fetch date: 2026-09-03
+Dataset note: one-page PDF, under 1 MB; not downloaded.
+Excerpt/facts relied on:
+- Proposed statutory 2026 fees: chauffeur/entrepreneur/inspection BCT card EUR 147; taxi operator
+  licence EUR 279; taxi permit copy EUR 62.
+
+Publisher: Dutch government, 2026 CBR tariff regulation
+URL: https://wetten.overheid.nl/BWBR0051913/2026-01-01/0
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Taxi theory (TVT) EUR 51.40; full practical examination (TVP) EUR 279.25; limited practical (TVPC) EUR 223.35; Amsterdam
+  taxi theory EUR 111.05 and practical EUR 279.25.
+
+Publisher: UWV
+URL: https://www.uwv.nl/assets-kai/files/63956f9f-f057-445f-ad98-c3ce2c541b03/kansrijke-beroepen-2026-2027.pdf
+Fetch date: 2026-09-03
+Dataset note: national occupation-list PDF, under 50 MB; not downloaded.
+Excerpt/facts relied on:
+- 2026–27 promising occupations include group-transport taxi drivers, with a note that prospects
+  are mainly for part-time work; also bus drivers, inland-waterway deckhands and skippers.
+
+Limit: no UWV support was found for driving instructors specifically. Dutch-only instruction and
+customer contact make both routes fail the A2 gate absent a Dutch-speaking delivery partner.

@@ -1,0 +1,23 @@
+# Eurostat Comext Datasets Metadata
+# Publisher: Eurostat (European Commission)
+# Database: Comext - International Trade in Goods (DS-045409: EU trade since 1988 by HS2-4-6 and CN8)
+# API Endpoint: https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/ds-045409
+# Fetch date: 2026-09-03
+# Parameters:
+#   - Reporter: NL (Netherlands)
+#   - Flow: 1 (Imports)
+#   - Indicators: VALUE_IN_EUROS
+#   - Frequency: A (Annual)
+#   - Years: 2023, 2025
+#   - Partners: PL (Poland), EXT_EU27_2020 (Extra-EU27 from 2020)
+
+Files saved in sources/:
+- comext_PL_2023.json (Size: 6,135,576 bytes; MD5: json response from Eurostat Comext API for reporter=NL, partner=PL, time=2023)
+- comext_PL_2025.json (Size: 6,134,204 bytes; MD5: json response from Eurostat Comext API for reporter=NL, partner=PL, time=2025)
+- comext_EXT_EU_2023.json (Size: 6,174,333 bytes; MD5: json response from Eurostat Comext API for reporter=NL, partner=EXT_EU27_2020, time=2023)
+- comext_EXT_EU_2025.json (Size: 6,175,197 bytes; MD5: json response from Eurostat Comext API for reporter=NL, partner=EXT_EU27_2020, time=2025)
+
+Bulk download references (not stored on disk due to >50 MB limit):
+- URL: https://ec.europa.eu/eurostat/api/dissemination/files/?downfile=comext%2FCOMEXT_DATA%2FPRODUCTS%2Ffull_v2_202352.7z (Size: 97,311,407 bytes)
+- URL: https://ec.europa.eu/eurostat/api/dissemination/files/?downfile=comext%2FCOMEXT_DATA%2FPRODUCTS%2Ffull_v2_202452.7z (Size: 97,630,788 bytes)
+- URL: https://ec.europa.eu/eurostat/api/dissemination/files/?downfile=comext%2FCOMEXT_DATA%2FPRODUCTS%2Ffull_v2_202552.7z (Size: 97,348,778 bytes)

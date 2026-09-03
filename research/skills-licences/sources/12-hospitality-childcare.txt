@@ -1,0 +1,79 @@
+TITLE: HACCP, Social Hygiene/alcohol, and childcare registration
+FETCH DATE: 2026-09-03
+
+SOURCE 1
+URL: https://business.gov.nl/regulations/applying-food-hygiene-haccp-principles/
+PUBLISHER: RVO Business.gov.nl and Netherlands Food and Consumer Product Safety Authority (NVWA)
+EXCERPT (paraphrased): Businesses preparing, processing, treating or transporting food/drink must work safely and draw up a HACCP-based food-safety plan or use an approved sector hygiene code. NVWA supervises compliance. The obligation is the system/code, not a statutory personal “HACCP certificate.”
+
+SOURCE 2
+URL: https://business.gov.nl/starting-your-business/starting-situations/starting-a-food-truck-business/
+PUBLISHER: RVO Business.gov.nl
+EXCERPT (paraphrased): A food-truck business must register with NVWA and use an approved hygiene code or HACCP plan. The hospitality trade association KHN sells an approved code in English. Additional local/location rules apply.
+
+SOURCE 2A
+URL: https://picabia.nl/cursussen/
+PUBLISHER: Picabia Opleidingen (private provider)
+EXCERPT (paraphrased): The provider advertises English HACCP e-learning from EUR 215 all-in at 0% VAT. This is optional training, not a statutory personal licence.
+
+SOURCE 3
+URL: https://business.gov.nl/regulations/selling-serving-alcohol/
+PUBLISHER: RVO Business.gov.nl
+EXCERPT (paraphrased): An on-licence alcohol business needs a municipal alcohol licence; managers must be at least 21 and registered in the Social Hygiene Register. Municipal conditions and costs vary.
+
+SOURCE 4
+URL: https://mijnsocialehygiene.nl/product/svh-examen-sociale-hygiene-engels-svh-exam-social-responsibility-english/
+PUBLISHER: Mijn Sociale Hygiene / SVH exam booking portal
+EXCERPT (paraphrased): The English SVH Social Responsibility exam costs EUR 185, consists of 40 questions, lasts 40 minutes, and requires 29 points. The diploma is sent by SVH within the stated processing time. This is an exam-channel price, not the alcohol licence or register fee.
+
+SOURCE 5
+URL: https://hsn-horeca.nl/klassikale-cursussen/sociale-hygiene-engels-and-svh-exam/prijs
+PUBLISHER: Horeca Stichting Nederland (private provider)
+EXCERPT (paraphrased): Its English one-day course plus SVH exam is EUR 695 all-in and tax-free: EUR 355 tuition, EUR 75 book, EUR 65 location and EUR 200 exam. Provider example only.
+
+SOURCE 6
+URL: https://www.registersocialehygiene.nl/english
+PUBLISHER: Landelijke commissie sociale hygiëne (Lcsh)
+EXCERPT (paraphrased): After an accepted Dutch Social Hygiene diploma, registration costs EUR 93.29. Foreign diploma/work-experience applications cost EUR 253.50. An English application form is available for applicants without DigiD or Dutch.
+
+SOURCE 7
+URL: https://www.registersocialehygiene.nl/over-het-register/veelgestelde-vragen
+PUBLISHER: Lcsh
+EXCERPT (paraphrased): Registration in the Social Hygiene Register is valid indefinitely.
+
+SOURCE 8
+URL: https://www.uwv.nl/assets-kai/files/63956f9f-f057-445f-ad98-c3ce2c541b03/kansrijke-beroepen-2026-2027.pdf
+PUBLISHER: UWV
+DATASET NOTE: 20-page national PDF below 50 MB; no binary saved.
+EXCERPT (paraphrased): The 2026–2027 list includes fast-service, catering and banqueting staff, waiting/bar staff, restaurant cooks, hotel receptionists and hospitality managers. This is occupational hiring evidence, not restaurant-margin evidence.
+
+SOURCE 9
+URL: https://business.gov.nl/regulations/registration-childcare/
+PUBLISHER: RVO Business.gov.nl
+EXCERPT (paraphrased): A childcare organisation must apply for LRK registration at least 10 weeks before opening and may only open once registered. Municipality/GGD review plans, VOGs, Business Register status and staff rules and conduct annual unannounced inspections. Owners, directors, staff and regularly present persons must be in the PRK. Forms are Dutch.
+
+SOURCE 10
+URL: https://business.gov.nl/starting-your-business/starting-situations/checklist-for-starting-a-childcare-centre/
+PUBLISHER: RVO Business.gov.nl
+EXCERPT (paraphrased): An owner who does not work with children need not personally hold the childcare diploma. Pedagogical daycare staff must have the proper qualification and Dutch oral 3F/B2. Childcare workers require PRK registration and a VOG not older than two months at application. The page also notes that at most 50% of daily language may be English, German or French in multilingual daycare.
+
+SOURCE 11
+URL: https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/kinderopvang/taaleis-kinderopvang
+PUBLISHER: Government of the Netherlands
+EXCERPT (paraphrased): Since 1 January 2025, daycare pedagogical employees need Dutch oral 3F/B2; preschool education also requires reading at 3F. Out-of-school care requires Dutch oral 2F/B1. Staff without evidence may not work as pedagogical employees, subject to limited transition exceptions.
+
+SOURCE 12
+URL: https://duo.nl/particulier/foreign-diploma-in-the-netherlands/working-in-childcare.jsp
+PUBLISHER: DUO
+EXCERPT (paraphrased): Recognition of qualifying EEA/Swiss childcare professional qualifications is free. The foreign qualification must be childcare-focused and confer the right to work in the country of award. English/German documents are accepted without sworn translation; DUO verifies the qualification. This is not a quick route for a candidate without an existing relevant diploma.
+
+SOURCE 13
+URL: https://www.uwv.nl/assets-kai/files/9c13aa66-db15-4b12-92e3-534c4ce76183/Kansrijke_beroepen_Holland_Rijnland.pdf
+PUBLISHER: UWV
+DATASET NOTE: regional 2025–2026 PDF below 50 MB; relevant excerpt recorded, no binary saved.
+EXCERPT (paraphrased): The regional promising-occupations list includes pedagogical childcare employees. UWV also identifies childcare employees among occupations for which employers may recruit adjacent skills: https://www.uwv.nl/nl/arbeidsmarktinformatie/inzichten-werving-behoud/verwante-beroepen-zij-instromers-met-gelijke-skills-werven
+
+LIMITS
+- “HACCP certificate” is widely sold commercially, but the government source supports a food-safety system duty, not a personal licensing moat.
+- Municipal alcohol-licence and LRK fees vary; no single nationwide cost is reported.
+- Childcare demand evidence is occupational/regional. It does not quantify local occupancy, property cost or the time/cost of building GGD-compliant premises.

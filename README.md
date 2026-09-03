@@ -1,11 +1,15 @@
-# Book 19 — working title: The Third Engine (income outside IT)
+# The Third Engine (Book 19) — v0.1
 
-Reader: the book 18 reader — a ~40-year-old enterprise developer in Zaandam, A2 Dutch, EUR 100k,
-looking for income that does not run on code and survives AI progress to 2030. Method inherited
-from book 18 (demand → payment → economics → operations → resilience; scalability test; verdicts
-TEST NOW / TEST THROUGH A PARTNER / WATCH / ACQUIRE, DO NOT BUILD / DO NOT ENTER) plus two gates:
-the A2 gate (can it run with A2 Dutch, or does a partner own the customer) and the AI gate (does
-AI progress raise or lower demand for it by 2030).
+Income outside software for the Book 18 reader: a forty-year-old enterprise developer in the Netherlands
+with A2 Dutch, English/Russian/Polish, ~EUR 100k, regulatory literacy and an engineering habit, looking at 2030.
 
-First research job (2026-09-03): cross-platform crowdfunding as a demand instrument — see
-`drafts/crowdfunding-brief.md` and its output under `drafts/reviews/`.
+**v0.1 is the research phase in public.** No essays yet. The site has the method, the reader's edge
+inventory, ten agent-written research memos with their saved sources, and a triage to seven candidates.
+
+- `index.html` — candidates under test and the memo list. `about.html` — method, gates, honesty rules.
+- `research/<slug>/index.html` — rendered memos; `research/<slug>/sources/` — the excerpts they rely on.
+- `drafts/research/<slug>/` — the memos' working folders (brief, findings.md, sources). `drafts/notes/` —
+  the editor's notes and triage. `drafts/reviews/` — the crowdfunding runs.
+- `scripts/render.py` renders memos into the site; `./verify.sh` checks links. `CONTEXT.md` — decision record.
+
+Same pattern as the eighteen books before it: static HTML, a decision record, checks that fail the build.

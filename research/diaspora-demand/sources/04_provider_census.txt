@@ -1,0 +1,214 @@
+PROVIDER-CENSUS PROTOCOL
+Fetch date for every page below: 2026-09-03
+
+Definition: a “visible provider” is a unique active brand with a public page explicitly
+offering Polish, Russian or Ukrainian service, found in the current directory exports
+below or in the first results page of a fixed category × language × place web search.
+Brands were deduplicated across languages and branches. Counts are lower bounds (≥),
+not business-register totals. Social-only providers, inactive pages and companies whose
+language could only be inferred from an owner’s name were excluded. Searches covered
+Amsterdam, Zaanstad, Haarlem, Utrecht, Rotterdam, The Hague, Westland, Venlo and
+Waalwijk, using Polish/Russian/Ukrainian equivalents of each category. Belarusian was
+also searched, but no distinct provider set surfaced. The sample cannot see referrals,
+Facebook/Telegram-only traders, employees within Dutch practices or search-ranking bias.
+
+
+SOURCE S17 — Polish business directory export
+Publisher: Legalny Biznes NL
+Page: https://legalnybiznes.nl/
+Data URL: https://legalnybiznes.nl/baza.json
+Excerpt:
+The JSON export, lastUpdate 2026-08-03, contained 11 provider records. Nine were
+bookkeeping/tax providers: Wala Advies (Dordrecht), AMS-Service (Nieuw-Vennep), TNP
+Fiscaaladvies and Biesek (Rijswijk), ABAM (The Hague), MoreThanTax (Tilburg), Pegaz
+(Breda), Paul Advies (Roermond) and Kamila (Ommen). It also contained Alexia Law
+(Amsterdam) and one IT provider. The landing-page category badges advertise larger
+counts, but they do not match the export; this study uses the records, not the badges.
+MoreThanTax publicly advertises bookkeeping from €100/month.
+
+
+SOURCE S18 — additional Russian-language tax/accounting providers
+Publishers: Nalog.nl; Katashov Tax
+URLs: https://www.nalog.nl/ ; https://katashovtax.nl/
+Excerpt:
+Nalog.nl (Nieuwegein) offers Russian-language tax, bookkeeping, legal and immigration
+services and displayed a vacancy linked to expansion. Katashov Tax offers Russian-
+language tax/accounting service from Amsterdam. Together with S17: ≥11 visible brands.
+
+
+SOURCE S19 — driving schools
+Publishers: the named providers
+URLs:
+https://novadrive.nl/ru/
+https://rustheorie.nl/
+https://rijschoolgul.nl/rijlessen-in-het-russisch-russische-rijschool/
+https://www.autorijschoolaha.nl/welkom/
+https://alazrijschool.nl/ru/
+Excerpt:
+Five visible brands were found: Nova Drive (Rotterdam/Dordrecht/Barendrecht, Russian),
+RUS Theorie/De Rijk (The Hague, Russian), Rijschool GUL (The Hague, Russian), AHA
+(Hoofddorp/Amsterdam, Polish and Russian), and Alaz (Roermond/Venlo, Russian). Alaz
+advertises €65 per hour and a 45-lesson package at €3,475. RUS Theorie claims thousands
+of former learners. No dedicated result surfaced in the fixed Zaanstad, Haarlem, Utrecht,
+Westland or Waalwijk searches. Provider claims and search absence are not audited facts.
+
+
+SOURCE S20 — real-estate agents
+Publishers: the named providers
+URLs:
+https://www.expatmakelaar.eu/
+https://www.sproch-makelaars.nl/
+https://www.kochrealestate.nl/
+https://www.remax.nl/remax-toonaangevend/pavel-shkarban
+Excerpt:
+Four explicit language-matched brands were found: Expat Makelaar (Russian; Amsterdam/
+Randstad), Sproch Makelaars (Polish; The Hague), Koch Real Estate (Polish; The Hague),
+and RE/MAX agent Pavel Shkarban (Polish/Russian; Tilburg). No dedicated result surfaced
+in the fixed Westland or Venlo searches. An Expat Makelaar article gives a provider-side
+anecdote of 84 other applicants for a property and says a decent two-bedroom rental can
+cost €2,500–€4,000/month; it is marketing copy, not independent market measurement.
+Article: https://www.expatmakelaar.eu/guides/renting-in-the-netherlands-a-tragicomedy/
+
+
+SOURCE S21 — dentistry and medical intake
+Publishers: named practices/directories and Municipality of Heemskerk
+URLs:
+https://www.heemskerk.nl/fileadmin/Heemskerk/PDF/Algemeen/RUSSISCH_-_Welkom_in_Heemskerk.pdf
+https://www.niedziela.nl/index.php?option=com_content&view=article&id=5122
+https://polskidentysta.nl/
+https://kcopc.nl/?page_id=4207
+https://www.tandartsenpraktijk-vaals.com/index_ru.htm
+https://ukrayina.winstar.nl/
+https://www.hapjantoorop.nl/ukrajinska
+Excerpt:
+At least eight visible brands/intakes were found: Beldent (Heemskerk, Russian),
+Aleksander (Amsterdam, Polish/Russian), F&D Dental/Izabela Grudzińska (The Hague,
+Polish), NovaDental and Hertzt (Russian directory listings), Tandartsenpraktijk Vaals
+(Russian), Winstar’s Ukrainian-speaking dental network, and Huisartsenpraktijk Jan
+Toorop’s Ukrainian intake (Amsterdam). Vaals says patients travel from across the
+Netherlands, including Venlo and Randstad; that is a provider claim. No dedicated result
+surfaced in the fixed Zaanstad, Haarlem, Utrecht, Rotterdam, Westland, Venlo or Waalwijk
+medical-intake searches; staff within mainstream practices remain invisible to this method.
+
+
+SOURCE S22 — Ukrainian childcare directory
+Publisher: Help Ukraine NL
+URL: https://help-ukraine.nl/refugee/kindergartens
+Excerpt:
+The page says it knows of no dedicated Ukrainian kindergartens, but lists supplementary/
+Sunday schools in Amsterdam, The Hague, Groningen, Eindhoven, Rotterdam and Utrecht.
+The fixed Polish/Russian/Ukrainian searches produced no clearly dedicated full-day
+centre in the target places. This is a zero in the search sample, not proof of market zero.
+
+
+SOURCE S23 — lawyers and sworn translators
+Publishers: Russian Ministry of Foreign Affairs/Embassy list; named providers; Bureau Wbtv
+URLs:
+https://www.kdmid.ru/upload/iblock/f37/Список%20адвокатов%20-%20Нидерланды.pdf
+https://prawnikarslan.nl/
+https://polskiadwokatamsterdam.nl/
+https://legalnybiznes.nl/baza.json
+https://www.bureauwbtv.nl/tolk-vertaler-zoeken/
+https://kcopc.nl/
+https://vertolk.nl/
+https://russischvertaalbureau.nl/
+https://tolkrussisch.eu/
+https://galinawater.nl/
+https://taalibr.nl/
+https://connectis.nl/
+https://taalbureau-berlinski.nl/
+Excerpt:
+The dated 2025 Russian consular list names five organisations offering Russian-language
+legal help: KMCO (Hilversum), INN Tax & Legal and Rechta (Amsterdam), International
+Tax Associates (Almere), and Hodak (Amsterdam/Berkel-Enschot). With Alexia Law,
+Prawnik Arslan (offices including The Hague, Rotterdam, Amsterdam and Utrecht) and
+Polski Advocaat Amsterdam, the visible legal floor is ≥8 brands. The consular list is
+voluntary information, not endorsement, and not every entry can represent clients.
+
+Targeted searches plus the public Wbtv register surfaced ≥11 Polish/Russian sworn-
+translation brands: five Russian examples (KCOpc listing, Vertolk, Russisch
+Vertaalbureau, TolkRussisch and Galina Water) and six Polish examples (TaalIBR,
+Connectis, Berlinski, Joanna Włodarska/Zaanstreek, GOA and Jaza/de Kwakel). The paid
+provider below advertises Polish sworn translation from €59/page and 5–7 working days,
+and says Polish Wbtv translators are relatively available—evidence against scarcity.
+Price page: https://beedigdevertalingonline.nl/vertalingen/pools
+
+
+SOURCE S24 — Polish/Eastern European food retail and wholesale
+Publishers: Strabo/Shopping Centre News; Mix Markt; Abakus; Twoja Drogeria
+URLs:
+https://strabo.nl/assets/uploads/documents/SCN5-2012_Strabo.pdf
+https://www.mixmarkt.eu/nl/mix-markt-in-holland/markten/
+https://mixmarkt-amsterdam.nl/onze-winkel/
+https://abakus-mrozonki.nl/
+https://www.twoja-drogeria.nl/pages/o-nas
+Excerpt:
+A 2012 trade article counted more than 70 Polish shops nationally (4,500 m²)—old but
+clear evidence of a mature category. The current Mix Markt locator showed four Dutch
+branches (two Amsterdam, Rotterdam and Eindhoven); its Amsterdam page advertises
+1,450 products. Abakus (Noordwijkerhout) and Twoja Drogeria (Zoetermeer) are visible
+wholesale/specialist suppliers. Current visible floor used here: ≥6 brands/branches,
+alongside the much older national count. It is not an exhaustive current census.
+
+
+SOURCE S25 — construction and installation crews
+Publishers: Fachura; MapaHBC
+URLs: https://www.fachura.nl/pl ; https://mapahbc.nl/
+Excerpt:
+Fachura is a Polish-language lead marketplace with nine home/energy and five installation
+categories; it promoted its first 100 verified specialists and priced the first three leads
+free, then €3.70 per contact. MapaHBC visibly listed four named construction/handyman
+providers (Lucas Afbouwdiensten, Mario Bouw & Dakdekker, K Shape Madero and
+Krystofer Gold Hand). These are supply signals, not a count of all active crews; geography
+was incomplete.
+
+
+SOURCE S26 — vehicle repair
+Publishers: the named garages
+URLs:
+https://westlandcars.nl/
+https://www.polskimechanik.nl/
+https://123auto.nl/consument/garages/venlo/polski-auto-garaz-kowalczyk
+https://skliarauto.nl/ru
+https://autojetalmere.nl/en/garage-amsterdam/
+Excerpt:
+Five explicit language-matched brands were found: Westland Cars (Honselersdijk,
+Polish, including APK), Polski Mechanik and Polski Auto Garaż Kowalczyk (Venlo),
+SKLIAR mobile service (Russian; Amsterdam/Utrecht/Rotterdam) and AutoJet
+(Russian/Ukrainian; Almere). SKLIAR advertises mobile service from €50. AutoJet
+advertises APK at €70 and labour at €79/hour. No dedicated result surfaced in the fixed
+Zaanstad, Haarlem, The Hague or Waalwijk searches.
+
+
+SOURCE S27 — funeral/repatriation
+Publishers: Funeralia Oleg Milinski; Ritualhelper
+URLs:
+https://milinskiy.com/kremacia-v-niderlandah
+https://milinskiy.com/ru/kremacia-v-nederlandah-cena
+https://www.ritualhelper.kyiv.ua/krematoriy_niderlandu/
+Excerpt:
+Two cross-border brands were found offering Russian/Ukrainian support for deaths in the
+Netherlands, paperwork, cremation and/or repatriation: Funeralia Oleg Milinski and
+Ritualhelper. Both serve from outside the Netherlands. The fixed searches found no clearly
+Netherlands-based Polish/Russian/Ukrainian funeral director. This search result is a thin
+signal, not proof that none exists; mainstream funeral homes may arrange interpreters.
+
+
+SOURCE S28 — insurance advice
+Publishers: Twoja Hipoteka; Uytam
+URLs: https://twojahipoteka.nl/ubezpieczenia/ ; https://www.uytam.nl/over-uytam/
+Excerpt:
+Two explicit Polish-language brands were found. Twoja Hipoteka offers insurance as
+well as mortgage-related service; Uytam has The Hague and Rotterdam offices and says
+its advisers are Wft-trained. Search results were concentrated in the Randstad. Directory
+badges that lacked provider records were excluded.
+
+
+SOURCE S29 — employment agencies
+Publisher: Dzis.nl
+URL: https://www.dzis.nl/agencje?sort=ocena
+Excerpt:
+The Polish-language directory displayed 41 employment-agency entries, many offering
+work and housing. This is a visible directory count, not an audit of current registration,
+licensing, vacancies, quality or unique legal entities.
+

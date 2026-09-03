@@ -1,0 +1,81 @@
+SOURCE S1 — CBS StatLine population by origin and municipality
+Publisher: Statistics Netherlands (CBS)
+Page URL: https://www.cbs.nl/nl-nl/cijfers/detail/85458NED
+OData endpoint: https://datasets.cbs.nl/odata/v1/CBS/85458NED
+Fetch date: 2026-09-03
+
+Excerpt / machine-query record:
+Title: “Bevolking; herkomstland, geboorteland, leeftijd, regio, 1 januari”.
+Modified 2026-07-02; 1 January 2026 figures are definitive. The table covers people
+in Dutch municipal population registers. It excludes people covered by registration
+exceptions (for example diplomats and NATO personnel) and people not legally resident.
+Specific origin countries are published only where at least 20,000 people of that
+origin lived in the Netherlands at some point. The observations below select total
+sex, total age, total birthplace, 2026, and the named region/origin.
+
+Query pattern:
+https://datasets.cbs.nl/odata/v1/CBS/85458NED/Observations?$filter=Herkomstland%20eq%20%27<code>%27%20and%20Geboorteland%20eq%20%27T001489%27%20and%20Geslacht%20eq%20%27T001038%27%20and%20Leeftijd%20eq%20%27T001146%27%20and%20Perioden%20eq%20%272026JJ00%27%20and%20RegioS%20eq%20%27<code>%27
+
+Observed persons, origin definition used by CBS:
+Region                 Polish   Ukrainian   Russian
+Netherlands            244835      149635     52227
+Amsterdam                7523        8426      9073
+Zaanstad                  1782        1249       581
+Haarlem                   1892        1908      1218
+Utrecht                   2008        2312      1535
+Rotterdam                13207        4627      2456
+The Hague                14066        6307      3349
+Westland                  4102        2457       237
+Venlo                     4989         943       254
+Waalwijk                  2149         466        91
+
+Calculated sums (addition only): Netherlands 446,697; Amsterdam 25,022;
+Zaanstad 3,612; Haarlem 5,018; Utrecht 5,855; Rotterdam 20,290; The Hague
+23,722; Westland 6,796; Venlo 6,186; Waalwijk 2,706.
+
+Limits: these are origin, not language-use, figures. Russian-speaking Ukrainians and
+Belarusians cannot be separated. Short-stay workers absent from the municipal register
+are not counted. Belarus is below the table’s 20,000 national publication threshold.
+
+
+SOURCE S2 — CBS custom population workbook, 2016 and 2024
+Publisher: Statistics Netherlands (CBS)
+Landing page: https://www.cbs.nl/nl-nl/maatwerk/2024/33/bevolking-naar-gemeente-en-herkomstland-2016-en-2024
+Dataset URL: https://www.cbs.nl/-/media/_excel/2024/33/bevolking-op-1-januari-naar-gemeente-en-naar-herkomstland-2016-en-2024.xlsx
+Local dataset: cbs_population_origin_municipality_2016_2024.xlsx
+Downloaded size: 69,364 bytes (well below 50 MB)
+Fetch date: 2026-09-03
+
+Excerpt / extraction record:
+Table 2, Belarus row: total origin population 3,090 on 1 January 2016 (874 born
+in the Netherlands; 2,216 born abroad) and 6,085 on 1 January 2024 (1,375 born
+in the Netherlands; 4,710 born abroad).
+
+Limit: despite the workbook title, municipality totals and country-of-origin totals
+are in separate tables; it does not provide a municipality × Belarus cross-tab.
+
+
+SOURCE S3 — temporary protection registrations
+Publisher: Immigration and Naturalisation Service (IND)
+URL: https://ind.nl/nl/documenten/04-2026/migratieradar-voorjaar-2026.pdf
+Fetch date: 2026-09-03
+
+Excerpt:
+The spring 2026 Migration Radar reports 133,320 Ukrainians registered under the
+Temporary Protection Directive on 1 January 2026, plus 2,435 “other” protected
+persons. September–December 2025 brought 9,450 registrations, an average 2,360
+per month; the stock was more than 4,500 higher than on 1 September 2025.
+IND cautions that its registrations may differ from municipal-register figures because
+of processing delay.
+
+
+SOURCE S4 — duration and rights of Ukrainian temporary protection
+Publisher: Immigration and Naturalisation Service (IND)
+URL: https://ind.nl/nl/nieuws/richtlijn-tijdelijke-bescherming-voor-oekraine-verlengd-met-nieuwe-voorwaarde-voor-nieuwe-aanvragen
+Fetch date: 2026-09-03
+
+Excerpt:
+For people already protected before 5 August 2026, temporary protection is
+automatically extended through 4 March 2028. It provides a right to live and work
+in the Netherlands and access services under the directive’s conditions.
+

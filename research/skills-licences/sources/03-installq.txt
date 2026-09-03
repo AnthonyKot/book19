@@ -1,0 +1,44 @@
+Publisher: InstallQ
+URL: https://installq.nl/kostenoverzicht
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- 2026 annual recognition fees: electricity EUR 141; above-ground heat-pump installations
+  EUR 228; small solar PV (up to 3x25A) EUR 141.
+- BRL 6000 certificate mark levy charged via certification institutions: fixed EUR 216 annually;
+  other certification/audit charges are additional.
+
+Publisher: InstallQ
+URL: https://installq.nl/files/kritiek/concept_erkenningsregeling_warmtepompinstallaties_v1_5_d_d__21-05-2021.pdf
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- The above-ground heat-pump recognition does not cover ground-coupled heat pumps; those fall
+  under mandatory BRL 6000-21.
+- Work on the refrigerant circuit containing F-gases requires a BRL 100 certified company or
+  subcontracting such a company.
+
+Publisher: InstallQ
+URL: https://installq.nl/warmtepomp-installaties
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Above-ground heat-pump recognition is a company recognition covering design, calculation,
+  installation, inspection, management and maintenance. It requires competence, specified tools,
+  standards and documentation and includes a company visit before approval.
+- The business can qualify through a Work-Responsible Heat Pump profile, or staff collectively
+  holding the Designer/Adviser, First Mechanic service/maintenance and First Mechanic profiles.
+  Approved businesses enter EchteInstallateur.nl and the Centraal Register Techniek.
+
+Publisher: InstallQ
+URL: https://installq.nl/elektrotechnische-laagspanningsinstallaties
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Low-voltage electrical recognition is also a company route: the application includes accepted
+  diplomas, required tools/standards and a company visit, followed by entry in InstallQ's public
+  quality registers if approved.
+
+Publisher: InstallQ
+URL: https://installq.nl/evc-info
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- The experience-recognition alternative is only for installers with extensive practical
+  experience who have already been technically responsible for installation work for several
+  years. It is not a novice shortcut to an InstallQ recognition.

@@ -1,0 +1,61 @@
+platform,year,parent_category,completed,successful,failed,live_or_other,funded_usd_successful,backers_successful,success_rate_completed_pct
+Indiegogo,2023,Audio,11,0,11,0,0,0,0.0
+Indiegogo,2023,Camera Gear,6,2,4,0,1301241,0,33.33
+Indiegogo,2023,Energy & Green Tech,11,0,11,0,0,0,0.0
+Indiegogo,2023,Fashion & Wearables,16,3,13,0,135001,0,18.75
+Indiegogo,2023,Food & Beverages,4,0,4,0,0,0,0.0
+Indiegogo,2023,Health & Fitness,22,1,21,0,0,0,4.55
+Indiegogo,2023,Home,40,2,38,0,1931224,0,5.0
+Indiegogo,2023,Phones & Accessories,21,0,21,0,0,0,0.0
+Indiegogo,2023,Productivity,20,3,17,0,1243097,0,15.0
+Indiegogo,2023,Transportation,6,0,6,0,0,0,0.0
+Indiegogo,2023,Travel & Outdoors,51,4,47,0,3863943,0,7.84
+Indiegogo,2024,Audio,6,0,6,0,0,0,0.0
+Indiegogo,2024,Camera Gear,5,2,3,0,345386,0,40.0
+Indiegogo,2024,Energy & Green Tech,9,0,9,0,0,0,0.0
+Indiegogo,2024,Fashion & Wearables,21,0,21,0,0,0,0.0
+Indiegogo,2024,Food & Beverages,10,0,10,0,0,0,0.0
+Indiegogo,2024,Health & Fitness,31,4,27,0,4069439,0,12.9
+Indiegogo,2024,Home,28,1,27,0,261857,0,3.57
+Indiegogo,2024,Phones & Accessories,24,1,23,0,0,0,4.17
+Indiegogo,2024,Productivity,26,5,21,0,440531,0,19.23
+Indiegogo,2024,Transportation,15,4,11,0,205847,0,26.67
+Indiegogo,2024,Travel & Outdoors,54,3,51,0,923528,0,5.56
+Indiegogo,2025,Audio,10,0,10,0,0,0,0.0
+Indiegogo,2025,Camera Gear,6,0,6,0,0,0,0.0
+Indiegogo,2025,Energy & Green Tech,20,1,19,0,2247960,0,5.0
+Indiegogo,2025,Fashion & Wearables,57,1,56,0,225317,0,1.75
+Indiegogo,2025,Food & Beverages,49,1,48,0,103881,0,2.04
+Indiegogo,2025,Health & Fitness,83,0,83,0,0,0,0.0
+Indiegogo,2025,Home,55,2,53,0,0,0,3.64
+Indiegogo,2025,Phones & Accessories,30,1,29,0,0,0,3.33
+Indiegogo,2025,Productivity,62,3,59,0,0,0,4.84
+Indiegogo,2025,Transportation,21,0,21,0,0,0,0.0
+Indiegogo,2025,Travel & Outdoors,113,3,110,0,1062758,0,2.65
+Kickstarter,2023,Crafts,374,165,209,32,1400105,13136,44.12
+Kickstarter,2023,Design,1354,1335,19,184,101459544,694319,98.6
+Kickstarter,2023,Fashion,945,729,216,49,10773402,89110,77.14
+Kickstarter,2023,Food,253,99,154,9,1650477,20413,39.13
+Kickstarter,2023,Games,151,138,13,7,638384,20005,91.39
+Kickstarter,2023,Technology,640,480,160,31,104575368,303934,75.0
+Kickstarter,2024,Art,4,3,1,0,16962,137,75.0
+Kickstarter,2024,Crafts,429,192,237,50,1556208,14074,44.76
+Kickstarter,2024,Design,1040,900,140,27,69381959,460650,86.54
+Kickstarter,2024,Fashion,1093,647,446,67,11105224,84608,59.19
+Kickstarter,2024,Food,197,73,124,22,1038507,11201,37.06
+Kickstarter,2024,Games,2809,2611,198,46,42385802,690756,92.95
+Kickstarter,2024,Technology,1027,847,180,44,154832145,539885,82.47
+Kickstarter,2025,Art,10,7,3,2,85392,1599,70.0
+Kickstarter,2025,Crafts,399,173,226,56,1449934,12061,43.36
+Kickstarter,2025,Design,1455,1223,232,55,103741782,596297,84.05
+Kickstarter,2025,Fashion,1010,511,499,65,8543472,58994,50.59
+Kickstarter,2025,Food,267,99,168,28,923774,10151,37.08
+Kickstarter,2025,Games,3858,3554,304,52,78512587,996157,92.12
+Kickstarter,2025,Technology,1484,1214,270,74,346356069,834970,81.81
+Kickstarter,2026,Art,14,12,2,3,83596,507,85.71
+Kickstarter,2026,Crafts,191,92,99,47,986423,7854,48.17
+Kickstarter,2026,Design,980,851,129,287,69806293,408492,86.84
+Kickstarter,2026,Fashion,441,238,203,133,3828047,29877,53.97
+Kickstarter,2026,Food,142,60,82,28,541826,5470,42.25
+Kickstarter,2026,Games,2431,2317,114,343,96790946,824730,95.31
+Kickstarter,2026,Technology,867,744,123,260,189367947,430897,85.81

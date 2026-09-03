@@ -1,0 +1,37 @@
+Research excerpts and structured extraction — valuation and transfer
+Fetch date for every source: 2026-09-03
+
+[V1] Publisher: Brookz
+Title: Overname Barometer H1-2026
+URL: https://www.brookz.nl/barometer/h1-2026
+Published: 2026-08-17. Extracted data: 291 Dutch M&A advisers, covering transactions in businesses with €0.5m–€50m revenue. H1 sale transactions fell 4%; the average reported EBITDA multiple was 5.0. The average for normalized EBITDA of €200,000 was 3.6 versus 7.0 at €10m. In 42% of processes advisers said sellers overvalued the business; the average expectation gap was 23%, and 19% of deals broke. Limitation: adviser survey and mostly larger companies than this listing sample.
+
+[V2] Publisher: Brookz
+Title: Overname Barometer H1-2025
+URL: https://www.accountancyvanmorgen.nl/wp-content/uploads/sites/2/2025/08/Brookz-Overname-Barometer-H1-2025.pdf
+PDF. Extracted average EBITDA multiples (low/average/high): automotive/transport/logistics 3.7/4.1/4.5; retail 1.8/2.3/3.0; health care 5.8/6.4/7.1; wholesale 4.8/5.2/5.9; hospitality 2.8/3.1/4.1; industry 4.5/5.0/5.5. Across sectors the average was 4.9; businesses with €200,000 normalized EBITDA averaged 3.5 versus 6.7 at €10m. Limitation: older sector table retained because the public H1-2026 page does not expose a complete sector table; asking prices can include/exclude cash, debt, stock or real estate.
+
+[V3] Publisher: Bedrijventekoop.nl
+Title: Het gevaar van de multiple
+URL: https://www.bedrijventekoop.nl/blog/het-gevaar-van-de-multiple
+Extracted guidance: a multiple is an average shortcut and does not by itself capture investment needs or risk; the publisher recommends a cash-flow/DCF check. Limitation: broker education, not a transaction database.
+
+[V4] Publisher: Brookz
+Title: Stomerij kopen of verkopen
+URL: https://www.brookz.nl/branche-informatie/stomerij
+Extracted data: 885 dry-cleaning businesses in 2025; indicative retail EBITDA multiple 2.0–3.1. The page recommends B2B positioning because traditional suit/tie demand is declining. Limitation: branch estimate and asking/valuation guidance, not observed sale prices.
+
+[T1] Publisher: KVK
+Title: Stappenplan bedrijf overnemen
+URL: https://www.kvk.nl/verkopen-en-overnemen/stappenplan-bedrijf-overnemen/
+Updated: 2026-07-15. Extracted guidance: nine stages—buyer profile, search, sales memorandum, letter of intent, due diligence, price, financing, contract and KVK registration. The sales memorandum should state history, value, legal form, finances, personnel and sale reason; due diligence verifies figures, contracts and staff obligations.
+
+[T2] Publisher: Brookz
+Title: Zo stel je een post-acquisitieplan op
+URL: https://www.brookz.nl/kennisbank/bedrijf-kopen/zo-stel-je-een-post-acquisitieplan-op
+Extracted guidance: communicate with everyone on day one; use the first 100 days to learn the operation, retain staff and customers and execute a post-acquisition plan. Promptly address employment contracts, trademarks and old receivables; involve employees and communicate continuity to customers and suppliers.
+
+[T3] Publisher: Bedrijventekoop.nl / Hogeschool Utrecht
+Title: MKB Overname Monitor Q4-2024 / Q1-2025
+URL: https://www.bedrijventekoop.nl/media/12117/download/MKB%20Overname%20Monitor%20Q4-2024%20Q1-2025.pdf?v=1
+PDF. Extracted data: 37% of buyers said they continued immediately without the seller. That answer was 53% among buyers without an adviser and 30% among advised buyers; advised deals more often retained seller collaboration for six to twelve months. Limitation: survey association, not causal proof that advice creates better handovers.

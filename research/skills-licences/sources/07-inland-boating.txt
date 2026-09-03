@@ -1,0 +1,44 @@
+Publisher: Rijksoverheid
+URL: https://www.rijksoverheid.nl/vraag-en-antwoord/scheepvaart-en-havens/aan-welke-eisen-moet-mijn-pleziervaartuig-voldoen
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- A licence is needed for a pleasure craft over 15 metres or a small motor boat capable of more
+  than 20 km/h. Which licence applies depends on length, speed and commercial versus leisure use.
+
+Publisher: Dutch government, 2026 CBR tariff regulation
+URL: https://wetten.overheid.nl/BWBR0051913/2026-01-01/0/BijlageV
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- 2026 CBR fees: Klein Vaarbewijs 1 EUR 53.15; Klein Vaarbewijs 2 EUR 63.25; card EUR 12.70;
+  recreational health declaration EUR 13.25. English-format examinations (marked “-E”) cost
+  EUR 66.65 (KVB1) and EUR 76.75 (KVB2).
+- Inland-waterway entrepreneur written exam EUR 110.35; radar theory EUR 110.35 and practical
+  EUR 283.65; Amsterdam canal-boat skipper practical EUR 634.60 plus first certificate EUR 69.85.
+
+Publisher: RVO / Business.gov.nl
+URL: https://business.gov.nl/regulations/eu-qualification-boatmaster/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Commercial boatmasters need the Union certificate for vessels >=20 m, >=100 m3, passenger
+  vessels, dangerous-goods vessels and specified tow/push craft. Specific Rhine, maritime-water
+  and radar permits may be required.
+- The sailing licence is valid 13 years, then renews, and also renews at ages 60, 65 and 70 (every
+  two years thereafter). LNG expert qualification lasts five years.
+
+Publisher: Rijksoverheid
+URL: https://www.rijksoverheid.nl/themes/traffic-and-transport/shipping-and-ports/bemanningseisen-in-de-binnenvaart
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Crew competence and experience requirements apply. Since 1 June 2025 open tour-boat skippers
+  need a special certificate; enforcement begins after a three-year transition on 1 June 2028.
+
+Publisher: UWV
+URL: https://www.uwv.nl/assets-kai/files/63956f9f-f057-445f-ad98-c3ce2c541b03/kansrijke-beroepen-2026-2027.pdf
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- The national 2026–27 promising-occupation list includes inland-waterway deckhands and skippers.
+
+Limit: a leisure KVB is quick and English-accessible but normally does not unlock commercial
+skipper work. From zero, qualifying as an EU boatmaster generally depends on service/navigation
+time and is not a clean twelve-month licence-plus-business route.
+

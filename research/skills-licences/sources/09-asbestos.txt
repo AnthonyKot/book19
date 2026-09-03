@@ -1,0 +1,70 @@
+Publisher: Ondernemersplein / RVO
+URL: https://ondernemersplein.overheid.nl/wetten-en-regels/certificaten-en-register-voor-asbestverwijdering/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Asbestos removal requires personal DAV-1/DAV-2/DTA certificates and a company process
+  certificate. DNV and IBEX are named personal certifiers; TUV, Normec and dnAA process certifiers;
+  records go to Ascert.
+
+Publisher: proXia (Ascert exam body)
+URL: https://www.proxia.nl/examens/asbest-examens/dia-examen/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- DIA permits independent surveys only while working for a certified survey company. Entry: 18+,
+  valid ID and command of written/spoken Dutch. Full 2026 exam including certifier levy EUR 565
+  plus EUR 230 Ascert levy, both excl. 21% VAT. Certificate lasts three years.
+
+Publisher: ScanAcademy (commercial trainer)
+URL: https://www.scanacademy.nl/cursus/397
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- DIA preparation course is four days, EUR 800 excl. VAT; respiratory-protection online part 1
+  must be completed by the exam.
+
+Publisher: IBEX (Ascert exam/certification body)
+URL: https://ibex.nl/examen/dta/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- DTA exam is Dutch only, 200 minutes (theory 90, practice 100, material recognition 10), and the
+  certificate lasts three years. DTA is legally required to supervise removal work.
+
+Publisher: Westpoort (commercial trainer)
+URL: https://westpoort.nl/cursussen/asbest/dta/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- DTA course is three days plus exam day. Since 1 April 2026, entry requires DAV-1 plus completed
+  mentor/work-experience route (DAV-2 no longer mandatory), or a qualifying current/recent DTA/
+  DAV credential; medical check, face-fit and respiratory-protection module are also required.
+
+Publisher: Ascert
+URL: https://www.ascert.nl/tarievenwijziging-2026
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- 2026 Ascert levy is EUR 230 per personal certificate and EUR 650 per process certificate.
+
+Publisher: Panteia, 2026 asbestos-directive impact analysis
+URL: https://www.internetconsultatie.nl/implementatiebesluitasbestrichtlijn/document/15447
+Fetch date: 2026-09-03
+Dataset note: consultation attachment, under 50 MB; not downloaded.
+Excerpt/facts relied on:
+- Modelled incumbent population: 761 DIA, 1,573 DTA, 637 DAV-1 and 1,211 DAV-2 certificate
+  holders. These are supply counts, not vacancy counts.
+
+Publisher: UWV regional 2025–26 promising occupations (Achterhoek)
+URL: https://www.uwv.nl/assets-kai/files/78c815bb-8881-48ef-af29-4e84450f5dd6/Kansrijke_beroepen_Achterhoek.pdf
+Fetch date: 2026-09-03
+Dataset note: PDF under 50 MB; not downloaded.
+Excerpt/facts relied on:
+- “Demolition workers and asbestos removers” appear as promising construction occupations in this
+  region; this is regional evidence, not a national DIA/DTA shortage count.
+
+Publisher: HMP Asbestinventarisatie (single live employer page; demand spot-check)
+URL: https://www.hmp-asbest.nl/vacatures/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Advertises ongoing cooperation with self-employed DIA surveyors for regular assignments in
+  Eindhoven, Arnhem and Nijmegen, requiring valid DIA certification.
+
+Limit: DIA and DTA are not standalone-business tickets. Dutch fluency and a certified employer/
+company are material constraints; DTA also requires prior field experience.
+

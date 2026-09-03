@@ -1,0 +1,77 @@
+Publisher: RVO / Business.gov.nl
+URL: https://business.gov.nl/regulations/drones/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Commercial and recreational flights use the same risk-based EU rules. Open A1/A3/A2 require
+  online training/exams for >250 g; Specific operations require an ILT operational authorisation
+  unless covered by a Standard Scenario, or a Light UAS Operator Certificate.
+- Specific includes nearer people/airfields, >25 kg, urban, >120 m, dropping loads or BVLOS.
+
+Publisher: RDW
+URL: https://www.rdw.nl/en/drone/applying-for-a-pilot-licence-or-operator-number-for-a-drone
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- RDW issues A1/A3, A2 and STS pilot certificates after a recognised-school online exam. A2/STS
+  requires A1/A3 first. Pilot certificates last five years; application costs EUR 10.
+
+Publisher: RDW
+URL: https://www.rdw.nl/drone/exploitantnummer-aanvragen
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Operator registration costs EUR 23 and one number covers all the operator's drones.
+
+Publisher: ILT
+URL: https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen/opleidingen-voor-dronebewijzen
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- STS theory exam is taken with a ministry-designated body; STS practical training/exam must be
+  with an ILT-recognised institution. Four STS-01 and two STS-02 institutions were listed.
+
+Publisher: ILT
+URL: https://www.ilent.nl/onderwerpen/luchtvaart/drones-en-modelvliegtuigen/regels-voor-drones/specifiek-dronecategorie/sts
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- STS declaration first requires RDW operator registration. STS-01 requires a C5 drone and VLOS
+  over controlled ground in a populated area; STS-02 requires C6 and BVLOS observers over
+  controlled ground in a sparsely populated area.
+
+Publisher: Dutch government, Staatscourant 2025 no. 42561
+URL: https://zoek.officielebekendmakingen.nl/stcrt-2025-42561.html
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- 2026 ILT charges: STS declaration confirmation EUR 377; PDRA operational authorisation through
+  SAIL II EUR 1,505; full-SORA authorisation through SAIL II EUR 3,010. More complex risk levels
+  cost more; declarations/authorisations also have renewal or change charges.
+
+Publisher: DroneLand Academy (commercial recognised-school price snapshot)
+URL: https://en.droneland.nl/droneland-academy-a1-a3-a2-online-opleiding-incl-2x-examen-open-categorie-eu-dronebewijs
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- English-page combined A1/A3 + A2 online training and two exams advertised for EUR 199 incl. VAT.
+
+Publisher: Drone Flight Academy (commercial recognised provider)
+URL: https://www.droneflightacademy.eu/nl/specific-categorie
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- STS theory: average eight hours' self-study, EUR 299.99 incl. VAT. Two-day STS-01/PDRA-S01
+  training and exam: EUR 1,500 excl. VAT for existing A1/A3+A2 holders.
+
+Publisher: OmniDrones (commercial ILT-recognised provider)
+URL: https://omnidrones.eu/nl/droneopleiding-specific/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Dutch- and English-language Specific/STS-01 course including A1/A3+A2 advertised at EUR 3,500,
+  VAT exempt.
+
+Publisher: SEO Amsterdam Economics (research commissioned by IenW)
+URL: https://www.seo.nl/en/publications/the-impact-of-drones-on-society/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Study projected drones across five Dutch sectors from about 2,460 (2019) to 11,230 (2050), and
+  economic impact from EUR 103–176m to EUR 374–805m; drone services were the largest component.
+- Authors explicitly say assumptions are highly uncertain and estimates indicate order of
+  magnitude, not precision. Published 2022, so this is directional, not current vacancy evidence.
+
+Limit: UWV does not classify drone pilot as a shortage occupation. A certificate alone is easy
+and weak; commercial value comes from inspection/domain skill, data deliverables and client access.
+

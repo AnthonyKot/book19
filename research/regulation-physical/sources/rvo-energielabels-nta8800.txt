@@ -1,0 +1,22 @@
+Source: https://www.rvo.nl/onderwerpen/wetten-en-regels-gebouwen/informatie-epa/aantallen-nieuwe-energielabels-jaar
+Publisher: Rijksdienst voor Ondernemend Nederland (RVO)
+Fetch date: 2026-09-03
+Title: Aantallen nieuwe energielabels per jaar (NTA-8800)
+
+Excerpts:
+In onderstaande tabellen vindt u de aantallen van de nieuwe geregistreerde energielabels. Ze zijn geregistreerd volgens de NTA-8800. Per jaartal staan de aantallen overzichtelijk uitgesplitst. We passen deze gegevens maandelijks aan. De inhoud van deze pagina is gecontroleerd op 13 juli 2026.
+
+Table 2026 (Jan - Jun):
+- Basisopname utiliteitsbouw: 9.978 (Jan: 1.300, Feb: 1.505, Mrt: 1.784, Apr: 1.525, Mei: 1.833, Jun: 2.031)
+- Basisopname woningbouw: 321.539 (Jan: 45.120, Feb: 49.659, Mrt: 59.675, Apr: 56.120, Mei: 53.833, Jun: 57.132)
+- Detailopname utiliteitsbouw: 2.509 (Jan: 328, Feb: 508, Mrt: 380, Apr: 401, Mei: 448, Jun: 444)
+- Detailopname woningbouw: 83.235 (Jan: 10.125, Feb: 12.224, Mrt: 13.466, Apr: 13.360, Mei: 17.048, Jun: 17.012)
+- Totaal 2026 (H1): 417.261
+- Totaal geregistreerd vanaf 2021: 3.545.230+ labels
+
+Table 2025 (Full Year):
+- Basisopname utiliteitsbouw: 19.206
+- Basisopname woningbouw: 611.448
+- Detailopname utiliteitsbouw: 4.502
+- Detailopname woningbouw: 160.071
+- Totaal 2025: 795.227 energielabels geregistreerd

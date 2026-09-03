@@ -1,0 +1,43 @@
+TITLE: Wbtv register for sworn interpreters and translators
+FETCH DATE: 2026-09-03
+
+SOURCE 1
+URL: https://www.bureauwbtv.nl/tolken-vertalers/inschrijven/voorwaarden-inschrijving-rbtv/
+PUBLISHER: Bureau Wbtv, Raad voor Rechtsbijstand
+EXCERPT (paraphrased): Direct registration can follow a bachelor-level interpreter/translator diploma in the relevant combination/direction, a qualifying Rbtv C1 test, or specified legal-interpreter training. Alternative C1 interpreter admission requires a profile-80 VOG, C1 in both languages, cultural knowledge and a recognised interpreting-skills test. Translator registration is C1 only; its alternative route also includes 15 EC/420 study-load hours of translation training and work-experience conditions. Interpreter B2 registration exists under separate recognised test/skills conditions.
+
+SOURCE 2
+URL: https://www.bureauwbtv.nl/bibliotheek/veelgestelde-vragen/aanmelden-rbtv-uitwijklijst/
+PUBLISHER: Bureau Wbtv, Raad voor Rechtsbijstand
+EXCERPT (paraphrased): The application costs EUR 125 per request, irrespective of outcome; multiple language combinations/directions can be included in one application. Dutch need not be one of the active languages.
+
+SOURCE 3
+URL: https://www.bureauwbtv.nl/tolken-vertalers/inschrijven/digitaal-aanvragen-verklaring-omtrent/
+PUBLISHER: Bureau Wbtv, Raad voor Rechtsbijstand
+EXCERPT (paraphrased): A digital VOG request costs EUR 33.85 and is required with each initial or renewal request.
+
+SOURCE 4
+URL: https://www.bureauwbtv.nl/%4018052/meest-gestelde-vragen-voorwaarden/
+PUBLISHER: Bureau Wbtv, Raad voor Rechtsbijstand
+EXCERPT (paraphrased): Registration lasts five years. Renewal requires 80 PE points during the five-year period, at least 40 from education, plus the applicable assignment/work-experience requirement.
+
+SOURCE 5
+URL: https://www.bureauwbtv.nl/bibliotheek/veelgestelde-vragen/tolk-vertaler-inzetten/
+PUBLISHER: Bureau Wbtv, Raad voor Rechtsbijstand
+EXCERPT (paraphrased): Registered interpreters/translators are sworn and authorised for sworn work in the Netherlands. The register is public. There are no standard commercial tariffs; client and professional agree the price.
+
+SOURCE 6
+URL: https://www.uwv.nl/nl/nieuws/nieuwe-kansrijke-beroepen-in-2025-kapper-tandtechnicus-en-telefoonreparateur
+PUBLISHER: UWV
+EXCERPT (paraphrased): UWV lists translators among language/creative occupations with poor employment prospects because AI can take over tasks.
+
+SOURCE 7
+URL: https://www.uwv.nl/assets-kai/files/b48e2121-a5cd-4b71-a565-731fe463241b/overstapberoepen-2026.pdf
+PUBLISHER: UWV
+DATASET NOTE: 2026 PDF below 50 MB; excerpt recorded, not saved as binary.
+EXCERPT (paraphrased): UWV says the rise of AI is producing progressively less work for writers, editors and translators and offers six examples of occupations into which they can move.
+
+LIMITS
+- Russian and Polish are usable as a pair because Dutch is not mandatory, but a qualifying diploma/test must exist for the exact combination and direction. Availability, dates and test tuition/fees were not established from a stable public tariff, so a sub-12-month route is conditional, not guaranteed.
+- Existing C1 language level and professional interpreting/translation skill are prerequisites, not created by the EUR 125 registration.
+
