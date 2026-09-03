@@ -1,0 +1,22 @@
+Research excerpts and structured extraction — acquisition finance
+Fetch date for every source: 2026-09-03
+
+[F1] Publisher: Rijksdienst voor Ondernemend Nederland (RVO)
+Title: Voorwaarden BMKB
+URL: https://www.rvo.nl/subsidies-financiering/bmkb/voorwaarden
+Checked by publisher: 2026-08-05. Extracted terms: eligible SMEs have no more than 250 FTE and either turnover no more than €50m or balance sheet no more than €43m. Publicly insured care, finance, real estate, and firms with more than 50% revenue from agriculture/fishing are excluded. A starter is under three years old. The starter-loan ceiling is €333,333 and the government guarantee is 67.5%. Standard maximum term is six years, or twelve for buildings/ships; repayment starts within twelve months. Important: the lender applies, assesses creditworthiness and makes the loan; this is a guarantee, not buyer cash.
+
+[F2] Publisher: RVO
+Title: Overzicht BMKB-voorwaarden t/m 30-06-2027 v1.0
+URL: https://www.rvo.nl/sites/default/files/2024-11/Overzicht-BMKB-voorwaarden-tm-30-06-2027-v1.0.pdf
+PDF. Extracted terms: acquisition/refinancing is permitted. For regular BMKB, the guaranteed portion is at most 50% of fresh money; for a small credit it may be 75%, capped at €250,000; the starter segment may also be 75%. The one-off commission for non-innovative credit is 3.9%–5.85%, depending on term. One financier submits the guarantee. Limitation: product ceilings do not imply that an acquisition cash flow passes underwriting.
+
+[F3] Publisher: Qredits
+Title: MKB Krediet
+URL: https://www.qredits.nl/zakelijk-krediet/mkb-krediet
+Extracted terms on fetch date: €50,000–€250,000; acquisition is an allowed purpose; average term five years and maximum ten years; fixed annual interest 9.95%; closing fee 1.5%; monthly interest and principal payments. Limitation: published product terms, not an approval promise; buyer quality, cash flow and security still matter.
+
+[F4] Publisher: KVK
+Title: Financiering vinden voor bedrijfsovername
+URL: https://www.kvk.nl/geldzaken/financiering-vinden-voor-bedrijfsovername/
+Extracted guidance: acquisition funding is commonly stacked from buyer equity plus a bank or microcredit, investor/crowdfunding and/or seller finance. Limitation: options overview rather than lender underwriting criteria.

@@ -1,0 +1,67 @@
+Research excerpts and structured extraction — succession and sector context
+Fetch date for every source: 2026-09-03
+
+[S1] Publisher: Kamer van Koophandel (KVK)
+Title: Ondernemen in 2022
+URL: https://www.kvk.nl/download/KVK%20Rapportage%20Ondernemen%20in%202022_tcm109-509851.pdf
+Location: p.39. Extracted data: among respondents already stopped, planning/working on stopping, or selling/transferring (bases 120/43/73), 69% named pension age/old age, 14% too many rules and 13% wanting to do something else. Limitation: survey fieldwork/report is from 2022; the three base sizes correspond to different question paths.
+
+[S2] Publisher: KVK
+Title: Ondernemen na je pensioen
+URL: https://www.kvk.nl/starten/ondernemen-na-je-pensioen/
+Updated: 2026-01-09. Extracted data: on 2025-01-01, 164,001 entrepreneurs aged 67 or older were registered in the Handelsregister. Limitation: registrations include continuing and newly started entrepreneurs and therefore are not a count of sale-ready firms.
+
+[S3] Publisher: KVK Regiodata
+Title: Je bent nooit te oud om te ondernemen
+URL: https://regiodata.kvk.nl/news/je-bent-nooit-te-oud-om-te-ondernemen/90
+Extracted facts: older entrepreneurs are concentrated in business services, health care, agriculture, wholesale, and culture/sport/recreation. KVK names lack of a buyer or successor as one reason people continue after AOW age. The 85+ group rose from 1,440 to 2,273, a 58% increase. Limitation: published about 2023 and describes registrations, not sellers.
+
+[S4] Publishers: Hogeschool Utrecht, Qredits and ONL
+Title: Een derde kleine ondernemers wil bedrijf verkopen
+URL: https://www.hu.nl/nieuws/eenderde-kleine-ondernemers-wil-bedrijf-verkopen
+Published: 2026-02-12. Extracted data: more than one-third of Dutch small-business owners consider a sale within five years; the institutions say this concerns more than 500,000 firms. The article says finance often combines buyer equity, seller loans and external finance. Limitation: the news page does not expose the sampling detail needed to convert intent into expected completed transactions.
+
+[S5] Publisher: MKB-Nederland
+Title: Dit is ondernemen in het MKB
+URL: https://content.prod.websites.vno-ncw.totalservices.io/app/uploads/sites/9/2024/08/mkb-nederland_-dit_is_ondernemen_in_het_mkb.pdf
+Published: 2024; PDF, 7 pages. Extracted data from pp.1 and 4: 99% of nearly 430,000 employer firms are SMEs; 83% have 2–10 employees. MKB-Nederland says a sale needs at least three to five years' preparation; H1-2023 SME sale transactions were 13% above 2022; it reports 285,000 family firms and 147,500 business closures in 2023, up 8%. Limitation: advocacy publication combining several cited underlying sources; its transaction and closure observations are now dated.
+
+[S6] Publisher: ING Newsroom / ING research
+Title: Ondernemers lopen achter in pensioenopbouw – ING wil bewustzijn vergroten
+URL: https://nieuws.ing.nl/nl-NL/254867-ondernemers-lopen-achter-in-pensioenopbouw-ing-wil-bewustzijn-vergroten/
+Published: 2025-10-01. Extracted data: survey sample 1,031 employees, 228 self-employed and 214 SME owners; 47% of more than 1.2 million self-employed people build no pension, and one in five SME respondents expects a pension gap. Limitation: this is pension research, not a forecast of businesses for sale; it only supports the caution that sale proceeds may matter to sellers.
+
+[S7a] Publisher: Bedrijfsopvolging.nl (summary of an ING Economic Bureau/partners report)
+Title: Strategie en kansen bij opvolging
+URL: https://bedrijfsopvolging.nl/kennisbank/strategie-kansen-opvolging/
+Underlying report date: 2013. Extracted finding: the summary says succession often coincides with strategic change because successor capabilities and expectations differ. Limitation: secondary summary of old ING work; no current market sizing.
+
+[S7b] Publisher: Accountant.nl (secondary account of the same period of ING research)
+Title: Adviesdroom
+URL: https://www.accountant.nl/magazines/accountant-april-2014/adviesdroom/
+Published: 2014. Extracted data: it reports that about one-third of surveyed family firms thought succession timely, about half found the legal/fiscal process complex, and about three-quarters hoped children would continue. Limitation: old, family-business-specific and secondary; retained only because no current public ING succession study was found.
+
+[S8] Publisher: Rabobank Research
+Title: De huidige groothandel non-food in feiten en cijfers
+URL: https://www.rabobank.nl/kennis/d011509230-de-huidige-groothandel-non-food-in-feiten-en-cijfers
+Extracted data: non-food wholesale has €458bn turnover and 420,000 jobs; 75% of value added is linked to exports; nearly half of firms report labour shortage. Rabobank also flags declining willingness to take over firms. Limitation: sector-wide figures, not sub-€400k transactions.
+
+[S9] Publisher: Rabobank Research
+Title: De detailhandel richting 2040: vijf grote transities
+URL: https://www.rabobank.nl/kennis/d011506869-de-detailhandel-richting-2040-vijf-grote-transities
+Extracted facts: more than half of vacancies are hard to fill; retirements exceed labour-market entrants; smaller retailers struggle with succession. Rabobank expects physical stores to remain relevant but stresses omnichannel and AI adoption. Limitation: long-horizon sector view, not acquisition inventory.
+
+[S10] Publisher: Rabobank Research
+Title: Hogere kosten zetten druk op de voedselketen
+URL: https://www.rabobank.nl/kennis/d011238625-hogere-kosten-zetten-druk-op-de-voedselketen
+Extracted facts: succession and labour shortage are persistent, particularly in food craft; warm bakers face pressure while specialists can still find opportunities. Limitation: qualitative sector outlook; no acquisition-price distribution.
+
+[S11] Publisher: Rabobank Research
+Title: Binnenvaart in woelig water: vier trends
+URL: https://www.rabobank.nl/kennis/s011087004-binnenvaart-in-woelig-water-vier-trends
+Extracted data: roughly 70% of vessels were built before 1980 and roughly 30% of entrepreneurs are older than 58; succession is especially a concern for small dry-cargo operators. Limitation: useful negative control, because vessel capital needs generally do not resemble the sub-€400k listing set.
+
+[S12] Publisher: ABN AMRO
+Title: Twee op drie ondernemers willen binnen tien jaar stoppen, maar opvolging blijft uit
+URL: https://www.abnamro.com/nl/nieuws/twee-op-drie-ondernemers-willen-binnen-tien-jaar-stoppen-maar
+Published: 2025-12-03. Extracted data: survey of 519 entrepreneurs; more than two-thirds intend to stop within ten years. Among that group, 22% have no concrete succession plan and 20% are searching without a successor. Entrepreneurs aged 65+ were 13% in 2025 versus 7% in 2010. The bank flags agriculture, retail and industry as vulnerable. Limitation: stated intentions, not completed sales; ABN was added as a current cross-check, not substituted for the requested institutions.

@@ -1,0 +1,308 @@
+Dataset endpoint: https://www.bedrijventekoop.nl/listings-post
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Query: all five result pages (60/page), sale offers only, selected physical sectors, asking-price bands €0–100k and €100–250k. Response sizes (bytes): [162664, 187066, 164439, 148474, 70695]; combined=733338. Responses were processed, not retained. Every selected asking-price band was rechecked on its public profile.
+
+ID: BT01 / listing 110900
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110900/kleine-boten-producent
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Kleine boten producent
+Extracted fields: region=Utrecht; ask=€ 0 - € 100.000; revenue=€ 0 - € 100.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Fabrikant en handelsbedrijf van opvouwbare boten geschikt voor hengelsporters, stadsvaarders en overige recreatie vormen. Naast het importeur schap van een gerenommeerde Amerikaanse leverancier heeft dit bedrijf in 2023 ook een eigen model ontwikkeld en al in de markt gezet. De technologie achter opvouwbare boten heeft zich al decennialang bewezen als robuust en betrouwbaar. De uitdaging van vandaag zit vooral in de Marketing en verkoop. Activiteiten van het bedrijf De fabriek koopt de onderdelen in bij Nederlandse partners en assembleren zelf op locatie. De verkoopactiviteiten vinden ook plaats vanuit deze zelfde locatie welke ook als showroom dienstdoet. Onderscheidend vermogen Een unieke boot die ideaal geschikt is voor mensen die geen opslagcapaciteit hebben en/of een vast ligplaats maar wél willen varen. De boot is lichter dan een opblaasversie en onve…
+
+ID: BT02 / listing 110498
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110498/kunststof-verwerkend-bedrijf
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Kunststof verwerkend bedrijf
+Extracted fields: region=Noord-Holland; ask=€ 0 - € 100.000; revenue=€ 0 - € 100.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Ruim 25 jaar is de onderneming actief in Kunststoffen. De overname behelst de inventaris, de voorraad, machines en klanten bestand. De reden is de leeftijd van de huidige eigenaar. Activiteiten van het bedrijf Onderneming is gespecialiseerd in het vervaardigen van producten uit kunststofplaat d.m.v (oplosmiddel vrij) lijmen, buigen, CNC en kopieerfrezen en zagen. Meestal enkele stuks tot maximaal enkele 10 tallen. Klanten kring bestaat uit machinebouw, industrie, architecten maar ook particulieren en kunstenaars. Regelmatig worden ook andere materialen zoals RVS e.d. in de producten verwerkt. Via goed werkende website zijn er contacten in Nederland en België. Na de overname moet er werk worden gemaakt van moderne marketing en moet er worden gewerkt aan een webshop. Wel zijn de projecten vaak eenmalig, seriewerk komt soms voor maar standaard seriewerk komt n…
+
+ID: BT03 / listing 110435
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110435/duurzaam-modulair-concept-voor-meubels-en-gebruiksvoorwerpen-met-prototypes
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Duurzaam modulair concept voor meubels en gebruiksvoorwerpen met prototypes.
+Extracted fields: region=Nederland; ask=€ 0 - € 100.000; revenue=€ 0 - € 100.000; profit=€ 0 - € 100.000; staff=0; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Ter overname aangeboden: een volledig uitgewerkt en doordacht concept voor modulaire, duurzaam geproduceerde meubels en gebruiksvoorwerpen. Het betreft geen lopend bedrijf, maar een gereed productconcept inclusief ontwikkelde prototypes, klaar om door een ondernemer of branchepartij in de markt te worden gezet. Activiteiten van het bedrijf Het concept is gebaseerd op herbruikbare componenten waarmee eenvoudig verschillende meubels kunnen worden samengesteld, zoals tafels, stoelen en andere interieurtoepassingen. De onderdelen zijn zo ontworpen dat gebruikers meubels kunnen aanpassen aan veranderende wensen of woonomgevingen. Wanneer een meubel niet meer past, kan het worden omgebouwd tot een nieuw product met een andere functie of uitstraling. Onderscheidend vermogen De gebruikte materialen zijn duurzaam en gericht op langdurig gebruik. De componenten worde…
+
+ID: BT04 / listing 110199
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110199/bakkerijconcept-met-limburgse-vlaaien-taarten-en-seizoensgebonden-specialiteiten
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Bakkerijconcept met Limburgse vlaaien, taarten en seizoensgebonden specialiteiten
+Extracted fields: region=Overijssel; ask=€ 0 - € 100.000; revenue=Vertrouwelijk; profit=Vertrouwelijk; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Deze ambachtelijke vlaaienwinkel in Zwolle is gevestigd op een hoeklocatie in winkelcentrum Zwolle Zuid, een prachtige zichtlocatie midden in de koopstroom. De winkel is in de nabijheid van de ingang van 2 supermarkten en 50 winkels in winkelcentrum Zwolle Zuid. Je kunt als klant gratis overdekt parkeren. Activiteiten van het bedrijf Deze franchiseformule is dé (online) marktleider in de verkoop van dagverse Limburgse vlaaien, taarten en ander gebak. In Limburg bakt een gespecialiseerde bakkerij een groot assortiment aan vlaaien en taarten die binnen 24 uur worden aangeleverd bij de franchisenemers, dagvers dus. Deze winkel heeft de exclusieve rechten voor de verkoop van ‘The Real American Bakery’ met toppers als de Red Velvet en de New York cheesecake. Trakteren, feliciteren en waarderen. Dat zijn de momenten waarbij een heerlijke taart of lekkere vlaai al…
+
+ID: BT05 / listing 110960
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110960/biologisch-en-internationaal-bekroond-wodkamerk
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Biologisch en internationaal bekroond wodkamerk
+Extracted fields: region=Nederland; ask=€ 100.000 - € 250.000; revenue=Vertrouwelijk; profit=Vertrouwelijk; staff=0; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Ter overname wordt een biologisch wodkamerk aangeboden dat circa vijf jaar geleden is opgericht. De transactie omvat onder meer de merknaam en merkrechten, receptuur, resterende flessenvoorraad, website, socialmediakanalen, promotiemateriaal, decoratiemateriaal, bestaande productieafspraken en het opgebouwde klantenbestand. Het merk heeft met zijn wodka internationale onderscheidingen ontvangen. De eigenaar zoekt een ondernemende koper die het merk commercieel verder kan ontwikkelen en de afzet kan uitbreiden. Activiteiten van het bedrijf De wodka wordt door een externe producent vervaardigd en vervolgens onder de eigen merknaam gedistribueerd. De verkoop vindt plaats via zowel zakelijke als particuliere kanalen, waaronder slijterijen en webwinkels die beschikken over de vereiste vergunningen voor de verkoop van alcoholhoudende dranken. Overig De overname i…
+
+ID: BT06 / listing 110715
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110715/webshop-in-gezondheidsproducten
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Webshop in gezondheidsproducten
+Extracted fields: region=Midden-Nederland; ask=€ 0 - € 100.000; revenue=€ 100.000 - € 250.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond De toonaangevende webshop (vennootschap) met een specialistische uitstaling levert een breed assortiment gezondheidsproducten, wordt ter overname aangeboden. De onderneming bestaat sinds 1997 en is in 2021 overgenomen door de huidige eigenaar. Hij is de tweede eigenaar. Er is een sterke positie opgebouwd in Nederland. Het bedrijf levert een breed assortiment niche producten aan consumenten (B2C), het bedrijf werkt met vaste handelspartners om de kwaliteit van de producten te borgen. Activiteiten van het bedrijf De organisatie wordt gerund met 2- 3 uur werk per dag, er is geen personeel in dienst. De werkzaamheden worden verricht door een werknemer van een zusterbedrijf. Het bedrijf is tevens gevestigd in het pand van dit zusterbedrijf. Er zijn beperkte m2 nodig voor de bedrijfsvoering. Het bedrijf is zodoende eenvoudig verplaatsbaar. Jaarlijks worden er cir…
+
+ID: BT07 / listing 110711
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110711/on-line-foodgroothandel-te-koop
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: On-line foodgroothandel te koop
+Extracted fields: region=Nederland; ask=€ 0 - € 100.000; revenue=€ 100.000 - € 250.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond De propositie omvat twee bedrijven, die onder geregistreerde eigen merken thee en koffie, alsmede thee-aanverwante accessoires leveren aan bedrijven. In 2025 zijn beide bedrijven samengevoegd en de activiteiten worden door één persoon geleid en uitgevoerd. De huidige eigenaar heeft beide bedrijven eind 2024 overgenomen toen deze zich nog in een startfase bevonden. Activiteiten van het bedrijf Het bedrijf verkoopt, volledig via online sales & marketing, een breed assortiment thee, thee en koffie aan bedrijven in Nederland. Het assortiment thee, bevat tevens een aantal thee-aanverwante accessoires en het assortiment koffie bestaat uit producten die worden ingevoerd uit enkele landen onder 'fairtrade-plus' voorwaarden. De koffie wordt gebrand, afgevuld en verpakt in NL. Onderscheidend vermogen De producten hebben een kwalitatief hoogwaardig imago en zijn geric…
+
+ID: BT08 / listing 110482
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110482/slijterij-met-interessante-klantenkring-kennemerland
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Slijterij met interessante klantenkring (Kennemerland)
+Extracted fields: region=Noord-Holland; ask=€ 100.000 - € 250.000; revenue=€ 250.000 - € 500.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Voor ondernemers die houden van een sterke lokale winkel én tegelijk kansen zien in online en zakelijk kanaal, is dit een interessante propositie. Het betreft een zelfstandige wijn- en drankenretailer met een bewezen plek in de buurt en een operationele webshop. De formule leunt op advies, assortiment en beleving. De onderneming kent een stabiele omzet met prima marges. Activiteiten van het bedrijf De onderneming is gevestigd in een druk bezocht winkelcluster met een prettig ondernemersklimaat. Het pand wordt gehuurd; de totale metrages omvatten winkelruimte met een aparte belevings-/proefopstelling en opslag, plus een royale buitenruimte. Onderscheidend vermogen De onderneming kent groeikansen op het gebied van horeca-klanten, extra online groei en meer inzet op workshops en proeverijen. Overig Deze onderneming is interessant voor iemand met een oog voor d…
+
+ID: BT09 / listing 110560
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110560/aziatische-foodbrand-met-schaalbare-groei-in-retail-en-horeca-zoekt-investeerder
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Aziatische foodbrand met schaalbare groei in retail en horeca zoekt investeerder
+Extracted fields: region=Nederland; ask=€ 0 - € 100.000; revenue=Vertrouwelijk; profit=Vertrouwelijk; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Sterk product in groeiende foodmarkt De onderneming ontwikkelt en verkoopt o.a. Aziatische ready-to-eat producten. De focus ligt op onderscheidende smaken binnen een categorie die snel groeit in Europa. Door te starten met herkenbare producten (zoals diepgevroren snacks) wordt de drempel voor consumenten laag gehouden en kan snel marktaandeel worden opgebouwd. Activiteiten van het bedrijf Gefaseerde groei met laag risico De productie is kleinschalig gestart en wordt opgeschaald via externe producenten. Hierdoor zijn geen grote investeringen nodig in eigen productie in de beginfase. Bij voldoende vraag wordt later overgestapt naar een eigen productielocatie, waardoor marges verbeteren en meer controle ontstaat over kwaliteit en productie. Onderscheidend vermogen Aantrekkelijke marges en groeipotentie De producten kennen een gunstige verhouding tussen kostpri…
+
+ID: BT10 / listing 110942
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110942/webshop-in-zelf-ontwikkelde-voedingssupplementen
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Webshop in zelf-ontwikkelde voedingssupplementen
+Extracted fields: region=Nederland; ask=€ 0 - € 100.000; revenue=€ 0 - € 100.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond De huidige ondernemer heeft het bedrijf opgericht en heeft vele jaren geïnvesteerd in de ontwikkeling van de producten, de merkrechten, website en marketing. De huidige ondernemer is door ziekte uitgevallen. Hierdoor is de commerciële uitrol uitgesteld. De ondernemer is inmiddels redelijk hersteld; hij ziet zichzelf echter niet meer als de juiste persoon om het bedrijf te leiden in de volgende (groei-) fase. Om de kandidaat-koper een frisse start te bezorgen is gekozen voor een activa transactie waarbij de koper alle operationele activa, receptuur, merkrechten, website, webshop inclusief alle bijbehorende data overneemt. Er zijn geen werknemers in dienst bij de onderneming; er worden geen verplichtingen van verkoper aan koper meegeleverd. Activiteiten van het bedrijf Het bedrijf heeft een onderscheidend concept ontwikkeld van hoogwaardige en natuurlijke voe…
+
+ID: BT11 / listing 111004
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/111004/garagebedrijf-voor-personenauto-s-en-bestelbussen
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Garagebedrijf voor personenauto's en bestelbussen
+Extracted fields: region=Zuid-Holland; ask=€ 100.000 - € 250.000; revenue=€ 500.000 - € 1.000.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond De onderneming is een gevestigde onderneming met meer dan 15 jaar een goede naam in de markt. De onderneming heeft een divers klantenbestand waaronder gevestigde namen van grotere autoparken, waarvoor alle reparatie- en onderhoudswerkzaamheden worden uitgevoerd. De onderneming heeft naast de onderhoudswerkzaamheden ook verkoop van auto's en auto-onderdelen. Activiteiten van het bedrijf Activiteiten betreffen het onderhoud en de reparatie van personenauto's en kleinere busjes alsmede bijzondere (kleinere) voertuigen. De werkzaamheden bestaan daarnaast uit APK keuringen en allerhande revisies van oudere voertuigen en vervangen van motoren. Onderscheidend vermogen De onderneming heeft langlopende onderhoudscontracten, een volledig ingerichte garage met verschillende (grote) bruggen en ligt centraal gelegen in een middelgrote plaats in Zuid-Holland. Overig Gezo…
+
+ID: BT12 / listing 110637
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110637/goedlopende-stomerij-wasserij-met-aantrekkelijk-groeipotentieel
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Goedlopende stomerij/wasserij met aantrekkelijk groeipotentieel
+Extracted fields: region=Gelderland; ask=€ 100.000 - € 250.000; revenue=€ 100.000 - € 250.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond De onderneming bestaat sinds juni 2013. Het is een goedlopende stomerij/wasserij heeft een solide positie in de markt verworven met een uitstekende reputatie. Het staat garant voor goede service, gedegen vakkennis en hoge kwaliteit. In de afgelopen jaren is de omzet van de onderneming substantieel gegroeid. Gezien de huidige marktpositie en de toekomstige marktverwachtingen is een verdere groei absoluut mogelijk. Er is een groot (vast/stabiel) klantenbestand waarvan 80% zakelijk en 20% particulier. Daarnaast wordt er nu minimaal aan marketing gedaan, nieuwe klanten melden zich aan op basis van de positieve mond-tot-mond reclame. Activiteiten van het bedrijf Kernactiviteiten: Het reinigen van kleding, beddengoed, gordijnen, bedrijfsmatige textielgoederen en andere stoffen. Specialisatie in delicaat textiel of speciale stoffen zoals zijde of wol. Reparatie- e…
+
+ID: BT13 / listing 110512
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110512/prachtige-en-complete-wasserette
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Prachtige en complete wasserette
+Extracted fields: region=Zuid-Holland; ask=€ 100.000 - € 250.000; revenue=€ 100.000 - € 250.000; profit=Vertrouwelijk; staff=< 5; retirement stated=yes
+Public listing excerpt: Bedrijfshistorie / achtergrond In verband met pensionering te koop aangeboden. Op een uitstekende locatie in een statige en nette buurt, midden in een drukke winkelstraat, bieden wij een goedlopende en volledig operationele wasserette te koop aan. De wasserette is al meer dan 50 jaar gevestigd op dit adres en geniet een uitstekende reputatie en vaste klantenkring. De huidige naam bestaat inmiddels 16 jaar (sinds 2010) en is lokaal goed bekend. De onderneming is turn-key: een nieuwe eigenaar kan per direct zonder onderbreking de exploitatie voortzetten. Activiteiten van het bedrijf Sinds 2010 in ons bezit en volledig warmgedraaid: de onderneming kan direct worden overgenomen en meteen verder worden voortgezet . Beschikt over een stabiele en loyale klantenkring. De wasserette staat compleet, waardoor een nieuwe eigenaar niet bij nul hoeft te beginnen of verder hoeft te investeren. Er worde…
+
+ID: BT14 / listing 110554
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110554/onderhoudsbedrijf-in-de-watersport
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Onderhoudsbedrijf in de Watersport
+Extracted fields: region=Nederland; ask=€ 100.000 - € 250.000; revenue=€ 0 - € 100.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Introductie onderneming Onderneming die zich heeft gespecialiseerd in specifieke onderhoudsactiviteiten in de watersport branche. Landelijk een uitstekende naam en bekendheid. Goed geoutilleerde en winstgevende bedrijfsactiviteit. Dit kan een mooie aanvulling zijn voor een onderhoudsbedrijf of een bedrijf in scheepstechniek of een monteur die een vliegende start wil maken. Omvang De jaaromzet is circa €40.000 tot €60.000 met een winst voor belasting van €20.000 tot €30.000 bij een inspanning van 0,4 tot 0,5 FTE. Interessante groeimogelijkheden en kansen om de onderneming verder uit te bouwen. Activiteiten van het bedrijf Afzet Particuliere afnemers die veelal binnen komen via aanbeveling en referenties. Havenmeesters bevelen het bedrijf graag aan door de professionele en schone werkwijze. Er wordt niet geadverteerd of promotie gedaan om de werkdruk te beper…
+
+ID: BT15 / listing 108778
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/108778/unieke-kans-succesvolle-copy-pasfotowinkel
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Unieke kans: Succesvolle Copy- & Pasfotowinkel
+Extracted fields: region=Gelderland; ask=€ 100.000 - € 250.000; revenue=Vertrouwelijk; profit=€ 100.000 - € 250.000; staff=< 5; retirement stated=yes
+Public listing excerpt: Bedrijfshistorie / achtergrond Bent u op zoek naar een sterk winstgevende, stabiele, rendabele en eenvoudig te exploiteren onderneming? Deze bekende en succesvolle copy- en pasfotowinkel biedt een unieke kans om direct aan de slag te gaan! Hoge winstgevendheid & lage risico’s – Al meer dan 15 jaar een stabiel en aantoonbaar hoog rendement. Eenvoudige exploitatie – Geen specialistische kennis vereist, gemakkelijk te runnen met een klein team. Toplocatie – Gevestigd op een A1-locatie in een middelgrote Geldersche stad, met loyale klanten in een straal van 15 km. Moderne apparatuur – Up-to-date technologie en een sterke online aanwezigheid (inclusief website & domeinnamen). Direct overdraagbaar – Alles staat klaar voor een soepele overname. Hulp bij de inwerkperiode mogelijk. Activiteiten van het bedrijf Deze drukbezochte en goedlopende onderneming biedt unieke hoogwaardige copyprint- en pa…
+
+ID: BT16 / listing 110281
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110281/kerngezonde-instapklare-onderneming-gericht-op-tentverhuur
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Kerngezonde, instapklare onderneming gericht op tentverhuur
+Extracted fields: region=Noord-Nederland; ask=€ 0 - € 100.000; revenue=Vertrouwelijk; profit=€ 0 - € 100.000; staff=< 5; retirement stated=yes
+Public listing excerpt: Bedrijfshistorie / achtergrond Na 11 jaar met trots een tentverhuurbedrijf in Flevoland te hebben geleid, bied ik mijn bedrijf ter overname aan wegens het bereiken van mijn pensioenleeftijd. Onderdeel van een bewezen succesformule Het bedrijf is aangesloten bij een franchiseformule, marktleider in deze branche. Dé partner voor zowel particulieren als bedrijven. Met maar liefst 30 vestigingen verspreid door heel Nederland is de formule uitgegroeid tot een bewezen franchiseconcept. Als franchisenemer profiteert u van een professionele uitstraling, landelijke marketing en een website die altijd bovenaan in Google staat. ​ Sterke Cijfers & Exclusiviteit ​De onderneming draait een stabiele jaaromzet van ca € 90.000 met een uitstekend rendement. Dankzij de gunstige kostenstructuur kent de zaak een brutowinstpercentage van ruim 65% . U krijgt de exclusieve rechten op een gigantisch rayon: ​ Fle…
+
+ID: BT17 / listing 109363
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/109363/verhuur-van-elektrische-fietsen-in-recreatieve-regio
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Verhuur van elektrische fietsen in recreatieve regio
+Extracted fields: region=Noord-Holland; ask=€ 0 - € 100.000; revenue=€ 0 - € 100.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Het bedrijf is een kleinschalig en winstgevend fietsverhuurbedrijf met focus op e-bikes, gevestigd op een bedrijventerrein in de regio Alkmaar. Activiteiten van het bedrijf De onderneming verhuurt hoogwaardige elektrische fietsen (merk: Flyer) aan recreanten en gasten van hotels en campings, met een verzorgingsgebied dat zich uitstrekt tot Kennemerduinen, Wijk aan Zee en IJmuiden. De onderneming opereert zonder personeel en is seizoengericht. De kerngegevens over 2024 zijn: - Omzet € 15.600; - Netto resultaat € 7.900; - Fietsenvoorraad (actuele boekwaarde € 6.600). Onderscheidend vermogen - Seizoensverhuur van e-bikes in toeristisch aantrekkelijke regio; - Lage vaste lasten, hoge marges, bedrijf is goed schaalbaar; - Geen personeel, eenvoudig te beheren door één persoon; - Potentie tot uitbreiding met routes, gidsdiensten of arrangementen. Overig De onderne…
+
+ID: BT18 / listing 109819
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/109819/camper-en-motorhomeverhuurbedrijf-met-een-gevestigd-merk-en-groot-groeipotentieel
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Camper- en motorhomeverhuurbedrijf met een gevestigd merk en groot groeipotentieel
+Extracted fields: region=Spanje; ask=€ 100.000 - € 250.000; revenue=€ 0 - € 100.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Het bedrijf is ontstaan uit een passie voor reizen, natuur en vrijheid. Met een modern merk en een loyale community heeft het zich gevestigd als een referentie in camperverhuur en biedt het unieke ervaringen. Het bedrijf heeft een klantenbestand van meer dan 700 klanten, een website met een geautomatiseerd boekingssysteem en een sterke aanwezigheid op sociale media (meer dan 2.500 volgers). De verkoop is het gevolg van een verandering in persoonlijke projecten. Het bedrijf is actief en klaar om zonder onderbreking verder te werken. Inclusief: 3 campers en 1 motorhome, elk één jaar oud, volledig uitgerust en in perfecte staat. Uitstekende online reputatie (4,9/5 op Google). Activiteiten van het bedrijf Het bedrijf richt zich op de verhuur en verkoop van campers en motorhomes met 100% digitale administratie. Belangrijkste activiteiten: directe verhuur, samenw…
+
+ID: BT19 / listing 110726
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110726/basis-ggz-bggz-psychologenpraktijk-in-west-nederland
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Basis GGZ (BGGZ) psychologenpraktijk in West-Nederland
+Extracted fields: region=Zuid-Holland; ask=€ 0 - € 100.000; revenue=€ 100.000 - € 250.000; profit=Vertrouwelijk; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Ter overname een Basis GGZ (BGGZ) psychologenpraktijk on het centrum van Den Haag. Gerenommeerde praktijk met jarenlange bewezen prestaties. Winstgevend, langjarige huurpositie. Uitstekende naamsbekendheid, met een stabiele klantenstroom van ruim 150 clienten. De praktijk bestaat ruim 23 jaar. Activiteiten van het bedrijf Een GZ-psycholoog voort intakegesprekken met cliënten, observeert gedrag en interpreteert psychodiagnostisch onderzoek om een diagnose te stellen en een behandelplan op te stellen en uit te voeren. De behandelingen zijn wetenschappelijk onderbouwd en kunnen bestaaan uit cognitieve gedragstherapie, schematherapie, EMDR of andere erkende methoden. Daarnaast adviseert de GZ-psycholoog collega’s en werkt hij of zij samen met andere zorgprofesssionals zoals psychiaters, huisartsen en maatschappelijk werkers. De onderneming is interessant voor: …
+
+ID: BT20 / listing 110610
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110610/botoxkliniek-in-amsterdam
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Botoxkliniek in Amsterdam
+Extracted fields: region=Noord-Holland; ask=€ 100.000 - € 250.000; revenue=€ 100.000 - € 250.000; profit=Vertrouwelijk; staff=< 5; retirement stated=yes
+Public listing excerpt: Bedrijfshistorie / achtergrond Deze kliniek is al 22 jaar actief in Amsterdam. Activiteiten van het bedrijf De kliniek richt zich op hoogwaardige botox-, filler- en laserbehandelingen. Onderscheidend vermogen De kliniek realiseert jaarlijks een omzet van zes cijfers, terwijl er momenteel slechts één persoon werkzaam is die 2 uur per dag, 4 dagen per week werkt. Bij uitbreiding van uren kan de omzet aanzienlijk worden verhoogd. De praktijk beschikt over een ruime en professionele inrichting van 131 m² met maar liefst 6 behandelkamers. Dit biedt uitstekende mogelijkheden om eenvoudig uit te breiden met extra specialisten, zoals huidtherapeuten en aanvullende artsen. Daarnaast beschikt de kliniek over een waardevolle database met circa 4.100 cliënten. De overname betreft een volledige turn-key overname, inclusief alle aanwezige inventaris en apparatuur zoals behandelstoelen, lasers, kasten,…
+
+ID: BT21 / listing 110708
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110708/fabrikant-van-universele-oordoppen-otoplastieken-met-logo-of-sieraad
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Fabrikant van universele oordoppen & otoplastieken met logo of sieraad
+Extracted fields: region=Nederland; ask=€ 100.000 - € 250.000; revenue=€ 0 - € 100.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Deze fabrikant is ontstaan vanuit de combinatie van technische en commerciële expertise. Twee jaar geleden ontwikkelden de oprichters een engineer en een commercieel specialist de eerste oordoppen met geïntegreerd sieraad, waarvoor direct patent werd aangevraagd. Sindsdien is het portfolio in rap tempo uitgebreid. Een jaar geleden volgden festivaloordoppen met sieraden voor consumenten én festivaloordoppen met logo-opdruk voor bedrijven en zakelijke events. Nog geen jaar later werd ook het concept van otoplastieken met logo-opdruk of sieraden ontwikkeld, met een patent pending op dit unieke product. Het bedrijf heeft in korte tijd bewezen dat er een sterke marktbehoefte bestaat. Deze fabrikant ontwikkelt en produceert persoonlijke beschermingsmiddelen met een unieke combinatie van functionaliteit en esthetiek. Het kernproduct bestaat uit festivaloordoppen (…
+
+ID: BT22 / listing 110344
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110344/eigen-winkel-in-zitcomfort-mobiliteit-en-hulpmiddelen-doelgroep-40
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Eigen winkel in zitcomfort, mobiliteit en hulpmiddelen (doelgroep 40+)
+Extracted fields: region=Nederland; ask=€ 0 - € 100.000; revenue=€ 500.000 - € 1.000.000; profit=€ 100.000 - € 250.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond De organisatie biedt ondernemers de kans om een eigen winkel te starten binnen een bewezen retailconcept. In de winkel adviseer je klanten over zitcomfort, mobiliteit en hulpmiddelen voor comfortabel en zelfstandig wonen. Je onderneemt zelfstandig, met ondersteuning van een ervaren organisatie en een sterk merk. Activiteiten van het bedrijf De formule richt zich op de groeiende doelgroep 40+ en senioren, waar de vraag naar comfortoplossingen en persoonlijk advies structureel toeneemt. Het assortiment bestaat uit vier pijlers: Zitcomfort Slaapcomfort Mobiliteit Hulpmiddelen Onderscheidend vermogen Het concept Dit is een schaalbaar retailconcept met meerdere vestigingen en een centrale serviceorganisatie. Als franchisenemer profiteer je van een plug-and-play formule, marketingondersteuning, betrouwbare leveranciers en efficiënte systemen. Dit verlaagt het ond…
+
+ID: BT23 / listing 111029
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/111029/succesvolle-drogisterij-en-schoonheidssalon-in-woudenberg-unieke-kans-voor-een-gedreven-ondernemer
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Succesvolle drogisterij en schoonheidssalon in Woudenberg – unieke kans voor een gedreven ondernemer
+Extracted fields: region=Nederland; ask=€ 0 - € 100.000; revenue=€ 500.000 - € 1.000.000; profit=Vertrouwelijk; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Ben jij op zoek naar een goedlopende drogisterij schoonheidssalon met een uitstekende reputatie en een vaste klantenkring? Dan is dit jouw kans om zelfstandig ondernemer te worden binnen een bewezen succesvolle formule. Activiteiten van het bedrijf Deze drogisterij en schoonheidssalon bevindt zich in het centrum van Woudenberg met meer dan 14.000 inwoners, vlakbij een drukbezochte Jumbo supermarkt en ontvangt jaarlijks meer dan 30.000 bezoekers. De winkel heeft thans een 100 m² verkoopoppervlak, en biedt een breed assortiment aan zelfzorggeneesmiddelen en voedingssupplementen. Persoonlijke benadering en deskundig advies staan hier centraal, vooral op het gebied van gezondheid. De schoonheidssalon is zeer goed lopende salon en is voor meer dan 90% gevuld. Na het opzeggen van de huur heeft de verhuurder besloten een gedeelte van de winkel te gaan inzetten als…
+
+ID: BT24 / listing 111059
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/111059/goedlopende-horecazaak-in-historisch-centrum-den-bosch
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Goedlopende horecazaak in historisch centrum Den Bosch
+Extracted fields: region=Nederland; ask=€ 100.000 - € 250.000; revenue=€ 500.000 - € 1.000.000; profit=Vertrouwelijk; staff=5 - 10; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond De horecazaak is gevestigd in het karakteristieke en monumentale pand aan de Oude Dieze in de historische binnenstad van het bruisende en bourgondische Den Bosch. Grenzend aan de bekende wateren van de Bossche Binnendieze en het natuurgebied de Bossche Broek maakt dit een geweldige ligging om elke dag te komen genieten van de huiskamer in de stad. De locatie is de afgelopen jaren uitgegroeid tot een geliefde plek voor vroege koffiedrinkers, flexwerkers, buurtbewoners, jonge gezinnen en toeristen. De huidige franchisenemer heeft ervoor gekozen om zijn aflopende franchiseovereenkomst niet te verlengen. In bijna 5 jaar tijd is de horecazaak in Den Bosch uitgegroeid tot een succesvolle locatie met uniek aanbod van verschillende horecadiensten: een unieke serre hangend boven de bekende Binnendieze, op de 1e verdieping een vergaderzaal en flexwerkplekken, vaste c…
+
+ID: BT25 / listing 111036
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/111036/sfeervolle-horecavestiging-in-historisch-centrum-zutphen
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Sfeervolle horecavestiging in historisch centrum Zutphen
+Extracted fields: region=Nederland; ask=€ 0 - € 100.000; revenue=Vertrouwelijk; profit=Vertrouwelijk; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond In het historische centrum van Zutphen wordt een bestaande en gevestigde horecavestiging ter overname aangeboden. De zaak is gevestigd aan de Beukerstraat, een centrale winkelstraat in de binnenstad. De locatie heeft een oppervlakte van circa 200 m² en bevindt zich tussen winkels, horeca en diverse andere voorzieningen. Hierdoor komt gedurende de dag een gevarieerd publiek langs, waaronder inwoners van Zutphen, winkelend publiek en bezoekers van de stad. Het betreft een bestaande onderneming, waardoor de nieuwe ondernemer kan voortbouwen op een reeds gevestigde locatie. De vestiging wordt aangeboden in franchiseverband. Dit betekent dat de koper zelfstandig ondernemer wordt en verantwoordelijk is voor de dagelijkse exploitatie van de zaak, maar tegelijkertijd werkt volgens een bestaande en bewezen formule en gebruik kan maken van de ondersteuning, kennis en…
+
+ID: BT26 / listing 110990
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110990/winstgevend-restaurant-in-den-haag
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Winstgevend restaurant in Den Haag
+Extracted fields: region=Zuid-Holland; ask=€ 0 - € 100.000; revenue=€ 500.000 - € 1.000.000; profit=€ 0 - € 100.000; staff=5 - 10; retirement stated=no
+Public listing excerpt: Activiteiten van het bedrijf Dit restaurant wordt door persoonlijke omstandigheden door de eigenaar ter overname aangeboden. Het gaat om een winstgevende vestiging met flink potentieel om dit nog verder uit te breiden. Het restaurant is erg gunstig gelegen: zichtlocatie met een 20 meter lange pui op de hoek van de Laan van Meerdervoort en de Conradkade. Dit restaurant biedt een unieke kans voor een ondernemer die wil instappen in een bewezen vestiging met een bewezen horecaconcept. Waarom is dit een unieke ondernemerskans? Door het ingewerkte team stapt u in een rijdende trein. Vlakbij het centrum, een levendige plek Onderdeel van een bewezen formule met trouwe gasten en sterke merkherkenning Je profiteert van professionele ondersteuning op het gebied van marketing, inkoop, administratie en operationele zaken Onderscheidend vermogen De vestiging is aangesloten bij een franchiseformule. D…
+
+ID: BT27 / listing 110922
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110922/droomlocatie-horeca-met-groot-terras-en-mooie-cijfers
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Droomlocatie horeca met groot terras en mooie cijfers
+Extracted fields: region=Utrecht; ask=€ 100.000 - € 250.000; revenue=€ 500.000 - € 1.000.000; profit=Vertrouwelijk; staff=5 - 10; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Een prachtige kans voor de ambitieuze ondernemer: deze goedlopende horecazaak in de regio Utrecht is nu te koop. Activiteiten van het bedrijf Kenmerken: • Groot, sfeervol terras • Mooie omzet met bijbehorend gezond resultaat • Inventaris en keuken beide slechts enkele jaren oud – geen verrassingen achteraf • Instapklaar en direct te exploiteren Overig Prijs: € 250.000. Bij de juiste ondernemer is de huidige ondernemer bereid € 75.000 als achtergestelde lening in de zaak te houden.
+
+ID: BT28 / listing 110917
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110917/unieke-kans-in-amersfoort-florerend-restaurant-aan-de-eem-tegen-het-centrum-van-amersfoort
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Unieke kans in Amersfoort, florerend restaurant aan de Eem tegen het centrum van Amersfoort
+Extracted fields: region=Utrecht; ask=€ 0 - € 100.000; revenue=€ 1.000.000 - € 2.500.000; profit=€ 0 - € 100.000; staff=5 - 10; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Dit restaurant biedt een unieke kans voor een ondernemer die wil instappen in een bewezen horecaconcept. Vanwege persoonlijke redenen biedt de ondernemer deze winstgevende vestiging ter overname aan. Ook is er een ingewerkt en ervaren team van medewerkers. De locatie beschikt over circa 140 zitplaatsen in het restaurant en 80 zitplaatsen op het terras. Met een totale oppervlakte van 337 m² biedt deze vestiging volop mogelijkheden om een succesvolle horecazaak te exploiteren. Activiteiten van het bedrijf Het restaurant maakt deel uit van een succesvolle franchiseformule waar gasten genieten van een 3-gangen keuzemenu voor een vaste, aantrekkelijke prijs in een toegankelijke en sfeervolle omgeving. Als franchisenemer maak je deel uit van een sterke organisatie en kun je rekenen op ondersteuning op het gebied van onder meer marketing, inkoop en operationele pr…
+
+ID: BT29 / listing 110799
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110799/prettige-snackbar-op-mooie-locatie-in-amsterdam
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Prettige snackbar op mooie locatie in Amsterdam
+Extracted fields: region=Nederland; ask=€ 0 - € 100.000; revenue=€ 500.000 - € 1.000.000; profit=Vertrouwelijk; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Laat jij jouw ondernemersdroom uitkomen met de start van je eigen snackbar in Amsterdam West? Een unieke kans voor zowel de startende als doorgewinterde ondernemer. Activiteiten van het bedrijf In Amsterdam West, aan een levendige straat met culinaire hotspots, leuke boetiekjes en gezellige terrassen zien we volop kansen. Deze franchiseformule past hier perfect tussen, met een uitgebreid aanbod vol gemak en smaak. Daarom bouwen we een bestaande en goedlopende cafetaria om naar - misschien wel jouw eigen cafetaria. De cafetaria is al jaren een begrip. Dit is een unieke kans want hier komen niet vaak horeca ruimtes vrij. Word jij hier onze nieuwste 'frietbaas'?
+
+ID: BT30 / listing 110678
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110678/drukke-lunchroom-cafetaria-alkmaar-te-koop-mkb-klanten-particulieren-terras
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Drukke Lunchroom/Cafetaria (Alkmaar) te Koop – MKB Klanten, Particulieren & Terras
+Extracted fields: region=Noord-Holland; ask=€ 0 - € 100.000; revenue=€ 250.000 - € 500.000; profit=Vertrouwelijk; staff=5 - 10; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Deze Cafetaria/Lunchroom is een goedlopende en gevestigde horecazaak met een uitstekende reputatie in de regio. Door de jaren heen heeft de onderneming een zeer diverse en loyale klantenkring opgebouwd, bestaande uit zowel particuliere gasten als een groot aantal MKB-bedrijven in de directe omgeving. Deze combinatie zorgt voor een stabiele en terugkerende omzetstroom, zowel doordeweeks als in het weekend. De lunchroom staat bekend om haar brede assortiment aan zowel warme als koude gerechten, waardoor er op elk moment van de dag vraag is. Dankzij de complete inrichting en efficiënte bedrijfsvoering is de onderneming direct klaar voor overname. Activiteiten van het bedrijf Daarnaast is er een nu al sterke en groeiende Catering-tak, die een belangrijk onderdeel vormt van de omzet en verdere groeimogelijkheden biedt. De zaak beschikt over circa 50 zitplaatsen …
+
+ID: BT31 / listing 111063
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/111063/winstgevende-tabak-en-gemakswinkel
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Winstgevende tabak- en gemakswinkel
+Extracted fields: region=Limburg; ask=€ 0 - € 100.000; revenue=€ 1.000.000 - € 2.500.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Midden in het centrum van Beek bevindt zich deze winkel die al jarenlang een vertrouwd adres is voor inwoners uit Beek en de wijde omgeving. Een winkel waar klanten binnenlopen voor een tijdschrift, een kaartje, een cadeau of een praktische boodschap, maar net zo goed voor persoonlijk contact en een vriendelijk gesprek. Beek is een levendige Limburgse gemeente met een sterke regionale functie. Dankzij de centrale ligging tussen Maastricht, Sittard en Geleen en de goede bereikbaarheid trekt het dorp bezoekers uit de hele omgeving. Het centrum van Beek heeft daarbij een eigen karakter en onderscheidt zich door een aantrekkelijke mix van kwaliteitswinkels, lokale ondernemers en persoonlijke dienstverlening. Samen met het nabijgelegen Makado zorgt dit voor een breed winkelaanbod en een grote diversiteit aan bezoekers, terwijl juist in het centrum volop ruimte b…
+
+ID: BT32 / listing 111006
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/111006/winstgevende-tabak-en-gemakzaak-in-woerden
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Winstgevende tabak- en gemakzaak in Woerden
+Extracted fields: region=Nederland; ask=€ 0 - € 100.000; revenue=€ 1.000.000 - € 2.500.000; profit=Vertrouwelijk; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Deze tabak- en gemakwinkel is gevestigd in een gezellig en goedbezocht buurtwinkelcentrum. De ingang van de Jumbo-supermarkt bevindt zich direct tegenover de winkel, wat zorgt voor een constante en hoge passantenstroom en daarmee een aantrekkelijke klantenkring. De combinatie van de centrale ligging, de sterke zichtbaarheid en de dagelijkse bezoekersstroom maakt deze winkel tot een aantrekkelijke locatie met veel potentie en volop mogelijkheden voor verdere groei. Activiteiten van het bedrijf De winkel is aangesloten bij een franchiseformule, een landelijke winkelketen van, voor en door zelfstandig ondernemers. Samen sterk, betrokken en professioneel zijn belangrijke kernwaarden binnen onze organisatie. Voor onze klanten zijn wij de vertrouwde winkel in de buurt, met een unieke combinatie van producten en diensten. Of het nu gaat om iets leuks voor jezelf, …
+
+ID: BT33 / listing 110984
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110984/dierenspeciaalzaak-in-randgemeente-van-amsterdam
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Dierenspeciaalzaak in randgemeente van Amsterdam
+Extracted fields: region=Noord-Holland; ask=€ 0 - € 100.000; revenue=€ 100.000 - € 250.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Deze gevestigde dierenspeciaalzaak is onderdeel van een stedelijk winkelcentrum in een randgemeente van Amsterdam. De winkel biedt een breed assortiment dierenvoeding, verzorgingsproducten en accessoires en bedient een vaste klantenkring uit de directe omgeving. Het aantal klanten laat in het lopende jaar een groeiende ontwikkeling zien. De onderneming is met name geschikt voor een actieve ondernemer die zelf in de winkel wil meewerken. Activiteiten van het bedrijf Kenmerken: De jaaromzet bedraagt circa € 200.000. Het aantal klanten is groeiend in het lopende jaar. De personele bezetting bestaat uit twee personen, inclusief de eigenaar. De huur bedraagt circa € 1.900 per maand. Het huidige huurcontract loopt tot 2030. De winkel is onderdeel van een stedelijk winkelcentrum. Onderscheidend vermogen Bijzonderheden: De overname betreft de volledige winkelexploi…
+
+ID: BT34 / listing 110953
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110953/tabak-gemak-en-cadeauzaak
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Tabak-, gemak- en cadeauzaak
+Extracted fields: region=Nederland; ask=€ 0 - € 100.000; revenue=Vertrouwelijk; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Niet zomaar een winkel. Niet zomaar een locatie. Klaar voor jouw eigen succesverhaal? Het begin van iets moois kan voor jou zomaar in Heerlen beginnen. In het Corio Center wacht een unieke ondernemerskans. Hier kun je jouw eigen winkel runnen. Je onderneemt zelfstandig, maakt je eigen keuzes en bouwt aan je eigen succes. Ondertussen profiteer je van de kracht van een landelijke formule: sterke inkoop, landelijke marketing, trouwe klanten, uitstekende marges en een team dat altijd achter je staat. Kortom, jij doet waar je goed in bent, wij regelen de rest. En het mooiste? De formule is een coöperatie. Jij wordt dus mede-eigenaar en je beslist mee over de toekomst van de formule. Activiteiten van het bedrijf De winkel is aangesloten bij een coöperatie. Met ruim 550 winkels de vertrouwde winkel in de buurt met een unieke combinatie van producten en diensten. B…
+
+ID: BT35 / listing 110906
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110906/leuk-bedrijf-in-specialistische-plantenverkoop
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Leuk bedrijf in specialistische plantenverkoop
+Extracted fields: region=Gelderland; ask=€ 100.000 - € 250.000; revenue=€ 100.000 - € 250.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Onze activiteit is gestart in 2007 en het bedrijf is langzaam uitgegroeid tot een vaste waarde met een stabiele omzet. De overname betreft: de bestaande voorraad, handelsnamen, de inventaris, zoals sproei-installatie, tunnelkassen, etc. Vervolgens huur van bedrijfsruimte en gebouw. Activiteiten van het bedrijf Wij zijn gespecialiseerd in de verkoop van hortensia's, waarbij we een assortiment van meer dan 160 soorten bieden. Het werk bestaat naast de verkoop ter plaatse en soms bezorging van bestellingen uit het onderhoud/verpotten van deze meerjarige planten. Landelijke bekendheid wordt verkregen door de website-promotie, instagram en facebook. Onderscheidend vermogen Het is landelijk gezien een min of meer unieke activiteit. De omzet ligt tamelijk stabiel op ca. € 160.000 per jaar. Er zijn vanzelfsprekend mogelijkheden tot uitbreiding met andersoortige act…
+
+ID: BT36 / listing 110672
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110672/boekhandel-op-toplocatie-in-vlissingen
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Boekhandel op toplocatie in Vlissingen
+Extracted fields: region=Nederland; ask=€ 0 - € 100.000; revenue=€ 500.000 - € 1.000.000; profit=Vertrouwelijk; staff=5 - 10; retirement stated=no
+Public listing excerpt: Bedrijfshistorie / achtergrond Deze vestiging is gelegen in het dynamische Vlissingen, een stad aan zee met een unieke combinatie van een regionale centrumfunctie en toeristische aantrekkingskracht. Met uitzicht op de Westerschelde en een levendige boulevard kent de stad het hele jaar door een constante stroom van bewoners en bezoekers, met duidelijke pieken in het toeristenseizoen. Het verzorgingsgebied strekt zich uit over Walcheren en omvat naast de lokale bevolking ook bezoekers uit omliggende plaatsen zoals Middelburg en Oost-Souburg. De klantenkring is divers en bestaat uit vaste bewoners, gezinnen, studenten en toeristen. Deze mix zorgt voor een stabiele basis, aangevuld met extra dynamiek in de drukke zomermaanden. De onderneming is gevestigd op een centrale locatie in het winkelgebied, waar verschillende bezoekersstromen samenkomen. Dit resulteert in een natuurlijke aanloop en e…
+
+ID: BT37 / listing 110469
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110469/aquariumspeciaalzaak
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Aquariumspeciaalzaak
+Extracted fields: region=Midden-Nederland; ask=€ 0 - € 100.000; revenue=€ 0 - € 100.000; profit=€ 0 - € 100.000; staff=< 5; retirement stated=yes
+Public listing excerpt: Bedrijfshistorie / achtergrond De overname betreft de volledige inventaris, goodwill en voorraad. Het bedrijf bestaat al vele jaren en heeft een uitstekende naam opgebouwd. Activiteiten van het bedrijf Gespecialiseerd in zoetwater aquaria, tropische planten, vissen en benodigdheden. De zaak is gevestigd in een huurpand van ongeveer 200 vierkante meter. Onderscheidend vermogen Het bedrijf onderscheidt zich door goede naamsbekendheid, uitstekende expertise en betrouwbaar advies. Er zijn meerdere groeimogelijkheden m.b.t. marketing, uitbreiding webshop, en/of onderhoudscontracten. Overig Dit bedrijf is een ideale instap voor een ondernemer die affiniteit heeft met de aquariumwereld. De winkel is instapklaar en behoeft geen aanvullende investeringen. De eigenaar verkoopt vanwege leeftijd en is bereid alle kennis zorgvuldig over te dragen aan de nieuwe ondernemer.
+
+ID: BT38 / listing 110742
+URL: https://www.bedrijventekoop.nl/te-koop-aangeboden/110742/veranda-en-tuinkamers-bedrijf-met-showroom-250m2
+Publisher: Bedrijventekoop.nl
+Fetch date: 2026-09-03
+Title: Veranda en tuinkamers bedrijf met showroom 250m2
+Extracted fields: region=Flevoland; ask=€ 100.000 - € 250.000; revenue=€ 250.000 - € 500.000; profit=Vertrouwelijk; staff=< 5; retirement stated=no
+Public listing excerpt: Interesse of meer informatie? Dit betreft een premium profiel. Om het volledige profiel weer te geven kun je middels het onderstaande veld inloggen. Klik op ‘Wachtwoord vergeten’ wanneer je geen wachtwoord bij de hand hebt. Bij interesse klik je op de button ‘Contact met dit profiel’ om in contact te komen met de aanbieder. Inloggen Afrekenen Binnen 7 dagen contact Inloggen Heb je nog geen account? Klik op de button ‘Maak een account aan’ en creëer gratis een nieuw account om het volledige profiel weer te geven. Maak een account aan
