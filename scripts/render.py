@@ -79,7 +79,7 @@ for slug, src, title in MEMOS:
     srcdir = os.path.join(os.path.dirname(p), 'sources')
     if os.path.isdir(srcdir):
         if os.path.isdir(os.path.join(dst, 'sources')): shutil.rmtree(os.path.join(dst, 'sources'))
-        shutil.copytree(srcdir, os.path.join(dst, 'sources'), ignore=shutil.ignore_patterns('*.zip', '*.pyc', '__pycache__'))
+        shutil.copytree(srcdir, os.path.join(dst, 'sources'), ignore=lambda d, names: [n for n in names if n.endswith(('.zip', '.pyc', '.pdf')) or n == '__pycache__' or (os.path.isfile(os.path.join(d, n)) and os.path.getsize(os.path.join(d, n)) > 2_000_000)])
     for extra in glob.glob(os.path.join(os.path.dirname(p), '*.csv')) + glob.glob(os.path.join(os.path.dirname(p), '*.json')):
         shutil.copy(extra, dst)
     body = render_md(md)
