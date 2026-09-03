@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The ideation metaprompt — The Third Engine</title>
+<link rel="stylesheet" href="../../static/style.css">
+<script src="../../static/theme.js"></script>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="../../index.html">The Third <span>Engine</span></a>
+  <nav class="site-nav"><a href="../../index.html">Candidates</a><a href="../../about.html">Method</a><button class="theme-toggle" type="button">☾ Dark</button></nav>
+</div></header>
+<main class="wrap wide">
+  <p class="kicker">Book 19 · Research memo · v0.1</p>
+  <h1>Ideation brief — find businesses of one shape (book 19, The Third Engine)</h1>
+  <p class="note">A research memo, not an essay. Written by an agent from public sources on the date stated; every figure is meant to trace to a saved excerpt in the <code>sources/</code> folder beside this page. Source file in the repository: <code>scripts/prompts/idea-metaprompt.md</code>.</p>
+<p>You are generating candidate businesses for one specific reader, from your own knowledge and judgment first, with a small verification budget second. Read <code>../../CONTEXT.md</code> and <code>../../drafts/edge-inventory.md</code> before anything else. Then read <code>../../drafts/notes/2026-09-03-fable-triage.md</code> and <code>../../drafts/notes/2026-09-04-fable-triage-2.md</code>: everything kept, held or cut there is off the table. Do not re-propose or lightly rename any of it.</p>
+<h2>The shape</h2>
+<p>Every idea you return must have all seven parts. Ideas that lack one are not returned.</p>
+<ol><li><strong>Iron plus paper.</strong> A physical unit (a machine, a site, an order, an imported product, a crew) that cannot legally be used, sold or occupied without a file about it: a risk assessment, a CE declaration, a certificate, a technical file, a registration, an inspection report.</li><li><strong>A dated rule change</strong>, between now and 2028, that creates that file or tightens it, so the market has a deadline and someone who reads the rule early sees the demand before it is priced.</li><li><strong>Small B2B buyers</strong>, roughly ten to a hundred staff, who work in English or in Polish, Russian or Ukrainian, who cannot afford their own compliance person, and whom the incumbents (notified bodies, TÜV-class firms, large integrators, national contractors) price above.</li><li><strong>The reader's edge does the work</strong>: regulatory literacy (reads EU and Dutch law directly), engineering habit (measures, documents, automates the evidence trail), and a Polish, Ukrainian and Russian-speaking network on the supply or crew side. No Dutch-language exam may stand between the reader and the first sale; if a personal certificate exists, it must be obtainable in English or bought with a firm and its holder.</li><li><strong>Priced per unit</strong> (per cell, per site, per order, per product, per crew-month), with a first paid test under €5,000 that can run inside ninety days alongside a day job, capital under €50,000, and a visible step two (a Dutch-speaking partner or hire) and step three (an acquisition, or becoming the operator rather than the adviser).</li><li><strong>AI raises or leaves the demand</strong> by 2030, because progress adds units and files and does not replace the site visit. Say why in one sentence; "AI-proof" without a mechanism is not accepted.</li><li><strong>One checkable kill fact</strong>: a single fact that, if true, ends the idea (an incumbent already sells it cheaply, every worker needs a Dutch exam, the demand is carried by a subsidy, the product cannot legally be sold in the EU).</li><li><strong>A precedent that exists.</strong> A real, named small firm elsewhere (United States, China, Germany, Poland, the UK; not the Netherlands) that already earns its living on this shape, found on the web and saved as an excerpt: what it sells, to whom, at what price if stated, how big it is, how long it has existed. Sources we respect: the firm's own site plus one independent trace (trade press, a regulator's register, a court or procurement record, a trade-body directory, a published interview). A precedent nobody can find is a reason to doubt the idea, not to invent one.</li></ol>
+<p>The line of the book: outside software, not outside engineering. The reader sells installed iron and a signed file, never a product with a login. Anything that becomes a software business within a year is cut.</p>
+<h2>Your seed</h2>
+<p>{{SEED}}</p>
+<p>Stay inside the seed. The other agent has a different one; overlap wastes both runs.</p>
+<h2>Method</h2>
+<p>Work from knowledge first: list twelve to fifteen raw candidates inside the seed in one line each, then screen them against the seven parts, then keep the best four to six. Only then spend your verification budget: at most twenty-five web fetches, used for three things only: the precedent for each kept idea (part 8, at least one fetch each), the kill fact, and the one number each idea most depends on. Save every fetched page as a plain-text excerpt under <code>../../drafts/ideation/{{SLUG}}/sources/&lt;id&gt;.txt</code> with URL, publisher and fetch date. Never invent a figure; an unverified figure is written as "estimate, unverified". Do not run git.</p>
+<h2>Output</h2>
+<p>Write <code>../../drafts/ideation/{{SLUG}}/ideas.md</code> as you go (create it early, append):</p>
+<ul><li>the raw list of twelve to fifteen, one line each, with the part that cut each of the discarded ones;</li><li>four to six kept ideas, each ≤240 words in eight labelled parts matching the shape above, plus a small table: unit price, entry cost, capital tied up, all marked verified or estimate;</li><li>for each kept idea, the eight to twelve facts a research run must settle, phrased as checkable questions with the likely source;</li><li>≤120 honest words: whether this seed found anything a Dutch founder with the same reading could not, and which single idea you would put your own money into.</li></ul>
+<p>Final reply ≤200 words: the kept ideas in one line each, and the one you would fund.</p>
+  <nav class="chapter-nav" aria-label="Memo navigation"><span></span><a href="../../index.html">Candidates</a><span></span></nav>
+</main>
+<footer class="site-footer"><div class="wrap"><p>Nineteenth in a series built the same way. Corrections welcome.</p></div></footer>
+</body>
+</html>

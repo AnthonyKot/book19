@@ -18,6 +18,12 @@ MEMOS = [  # (slug, source markdown, title override)
     ("boring-business", "drafts/research/boring-business/findings.md", "The boring-business lens: which small physical firms last"),
     ("triage", "drafts/notes/2026-09-03-fable-triage.md", "Triage: seven kept, thirteen cut"),
     ("triage-2", "drafts/notes/2026-09-04-fable-triage-2.md", "Triage, second pass: two Fable runs"),
+    ("ideation-method", "scripts/prompts/idea-metaprompt.md", "The ideation metaprompt"),
+    ("ideation-assembled-machines", "drafts/ideation/assembled-machines/ideas.md", "Ideation: assembled machines"),
+    ("ideation-assembled-machines-reviewed", "drafts/ideation/assembled-machines/ideas-reviewed.md", "Ideation: assembled machines, precedent review"),
+    ("ideation-crossing-flows", "drafts/ideation/crossing-flows/ideas.md", "Ideation: crossing flows"),
+    ("ideation-crossing-flows-reviewed", "drafts/ideation/crossing-flows/ideas-reviewed.md", "Ideation: crossing flows, precedent review"),
+    ("triage-3", "drafts/notes/2026-09-04-fable-triage-3.md", "Triage, third pass: the ideation results"),
     ("edge-inventory", "drafts/edge-inventory.md", "Edge inventory (draft, for correction)"),
 ]
 def inline(t):

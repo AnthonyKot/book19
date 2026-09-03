@@ -1,0 +1,9 @@
+URLs: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R3110 (CPR 2024/3110)
+      https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R2083 (CBAM omnibus)
+Publisher: EUR-Lex
+Fetched: 2026-09-04 — FAILED (fetches 9 and 10 of 10): both WebFetch and curl were redirected to the
+Official Journal index page (13,692 bytes, no act text). Also 404 on 2026-09-04:
+  https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-simplification_en
+  https://finance.ec.europa.eu/.../frequently-asked-questions-sanctions-russia_en
+Consequence: the CBAM 50-tonne threshold, the 2027 declaration dates, Article 12g/12gb dates and the
+new-CPR authorised-representative clause are written from memory and marked "unverified" in ideas.md.

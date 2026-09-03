@@ -1,0 +1,7 @@
+SEARCH (WebSearch, fetch 5 of 25), 2026-09-04
+Query: Makera Z1 OR NestWorks C500 OR "Carvera Air" EU distributor authorised dealer Germany Poland CE service
+Results of note:
+- Makera Euro store https://eu.makera.com/ with product pages for Carvera Air and Makera Z1 ("pre-orders available") — the maker sells directly into the EU from its own EU store. Contradicts the agy finding "no EU dealer network" only in part: no independent dealers, but an own-brand EU shop exists.
+- ETT Store "CNC Machines" https://www.ettstore.com/collections/cnc-machines — lists NestWorks C500 (retailer, country not shown in snippet)
+- notebookcheck, toolguyd (press)
+Consequence for the crowdfunding-hub idea: the CNC makers with the biggest raises (Makera, Snapmaker) already run EU-facing shops; the gap is service, CE ownership and B2B invoicing, not first availability.

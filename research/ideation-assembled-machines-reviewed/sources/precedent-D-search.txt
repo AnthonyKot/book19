@@ -1,0 +1,5 @@
+Query (WebSearch): machine learning safety function certified safety component "EU type-examination" notified body Machinery Regulation Annex I Part A consultancy AI safety function 2027
+Fetched: 2026-09-04
+Result URLs: Nemko Digital guide; Bosch Rexroth blog; EU-OSHA regulation page; TÜV SÜD blog; ai-resources.eu; ATIC; cemarkingauthority.com; safetysoftware.eu.
+Search-engine summary (not verbatim page text): if an AI system performs a safety function the machinery falls under Annex I with mandatory notified-body assessment (EU type-examination or full quality assurance); two categories added: safety components with self-evolving behaviour using machine learning, and machinery embedding such systems; regulation applies 20 January 2027.
+Use: no small firm anywhere was found earning its living on preparing notified-body files for ML safety functions; every result is a large body or a vendor blog. Precedent test for idea D: NOT FOUND after a fair search.

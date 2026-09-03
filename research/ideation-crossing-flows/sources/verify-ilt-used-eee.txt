@@ -1,0 +1,11 @@
+VERIFICATION — used-equipment export rules (K4) — fetch 13 (search) + fetch 19 (ILT page), 2026-09-04
+URL: https://www.ilent.nl/onderwerpen/producentenverantwoordelijkheid/gebruikte-elektronische-apparatuur/export-gebruikte-elektonische-apparatuur
+Publisher: Inspectie Leefomgeving en Transport (ILT)
+Quoted: "Elk apparaat moet getest zijn voordat het mag worden geëxporteerd. En er moet een bewijs van de test aanwezig zijn."
+Label per device: apparaatnaam, identificatienummer, productiejaar, testgegevens (bedrijfsnaam, adres, telefoon, e-mail), testtype, testdatum, testresultaten.
+"De opdrachtgever/exporteur moet verklaren dat de zending geen afval bevat" (voorbeeldtestformulier).
+Equipment without proper packaging or label "kan als afval worden behandeld"; carriers must check label and packaging.
+Since 1 January 2021: "moet u zich registreren als u bedrijfsmatig EEA voor hergebruik exporteert naar het buitenland. Ook moet u rapporteren over de hoeveelheid geëxporteerde EEA."
+No explicit reference to WEEE Annex VI on the page.
+Other ILT/EVOA pages listed in fetch 13: https://www.ilent.nl/onderwerpen/afval/afvaltransport-evoa ; .../evoa-kennisgeving ; ondernemersplein EVOA page. Snippet: "No waste intended for disposal may be exported outside the EU"; green-list vs notification procedure.
+Status: per-device test + label + exporter declaration for used EEE: VERIFIED (ILT). The used-goods rule for non-electrical machinery (tractors, forklifts) under Regulation 2024/1157: STILL UNVERIFIED.

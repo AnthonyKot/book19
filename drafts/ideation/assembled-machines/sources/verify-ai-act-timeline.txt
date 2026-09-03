@@ -1,0 +1,8 @@
+URL: https://artificialintelligenceact.eu/implementation-timeline/
+Publisher: Future of Life Institute, "EU Artificial Intelligence Act" implementation timeline (secondary source, not the OJ)
+Fetched: 2026-09-04 (WebFetch)
+Lines that matter (verbatim, with the timeline's dates):
+2 August 2028: "Chapter III, Sections 1, 2, and 3, with the exception of Article 6(5), start applying as regards AI systems classified as high-risk pursuant to Article 6(1) and Annex I."
+2 December 2027: "Chapter III, Sections 1, 2, and 3...start applying as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III."
+The page makes no reference to the Digital Omnibus by name.
+Use: CORRECTS idea D. The run wrote "AI Act product rules from 2 August 2027 (unverified)". This timeline gives 2 August 2028 for Annex I (product-legislation, incl. machinery) high-risk systems, and 2 December 2027 for Annex III. The original 2024 text had 2 Aug 2027 for Annex I; the later dates on this page are consistent with the Omnibus postponement but the page does not say so. Treat as: Annex I date 2 Aug 2028 (secondary source), to be confirmed against the OJ.

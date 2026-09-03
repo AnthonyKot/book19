@@ -1,0 +1,3 @@
+URL: https://www.laidler.co.uk/
+Fetched: 2026-09-04 (WebFetch) — FAILED: TLS certificate mismatch; the hostname now serves a TÜV SÜD certificate (altnames tuv-sud.co.uk, tuev-sued.de, ...).
+What this shows without page text: the domain of Laidler Associates (a UK machinery CE-marking consultancy) now resolves to TÜV SÜD infrastructure, consistent with the firm having been absorbed by TÜV SÜD. Not verified from a page; recorded as a lead for the "exit" line of idea A, not as a fact.

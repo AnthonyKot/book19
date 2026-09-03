@@ -1,0 +1,21 @@
+PRECEDENT for addition A1 (EU importer, CE and service hub for machinery-class crowdfunding products) — fetch 9 (own site) + fetch 17 (search trace) + fetch 5 (kill-fact search), 2026-09-04
+
+OWN SITE
+URL: https://www.igo3d.com/
+Publisher: iGo3D GmbH, Hannover, Germany
+Fetched: 2026-09-04 (WebFetch summary)
+What it sells: 3D printers, filaments, resins, powders, spares; services: repair, print-on-demand, "Business Solutions", "Enterprise Service Paket", education offers, reseller programme.
+Quoted: "Distribution, Verfügbarkeit und Markt-Know-how für nachhaltigen Reseller-Erfolg".
+Brands: Formlabs, Desktop Metal, Asiga, Shining 3D; Chinese makers Creality3D, Anycubic, Flashforge, Elegoo. Showrooms. Founding year and headcount not on the fetched page.
+
+INDEPENDENT TRACE (WebSearch snippets, fetch 17)
+- Implisense company record: https://app.implisense.com/de/companies/igo3d-gmbh-hannover--DE6XE9DD2652 — "wholesale and retail of 3D hardware and software, including printers, supplies and accessories, as well as 3D printing services"
+- 3Druck dealer directory: https://3druck.com/en/3d-printer-dealer/registration-2/igo3d/
+- lieferanten.de: https://www.lieferanten.de/lieferant-12857-igo3d-gmbh.html ("Großhändler aus Hannover")
+- Snippets: "founded in 2013 ... currently employing 40 employees at its Hannover location" (another source: about 50); "the market lacked a distributor capable of supplying resellers ... therefore assumed this role"; "own logistics center, a certified repair workshop"; brands Bambu Lab, Prusa, UltiMaker, BCN3D, Creality3D, Anycubic; "pioneer in providing professional desktop 3D printing solutions in the DACH region".
+
+KILL-FACT INPUT (fetch 5, search)
+- Makera Europe store https://eu.makera.com/ with Carvera Air and Makera Z1 product pages ("pre-orders available") — the HK maker sells into the EU from its own EU shop; ETT Store https://www.ettstore.com/collections/cnc-machines lists NestWorks C500 (retailer country not shown).
+- Per drafts/reviews/crowdfunding-findings-agy.md (not re-fetched): Snapmaker U1 "eu.snapmaker.com EU warehouse; Amazon.de"; xTool via "Makeblock Europe B.V."; Lymow "eu.lymow.com"; Longer "Longer3d.eu"; ELEGOO EU store. Without EU route in that audit: NestWorks C500, XLASERLAB X1, FibreSeeker 3, AEKE S1 Pro, Pongbot Aura, iGarden Swim Jet, Capsule Dishwasher.
+
+Assessment: iGo3D is the shape — a German importer-distributor with a repair workshop and reseller network for non-EU desktop machines, ~40–50 staff, since 2013. The kill-fact search shows the largest CNC raisers already run own-brand EU stores; the residual gap is mid-tier makers and the service/B2B-invoice layer.

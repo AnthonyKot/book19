@@ -1,0 +1,7 @@
+URL: https://www.batterieingenieure.de/
+Publisher: BatterieIngenieure GmbH (firm's own site), "Avantisallee 217, 52072 Aachen", Germany
+Fetched: 2026-09-04 (WebFetch)
+What it sells: testing ("Planung, Durchführung und Auswertung Ihrer Batterietests": electrical, mechanical, thermal, safety, post-mortem), development ("Entwicklung, Implementierung und Parametrierung von Diagnosealgorithmen und Simulationsmodellen", hardware), consulting ("Technische Beratung u.a. zu den Themen Produktauswahl, Produktqualifizierung", concept evaluation, safety, lifetime).
+To whom: users and makers of "sämtliche elektrochemischen Energiespeicher", lead and lithium-ion.
+Certified "ISO 9001, ISO 14001, ISO 27001 sowie TISAX". Price, size, founding year: not stated.
+Caveat: the page does not name the EU Battery Regulation, CE files or the passport. A testing-and-engineering firm, not a per-pack file service. Weak precedent for idea C; a second search was run (see precedent-C-search.txt).

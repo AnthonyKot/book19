@@ -1,0 +1,8 @@
+URL: https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/sanctions-adopted-following-russias-military-aggression-against-ukraine_en
+Publisher: European Commission, DG FISMA
+Fetched: 2026-09-04 (via WebFetch summary; hub page)
+
+Latest: "21st sanctions package" adopted "23 July 2026". Anti-circumvention tool: "allows for restrictions on
+the export of sanctioned goods to third countries with continued and particularly high risk of
+circumvention". Consolidated Regulation 833/2014 referenced (consolidated 21 May 2025). Hub gives no
+Article 12g / CHP detail; see the FAQ excerpt.

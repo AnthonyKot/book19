@@ -1,0 +1,7 @@
+URL: https://find-and-update.company-information.service.gov.uk/search?q=Cobots+and+Machinery+Safety
+Publisher: Companies House (UK registrar), search results
+Fetched: 2026-09-04 (WebFetch)
+Lines that matter:
+"COBOTS AND MACHINERY SAFETY LTD" — Company Number 12096383 — "Active (Incorporated on 10 July 2019)" — "8 Whetstone Drive, Corby, United Kingdom, NN17 5GX"
+Also listed (context for the cobot-dealer category): "COBOTS ONLINE LIMITED" — 14134186 — Active, incorporated 26 May 2022, Newton Aycliffe, County Durham; "COBOTS & CO LTD" — 13821380 — Dissolved on 11 June 2024, Bromsgrove.
+Use: independent trace for precedent A. A registered-address on a residential-looking street and a single named engineer on the site: a one-person firm, seven years old, still active. Also: one of three "Cobots ..." companies in the UK register dissolved within three years — the dealer side churns.

@@ -1,0 +1,13 @@
+Query (WebSearch): Regulation (EU) 2023/1542 Article 96 "18 August 2026" labelling "18 February 2027" battery passport QR code due diligence postponed 2027
+Fetched: 2026-09-04
+Result URLs (trade and vendor summaries; none is the OJ):
+- https://www.scantrust.com/eu-battery-regulation-eu-battery-passport-requirements/
+- https://www.batterytechonline.com/design-manufacturing/preparing-for-eu-battery-qr-code-standards-in-2027
+- https://www.circularise.com/blogs/eu-battery-passport-regulation-requirements
+- https://www.flashbattery.tech/en/blog/eu-battery-regulation-obligations-updates/
+- https://www.carbmee.com/knowledge-insights/blog-article/eu-digital-battery-passport
+- https://digiprodpass.com/blogs/digital-battery-passport-what-it-is-who-must-comply-and-when
+- https://easecert.com/pages/battery-labelling-requirements-under-eu-regulation-2023-1542-explained
+- https://www.smartlinks.app/solutions/batteries
+Search-engine summary (not verbatim page text): "Article 96 lets batteries placed on the market before 18 August 2026 sell through without the new label"; "From 18 February 2027, batteries must be marked with a QR code. The digital battery passport becomes mandatory from 18 February 2027 for electric vehicle batteries, light means of transport batteries, and industrial batteries with a capacity greater than 2 kWh placed on the EU market or put into service"; "From 18 August 2025, all manufacturers ... will be required to implement structured Due Diligence".
+Use: the labelling (18 Aug 2026) and QR/passport (18 Feb 2027, >2 kWh industrial) dates in idea C are CONFIRMED by several trade summaries, not by the OJ. The due-diligence date is CONFLICTING: the summary says 18 Aug 2025; my knowledge says it was postponed to 2027 by an amending regulation; neither verified here. Idea C does not depend on due diligence (the run already noted the SME exemption question).

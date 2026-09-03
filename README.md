@@ -4,7 +4,7 @@ Income outside software for the Book 18 reader: a forty-year-old enterprise deve
 with A2 Dutch, English/Russian/Polish, ~EUR 100k, regulatory literacy and an engineering habit, looking at 2030.
 
 **v0.1 is the research phase in public.** No essays yet. The site has the method, the reader's edge
-inventory, thirteen agent-written research memos with their saved sources, and two triages to nine candidates.
+inventory, seventeen agent-written memos with their saved sources (research runs, an ideation metaprompt with two seeded runs and precedent reviews), and three triages to twelve candidates.
 
 - `index.html` — candidates under test and the memo list. `about.html` — method, gates, honesty rules.
 - `research/<slug>/index.html` — rendered memos; `research/<slug>/sources/` — the excerpts they rely on.

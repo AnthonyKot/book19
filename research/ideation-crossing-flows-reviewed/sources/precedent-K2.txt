@@ -1,0 +1,20 @@
+PRECEDENT for K2 (CBAM file) — fetch 7 (own site) + fetch 15 (independent trace, search), 2026-09-04
+
+OWN SITE
+URL: https://ingdilligenz.de/cbam-beratung/
+Publisher: Ingdilligenz GmbH, Leightonstr. 3, 97074 Würzburg, Germany
+Fetched: 2026-09-04 (WebFetch summary)
+What it sells: CBAM compliance assessment; emissions data collection and analysis; supplier communication support (questionnaires, data templates); quarterly and annual report preparation; "CBAM-Vertreter" (representative / authorised-declarant role); cost analysis.
+Quoted: "Von der fachlichen Begleitung bis zur Rolle von Ingdilligenz als CBAM-Vertreter – wir passen unsere Beratung an Ihre individuelle Unternehmensrealität an."
+To whom: mid-sized industrial importers — steel and metal processing, heating and building technology, manufacturing.
+Size: "20+ consultants"; "100+ successful customer projects across 10+ industries". Price: not stated. Founding year: not on page.
+
+INDEPENDENT TRACE (WebSearch snippets, fetch 15)
+Query: Ingdilligenz GmbH Würzburg Handelsregister gegründet Mitarbeiter CBAM
+- Creditreform listing: https://firmeneintrag.creditreform.de/97074/8310461473/INGDILLIGENZ_GMBH
+- Cylex: https://web2.cylex.de/firma-home/ingdilligenz-gmbh-16126324.html ; companyhouse.de; Firmania (Unternehmensberater, Leightonstr. 3)
+- LinkedIn: https://de.linkedin.com/company/ingdilligenz
+- Snippets: "Ingdilligenz GmbH was founded in 2021"; "Marcus Dill is the founder ... Senior Advisor Sustainability"; focus ESG, data and analytics; CBAM consulting incl. references and customer success stories.
+Not found: headcount from an independent register, revenue.
+
+Assessment: a 2021-founded German consultancy of roughly twenty people that sells the CBAM file, the supplier-data extraction and the declarant role to mid-sized importers. Close match to K2; the Dutch mirror with the Ukrainian/Turkish/Kazakh counterparty language would be the reader's version.

@@ -1,0 +1,5 @@
+SEARCH (WebSearch, fetch 4 of 25), 2026-09-04
+Query: used machinery export "waste or not" functionality test report consultant second-hand equipment shipment non-OECD UK Germany "waste shipment"
+Results: Machineseeker UK, OVS Recycling (dealers); GOV.UK "Importing and exporting waste electrical and electronic equipment (WEEE)" https://www.gov.uk/guidance/importing-and-exporting-waste-electrical-and-electronic-equipment-weee ; europages "used equipment inspection Germany" directory https://www.europages.co.uk/companies/germany/used%20equipment%20inspection.html
+Snippet: "if exporting used EEE for reuse, it must not be classed as waste ... check the legal definition of waste guidance"; shipping under Y49 requires "evidence of any testing or pre-treatment".
+Assessment: no named firm selling the not-waste file surfaced. One more targeted search allowed.

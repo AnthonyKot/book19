@@ -1,0 +1,26 @@
+PRECEDENT for K1 (EUDR wood file) — fetch 22 (own site) + fetch 23 (independent trace, search), 2026-09-04
+
+OWN SITE
+URL: https://reco.com.pl/rozporzadzenie-eudr/
+Publisher: RECO (reco.com.pl), Gliwice, Poland — environmental-compliance consultancy
+Fetched: 2026-09-04 (WebFetch summary; quoted lines as returned)
+What it sells: EUDR implementation for firms placing regulated commodities on the EU market:
+ - supply-chain mapping: "dokładną identyfikacją wszystkich produktów w Twojej ofercie, które podlegają EUDR"
+ - supplier risk assessment: "Przeprowadzimy analizę Twoich dostawców z uwzględnieniem kraju pochodzenia produktów (niskie, średnie, wysokie ryzyko)"
+ - documentation: "Wzory oświadczeń o należytej staranności", "Procedury weryfikacji dostawców"
+ - team training (supplier communication, document verification), contingency procedures
+To whom: importers, exporters and traders of coffee, cocoa, soy, wood, palm oil, rubber, cattle products
+Other lines on the same paperwork: BDO/KOBiZE, environmental audits, carbon footprint, ESG, waste, integrated permits, PPWR, CBAM reporting
+Address: Okrężna 8, 44-100 Gliwice; operates nationwide in Poland. Price: not stated. Size, founding year: not stated on page.
+
+INDEPENDENT TRACE (WebSearch snippets, fetch 23)
+Query: Reco sp. z o.o. reco.com.pl doradztwo środowiskowe EUDR KRS założona rok pracownicy
+- Rejestr.io: https://rejestr.io/krs/371220/reco — "RECO Spółka z ograniczoną odpowiedzialnością has KRS: 0000371220 and a founder capital of 3 million PLN, with Jan Kaźmierczak as the Board President" (snippet as returned; KRS number 371220 → 0000371220)
+- reco.com.pl home: "comprehensive environmental protection consulting services ... ongoing environmental protection support for companies across Poland"; positioning: "not just another advisory firm newly discovering the EUDR topic"
+Not found: headcount, founding year, per-shipment price.
+
+SECONDARY (weaker) — fetch 6
+URL: https://www.efeca.com/  Publisher: Efeca, Bournemouth UK (Suite 2, Space House, 22-24 Oxford Road, BH8 8EZ)
+"advice and support to develop, implement, monitor, evaluate and report on national and international policies, regulations and private sector commitments"; "Support and advise procurers and suppliers on compliance and sourcing legal and sustainable agricultural commodities and timber"; EUDR white paper; "experience in over 30 countries"; Certified B Corp; founder Emily Fripp. No price, no headcount, no founding year. Policy consultancy rather than a per-shipment DDS shop — recorded, not relied on.
+
+Assessment: RECO is a small Polish environmental consultancy that earns on the EUDR file (plus BDO/KOBiZE/CBAM/PPWR on the same desk) for SME importers and traders, which is the shape of K1. The per-shipment DDS-filing variant (statement by statement) was not found as a named small firm in the searches (fetch 1, fetch 22 query); SaaS and large brokers dominate that layer.

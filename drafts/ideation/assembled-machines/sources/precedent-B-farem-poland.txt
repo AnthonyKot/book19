@@ -1,0 +1,7 @@
+URL: https://farempoland.pl/dostosowanie-maszyn-do-wymagan/
+Publisher: Farem Poland (firm's own site), "ul. Komorowicka 9, 43-502 Czechowice-Dziedzice", Poland; biuro@farempoland.pl; +48 33 812 44 53
+Fetched: 2026-09-04 (WebFetch)
+What it sells: "dostosowanie maszyn do wymagań minimalnych i zasadniczych" — "ogólny audyt bezpieczeństwa – w tym ocena ryzyka wynikającego z eksploatacji", "wskazanie koniecznych środków technicznych", "zapewnienie komponentów bezpieczeństwa", machine modernisation and CE certification after modification.
+To whom: companies with machine parks that must meet Directive 2009/104/WE and Polish rules.
+Price per machine: not stated. Size: not stated. Age: not stated.
+Use: precedent for idea B at the level of the shape — a provincial Polish firm living on per-machine assessment-plus-retrofit-plus-re-CE of in-use machines. Firm-level independent trace not fetched (budget); trade-level trace in precedent-B-300gospodarka.txt.

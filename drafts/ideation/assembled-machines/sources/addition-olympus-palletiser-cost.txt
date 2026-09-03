@@ -1,0 +1,12 @@
+URL: https://olympustechnologies.co.uk/cobot-palletiser-cost-uk/
+Publisher: Olympus Technologies Ltd (UK robot integrator, Huddersfield), "How Much Does a Cobot Palletiser Cost? UK 2026 Guide"
+Fetched: 2026-09-04 (WebFetch)
+Lines that matter (verbatim):
+"Budget £65,000 to £115,000 for a UK cobot palletising cell based on payload and reach."
+"A base-entry system using a 12 kg payload cobot typically starts at £65,000 including a basic vacuum gripper and manual pallet placement."
+"High-performance systems utilizing 20 kg to 30 kg payload cobots with integrated lifing columns, multi-gripper configurations, and full safety fencing fall into the £95,000 to £115,000 bracket."
+"Hardware represents approximately 65% of the total project expenditure... Software integration, safety sensors, and site-specific commissioning account for the remaining 35% of the investment."
+"Lifting columns add £12,000 to £18,000 to a system"; "Standard vacuum grippers for cardboard boxes cost between £3,000 and £6,000."; "area scanners or light curtains costing £4,000 to £8,000"; "Fully interlocked physical fencing adds £5,000 to £10,000."
+"A £90,000 cobot cell typically reaches break-even point within 14 to 18 months of operation."
+"Annual maintenance typically costs £1,500 to £2,500"
+Use: unit economics for the addition (one-application palletising cell): the integration-plus-safety-plus-commissioning share is roughly 35% of a £65–115k cell, i.e. roughly £23–40k per cell (derived from the page's own split; the page gives no CE line item).

@@ -1,0 +1,15 @@
+Query (WebSearch): "CE-markering robotcel cobot risicobeoordeling kosten prijs samenstel machines"
+Fetched: 2026-09-04
+Result URLs (Dutch CE / machine-safety bureaus, i.e. the incumbents for idea A):
+- https://www.engineersonline.nl/achtergrond/integreren-handlingrobot-en-machine-welke-eisen-zijn-er-voor-de-ce-markering/
+- https://perios.nl/ce-markering/
+- https://iab-ingenieurs.nl/vraag-en-antwoord/ce-markering-machines/machinerichtlijn-ce-markering-machines/moet-een-samenstel-van-machines-ook-ce-gecertificeerd-worden/
+- https://iab-ingenieurs.nl/vraag-en-antwoord/ce-markering-machines/machinerichtlijn-ce-markering-machines/wat-zijn-de-kosten-van-een-ce-markering/
+- https://www.arbeidsveiligheid.net/veiligheidsartikelen/arbeidsplaatsen/de-industriele-robot-opmars-integratie
+- https://d-sc.nl/cobots-functionaliteit-en-veiligheid/
+- https://robotobor.nl/cobot-collaboratieve-robot-tips/
+- https://www.olmia-robotics.nl/files/whitepaper/OR_RisicoanalyseCobotcel.pdf
+Search-engine summary (not verbatim page text): a "samenstel van machines" must go through the full CE procedure with
+a risk assessment, an EC declaration of conformity and CE marking; integrating a robot into a larger whole requires a
+risk assessment of the robot in that whole; ISO/TS 15066:2016 applies to cobots; costs: simple machine ~EUR 6,000,
+large machine ~EUR 20,000, assembly of machines ~EUR 30,000 (the IAB figures, saved separately).

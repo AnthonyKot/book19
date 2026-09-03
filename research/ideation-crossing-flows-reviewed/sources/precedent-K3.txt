@@ -1,0 +1,20 @@
+PRECEDENT for K3 (sanctions / dual-use order file) — fetch 8 (own site) + fetch 16 (Companies House), 2026-09-04
+
+OWN SITE
+URL: https://www.strongandherd.co.uk/
+Publisher: Strong & Herd LLP, Manchester, UK
+Fetched: 2026-09-04 (WebFetch summary)
+What it sells: export, import and customs procedures training; export-controls training; accredited learning pathways; "OneCall™ Help Line" membership; company audits and compliance reviews; shipping office services. Tagline: "Supporting International Businesses", "Essential import and export support for today's global marketplace."
+To whom: "Businesses in the areas of export, import and customs procedures" from SMEs to multinationals.
+Age: news item "After 31 Years in International Trade, Strong & Herd Founder Sandra Strong MBE Announces Retirement" (September 2026). Price, headcount: not stated.
+
+INDEPENDENT TRACE
+URL: https://find-and-update.company-information.service.gov.uk/search?q=strong+%26+herd
+Publisher: Companies House (UK registrar)
+Fetched: 2026-09-04
+- STRONG & HERD LLP, company number OC318609, incorporated 22 March 2006, Active, "Manchester International Office Centre, Styal Road, Manchester, M22 5WB"
+- STRONG & HERD IMPORT/EXPORT SERVICES LIMITED, 04492078, incorporated 23 July 2002, Active, same address
+
+Also seen (fetch 3, search): Riddle Compliance (US boutique) https://riddlecompliance.com/... ; CVG Strategy (US) https://cvgstrategy.com/export-regulations-due-diligence/ — US small consultancies offering sanctions/export-control due diligence; not fetched.
+
+Assessment: a real small UK firm, twenty-plus years old, earning on export-controls compliance for SMEs. It is a precedent for "SME export-control desk as a small firm", NOT for the specific K3 product (per-order end-user verification in Russian for Central Asian buyers). No named small firm selling that product was found in two searches (fetch 3, fetch 12); the first page is law firms. Partial precedent.

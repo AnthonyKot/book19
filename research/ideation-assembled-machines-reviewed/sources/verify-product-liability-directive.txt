@@ -1,0 +1,10 @@
+URL: https://single-market-economy.ec.europa.eu/single-market/goods/free-movement-sectors/liability-defective-products_en
+Publisher: European Commission, DG GROW (liability for defective products page)
+Fetched: 2026-09-04 (WebFetch)
+Lines that matter (verbatim):
+"On 8 December 2024, the new Product Liability Directive comes into force."
+"EU countries will have until 9 December 2026 to transpose this directive into national law."
+"PLD will apply to products placed on the market as of 9 December 2026."
+"The new rules establish that a product that has been substantially modified (e.g. by a process of remanufacturing), is considered to be a new product. The person that has made the modification becomes a manufacturer."
+"PLD's rules specifically clarify that all types of software are covered by the new directive, including applications, operating systems and AI-systems."
+Use: verifies idea B's second dated rule (modifier becomes manufacturer; 9 Dec 2026).

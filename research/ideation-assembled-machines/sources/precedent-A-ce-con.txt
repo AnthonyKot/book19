@@ -1,0 +1,9 @@
+URL: https://www.ce-con.de/
+Publisher: CE-CON GmbH (firm's own site), Bremen and Augsburg, Germany
+Fetched: 2026-09-04 (WebFetch)
+What it sells: CE marking consulting for machinery ("CE-Kennzeichnung", Risikobeurteilung, funktionale Sicherheit, technische Dokumentation, Lockout/Tagout) plus its own CE-CON Safety and CE-CON LOTO software; "Sicherheitstechnische Beurteilung" and international conformity guidance.
+To whom: "Hersteller" (machine manufacturers) across Europe.
+Price: not stated. Size: not stated on the page.
+Age: "Seit über 20 Jahren vertrauen uns unsere Kunden" (in business roughly since 2004).
+Addresses: "Lloydstraße 4-6, 28217 Bremen"; "Am Alten Schlachthof 1, 86153 Augsburg".
+Caveat for the precedent test: half consulting, half software product; the software half is the shape the book cuts. Usable only as a second-tier precedent for A/B (the consulting half). No independent trace fetched within budget.

@@ -1,0 +1,9 @@
+URL: https://www.olmia-robotics.nl/over-ons/diensten/
+Publisher: Olmia Robotics (Dutch cobot system integrator), "Stephensonstraat 7, 4004 JA Tiel The Netherlands"
+Fetched: 2026-09-04 (WebFetch)
+Lines that matter (verbatim, Dutch):
+"Als werkgever ben je verplicht een RI&E uit te voeren. Als een nieuwe machine wordt geplaatst op je productievloer, is een onderdeel van de RI&E het uitvoeren van een risicoanalyse van die machine."
+"Samen met jou maken we een risicoanalyse, specifiek voor jouw productieomgeving."
+"Tijdens een FAT worden de functionaliteit en conformiteit van de apparatuur grondig getest om te verzekeren dat het voldoet aan alle specificaties en vereisten van de klant."
+Not on the page: the words CE-markering, any external partner, size or founding year.
+Use: a Dutch dealer-integrator says it does the risk analysis itself with the customer; it does not advertise the CE file or a bureau. Together with the Nooteboom case: dealers do the analysis in-house and, at least sometimes, buy an external review. Partial answer, two data points.

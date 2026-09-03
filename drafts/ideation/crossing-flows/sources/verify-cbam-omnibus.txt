@@ -1,0 +1,22 @@
+VERIFICATION — CBAM figures marked "unverified" in ideas.md, 2026-09-04
+
+1) NEa (Nederlandse Emissieautoriteit) — fetch 10
+URL: https://www.emissieautoriteit.nl/onderwerpen/cbam
+Quoted: "CBAM is van toepassing als een importeur in een kalenderjaar meer dan 50 ton (gewicht) CBAM-goederen invoert in het douanegebied van de Europese Unie." "Voor elektriciteit en waterstof geldt geen ondergrens."
+Page gives no declarant deadline, certificate dates, representative rule or Ukraine mention.
+Sub-page https://www.emissieautoriteit.nl/onderwerpen/cbam/cbam-aangifte — fetch 18 — HTTP 404.
+
+2) Law-firm and agency summaries of Regulation (EU) 2025/2083 — fetch 24 (WebSearch snippets)
+Sources listed: EY "EU adopts CBAM Omnibus Regulation" https://www.ey.com/en_gl/technical/tax-alerts/eu-adopts-cbam-omnibus-regulation ; ReedSmith https://www.reedsmith.com/our-insights/blogs/viewpoints/102lr9t/what-you-need-to-know-as-cbam-simplification-comes-into-effect/ ; ICAP https://icapcarbonaction.com/en/news/eu-adopts-simplifications-cbam-rules-ahead-compliance-phase-starting-2026 ; PwC Malta; KPMG Poland; EPA Ireland; cbamguide.com
+Snippets as returned:
+- "A single mass-based threshold of 50 tonnes per calendar year has been introduced under the amended CBAM Regulation (Article 2(3a), Regulation (EU) 2025/2083). The new de minimis rule applies to imports of all CBAM goods except hydrogen and electricity."
+- "Importers must submit CBAM authorisation applications before 31 March 2026 and will be allowed to continue importing CBAM goods pending the authorisation decision."
+- "First certificate purchases will begin from February 1, 2027, covering emissions embedded in goods imported in 2026."
+- "Certificates must be surrendered by September 30 each year, starting in 2027 for the 2026 reporting year."
+- "Regulation (EU) 2025/2083 was published on October 17, 2025."
+
+3) Downstream extension — fetch 2 (search snippet)
+COM(2025) 783 final, Brussels 16.12.2025 (PDF mirrored at https://www.parlament.gv.at/dokument/XXVIII/EU/63909/imfname_11593256.pdf) — the Commission proposal extending CBAM downstream, dated 16 December 2025. Content not fetched; date and existence only.
+Also GTAI snippet: "Die Ukraine und die Türkei sind die größten Ausführer von CBAM-Waren in die EU, wobei etwa 69 % dieser Waren Eisen und Stahl ausmachen." (https://www.gtai.de/de/trade/tuerkei/wirtschaftsumfeld/cbam-1807838)
+
+Status: 50 t threshold VERIFIED (regulator page). 31 Mar 2026 authorisation deadline, 1 Feb 2027 certificate sales, 30 Sep 2027 first surrender/declaration: VERIFIED via three concurring professional summaries, not the OJ text. Whether an indirect customs representative may be the declarant in NL: STILL UNVERIFIED (NEa sub-page 404). Ukraine derogation: not found, unverified.

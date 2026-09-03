@@ -1,0 +1,9 @@
+URL: https://robotobor.nl/cobot-collaboratieve-robot-tips/
+Publisher: RoboTobor (Dutch cobot integrator and robotisation consultant, founder Patrick Verkerk)
+Fetched: 2026-09-04 (WebFetch)
+Lines that matter (as rendered by the fetch):
+"The manufacturer, importer, machine builder or integrator must ensure the cobot is provided with CE-marking, as required under Machine Directive 2006/42/EC."
+"When choosing a cobot, confusion about safety often arises, which sometimes causes a proper risk analysis to be neglected. Yet it is important to assess the complete cobot system."
+"If you move the cobot? Then you must perform a new risk analysis."
+Not on the page: who performs the risk analysis (dealer, external bureau or customer), any price or duration.
+Use: the question "do Dutch cobot dealers subcontract CE work?" is not answered here; the page pushes the duty onto "the integrator" without naming a provider.

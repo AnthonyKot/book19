@@ -1,0 +1,21 @@
+PRECEDENT for K4 ("not waste" file for used equipment) — fetch 20 (own site) + fetch 21 and 25 (searches), 2026-09-04
+
+OWN SITE
+URL: https://baumaschinen-gutachten.de/
+Publisher: Mevas Baumaschinen-Gutachten (Wolfgang Bühn), Germany
+Fetched: 2026-09-04 (WebFetch summary)
+What it sells: Zeitwertgutachten, Schadengutachten, used-machine inspections with function tests, by on-site visit.
+Quoted: "Wir bieten Gutachter-Dienstleistungen für Käufer, Verkäufer, Versicherungen Vermieter, Bauunternehmen und Behörden an"; "Mevas ermittelt den Zeitwert Ihrer Baumaschinen durch Vor-Ort-Besichtigung erfahrener Sachverständiger — von der Einzelmaschine bis zum kompletten Fuhrpark, deutschlandweit"; "Der Preis für eine Begutachtung hängt von verschiedenen Faktoren ab".
+Coverage: all German states, 30+ countries, multilingual team. Founded 2006. Team size not stated.
+
+SEARCH SNIPPETS (fetch 21, query: Mevas ... Inspektionen pro Jahr Preis) — from mevas.eu / mevas.net pages (the firm's own):
+- "Mevas inspects over 700 machines per year"; "inspects machines in more than 22 countries starting at prices from €720"; "determines the condition of machines for buyers to ensure they don't purchase scrap ... comprehensive report with function tests"; "specialized exclusively in the analysis of construction machines and mobile cranes".
+  URLs: https://mevas.net/baumaschinen-gutachten-international ; https://www.mevas.eu/deutsch/mevas-gutachten.html ; https://www.mevas.eu/articles/Gutachten-Baumaschinen.pdf
+
+INDEPENDENT TRACE (fetch 25, search)
+- Bauforum24 forum thread "Baumaschinen Gutachten - Mitglieder stellen sich vor": https://www.bauforum24.biz/forums/topic/34111-baumaschinen-gutachten/ — snippet: "operated by Wolfgang Bühn under the firm name MEVAS ... assessments of construction machinery and mobile cranes for customers worldwide ... local inspectors in more than 25 countries ... working as expert assessors since 2006". A trade-forum self-introduction: weak as an independent trace, recorded as such.
+- Other German inspectors seen in fetch 14 search: TÜV Rheinland (large); Sachverständigenbüro Ralf Hiddessen https://www.maschinen-wert.de/ (lists export of machinery); INTECUS (waste-sector Gutachten); inspektor-becker.de. Not fetched.
+
+Dutch incumbent seen (fetch 13 search): MILON "EVOA - Advies voor Afval Import en Export" https://www.milon.nl/diensten/afval-evoa-einde-afvalstatus/ — a Dutch EVOA/end-of-waste consultancy; relevant to K4 part 3 (incumbents), not a precedent.
+
+Assessment: Mevas proves that a per-unit, on-site function-test report on used iron sells at €720-plus and that one small firm can do 700 a year across 20+ countries. Same unit and same test as K4; different payer (the buyer, not the exporter) and different file (condition report, not a not-waste declaration). Partial precedent for the economics; no named firm selling the not-waste file itself was found (fetches 4, 13, 14).

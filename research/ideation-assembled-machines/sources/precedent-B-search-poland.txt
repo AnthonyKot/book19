@@ -1,0 +1,14 @@
+Query (WebSearch): "dostosowanie maszyn do minimalnych wymagań" ocena ryzyka "modernizacja maszyn" cena firma ocena zgodności maszyn CE
+Fetched: 2026-09-04
+Result URLs (Polish firms selling adaptation of in-use machines to the "minimum requirements" of Directive 2009/104/EC and re-CE after modernisation):
+- https://300gospodarka.pl/material-partnera/dostosowanie-maszyn-do-wymagan-minimalnych-obowiazki-pracodawcy-i-realne-ograniczenie-ryzyka  (sponsored trade-press piece)
+- https://eshield.pl/dla-managera/minimalne-wymagania-dla-maszyn/  (Engineering Shield)
+- https://www.intimeautomation.pl/dostosowanie-maszyn-do-wymagan-minimalnych/  (InTime Automation)
+- https://ecoms.pl/czy-ocena-ryzyka-maszyny-jest-wymagana-na-etapie-dostosowywania-do-wymagan-minimalnych/  (EcoMS)
+- https://certpartner.pl/szkolenia/otwarte/minimalne-wymagania-dla-maszyn-w-praktyce-ocena-ryzyka-i-dostosowanie-do-dyrektywy-narzedziowej/  (Cert Partner, training)
+- https://www.e-mta.pl/czym-sie-zajmujemy-2/wymagania/  (MTA)
+- https://automatech.pl/dostosowanie-maszyn-do-minimalnych-wymagan-bhp/  (Automatech)
+- http://raccord.pl/oferta/  (Raccord)
+- https://farempoland.pl/dostosowanie-maszyn-do-wymagan/  (Farem Poland; fetched next)
+Search-engine summary (not verbatim page text): adaptation to minimum requirements is every employer's duty; the process covers risk analysis, identifying missing safeguards and implementing technical and organisational measures; when modernising (new controls, drives) do the adaptation in parallel; "Oznaczenie CE nie zwalnia pracodawcy z obowiązku spełnienia minimalnych wymagań".
+Use: idea B has a whole Polish trade behind it — at least eight small firms sell per-machine assessment-plus-retrofit of old machines. No price surfaced in the snippets.

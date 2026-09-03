@@ -1,0 +1,8 @@
+URL: https://www.machinesafetyspecialists.com/
+Publisher: Machine Safety Specialists (MSS), firm's own site, Ohio, USA (phone area code 740; "Columbus Ohio" in an image caption)
+Fetched: 2026-09-04 (WebFetch)
+What it sells: "Machine Safety Audits and Risk Assessments", "Machine Safeguarding Plans", "Verification and Validation", "Industrial Robot Safety" and "Collaborative Robot Safety" consulting, "Machine Safety & Risk Assessment Training", and "Machine Risk Assessment and Safety Audit Software Apps".
+To whom: industrial clients; "businesses improve industrial workplace safety and become compliant with OSHA, ANSI, NFPA, RIA, and ISO/EN machine safety standards."
+Price: not stated. Size: not stated.
+Age: "Since 1977, MSS has helped businesses improve industrial workplace safety and become compliant".
+Caveat: US, so no CE file; the unit is the per-cell risk assessment and validation (ANSI/RIA R15.06 — the US twin of ISO 10218). Also sells an app. Precedent for idea A's unit (per-cell assessment and validation sold by a small independent), not for the EU file itself.

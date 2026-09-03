@@ -21,7 +21,7 @@ honesty paragraph. Essays (when written) follow book 18's TEMPLATE plus a "Why y
 ## 4. State — v0.1 (2026-09-04, second pass)
 Published: method, edge inventory, thirteen research memos (crowdfunding ×2 + comparison, diaspora, succession,
 licences, trade flows, regulation-created work, AI physical footprint, boring business, two triages), and a
-candidates table of nine under test plus one held. No essays.
+candidates table of twelve under test, three on watch, one held; an ideation metaprompt (`scripts/prompts/idea-metaprompt.md`, runner `scripts/ideate.sh`) with two seeded runs and their precedent reviews. Book line, decided 2026-09-04: outside software, not outside engineering. No essays.
 
 ## 5. Decision record
 - 2026-09-03 — Seed idea (user): crowdfunding platforms as a demand instrument. Run on codex and Gemini 3.8
@@ -37,3 +37,11 @@ candidates table of nine under test plus one held. No essays.
   on the BEI/VIAG language question; merged SCIOS and pest control into the certified-inspection class (#6) and
   specialised cleaning into #2; cut battery/flex packages, guarding, ITAD-to-CEE (sanctions), haulage. Thesis
   sentence from both runs' honest paragraphs: the edge is the crew and the paperwork, not the sector.
+- 2026-09-04 (evening) — User: the instruments were "nothing connected to me"; look at what the existing pages already
+  contain (IoT gateways, machinery-class crowdfunding products, machine repair) and abstract the shape. Book line
+  widened to "outside software, not outside engineering"; #8 unparked. Metaprompt written from the seven common
+  parts (iron plus paper, dated rule, small English-speaking buyers, edge without a Dutch exam, per-unit price
+  with a <€5k test, AI adds units, one kill fact) plus, on the user's request, part 8: a named precedent firm
+  elsewhere. Two seeded ideation agents, then two precedent-review agents. The first seed reproduced the editor's
+  cobot CE idea unprompted. Triage 3: added the cell file (#2), border files for CEE imports (#7), used-equipment
+  inspection (#8); watch: sanctions file, crowdfunding machinery hub, battery-pack file; cut: ML safety file.

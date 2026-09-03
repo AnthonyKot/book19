@@ -1,0 +1,4 @@
+SEARCH (WebSearch, fetch 3 of 25), 2026-09-04
+Query: export control sanctions compliance consultancy small firm SMEs "no Russia clause" end-user due diligence Kazakhstan machinery exporters Germany UK
+Results: White & Case, Wiley, Mayer Brown, Kelley Drye, WilmerHale, FTI, PwC (all large); Riddle Compliance https://riddlecompliance.com/compliance-due-diligence-consulting/sanctions-export-control-compliance/ (US boutique); CVG Strategy https://cvgstrategy.com/export-regulations-due-diligence/ (US small consultancy).
+Assessment: first page is US law firms; no German/UK SME boutique surfaced. Continue by direct fetch (Strong & Herd LLP, UK).

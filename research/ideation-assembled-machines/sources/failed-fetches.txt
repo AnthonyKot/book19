@@ -1,0 +1,7 @@
+Fetched: 2026-09-04. Six of the ten fetches returned no usable text and are recorded so the research run does not repeat them:
+- https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1230 (Machinery Regulation) — EUR-Lex returned only the OJ navigation shell (also for /TXT/HTML/ and /TXT/PDF/ variants).
+- https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1542 (Battery Regulation) — same, also /TXT/HTML/.
+- https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L2853 (Product Liability Directive) — same.
+- https://www.iso.org/standard/73934.html (ISO 10218-2) — HTTP 403.
+Consequence: every legal date and article quoted in ideas.md is from knowledge and marked unverified. A research run should
+use the EUR-Lex PDF download via curl, or the Publications Office cellar, not WebFetch.

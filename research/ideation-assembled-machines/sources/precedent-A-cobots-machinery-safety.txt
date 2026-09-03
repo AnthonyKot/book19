@@ -1,0 +1,9 @@
+URL: https://www.cobotsmachinerysafety.co.uk/
+Publisher: Cobots and Machinery Safety Ltd (firm's own site), Corby, Northamptonshire, UK
+Fetched: 2026-09-04 (WebFetch)
+What it sells: "Machinery Risk Assessments", "PUWER Assessments", "UKCA and CE Marking", "Light Curtain Testing", "Cobot Risk Assessments", "Cobot Force and Pressure Testing"; training: "Cobot Safety", "3 Day Machinery Safety", "EN ISO 10218-2 Robot Training".
+To whom: "UK manufacturers".
+Price: not stated. Size: one named person, founder Matt Androsiuk ("strong electrical engineering background", "Certified Machinery Safety Expert®"); staff count not disclosed.
+Age: "over 25 years of experience in industrial automation and machinery safety" (the person's experience, not the firm's age; founding year not stated).
+Footer: "Cobots and Machinery Safety Ltd is registered as a limited company in England and Wales" (number not shown; Companies House checked separately, see precedent-A-companies-house.txt).
+Use: the closest precedent for idea A — a one-engineer firm selling per-cell cobot risk assessment, ISO/TS 15066 force-and-pressure measurement and the CE/UKCA file to manufacturers, from a provincial town.

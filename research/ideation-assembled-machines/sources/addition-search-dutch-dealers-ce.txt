@@ -1,0 +1,12 @@
+Query (WebSearch): cobot leverancier Nederland "CE-markering" robotcel "risicobeoordeling" uitbesteden partner WiredWorkers Olmia "Cobot Connect" integrator
+Fetched: 2026-09-04
+Result URLs:
+- https://www.engineersonline.nl/achtergrond/integreren-handlingrobot-en-machine-welke-eisen-zijn-er-voor-de-ce-markering/
+- https://www.metaalnieuws.nl/lascobot-nooteboom-voorzien-van-ce-markering-door-juiste-rie/  (fetched next: who did the CE for a welding cobot at Nooteboom)
+- https://www.wiredworkers.io/nl/blog/wet-en-regelgeving-rondom-cobots-wat-moet-je-weten/
+- https://www.olmia-robotics.nl/over-ons/diensten/
+- https://d-sc.nl/cobots-functionaliteit-en-veiligheid/
+- https://robotleasen.com/categorie/cobots/
+- https://nationalecobotdag.nl/olmia-robotics/
+- https://www.olmia-robotics.nl/implementatie-cobot
+Search-engine summary (not verbatim page text): system integrators perform risk assessments and provide CE marking for integrated machines; WiredWorkers recommends risk assessments before deploying cobots; Olmia Robotics (Tiel) is a cobot system integrator that "delivers, assembles, installs and maintains cobot systems". No result states that a Dutch dealer subcontracts CE to a bureau.

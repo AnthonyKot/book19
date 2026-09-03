@@ -1,0 +1,12 @@
+Query (WebSearch): "IFR robot installations Netherlands 2025 annual installations cobots"
+Fetched: 2026-09-04
+Result URLs:
+- https://www.therobotreport.com/ifr-industrial-robot-deployments-have-doubled-in-10-years/
+- https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years
+- https://robotnik.eu/industrial-robotics-in-2025-trends-figures-and-global-outlook/
+- https://www.plastech.biz/en/news/automotive-leads-new-installs-ifr-data-for-europe-and-world-21294
+- https://manufacturingleadgeneration.com/manufacturing-robotics-statistics/
+Search-engine summary (not verbatim page text): World Robotics 2025 (IFR, Sept 2025): 542,000 industrial robots
+installed worldwide in 2024; Europe 85,000 (-8%); cobots >64,500 units, ~12% of installations, +13% year on year;
+Poland ranked ahead of the Netherlands in European installations. No Netherlands unit figure surfaced; the NL number
+stays "estimate, unverified" and is the first fact for a research run to settle.

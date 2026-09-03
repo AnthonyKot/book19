@@ -1,0 +1,14 @@
+Query (WebSearch): EU Battery Regulation 2023/1542 compliance consultancy battery pack CE marking technical file "battery passport" small consultancy Germany UK Poland services per pack
+Fetched: 2026-09-04
+Result URLs:
+- https://www.tuvsud.com/en-us/services/product-certification/ce-marking/eu-battery-regulation  (TÜV SÜD)
+- https://www.complianceandrisks.com/blog/ask-our-experts-top-frequently-asked-questions-on-batteries-regulation-eu-20231542/
+- https://www.ul.com/insights/industry-insights-eu-battery-regulation-20231542  (UL)
+- https://www.conformance.co.uk/ce-legislation-information/batteries-regulation-eu-2023-1542  (Conformance Ltd, UK small CE consultancy; fetched next)
+- https://www.intertek.com/batteries/eu-battery-regulation-services/  (Intertek)
+- https://www.flashbattery.tech/en/blog/eu-battery-regulation-obligations-updates/  (Flash Battery, Italian pack maker)
+- https://certifycomply.com/blog/new-battery-regulation-eu-2023-1542-how-does-it-affect-you/
+- https://cecheck.com/battery-regulation/
+- https://easecert.com/blogs/insights/eu-battery-regulation-2023-1542-explained
+Search-engine summary (not verbatim page text): from 18 August 2024 manufacturers must affix the CE marking to batteries, with a Declaration of Conformity and technical documentation; the passport is required for EV, LMT and industrial batteries above capacity thresholds; consultancy is offered by TÜV SÜD, Intertek, UL. "Specific pricing 'per pack' and small consultancy firms in Germany, UK, and Poland were not detailed in these results."
+Use: the market for idea C's file is visible, but the sellers found are the large bodies (the incumbents) plus generic CE consultancies; no small firm living on battery-pack files alone surfaced.

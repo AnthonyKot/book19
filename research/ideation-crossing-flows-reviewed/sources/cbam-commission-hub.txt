@@ -1,0 +1,10 @@
+URL: https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en
+Publisher: European Commission, DG TAXUD
+Fetched: 2026-09-04 (via WebFetch summary; hub page only)
+
+"As of 1 January 2026, CBAM is applicable under its definitive regime."
+"CBAM applies to imports of selected goods in the following carbon-intensive sectors: cement, iron and
+steel, aluminium, fertilisers, electricity and hydrogen."
+Hub page mentions authorisation requirements and verification rules/accreditation of verifiers but gives
+no tonnage threshold, no declarant deadline, no Ukraine derogation. Those remain to be checked on the
+simplification page or in the Omnibus regulation.

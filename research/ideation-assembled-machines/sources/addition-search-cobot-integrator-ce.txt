@@ -1,0 +1,12 @@
+Query (WebSearch): cobot palletising cell integrator "CE marking" "risk assessment" small company UK Poland Germany turnkey palletizing cell
+Fetched: 2026-09-04
+Result URLs:
+- https://olympustechnologies.co.uk/cobot-palletiser-cost-uk/  (How Much Does a Cobot Palletiser Cost? UK 2026 Guide)
+- https://olympustechnologies.co.uk/navigating-uk-cobot-safety/
+- https://olympustechnologies.co.uk/how-to-choose-robot-integrator-uk/
+- https://olympustechnologies.co.uk/ukca-ce-marking-for-cobot-cells/  (UKCA CE Marking for Cobot Cells Responsibilities)
+- https://olympustechnologies.co.uk/robot-cell-deployment-guide/
+- https://www.cobotsmachinerysafety.co.uk/  (Cobots & Machinery Safety UK | Risk Assessments | PUWER | CE Marking | Light Curtain Testing | Safety Training)
+- https://www.automation-list.com/en/vendors
+Search-engine summary (not verbatim page text): under BS EN ISO 10218-1/2 and ISO/TS 15066 a palletising cell must undergo a risk assessment; for cobots the integrator must perform force and pressure testing against ISO/TS 15066 limits; where a cobot is integrated into a larger system the integrator may assume responsibility for the overall conformity assessment. Olympus Technologies: UK robotic integrator, turnkey projects and "off the shelf" cells for welding, palletising and laser marking. Europa Systems: Pyrzyce, Poland, founded 1994, 300+ engineers (too large to be a precedent).
+Use: two leads fetched next — cobotsmachinerysafety.co.uk as a UK precedent for idea A, Olympus pages for the addition (integrator that carries the CE) and a palletiser unit price.

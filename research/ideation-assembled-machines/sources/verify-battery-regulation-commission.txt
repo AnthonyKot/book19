@@ -1,0 +1,7 @@
+URL: https://environment.ec.europa.eu/topics/waste-and-recycling/batteries_en
+Publisher: European Commission, DG ENV (batteries policy page)
+Fetched: 2026-09-04 (WebFetch)
+Lines that matter (verbatim):
+"On 17 August 2023, the new Batteries Regulation entered into force"
+"The Commission will adopt delegated and implementing acts under the new Batteries Regulation from 2024 onwards"
+Not on the page: the labelling (18 Aug 2026), QR/passport (18 Feb 2027) and due-diligence dates. A second source was fetched (see verify-battery-regulation-dates.txt).

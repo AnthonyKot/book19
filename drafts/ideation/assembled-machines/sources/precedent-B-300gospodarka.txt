@@ -1,0 +1,9 @@
+URL: https://300gospodarka.pl/material-partnera/dostosowanie-maszyn-do-wymagan-minimalnych-obowiazki-pracodawcy-i-realne-ograniczenie-ryzyka
+Publisher: 300Gospodarka (Polish business press), "Materiał Partnera" (sponsored), contributor Sławomir Kowalski, service linked to eshield.pl (Engineering Shield), dated 19 lutego 2026
+Fetched: 2026-09-04 (WebFetch)
+Lines that matter (verbatim, Polish):
+"identyfikacja zagrożeń występujących podczas normalnej pracy, konserwacji, czyszczenia oraz usuwania awarii"
+"montaż osłon stałych i ruchomych, instalację wyłączników bezpieczeństwa, modernizację układów sterowania"
+"pracodawca odpowiada za zapewnienie bezpiecznych warunków pracy"
+No price, size or age of the partner firm.
+Use: an independent (if sponsored) 2026 trade-press trace that the Polish "minimum requirements" adaptation trade is alive and sold by a second small firm (Engineering Shield) besides Farem Poland; the wording of the service is exactly idea B's memo-then-retrofit.

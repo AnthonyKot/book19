@@ -1,0 +1,10 @@
+SEARCH (WebSearch, fetch 1 of 25), 2026-09-04
+Query: EUDR due diligence statement service for small timber importers consultancy UK Germany Poland per shipment
+Results (titles/URLs as returned):
+- TraceX "EUDR DDS for Wood Supply Chain in Poland" https://tracextech.com/eudr-dds/wood-supply-chain-poland/ (software vendor)
+- Customs Support Group "EUDR Enforcement Guide" https://www.customssupport.com/eudr-enforcement-what-businesses-need-to-know-now/ (Dutch-headquartered customs broker group, large)
+- Customs Support Group EUDR service page https://www.customssupport.com/solutions/compliance-reporting/eudr-eu-deforestation-regulation/
+- Intertek Assuris EUDR https://www.intertek.com/assuris/food/regulatory/eu-deforestation-regulation-eudr/ (large)
+- Coolset, Compliancegate, ImpactBuying (software / guides)
+Snippet of note: "The UK has been designated as low risk ... simplified due diligence, minimal compliance checks (1% instead of up to 9%) ... annual due diligence statements and the ability to reuse them for repeated shipments."
+Assessment: no named small per-shipment DDS firm surfaced; large brokers and SaaS dominate the first page. Precedent search continues by direct fetch.

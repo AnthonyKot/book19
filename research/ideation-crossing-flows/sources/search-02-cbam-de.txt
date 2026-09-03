@@ -1,0 +1,8 @@
+SEARCH (WebSearch, fetch 2 of 25), 2026-09-04
+Query: CBAM Beratung KMU Emissionsdaten Lieferanten Türkei Ukraine Stahl Dienstleister kleine Firma Preis
+Results of note:
+- GTAI "CBAM Türkei" https://www.gtai.de/de/trade/tuerkei/wirtschaftsumfeld/cbam-1807838
+- Commission COM(2025) 783 final, 16.12.2025 (PDF mirrored at parlament.gv.at) https://www.parlament.gv.at/dokument/XXVIII/EU/63909/imfname_11593256.pdf  — the downstream-extension proposal, dated 16 December 2025
+- Ingdilligenz "CBAM-Beratung" https://ingdilligenz.de/cbam-beratung/ (small German engineering consultancy — precedent candidate)
+- Deloitte DE CBAM page; AEB SE (software); Börse am Sonntag; ad-hoc-news
+Snippets: "Die Ukraine und die Türkei sind die größten Ausführer von CBAM-Waren in die EU, wobei etwa 69 % dieser Waren Eisen und Stahl ausmachen." "laut IHK-Stuttgart-Umfrage erhalten gerade einmal 3 Prozent die benötigten Emissionsdaten."

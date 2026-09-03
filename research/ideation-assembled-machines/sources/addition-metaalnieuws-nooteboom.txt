@@ -1,0 +1,8 @@
+URL: https://www.metaalnieuws.nl/lascobot-nooteboom-voorzien-van-ce-markering-door-juiste-rie/
+Publisher: MetaalNieuws (Dutch metal-trade press), 28-06-2021
+Fetched: 2026-09-04 (WebFetch)
+Lines that matter (verbatim, Dutch):
+"Automise heeft eind 2019 een Yaskawa HC10 lascobot geïntegreerd in het productieproces van Nooteboom Trailers."
+"Automise heeft samen met de veiligheidsdeskundige van Nooteboom een RI&E opgesteld, welke is beoordeeld door een extern deskundige."
+Delivered: the integrated cobot with safety provisions, a two-part RI&E, technical documentation and CE marking for the assembled machine. No duration or price.
+Use: answers the brief's question in one documented case: a Dutch cobot integrator (Automise) wrote the file with the customer's own safety officer and had it reviewed by an external expert. The external review is the slot idea A sells into; whether it was paid, and by whom, is not stated.

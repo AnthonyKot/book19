@@ -1,0 +1,9 @@
+URL: https://olympustechnologies.co.uk/ukca-ce-marking-for-cobot-cells/
+Publisher: Olympus Technologies Ltd (UK robot integrator, Huddersfield), firm's own guide
+Fetched: 2026-09-04 (WebFetch)
+Lines that matter (verbatim):
+"If a cobot system integrator supplies a complete, installed cell and places it into service, the integrator is normally the manufacturer."
+"The end user becomes the legal manufacturer when they assemble or modify the cobot cell themselves, integrate additional equipment or automation, change the function, speed, or mode of operation, introduce new hazards through integration."
+"Olympus Technologies is an innovative robotic integrator, specialising in delivering high quality bespoke turnkey projects across multiple business sectors."
+Not on the page: whether Olympus does the risk assessment in-house or through a consultant; prices; staff; founding year.
+Use: addition test (step three, integrator who signs): a small UK integrator publicly takes the manufacturer role for the cells it installs.
