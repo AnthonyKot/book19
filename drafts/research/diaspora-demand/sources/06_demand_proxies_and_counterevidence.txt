@@ -1,0 +1,50 @@
+SOURCE S33 — deaths among Ukrainian refugees (dated scenario)
+Publisher: Verbond van Uitvaartorganisaties (funeral-sector trade body)
+URL: https://verbondvanuitvaartzorg.nl/informatie/handreiking-en-factsheet-rond-overlijden-oekrainers-in-nederland/
+Fetch date: 2026-09-03
+
+Excerpt:
+Using a July 2022 base of 70,660 Ukrainian refugees, the trade body’s factsheet projected
+629–1,011 deaths per year and provided guidance for handling deaths and repatriation.
+
+Limit: this is a dated national projection, not observed deaths, not the current protected
+population and not a Randstad/belt estimate. It is used only as evidence that the sector
+recognised a recurring service need; it must not be scaled to today’s population.
+
+
+SOURCE S34 — childcare waiting lists
+Publisher: Municipality of Amsterdam
+URL: https://www.amsterdam.nl/en/family-youth/childcare/
+Fetch date: 2026-09-03
+
+Excerpt:
+The municipality warns that childcare facilities often have waiting lists and advises
+parents to register early, including during pregnancy.
+
+Limit: this is general Amsterdam childcare demand, not language-specific demand. The
+language rule in S30 means the apparent language-service gap is not a lawful standalone
+full-day childcare opportunity.
+
+
+SOURCE S35 — validity of foreign driving licences
+Publisher: Netherlands Vehicle Authority (RDW)
+URL: https://www.rdw.nl/en/driving-licence/foreign-driving-licence/driving-with-a-foreign-driving-licence
+Fetch date: 2026-09-03
+
+Excerpt:
+EU/EFTA driving licences can normally be used in the Netherlands while valid, subject to
+the RDW rules. The page also sets out temporary arrangements for people from Ukraine.
+
+Limit: individual circumstances and validity periods vary. This is counterevidence to a
+broad claim that Polish/Ukrainian newcomers necessarily need Dutch driving lessons.
+
+
+SOURCE S36 — evidence-hygiene note (research record)
+Publisher: this research run
+Fetch date: 2026-09-03
+
+No countable, verifiable public community-forum complaint series was found in the fixed
+search. Forum anecdotes without a stable public URL were excluded rather than converted
+into “demand”. Prices in S17, S19, S23 and S26 are provider-advertised snapshots and do
+not establish transaction volumes. Waiting-list evidence was found only for general
+Amsterdam childcare (S34), not for a language-specific centre.

@@ -1,0 +1,106 @@
+SOURCE S10 — healthcare access for labour migrants
+Publisher: Pharos
+Landing page: https://www.pharos.nl/kennisbank/zorgen-voor-arbeidsmigranten/
+Report URL: https://www.pharos.nl/wp-content/uploads/2022/04/Zorg-en-voor-arbeidsmigranten-rapport-Pharos.pdf
+Fetch date: 2026-09-03
+
+Excerpt:
+Pharos estimates that more than 375,000 Central and Eastern European labour migrants
+were in the Netherlands. Its exploratory study used 10 worker interviews, 18 professional
+interviews, a questionnaire and a session with about 35 experts. Seventy-five per cent
+of surveyed/interviewed workers reported good health on arrival. Barriers to care include
+language, cost, lack of time, distance/transport and unfamiliarity with the Dutch system.
+Employers often arrange insurance and housing. Dental care is not routine and cost is a
+barrier. Physical work/long days and mental stress create health risks.
+
+Limit: small, non-representative exploratory sample; the “more than 375,000” estimate
+is not a count of the four language/origin groups in this study.
+
+
+SOURCE S11 — practitioner follow-up on health access
+Publisher: Pharos
+URL: https://www.pharos.nl/nieuws/verslag-symposium-zorg-en-welzijn-arbeidsmigranten-persoonlijke-benadering-helpt/
+Fetch date: 2026-09-03
+
+Excerpt:
+The 2023 symposium report identifies language as a major barrier, fear of costs,
+difficulty registering with or reaching a GP, and confusion about health insurance.
+Participants report that a personal approach helps.
+
+Limit: practitioner/event evidence, not a prevalence or willingness-to-pay estimate.
+
+
+SOURCE S12 — Westland labour-migrant scale and housing
+Publisher: Municipality of Westland
+URL: https://www.gemeentewestland.nl/aanvragen-en-regelen/ondernemen-en-arbeidsmigratie/arbeidsmigratie/huisvesting-arbeidsmigranten
+Fetch date: 2026-09-03
+
+Excerpt:
+Westland estimates that 12,000 labour migrants work in the municipality, about 4,500
+live there and the seasonal peak can reach 16,000. The page describes a shortage of
+suitable housing and municipal efforts to add accommodation.
+
+Limit: estimates are broader than the four communities and count workers and residents
+differently; no language-use or commercial-demand measure is given.
+
+
+SOURCE S13 — Venlo labour migrants and service infrastructure
+Publisher: Municipality of Venlo / Venlo municipal council
+Report URL: https://gemeenteraad.venlo.nl/Documenten/130-RIB-bijlage-1.pdf
+Current information page: https://www.venlo.nl/informatie-en-adviespunten
+WorkInNL update: https://nu.venlo.nl/nieuws/gemeenten-noord-limburg-openen-zes-Work-nl-informatiepunten-voor-eu-arbeidsmigranten
+Fetch date: 2026-09-03
+
+Excerpt:
+The municipal report estimated 8,200 labour migrants worked in Venlo in 2020; three
+in five stayed less than a year and the estimated short-stay-bed shortage was 3,000.
+It identified language, communication and care as issues. Current MyInfoNL/WorkInNL
+provision gives free information about housing, work, care, rights and language in up
+to 16 languages; six North Limburg walk-in points opened in 2026.
+
+Limit: the worker and bed figures are from 2020. The free public service is evidence
+of need but also a direct substitute for a paid information-only offer.
+
+
+SOURCE S14 — Waalwijk international workers
+Publisher: ABU (Dutch Association of Temporary Employment Agencies), reporting a
+municipality/employer cooperation programme
+URL: https://www.abu.nl/kennisbank/arbeidsmigratie/samenwerken-aan-goed-werk-voor-arbeidsmigranten/
+Fetch date: 2026-09-03
+
+Excerpt:
+The 2026 page says about 3,000 international workers work in Waalwijk, with more at
+seasonal peaks. Cooperation covers work, housing, care, insurance, registration and
+information.
+
+Limit: an approximate count from a trade body; it is not broken down by origin or
+language and does not measure private spending.
+
+
+SOURCE S15 — The Hague / Laak
+Publisher: Municipality of The Hague
+URL: https://www.denhaag.nl/nl/stadsdelen/laak/actieplan-laak/maatregelen-actieplan-laak/
+Fetch date: 2026-09-03
+
+Excerpt:
+The action-plan page reports 8,045 labour migrants in Laak and says the district has
+the largest labour-migrant concentration in the city. Outreach and information in
+residents’ own languages form part of the plan.
+
+Limit: neighbourhood administrative context, not demand or spending by category.
+
+
+SOURCE S16 — historical Polish information-seeking in The Hague
+Publisher: Youth Ombudsman of The Hague
+URL: https://jeugdombudsman.denhaag.nl/wp-content/uploads/2023/10/Geregistreerd-of-niet.-Een-zoektocht-naar-Midden-en-Oost-Europese-kinderen-in-Den-Haag.pdf
+Fetch date: 2026-09-03
+
+Excerpt:
+Interviewees described problems after arrival caused by not speaking Dutch and not
+knowing where to find housing, registration and benefit information. Some looked for
+Polish-speaking help and some encountered fraud or slumlords. The report calls for
+Polish-language information.
+
+Limit: the underlying fieldwork is historical and qualitative; it cannot establish
+current incidence, price or a commercial gap.
+

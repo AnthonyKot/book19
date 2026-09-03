@@ -1,0 +1,79 @@
+SOURCE S5 — entrepreneurs by origin
+Publisher: Statistics Netherlands (CBS)
+URL: https://www.cbs.nl/nl-nl/nieuws/2024/32/bijna-1-miljoen-ondernemers-erbij-sinds-2010
+Fetch date: 2026-09-03
+
+Excerpt:
+In 2023 nearly 400,000 entrepreneurs in the Netherlands were born abroad; one third
+had an EU origin. Poland was the largest individual country with 35,000 entrepreneurs,
+and slightly more than half of those Polish entrepreneurs worked in construction.
+There were 2,110 first-generation Ukrainian starters in 2023, versus 120 in 2010.
+
+Limit: entrepreneurs are not the same as establishments, active service providers or
+language-matched providers. The article supplies national, not municipal, counts.
+
+
+SOURCE S6 — KVK trend in foreign-born entrepreneurship
+Publisher: Netherlands Chamber of Commerce (KVK)
+URL: https://regiodata.kvk.nl/news/blijvende-groei-aantal-bedrijven-in-2022/89
+Fetch date: 2026-09-03
+
+Excerpt:
+The share of entrepreneurs born outside the Netherlands rose from 13% in 2013 to
+18% in 2023. Poland was the largest foreign-born entrepreneur group. Compared with
+the preceding period, starters from Ukraine and the former Soviet Union increased by
+more than 218% and almost 44%, respectively. KVK notes that Ukrainians must have the
+appropriate permissions.
+
+Limit: “former Soviet Union” is not synonymous with Russian-speaking, and growth
+rates do not show the stock or demand for any service category.
+
+
+SOURCE S7 — Ukrainian refugees and self-employment
+Publisher: Netherlands Chamber of Commerce (KVK)
+URL: https://www.kvk.nl/starten/oekraiense-vluchteling-inschrijven-bij-kvk/
+Fetch date: 2026-09-03
+
+Excerpt:
+People protected under the Ukrainian Temporary Protection Directive may work as
+employees without a TWV. A customer who hires such a person as a self-employed
+worker needs a TWV. KVK says applications for common assignments in hospitality,
+construction, personal services and agriculture are rejected because sufficient labour
+is available in the Netherlands or EEA.
+
+Limit: updated April 2026; it concerns refugees under temporary protection, not all
+Ukrainian nationals or incorporated businesses.
+
+
+SOURCE S8 — Roemer advisory report (2020)
+Publisher: Aanjaagteam Bescherming Arbeidsmigranten / Dutch central government
+Landing page: https://www.rijksoverheid.nl/documenten/2020/10/30/tweede-advies-aanjaagteam-bescherming-arbeidsmigranten-1
+PDF URL: https://www.fnv.nl/getmedia/8b4019be-67f1-4979-a07b-a5a0e385cf7b/Rapport-Roemer.pdf
+Fetch date: 2026-09-03
+
+Excerpt:
+The final report describes a worker’s dependence on the employer/agency across work,
+housing, transport and health insurance. Identified risks include underpayment, poor
+housing, unsafe work and the simultaneous loss of job, housing and insurance. It makes
+50 recommendations around regulation, registration, housing, health, enforcement and
+access to information.
+
+Limit: a national policy diagnosis from 2020, not a present-day willingness-to-pay
+study and not specific to Polish, Ukrainian, Russian or Belarusian speakers.
+
+
+SOURCE S9 — latest Roemer implementation follow-up located
+Publisher: Dutch central government (Rijksoverheid)
+URL: https://www.rijksoverheid.nl/documenten/2025/11/20/voortgang-uitvoering-aanbevelingen-aanjaagteam-bescherming-arbeidsmigranten
+Fetch date: 2026-09-03
+
+Excerpt:
+The 20 November 2025 report records the government’s continuing implementation of
+the Aanjaagteam/Commission Roemer recommendations. A November 2024 progress note
+also records that the Good Landlordship Act requires separation of rental and employment
+contracts, intended to reduce dependence on employers.
+Related page: https://www.rijksoverheid.nl/actueel/nieuws/2024/11/14/kabinet-geeft-startschot-nieuwe-aanpak-arbeidsmigratie
+
+Limit: implementation activity is evidence that the problems are recognised, but it
+also creates public/free competitors and may change the commercial opportunity.
+

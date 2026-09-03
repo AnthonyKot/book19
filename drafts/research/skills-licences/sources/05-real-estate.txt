@@ -1,0 +1,54 @@
+Publisher: RVO / Business.gov.nl
+URL: https://business.gov.nl/regulations/professional-qualifications/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- A diploma or permit is not generally required to work or establish a business in the Netherlands;
+  only listed regulated professions have statutory requirements. Real-estate agent is not treated
+  as a protected Dutch occupation in the cited government guidance.
+
+Publisher: Academie voor Vastgoed (NVM-linked commercial training provider)
+URL: https://www.academievoorvastgoed.nl/opleidingen/basistheorie-vastgoeddeskundige
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- No formal entry prerequisite, but HAVO/MBO-4 reasoning, good spoken/written Dutch and basic
+  numeracy are stated as important. Fast route is 9–12 months.
+- 2026 regular all-in total for tuition, books and four SVMNIVO exams: EUR 6,793.37 incl. VAT.
+
+Publisher: Academie voor Vastgoed
+URL: https://www.academievoorvastgoed.nl/opleidingen/praktijkleer-en-vakbekwaamheid-makelaar-wonen
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- The specialisation requires the Basistheorie diploma. Regular total including books and two
+  SVMNIVO exams: EUR 4,256.01 incl. VAT.
+- Passing permits K-RMT registration; annual continuing education is required. The provider says
+  the specialisation generally takes 3–6 months on its overview page.
+
+Publisher: Academie voor Vastgoed
+URL: https://www.academievoorvastgoed.nl/blog/wat-voor-opleiding-heb-je-nodig-om-makelaar-te-worden
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- The provider states the complete route to Kandidaat- or Register-Makelaar usually takes 2–3
+  years; the title is not legally protected, but recognised education and register membership are
+  practically important for trust and progression.
+
+Publisher: SVMNIVO
+URL: https://svmnivo.nl/wp-content/uploads/sites/35/2026/01/Tarievenlijst_SVMNIVO_v8.14_01-01-2026.pdf
+Fetch date: 2026-09-03
+Dataset note: six-page PDF, under 1 MB as served by the web index; not downloaded.
+Excerpt/facts relied on:
+- 2026 fees include EUR 209.60 per Basistheory/specialisation theory examination and EUR 968.80
+  for the Register-Makelaar LV competence examination; A-RMT/K-RMT period-12 recertification test
+  EUR 209.60. (Route totals use the trainer's consolidated figures above.)
+
+Publisher: NVM
+URL: https://www.nvm.nl/media/wuhl3gld/reglement-lidmaatschap-en-aansluiting-2024.pdf
+Fetch date: 2026-09-03
+Dataset note: PDF under 50 MB; not downloaded.
+Excerpt/facts relied on:
+- Each NVM residential branch must have at least one qualifying NVM/VastgoedCert professional.
+  Buyer viewings must be handled by an NVM Register-Makelaar or NVM Makelaar. A trainee can work
+  under the specified regime if training starts within six months and finishes within three years.
+
+Limit: no reliable national shortage count or vacancy count was found for agents. Full K-RMT from
+scratch is normally beyond twelve months and all examined routes are Dutch-language-intensive.
+

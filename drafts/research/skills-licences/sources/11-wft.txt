@@ -1,0 +1,45 @@
+TITLE: Wft financial-advice diplomas and AFM company permit
+FETCH DATE: 2026-09-03
+
+SOURCE 1
+URL: https://cdfd.nl/wp-content/uploads/2026/01/Kandidatenbrochure-initiele-examens-per-1-april-2025-1.3.pdf
+PUBLISHER: College Deskundigheid Financiële Dienstverlening (CDFD)
+DATASET NOTE: PDF candidate brochure, below 50 MB; not saved as binary. Relevant statement transcribed.
+EXCERPT: “De examens worden uitsluitend in het Nederlands afgenomen” (the exams are administered exclusively in Dutch). Wft exams are based on the statutory final and test terms.
+
+SOURCE 2
+URL: https://www.afm.nl/nl-nl/sector/adviseurs-bemiddelaars-en-gevolmachtigde-agenten/themas/vakbekwaamheidseisen
+PUBLISHER: Authority for the Financial Markets (AFM)
+EXCERPT (paraphrased): Customer-facing advisers require a valid diploma for the product/service combination and periodic Permanent Education diplomas to keep their advice authority valid. All customer-facing staff must remain permanently current; the permit holder decides how to implement that open standard. DUO records diploma validity.
+
+SOURCE 3
+URL: https://www.afm.nl/nl-nl/sector/adviseurs-bemiddelaars-en-gevolmachtigde-agenten/vergunning-aanvragen-of-wijzigen/vergunningaanvraag
+PUBLISHER: AFM
+EXCERPT (paraphrased): One or more Wft diplomas are not enough for a company permit. Other conditions include reliable and suitable policymakers, competent advisers, controlled and ethical operations, a transparent control structure, and in relevant cases professional-liability insurance and BKR affiliation. The statutory decision period is 13 weeks after a complete application.
+
+SOURCE 4
+URL: https://www.wftinstituut.nl/wft-basis
+PUBLISHER: WFT Instituut (private CDFD-recognised exam institute)
+EXCERPT (paraphrased): Its Wft Basis exam costs EUR 169.95 and takes 120 minutes. No course is mandatory. Basis alone permits informing/referral, not product advice. Basis has unlimited validity and no PE, while advice qualifications require a PE examination every three years. For mortgage advice, Basis, Vermogen and Hypothecair Krediet modules are required. Provider price and duration are illustrative, not a government tariff.
+
+SOURCE 5
+URL: https://www.nibesvv.nl/opleiding/wft-basis
+PUBLISHER: NIBE-SVV (private provider)
+EXCERPT (paraphrased): The advertised self-paced e-learning Wft Basis tuition is EUR 149 excluding VAT, excluding optional exam and classroom additions.
+
+SOURCE 6
+URL: https://www.uwv.nl/assets-kai/files/63956f9f-f057-445f-ad98-c3ce2c541b03/kansrijke-beroepen-2026-2027.pdf
+PUBLISHER: UWV
+DATASET NOTE: 20-page national PDF below 50 MB; relevant excerpt recorded, no binary saved.
+EXCERPT (paraphrased): UWV's national 2026–2027 promising-occupations list includes insurance advisers/underwriters and advisers for mortgages, credit and subsidies; footnote 3 says Wft diplomas are required for these occupations.
+
+SOURCE 7
+URL: https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen-hbo-wo
+PUBLISHER: UWV
+EXCERPT (paraphrased): UWV says accountants, controllers and financial advisers offer ample opportunities, especially with digital-transformation and data-analysis knowledge, but automation and online services reduce demand in traditional bank and insurance roles.
+
+LIMITS
+- The three-year PE cycle and EUR 169.95 are provider statements; AFM confirms periodic PE but the exact cycle should be rechecked for the chosen diploma period.
+- Study time varies materially by module and prior Dutch financial knowledge. No defensible full-path hours figure was found; the table therefore states self-study/within 12 months rather than inventing one.
+- Job demand does not establish viability of a newly authorised advice firm, whose AFM compliance burden is substantial.
+

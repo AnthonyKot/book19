@@ -1,0 +1,38 @@
+Publisher: UWV
+URL: https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- UWV's 2026 list says many occupations have offered good job prospects for years and are
+  expected to remain promising; prominent sectors include construction, energy/installation,
+  transport/logistics, care and hospitality.
+
+Publisher: UWV
+URL: https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/kansrijke-beroepen-kies-techniek
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Energy transition and climate measures make installation engineering especially promising.
+- Installation-sector labour remains scarce to very scarce. UWV specifically names CV/heat-pump
+  mechanics, measurement/control technicians, grid mechanics and energy-performance advisers.
+
+Publisher: UWV
+URL: https://www.uwv.nl/nl/arbeidsmarktinformatie/kansen-beroep/ruim-140-structureel-kansrijke-beroepen
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- 144 occupations were structurally promising (good prospects for at least four years).
+- 79 of 190 technical occupations (42%) were structurally promising.
+
+Publisher: UWV
+URL: https://www.uwv.nl/nl/arbeidsmarktinformatie/inzichten-werving-behoud/oplossingen-tekort-beroepsgroep
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- UWV publishes labour-shortage solution sheets for, among others, childcare workers, drivers,
+  logistics workers, cooks, waiting staff and security guards.
+
+Publisher: UWV
+URL: https://www.uwv.nl/nl/nieuws/nieuwe-kansrijke-beroepen-in-2025-kapper-tandtechnicus-en-telefoonreparateur
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- UWV explicitly identifies translators among occupations with poor prospects because of AI.
+- It cautions that a promising occupation still may require specific knowledge and competition
+  or employer requirements can make entry difficult.
+

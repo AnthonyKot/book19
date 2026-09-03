@@ -1,0 +1,61 @@
+Publisher: Inspectie Leefomgeving en Transport (ILT)
+URL: https://www.ilent.nl/onderwerpen/risicovolle-stoffen/chemische-stoffen/f-gassen-en-ozonlaagafbrekende-stoffen/certificaten-voor-werken-met-f-gassen-en-ozonlaagafbrekende-stoffen
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Air-conditioning, refrigeration and heat-pump installation, service, repair, leak checking,
+  decommissioning and recovery require the appropriate certificate.
+- A mechanic needs a BRL 200 personal certificate. A self-employed installer also needs a BRL 100
+  company certificate; that company certificate entails work instructions, equipment and
+  certified staff. ILT can sanction uncertified activity.
+
+Publisher: Informatiepunt Leefomgeving (Dutch government)
+URL: https://iplo.nl/thema/lucht/ozon-en-f-gassen/certificering/eisen-natuurlijke-personen-monteurs/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Since 29 March 2026, the new BRL 200 categories apply: A1 covers F-gases and hydrocarbons in all
+  quantities; A2 is limited to 3 kg (6 kg in hermetically sealed systems).
+- New certificates last seven years; periodic recertification follows. The detailed future
+  recertification process was still being determined.
+
+Publisher: Informatiepunt Leefomgeving (Dutch government)
+URL: https://iplo.nl/thema/lucht/ozon-en-f-gassen/certificering/eisen-ondernemingen-installatiebedrijven/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- New company applications after 31 August 2026 are assessed under BRL 100 v3.0. Recognised
+  certifiers listed are Bureau Veritas, CIBV, DEKRA, ECH, Kiwa and SGS INTRON.
+- The initial assessment is followed by periodic inspections of certified staff, calibrated
+  equipment, refrigerant records/leak prevention, and internal procedures. Positive certificates
+  are registered in the Centraal Register Techniek.
+
+Publisher: Bureau Veritas Benelux
+URL: https://benelux.bureauveritas.com/inspecties/industriele-inspecties
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- BRL 100 v3.0 certification starts with an initial assessment; a positive result yields a
+  provisional certificate and an inspection follows within six months. Periodic inspection is at
+  least once every two years. Pricing is by quotation, not published.
+
+Publisher: NVKL (refrigeration/air-conditioning trade association)
+URL: https://www.nvkl.nl/2026/08/28/online-leerplatform-examens-a1-a2-nu-ook-beschikbaar-in-het-engels/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- A1/A2 learning modules and exams were available in English by 28 August 2026; multiple providers
+  offer English courses. Six-month learning-platform access cost EUR 42.50 excl. VAT for members
+  and EUR 45 excl. VAT for non-members.
+
+Publisher: ROVC (commercial technical trainer)
+URL: https://www.rovc.nl/cursus/f-gassen-a1-in-english
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- English A1 preparation is 13 days, eight practical, with about four hours preparation per lesson.
+- It expects extensive refrigeration theory, MBO-3 thinking level, several years' relevant
+  experience and hard-soldering experience; price is quotation-only and exam is excluded.
+
+Publisher: Royal PBNA (recognised exam institution)
+URL: https://www.pbna.com/en/examens/f-gassen/a1-examen-f-gassen-koolwaterstoffen/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- A1 has separate theory and practical examinations. The theory is 40 questions in 60 minutes;
+  practice tests safety/actions, inspection, and soldering/assembly.
+- Published exam price: EUR 845; practical-module resit EUR 425, theory resit EUR 145.
+

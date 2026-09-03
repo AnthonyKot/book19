@@ -1,0 +1,50 @@
+Publisher: NEN
+URL: https://www.nen.nl/e-learning-nen-3140-working-safely-on-or-near-electrical-installations-low-voltage
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- English-version NEN 3140 e-learning is offered for VOP (instructed person) and VP (skilled
+  person), with durations of 3 and 3.5 hours respectively; listed price EUR 275 excluding VAT /
+  EUR 332.75 including VAT.
+- Passing a final test is not itself the legal appointment: the person in control may appoint the
+  worker based on the test result, practical experience and electrical knowledge.
+
+Publisher: NEN
+URL: https://www.nen.nl/elektrotechniek/werkvoorschriften/laagspanninginstallaties
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- A NEN 3140 course certificate has no intrinsic validity period. The party requesting it decides
+  how recent the training must be.
+- There is no official NEN 3140 inspection sticker; the standard requires demonstrable approval
+  of electrical work equipment but does not prescribe the proof format.
+
+Publisher: VCANederland (commercial provider; current price snapshot)
+URL: https://www.vcanederland.nl/vca-cursus/vca-andere-talen/vca-engels
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- One-day English B-VCA course plus exam was advertised from EUR 348 excluding 21% VAT.
+- English B-VCA e-learning plus exam was advertised from EUR 148 excluding 21% VAT; English
+  e-learning alone EUR 59 excluding 9% VAT.
+- One-day English VOL-VCA course plus exam was advertised from EUR 348 excluding 21% VAT.
+
+Publisher: Pontifex Certificatie (commercial SSVV exam provider)
+URL: https://pontifexcertificatie.nl/tarieven-2026/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Its 2026 table places Dutch, German, English and French in B-VCA/VOL-VCA language group 1;
+  Polish and Russian are also available for B-VCA (group 2).
+
+Publisher: SSVV/VCA checklist
+URL: https://www.vca.nl/application/files/3015/8084/7119/VCA-checklist-2017-6-0.pdf
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- Company VCA certification normally lasts three years. (This is not the personal diploma.)
+
+Publisher: SSVV
+URL: https://ssvv.nl/persoonscertificering/vca-b/
+Fetch date: 2026-09-03
+Excerpt/facts relied on:
+- B-VCA is a starting qualification, not authority to perform hazardous work independently.
+- The diploma is recorded in the Central Diploma Register, lasts ten years and then requires a
+  fresh exam. English, Polish and Russian materials/exam matrices are listed.
+
+Limit: VCA is normally a purchaser/employer access condition, not a statutory occupational licence.
