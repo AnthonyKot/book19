@@ -1,0 +1,86 @@
+[
+  {
+    "category": "Travel & Outdoors",
+    "total_projects": 218,
+    "total_usd_funds": 24598837.74,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 112838.71
+  },
+  {
+    "category": "Productivity",
+    "total_projects": 109,
+    "total_usd_funds": 21602022.65,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 198183.69
+  },
+  {
+    "category": "Home",
+    "total_projects": 124,
+    "total_usd_funds": 17380233.26,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 140163.17
+  },
+  {
+    "category": "Phones & Accessories",
+    "total_projects": 75,
+    "total_usd_funds": 13140213.31,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 175202.84
+  },
+  {
+    "category": "Health & Fitness",
+    "total_projects": 137,
+    "total_usd_funds": 12842961.74,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 93744.25
+  },
+  {
+    "category": "Fashion & Wearables",
+    "total_projects": 94,
+    "total_usd_funds": 11042722.27,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 117475.77
+  },
+  {
+    "category": "Camera Gear",
+    "total_projects": 17,
+    "total_usd_funds": 8440284.07,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 496487.3
+  },
+  {
+    "category": "Energy & Green Tech",
+    "total_projects": 41,
+    "total_usd_funds": 5058045.99,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 123366.98
+  },
+  {
+    "category": "Transportation",
+    "total_projects": 42,
+    "total_usd_funds": 3694321.09,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 87960.03
+  },
+  {
+    "category": "Audio",
+    "total_projects": 27,
+    "total_usd_funds": 1883922.87,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 69774.92
+  },
+  {
+    "category": "Food & Beverages",
+    "total_projects": 64,
+    "total_usd_funds": 1567672.05,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 24494.88
+  },
+  {
+    "category": "Photography",
+    "total_projects": 8,
+    "total_usd_funds": 8478.04,
+    "total_perks_claimed": 0,
+    "avg_usd_per_project": 1059.76
+  }
+]

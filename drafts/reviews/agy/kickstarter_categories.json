@@ -1,0 +1,65 @@
+[
+  {
+    "category": "Technology",
+    "total_projects": 4333,
+    "successful_projects": 3266,
+    "success_rate_pct": 75.4,
+    "total_usd_pledged": 829442064.64,
+    "total_backers": 2168561,
+    "avg_pledge_usd": 382.49
+  },
+  {
+    "category": "Design",
+    "total_projects": 5328,
+    "successful_projects": 3840,
+    "success_rate_pct": 72.1,
+    "total_usd_pledged": 282560321.64,
+    "total_backers": 1772140,
+    "avg_pledge_usd": 159.45
+  },
+  {
+    "category": "Games",
+    "total_projects": 8547,
+    "successful_projects": 7702,
+    "success_rate_pct": 90.1,
+    "total_usd_pledged": 214358668.32,
+    "total_backers": 2448939,
+    "avg_pledge_usd": 87.53
+  },
+  {
+    "category": "Fashion",
+    "total_projects": 3769,
+    "successful_projects": 2104,
+    "success_rate_pct": 55.8,
+    "total_usd_pledged": 36289066.43,
+    "total_backers": 276845,
+    "avg_pledge_usd": 131.08
+  },
+  {
+    "category": "Food",
+    "total_projects": 3471,
+    "successful_projects": 919,
+    "success_rate_pct": 26.5,
+    "total_usd_pledged": 23244554.01,
+    "total_backers": 171360,
+    "avg_pledge_usd": 135.65
+  },
+  {
+    "category": "Photography",
+    "total_projects": 1363,
+    "successful_projects": 899,
+    "success_rate_pct": 66.0,
+    "total_usd_pledged": 11794309.87,
+    "total_backers": 110159,
+    "avg_pledge_usd": 107.07
+  },
+  {
+    "category": "Crafts",
+    "total_projects": 1578,
+    "successful_projects": 622,
+    "success_rate_pct": 39.4,
+    "total_usd_pledged": 5896798.7,
+    "total_backers": 52801,
+    "avg_pledge_usd": 111.68
+  }
+]

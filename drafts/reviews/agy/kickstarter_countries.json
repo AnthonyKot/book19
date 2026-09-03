@@ -1,0 +1,227 @@
+[
+  {
+    "country": "US",
+    "is_eu": false,
+    "total_projects": 13307,
+    "successful_projects": 8433,
+    "success_rate_pct": 63.4,
+    "total_usd_pledged": 863946796.83,
+    "total_backers": 3982553
+  },
+  {
+    "country": "HK",
+    "is_eu": false,
+    "total_projects": 2312,
+    "successful_projects": 1952,
+    "success_rate_pct": 84.4,
+    "total_usd_pledged": 277451084.86,
+    "total_backers": 922502
+  },
+  {
+    "country": "GB",
+    "is_eu": false,
+    "total_projects": 2785,
+    "successful_projects": 2003,
+    "success_rate_pct": 71.9,
+    "total_usd_pledged": 65048052.61,
+    "total_backers": 584280
+  },
+  {
+    "country": "CA",
+    "is_eu": false,
+    "total_projects": 1390,
+    "successful_projects": 909,
+    "success_rate_pct": 65.4,
+    "total_usd_pledged": 35822719.07,
+    "total_backers": 280435
+  },
+  {
+    "country": "AU",
+    "is_eu": false,
+    "total_projects": 778,
+    "successful_projects": 528,
+    "success_rate_pct": 67.9,
+    "total_usd_pledged": 17289949.32,
+    "total_backers": 125883
+  },
+  {
+    "country": "ES",
+    "is_eu": true,
+    "total_projects": 1144,
+    "successful_projects": 863,
+    "success_rate_pct": 75.4,
+    "total_usd_pledged": 16692662.88,
+    "total_backers": 178334
+  },
+  {
+    "country": "JP",
+    "is_eu": false,
+    "total_projects": 676,
+    "successful_projects": 535,
+    "success_rate_pct": 79.1,
+    "total_usd_pledged": 16165170.84,
+    "total_backers": 110996
+  },
+  {
+    "country": "DE",
+    "is_eu": true,
+    "total_projects": 1059,
+    "successful_projects": 643,
+    "success_rate_pct": 60.7,
+    "total_usd_pledged": 16161068.36,
+    "total_backers": 104756
+  },
+  {
+    "country": "SG",
+    "is_eu": false,
+    "total_projects": 250,
+    "successful_projects": 152,
+    "success_rate_pct": 60.8,
+    "total_usd_pledged": 15535489.79,
+    "total_backers": 50893
+  },
+  {
+    "country": "FR",
+    "is_eu": true,
+    "total_projects": 726,
+    "successful_projects": 510,
+    "success_rate_pct": 70.2,
+    "total_usd_pledged": 14511600.94,
+    "total_backers": 107597
+  },
+  {
+    "country": "PL",
+    "is_eu": true,
+    "total_projects": 658,
+    "successful_projects": 540,
+    "success_rate_pct": 82.1,
+    "total_usd_pledged": 11422591.07,
+    "total_backers": 88011
+  },
+  {
+    "country": "CH",
+    "is_eu": false,
+    "total_projects": 177,
+    "successful_projects": 89,
+    "success_rate_pct": 50.3,
+    "total_usd_pledged": 10983549.61,
+    "total_backers": 65828
+  },
+  {
+    "country": "NL",
+    "is_eu": true,
+    "total_projects": 385,
+    "successful_projects": 286,
+    "success_rate_pct": 74.3,
+    "total_usd_pledged": 10927576.45,
+    "total_backers": 71330
+  },
+  {
+    "country": "IT",
+    "is_eu": true,
+    "total_projects": 922,
+    "successful_projects": 551,
+    "success_rate_pct": 59.8,
+    "total_usd_pledged": 10465908.97,
+    "total_backers": 94542
+  },
+  {
+    "country": "SE",
+    "is_eu": true,
+    "total_projects": 199,
+    "successful_projects": 143,
+    "success_rate_pct": 71.9,
+    "total_usd_pledged": 6629540.33,
+    "total_backers": 52214
+  },
+  {
+    "country": "DK",
+    "is_eu": true,
+    "total_projects": 98,
+    "successful_projects": 57,
+    "success_rate_pct": 58.2,
+    "total_usd_pledged": 2367018.67,
+    "total_backers": 13919
+  },
+  {
+    "country": "IE",
+    "is_eu": true,
+    "total_projects": 130,
+    "successful_projects": 92,
+    "success_rate_pct": 70.8,
+    "total_usd_pledged": 2361593.01,
+    "total_backers": 15178
+  },
+  {
+    "country": "GR",
+    "is_eu": true,
+    "total_projects": 494,
+    "successful_projects": 451,
+    "success_rate_pct": 91.3,
+    "total_usd_pledged": 2117932.28,
+    "total_backers": 59604
+  },
+  {
+    "country": "NZ",
+    "is_eu": false,
+    "total_projects": 136,
+    "successful_projects": 101,
+    "success_rate_pct": 74.3,
+    "total_usd_pledged": 1943426.43,
+    "total_backers": 27156
+  },
+  {
+    "country": "BE",
+    "is_eu": true,
+    "total_projects": 141,
+    "successful_projects": 78,
+    "success_rate_pct": 55.3,
+    "total_usd_pledged": 1634798.49,
+    "total_backers": 15876
+  },
+  {
+    "country": "AT",
+    "is_eu": true,
+    "total_projects": 79,
+    "successful_projects": 41,
+    "success_rate_pct": 51.9,
+    "total_usd_pledged": 1158659.23,
+    "total_backers": 7962
+  },
+  {
+    "country": "MX",
+    "is_eu": false,
+    "total_projects": 441,
+    "successful_projects": 336,
+    "success_rate_pct": 76.2,
+    "total_usd_pledged": 965344.53,
+    "total_backers": 29683
+  },
+  {
+    "country": "NO",
+    "is_eu": false,
+    "total_projects": 59,
+    "successful_projects": 39,
+    "success_rate_pct": 66.1,
+    "total_usd_pledged": 955946.41,
+    "total_backers": 4645
+  },
+  {
+    "country": "SI",
+    "is_eu": true,
+    "total_projects": 36,
+    "successful_projects": 18,
+    "success_rate_pct": 50.0,
+    "total_usd_pledged": 892951.3,
+    "total_backers": 6319
+  },
+  {
+    "country": "LU",
+    "is_eu": true,
+    "total_projects": 7,
+    "successful_projects": 2,
+    "success_rate_pct": 28.6,
+    "total_usd_pledged": 134351.31,
+    "total_backers": 309
+  }
+]
