@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-09-03",
+  "cutoff_utc": "2026-09-03T23:59:59+00:00",
+  "kickstarter": {
+    "2023 baseline: raw rows": 24912,
+    "2023 baseline: duplicate IDs": 31,
+    "2026 latest: raw rows": 244266,
+    "2026 latest: duplicate IDs": 11039,
+    "deduplicated physical Kickstarter projects, 2023-2026": 25866
+  },
+  "indiegogo": {
+    "raw rows": 28587,
+    "duplicate IDs": 1886,
+    "deduplicated physical Indiegogo projects, 2023-2026": 943
+  },
+  "qualifying_proven_elsewhere": 647,
+  "manual_public_page_projects": 3,
+  "top_40_rows": 40,
+  "notes": [
+    "Kickstarter baseline is read first; a matching project in the latest archive replaces it.",
+    "Success-rate denominator is successful + failed only.",
+    "Kickstarter converted_pledged_amount is treated as USD; Indiegogo qualifies only USD rows.",
+    "Indiegogo inferred outcome uses close_date plus funds_raised_percent because the archive has no state field.",
+    "Indiegogo perks_claimed is blank/zero in the qualifying cohort, so it yields no threshold-qualified products and its backer totals are unavailable.",
+    "Makuake JPY amounts are converted through the 2026-09-02 ECB cross-rate (EUR/USD 1.1578; EUR/JPY 184.78); badge counts are recorded as lower bounds.",
+    "Compliance flags are keyword/category triage and are not legal conclusions."
+  ]
+}
