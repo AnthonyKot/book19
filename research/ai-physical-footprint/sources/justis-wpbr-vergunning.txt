@@ -1,0 +1,13 @@
+Source: https://www.justis.nl/producten/particuliere-beveiliging-en-recherche/vergunning-aanvragen
+Publisher: Justis (Ministerie van Justitie en Veiligheid)
+Fetch date: 2026-09-04
+Title: Vergunning aanvragen voor beveiligingsorganisatie of recherchebureau (Wpbr)
+
+Key excerpts:
+- "Het tarief voor een vergunning bedraagt €600,-"; "€92,- per leidinggevende" for toestemming leidinggevende.
+- Licence valid for a maximum of 5 years.
+- Leidinggevende: BRP extract or passport/ID copy; screening looks at convictions in the past 8 years (imprisonment) and past 4 years (fines/community service) and other reliability factors. No residency requirement stated on the page; no diploma requirement for the manager stated on this page.
+- Security staff: must hold "het mbo-diploma 'beveiliger'" or equivalent, need a legitimatiebewijs (pas), are screened for reliability and competence; police supervise.
+- Applicant: KvK extract not older than 6 months; security work for third parties must appear in the business description; alarm centres, money transport and detective agencies need additional certificates.
+- Page states no language requirement for the licence itself.
+Limits: this page does not describe datacenter-specific security requirements; exam language for the Beveiliger diploma must be checked with SVPB (see separate source).

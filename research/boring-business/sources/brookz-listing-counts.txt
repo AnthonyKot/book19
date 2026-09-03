@@ -1,0 +1,576 @@
+SOURCE: Brookz category listing pages https://www.brookz.nl/bedrijven-te-koop/<slug>. Publisher: Brookz. Fetched 2026-09-04 via curl. Method: count of listing cards on the first page of each category (Brookz shows the number of profiles where stated) and the seller-stated revenue/FTE bands visible without login. Limit: live snapshot of one marketplace; asking prices are behind login; revenue bands are seller claims.
+
+=== installatiebedrijf: bytes=35375 lines-with-omzet=47 headline='30 bedrijven;30 bedrijven;'
+ Tot € 50.000 € 100.000 € 150.000 € 200.000 € 250.000 € 300.000 € 350.000 € 400.000 € 450.000 € 500.000 € 600.000 € 700.000 € 800.000 € 900.000 € 1.000.000 € 1.250.000 € 1.500.000 € 1.750.000 € 2.000.000 € 3.000.000 € 4.000.000 € 5.000.000 € 10.000.000 € 15.000.000 € 20.000.000 € 25.000.000 € 30.000.000 Geen maximum 
+ Deze omzet range is niet mogelijk.
+ Locatie 
+ Nederland 
+ Specialist in huisliften
+ € 1M - € 1,25M omzet 
+ vr 28 aug
+ Specialist in huisliften
+ Combineert jarenlange marktervaring met solide operationele basis
+ € 1M - € 1,25M omzet 
+ Niet-locatiegebonden 
+ vr 28 aug 
+ Elektrotechnisch installatiebedrijf met sterke regionale positie
+ € 1,25M - € 1,5M omzet 
+ wo 26 aug
+ Elektrotechnisch installatiebedrijf met sterke regionale positie
+ Meer dan 20 jaar actief
+ € 1,25M - € 1,5M omzet 
+ Zuid-Nederland 
+ wo 26 aug 
+ Installatiebedrijf (Randstad)
+ € 1,25M - € 1,5M omzet 
+ di 25 aug
+ Installatiebedrijf (Randstad)
+ Comfort met vakmanschap & continuïteit
+ € 1,25M - € 1,5M omzet 
+ Zuid-Holland 
+ di 25 aug 
+ Levering installatie & onderhoud van waterloze urinoirs
+ € 0 - € 50k omzet 
+ di 21 jul
+ Levering installatie & onderhoud van waterloze urinoirs
+ Webshop, onderhoudscontracten en vaste klantenbestand
+ € 0 - € 50k omzet 
+ Harderwijk 
+ di 21 jul 
+ Showroomgedreven wooncomfortconcept
+ € 2M - € 3M omzet 
+ za 18 jul
+ Showroomgedreven wooncomfortconcept
+ Aantrekkelijk platform voor uitbreiding van verwarming naar een breder aanbod voor woningcomfort en binnenklimaat.
+ € 2M - € 3M omzet 
+ West-Nederland 
+ za 18 jul 
+ Climate Control & HVAC Specialist
+ € 2M - € 3M omzet 
+ do 16 jul
+ Climate Control & HVAC Specialist
+ Full-service aanbieder van luchtbehandeling- en klimaatoplossingen
+ € 2M - € 3M omzet 
+ Zuid-Nederland 
+ do 16 jul 
+ Producent & Installateur van Prefab meterkasten
+ € 900k - € 1M omzet 
+ di 14 jul
+ Producent & Installateur van Prefab meterkasten
+ Gedreven door wet- en regelgeving wordt er een sterke groei verwacht
+ € 900k - € 1M omzet 
+ Midden-Nederland 
+ di 14 jul 
+=== schoonmaakbedrijf: bytes=31537 lines-with-omzet=47 headline='6 bedrijven;6 bedrijven;'
+ Tot € 50.000 € 100.000 € 150.000 € 200.000 € 250.000 € 300.000 € 350.000 € 400.000 € 450.000 € 500.000 € 600.000 € 700.000 € 800.000 € 900.000 € 1.000.000 € 1.250.000 € 1.500.000 € 1.750.000 € 2.000.000 € 3.000.000 € 4.000.000 € 5.000.000 € 10.000.000 € 15.000.000 € 20.000.000 € 25.000.000 € 30.000.000 Geen maximum 
+ Deze omzet range is niet mogelijk.
+ Locatie 
+ Nederland 
+ Schoonmaakonderneming in Zuid-Nederland
+ € 2M - € 3M omzet 
+ wo 5 aug
+ Schoonmaakonderneming in Zuid-Nederland
+ Gespreid klantenbestand met jaarlijks terugkerende omzet
+ € 2M - € 3M omzet 
+ Zuid-Nederland 
+ wo 5 aug 
+ Regionaal schoonmaak- & glasbewassingsbedrijf
+ € 200k - € 250k omzet 
+ vr 31 jul
+ Regionaal schoonmaak- & glasbewassingsbedrijf
+ Vaste 4-wekelijkse klantenportefeuille met specialistische reiniging
+ € 200k - € 250k omzet 
+ Limburg 
+ vr 31 jul 
+ Levering installatie & onderhoud van waterloze urinoirs
+ € 0 - € 50k omzet 
+ di 21 jul
+ Levering installatie & onderhoud van waterloze urinoirs
+ Webshop, onderhoudscontracten en vaste klantenbestand
+ € 0 - € 50k omzet 
+ Harderwijk 
+ di 21 jul 
+ Schoonmaakproducten voor retail
+ € 2M - € 3M omzet 
+ za 20 jun
+ Schoonmaakproducten voor retail
+ Eigen merk en private label
+ € 2M - € 3M omzet 
+ Midden-Nederland 
+ za 20 jun 
+ Schoonmaakbedrijf voedselverwerking
+ € 10M - € 15M omzet 
+ di 11 nov 2025
+ Schoonmaakbedrijf voedselverwerking
+ Gespecialiseerd in HACCP met 250 medewerkers
+ € 10M - € 15M omzet 
+ Niet-locatiegebonden 
+ di 11 nov 2025 
+ Schoonmaakbedrijf
+ € 150k - € 200k omzet 
+ di 11 mrt 2025
+ Schoonmaakbedrijf
+ Alhoewel kleinschalig, volop groeipotentie, resultaat voor arbeidsbeloning >80%
+ € 150k - € 200k omzet 
+ Niet-locatiegebonden 
+ di 11 mrt 2025 
+ Facilitair dienstverlener
+ € 2M - € 3M omzet Verkocht 
+ vr 2 jan
+ Facilitair dienstverlener
+ Middelgroot bedrijf met meer dan 40 jaar ervaring en een breed serviceportfolio
+ € 2M - € 3M omzet Verkocht
+ Midden-Nederland 
+ vr 2 jan 
+=== transportbedrijf: bytes=31083 lines-with-omzet=46 headline='9 bedrijven;9 bedrijven;'
+ Tot € 50.000 € 100.000 € 150.000 € 200.000 € 250.000 € 300.000 € 350.000 € 400.000 € 450.000 € 500.000 € 600.000 € 700.000 € 800.000 € 900.000 € 1.000.000 € 1.250.000 € 1.500.000 € 1.750.000 € 2.000.000 € 3.000.000 € 4.000.000 € 5.000.000 € 10.000.000 € 15.000.000 € 20.000.000 € 25.000.000 € 30.000.000 Geen maximum 
+ Deze omzet range is niet mogelijk.
+ Locatie 
+ Nederland 
+ Transportbedrijf in Zuidoost-Nederland
+ € 3M - € 4M omzet 
+ Gisteren
+ Transportbedrijf in Zuidoost-Nederland
+ Actief op de Nederlandse markt
+ € 3M - € 4M omzet 
+ Oss 
+ Gisteren 
+ Mobiliteitspartner in lichte voertuigen
+ € 5M - € 10M omzet 
+ vr 26 jun
+ Mobiliteitspartner in lichte voertuigen
+ De kracht achter slimme en duurzame mobiliteit
+ € 5M - € 10M omzet 
+ West-Nederland 
+ vr 26 jun 
+ Full-service logistieke dienstverlening
+ € 4M - € 5M omzet 
+ vr 8 mei
+ Full-service logistieke dienstverlening
+ Full-service logistieke dienstverlening
+ € 4M - € 5M omzet 
+ Zuid-Nederland 
+ vr 8 mei 
+ Pan-European transport group
+ € 20M - € 25M omzet 
+ za 11 apr
+ Pan-European transport group
+ Gevestigd platform met NL, DE and PL operations
+ € 20M - € 25M omzet 
+ Locatie anoniem 
+ za 11 apr 
+ Verhuisbedrijf
+ € 800k - € 900k omzet 
+ di 3 mrt
+ Verhuisbedrijf
+ B2B en B2C
+ € 800k - € 900k omzet 
+ West-Nederland 
+ di 3 mrt 
+ Hogesnelheidstreinoperator
+ Op aanvraag omzet 
+ di 10 feb
+ Hogesnelheidstreinoperator
+ Toegankelijke & duurzame internationale treinverbindingen met lage impact. Traject: Amsterdam–Parijs & Amsterdam–Londen
+ Op aanvraag omzet 
+ Locatie anoniem 
+ di 10 feb 
+ Transport- & tourbedrijf in Curaçao
+ € 1,25M - € 1,5M omzet 
+ wo 7 jan
+ Transport- & tourbedrijf in Curaçao
+ Aanbieder van cruise-excursies, luchthaven transfers en toeristisch vervoer
+ € 1,25M - € 1,5M omzet 
+ Niet-locatiegebonden 
+ wo 7 jan 
+=== koeriersbedrijf: bytes=32728 lines-with-omzet=26 headline='1 bedrijven;'
+ Tot € 50.000 € 100.000 € 150.000 € 200.000 € 250.000 € 300.000 € 350.000 € 400.000 € 450.000 € 500.000 € 600.000 € 700.000 € 800.000 € 900.000 € 1.000.000 € 1.250.000 € 1.500.000 € 1.750.000 € 2.000.000 € 3.000.000 € 4.000.000 € 5.000.000 € 10.000.000 € 15.000.000 € 20.000.000 € 25.000.000 € 30.000.000 Geen maximum 
+ Deze omzet range is niet mogelijk.
+ Locatie 
+ Nederland 
+ Koeriersbedrijf voor geconditioneerd transport (Benelux)
+ € 1,25M - € 1,5M omzet 
+ di 3 mrt
+ Koeriersbedrijf voor geconditioneerd transport (Benelux)
+ 80 klanten in food en pharma, vloot van 13 voertuigen
+ € 1,25M - € 1,5M omzet 
+ Eindhoven 
+ di 3 mrt 
+ Transportbedrijf gespecialiseerd in sneltransport
+ € 1,25M - € 1,5M omzet Verkocht 
+ do 25 sep 2025
+ Transportbedrijf gespecialiseerd in sneltransport
+ Met een vaste klantenkring
+ € 1,25M - € 1,5M omzet Verkocht
+ Zuid-Nederland 
+ do 25 sep 2025 
+ Healthcare transportbedrijf
+ € 0 - € 50k omzet In onderhandeling 
+ di 17 jun 2025
+ Healthcare transportbedrijf
+ Geconditioneerd transport en opslag van medische goederen
+ € 0 - € 50k omzet In onderhandeling
+ Zuid-Holland 
+ di 17 jun 2025 
+ Koeriers- en sneltransportonderneming
+ € 1,5M - € 1,75M omzet Verkocht 
+ za 1 feb 2025
+ Koeriers- en sneltransportonderneming
+ Koeriersdiensten en sneltransport, nationaal & internationaal
+ € 1,5M - € 1,75M omzet Verkocht
+ Noord-Brabant 
+ za 1 feb 2025 
+ Logistieke onderneming
+ € 1M - € 1,25M omzet Verkocht 
+ wo 11 dec 2024
+ Logistieke onderneming
+ Specialist in medisch transport & opslag
+ € 1M - € 1,25M omzet Verkocht
+ Midden-Nederland 
+ wo 11 dec 2024 
+ Koeriersbedrijf & in/ompakwerk van textiel
+ € 600k - € 700k omzet Verkocht 
+ vr 30 aug 2024
+ Koeriersbedrijf & in/ompakwerk van textiel
+ 20+ jaar actief met zeer lange klantrelaties
+ € 600k - € 700k omzet Verkocht
+ Lelystad 
+ vr 30 aug 2024 
+ Koeriersbedrijf
+ € 700k - € 800k omzet In onderhandeling 
+ do 23 mei 2024
+ Koeriersbedrijf
+ In spoed/same-day zendingen
+ € 700k - € 800k omzet In onderhandeling
+ Niet-locatiegebonden 
+ do 23 mei 2024 
+=== uitvaartbedrijf: bytes=27572 lines-with-omzet=14 headline='2 bedrijven;2 bedrijven;'
+ Tot € 50.000 € 100.000 € 150.000 € 200.000 € 250.000 € 300.000 € 350.000 € 400.000 € 450.000 € 500.000 € 600.000 € 700.000 € 800.000 € 900.000 € 1.000.000 € 1.250.000 € 1.500.000 € 1.750.000 € 2.000.000 € 3.000.000 € 4.000.000 € 5.000.000 € 10.000.000 € 15.000.000 € 20.000.000 € 25.000.000 € 30.000.000 Geen maximum 
+ Deze omzet range is niet mogelijk.
+ Locatie 
+ Nederland 
+ Vastgoedontwikkelingsbedrijf
+ Op aanvraag omzet 
+ di 23 sep 2025
+ Vastgoedontwikkelingsbedrijf
+ Generationele investeringskans
+ Op aanvraag omzet 
+ Locatie anoniem 
+ di 23 sep 2025 
+ Uitvaartonderneming op Zuid-Hollandse eilanden
+ € 700k - € 800k omzet 
+ di 24 sep 2024
+ Uitvaartonderneming op Zuid-Hollandse eilanden
+ Persoonlijke benadering en maatwerk in hoger segment uitvaarten
+ € 700k - € 800k omzet 
+ Zuid-Holland 
+ di 24 sep 2024 
+ Dierencrematorium
+ € 200k - € 250k omzet Verkocht 
+ za 4 okt 2025
+ Dierencrematorium
+ Onderneming met substantiële groeipotentie
+ € 200k - € 250k omzet Verkocht
+ Zuid-Nederland 
+ za 4 okt 2025 
+ Uitvaartorganisatie met persoonlijke touch
+ € 1,5M - € 1,75M omzet Verkocht 
+ wo 14 dec 2022
+ Uitvaartorganisatie met persoonlijke touch
+ Persoonlijke betrokkenheid
+ € 1,5M - € 1,75M omzet Verkocht
+ Zuid-Nederland 
+ wo 14 dec 2022 
+ Op Brookz staan 1.200 (dynamisch?) bedrijven te koop en worden er bovendien elke maand zo’n 200 nieuwe bedrijven toegevoegd aan ons overzicht. Het grootste gedeelte van deze bedrijven wordt volledig te koop aangeboden, terwijl een kleiner deel op zoek is naar een partner om samen de onderneming verder te laten groeien.
+ De meeste bedrijven zijn gevestigd in Nederland, maar ook in België, Spanje, Duitsland en andere landen staan er diverse bedrijven te koop. Ook als het gaat om omzet en sectoren is het aanbod op Brookz divers. Vooral webshops, IT-bedrijven en bedrijven in de zakelijke dienstverlening zijn bij kopers in trek.
+ Maak van jouw bedrijfsovername een succes!
+ Een goede voorbereiding is bij een bedrijfsovername cruciaal. (Aspirant-)ondernemers die een bedrijf willen overnemen, moeten zichzelf voorzien van de juiste informatie, hun overname-avontuur pragmatisch aanpakken, maar vooral: actie ondernemen! Bekijk daarom
+ Thuisbedrijf 
+ Een jaarlijkse omzet tot €250.000.
+ Klein bedrijf 
+ Een jaarlijkse omzet van €250.000 tot €1.000.000.
+ Middelgroot bedrijf 
+ Een jaarlijkse omzet van €1.000.000 tot €3.000.000.
+ Groot bedrijf 
+ Een jaarlijkse omzet van meer dan €3.000.000.
+ Overslaan Vorige vraag Volgende vraag 
+ In welke fase zit het bedrijf dat je zoekt?
+=== verhuurbedrijf: bytes=36539 lines-with-omzet=49 headline='9 bedrijven;9 bedrijven;'
+ Tot € 50.000 € 100.000 € 150.000 € 200.000 € 250.000 € 300.000 € 350.000 € 400.000 € 450.000 € 500.000 € 600.000 € 700.000 € 800.000 € 900.000 € 1.000.000 € 1.250.000 € 1.500.000 € 1.750.000 € 2.000.000 € 3.000.000 € 4.000.000 € 5.000.000 € 10.000.000 € 15.000.000 € 20.000.000 € 25.000.000 € 30.000.000 Geen maximum 
+ Deze omzet range is niet mogelijk.
+ Locatie 
+ Nederland 
+ Verhuur van hoogwerkers
+ € 350k - € 400k omzet 
+ za 29 aug
+ Verhuur van hoogwerkers
+ Onderhoud, service en inhuur van derden
+ € 350k - € 400k omzet 
+ Zuid-Holland 
+ za 29 aug 
+ Verhuurbedrijf gereedschap en machines (lokaal)
+ € 100k - € 150k omzet 
+ do 23 jul
+ Verhuurbedrijf gereedschap en machines (lokaal)
+ 40 jaar actief, klimaatsystemen en transport
+ € 100k - € 150k omzet 
+ Noord-Brabant 
+ do 23 jul 
+ Verhuurbedrijf in mobiele toiletten (Randstad)
+ € 1,5M - € 1,75M omzet 
+ do 16 apr
+ Verhuurbedrijf in mobiele toiletten (Randstad)
+ Actief in essentiële markt
+ € 1,5M - € 1,75M omzet 
+ Midden-Nederland 
+ do 16 apr 
+ Onderneming in AI photobooths
+ € 150k - € 200k omzet 
+ di 14 apr
+ Onderneming in AI photobooths
+ Start-up klaar voor groei
+ € 150k - € 200k omzet 
+ Niet-locatiegebonden 
+ di 14 apr 
+ Flex office concept
+ € 50k - € 100k omzet 
+ do 12 mrt
+ Flex office concept
+ Serviced office concept met lage vaste kosten, omzethuur en groot groeipotentieel
+ € 50k - € 100k omzet 
+ Veenendaal 
+ do 12 mrt 
+ Specialist in luchtkwaliteit
+ € 50k - € 100k omzet 
+ za 6 sep 2025
+ Specialist in luchtkwaliteit
+ Luchtkwaliteitsmetingen met advies
+ € 50k - € 100k omzet 
+ Noord-Holland 
+ za 6 sep 2025 
+ Fietsen verhuurbedrijf
+ € 0 - € 50k omzet 
+ do 29 mei 2025
+ Fietsen verhuurbedrijf
+ Seizoensbedrijf zonder personeel in recreatieve topregio
+ € 0 - € 50k omzet 
+ Noord-Holland 
+ do 29 mei 2025 
+=== afvalinzamelaar: bytes=30747 lines-with-omzet=10 headline='1 bedrijven;'
+ Tot € 50.000 € 100.000 € 150.000 € 200.000 € 250.000 € 300.000 € 350.000 € 400.000 € 450.000 € 500.000 € 600.000 € 700.000 € 800.000 € 900.000 € 1.000.000 € 1.250.000 € 1.500.000 € 1.750.000 € 2.000.000 € 3.000.000 € 4.000.000 € 5.000.000 € 10.000.000 € 15.000.000 € 20.000.000 € 25.000.000 € 30.000.000 Geen maximum 
+ Deze omzet range is niet mogelijk.
+ Locatie 
+ Nederland 
+ Organisch afvaltechniekbedrijf
+ € 0 - € 50k omzet 
+ wo 24 sep 2025
+ Organisch afvaltechniekbedrijf
+ Sinds 1984, duurzame vergistingstechniek: modulaire installaties voor biofuel en meststoffen
+ € 0 - € 50k omzet 
+ Flevoland 
+ wo 24 sep 2025 
+ Custom gasmonitoring en -detectie
+ € 2M - € 3M omzet Verkocht 
+ di 28 nov 2023
+ Custom gasmonitoring en -detectie
+ Procesmetingen en gasdetectie voor voedingstechnologie en industrie
+ € 2M - € 3M omzet Verkocht
+ Zuid-Nederland 
+ di 28 nov 2023 
+ Op Brookz staan 1.200 (dynamisch?) bedrijven te koop en worden er bovendien elke maand zo’n 200 nieuwe bedrijven toegevoegd aan ons overzicht. Het grootste gedeelte van deze bedrijven wordt volledig te koop aangeboden, terwijl een kleiner deel op zoek is naar een partner om samen de onderneming verder te laten groeien.
+ De meeste bedrijven zijn gevestigd in Nederland, maar ook in België, Spanje, Duitsland en andere landen staan er diverse bedrijven te koop. Ook als het gaat om omzet en sectoren is het aanbod op Brookz divers. Vooral webshops, IT-bedrijven en bedrijven in de zakelijke dienstverlening zijn bij kopers in trek.
+ Maak van jouw bedrijfsovername een succes!
+ Een goede voorbereiding is bij een bedrijfsovername cruciaal. (Aspirant-)ondernemers die een bedrijf willen overnemen, moeten zichzelf voorzien van de juiste informatie, hun overname-avontuur pragmatisch aanpakken, maar vooral: actie ondernemen! Bekijk daarom
+ Thuisbedrijf 
+ Een jaarlijkse omzet tot €250.000.
+ Klein bedrijf 
+ Een jaarlijkse omzet van €250.000 tot €1.000.000.
+ Middelgroot bedrijf 
+ Een jaarlijkse omzet van €1.000.000 tot €3.000.000.
+ Groot bedrijf 
+ Een jaarlijkse omzet van meer dan €3.000.000.
+ Overslaan Vorige vraag Volgende vraag 
+ In welke fase zit het bedrijf dat je zoekt?
+=== autogarage: bytes=31301 lines-with-omzet=47 headline='14 bedrijven;14 bedrijven;'
+ Tot € 50.000 € 100.000 € 150.000 € 200.000 € 250.000 € 300.000 € 350.000 € 400.000 € 450.000 € 500.000 € 600.000 € 700.000 € 800.000 € 900.000 € 1.000.000 € 1.250.000 € 1.500.000 € 1.750.000 € 2.000.000 € 3.000.000 € 4.000.000 € 5.000.000 € 10.000.000 € 15.000.000 € 20.000.000 € 25.000.000 € 30.000.000 Geen maximum 
+ Deze omzet range is niet mogelijk.
+ Locatie 
+ Nederland 
+ Autogarage overname met lage huurkosten
+ Op aanvraag omzet 
+ Eergisteren
+ Autogarage overname met lage huurkosten
+ Gerenoveerd pand, industrieterrein
+ Op aanvraag omzet 
+ Rotterdam 
+ Eergisteren 
+ Specialist in transmissiespoelingen
+ € 50k - € 100k omzet 
+ Eergisteren
+ Specialist in transmissiespoelingen
+ Powerflush voor auto's, incl. kennis en training
+ € 50k - € 100k omzet 
+ Niet-locatiegebonden 
+ Eergisteren 
+ Autogarage
+ € 2M - € 3M omzet 
+ vr 24 jul
+ Autogarage
+ Met sterke regionale positie
+ € 2M - € 3M omzet 
+ Noord-Brabant 
+ vr 24 jul 
+ Universeel garagebedrijf met vaste klantenkring
+ € 500k - € 600k omzet 
+ wo 17 jun
+ Universeel garagebedrijf met vaste klantenkring
+ Voor particulieren en zakelijke klanten
+ € 500k - € 600k omzet 
+ Krimpen aan den IJssel 
+ wo 17 jun 
+ Garagebedrijf voor APK, onderhoud, reparatie met 12 bruggen
+ € 1,5M - € 1,75M omzet 
+ vr 29 mei
+ Garagebedrijf voor APK, onderhoud, reparatie met 12 bruggen
+ Werkplaats voor personenauto’s, bedrijfswagens en kampeerwagens
+ € 1,5M - € 1,75M omzet 
+ Gelderland 
+ vr 29 mei 
+ Professionele bandenservice
+ € 250k - € 300k omzet 
+ wo 15 apr
+ Professionele bandenservice
+ Met een bestaansgeschiedenis van ruim 30 jaar met een goede klantenbasis en sterke lokale reputatie
+ € 250k - € 300k omzet 
+ Zuid-Nederland 
+ wo 15 apr 
+ Specialist in automotive tuning, performance & elektronica met AI toepassingen
+ € 800k - € 900k omzet 
+ za 11 apr
+ Specialist in automotive tuning, performance & elektronica met AI toepassingen
+ Sinds 2013 actief en uitgegroeid tot een stabiele en schaalbare organisatie
+ € 800k - € 900k omzet 
+ Noord-Nederland 
+ za 11 apr 
+=== groothandel: bytes=32009 lines-with-omzet=48 headline='94 bedrijven;94 bedrijven;'
+ Tot € 50.000 € 100.000 € 150.000 € 200.000 € 250.000 € 300.000 € 350.000 € 400.000 € 450.000 € 500.000 € 600.000 € 700.000 € 800.000 € 900.000 € 1.000.000 € 1.250.000 € 1.500.000 € 1.750.000 € 2.000.000 € 3.000.000 € 4.000.000 € 5.000.000 € 10.000.000 € 15.000.000 € 20.000.000 € 25.000.000 € 30.000.000 Geen maximum 
+ Deze omzet range is niet mogelijk.
+ Locatie 
+ Nederland 
+ Nichebedrijf industriële analyse- & kwaliteitsoplossingen
+ € 800k - € 900k omzet 
+ za 6 dec 2025
+ Nichebedrijf industriële analyse- & kwaliteitsoplossingen
+ Technische expertise, exclusieve portfolio’s en schaalbare groeimogelijkheden
+ € 800k - € 900k omzet 
+ Niet-locatiegebonden 
+ za 6 dec 2025 
+ Handelsbedrijf in waterzuiveringsindustrie
+ € 2M - € 3M omzet 
+ di 25 aug
+ Handelsbedrijf in waterzuiveringsindustrie
+ Technische specialist in een internationale nichemarkt
+ € 2M - € 3M omzet 
+ West-Nederland 
+ di 25 aug 
+ Technisch handelsbedrijf voor de (aard-)gas meet & regeltechniek
+ € 500k - € 600k omzet 
+ di 18 aug
+ Technisch handelsbedrijf voor de (aard-)gas meet & regeltechniek
+ 25+ jaar ervaring, marktleidende producten
+ € 500k - € 600k omzet 
+ Noord-Holland 
+ di 18 aug 
+ Distributie- & productiebedrijf met eigen merk
+ € 900k - € 1M omzet 
+ wo 12 aug
+ Distributie- & productiebedrijf met eigen merk
+ B2B & B2C, 25+ jaar met nog veel groeipotentie
+ € 900k - € 1M omzet 
+ Niet-locatiegebonden 
+ wo 12 aug 
+ B2B automotive groothandel
+ € 5M - € 10M omzet 
+ di 11 aug
+ B2B automotive groothandel
+ Unieke investeringskans in snelgroeiend Europees automotive handelsplatform
+ € 5M - € 10M omzet 
+ Niet-locatiegebonden 
+ di 11 aug 
+ Producent en groothandel in natuurlijke onderhouds- en beschermingsproducten
+ € 250k - € 300k omzet 
+ za 8 aug
+ Producent en groothandel in natuurlijke onderhouds- en beschermingsproducten
+ Sterke reputatie, onderscheidende producten en een aanzienlijke groeipotentie
+ € 250k - € 300k omzet 
+ Zuid-Nederland 
+ za 8 aug 
+ Importeur van Zuid-Amerikaanse wijn (EU)
+ € 150k - € 200k omzet 
+ do 6 aug
+ Importeur van Zuid-Amerikaanse wijn (EU)
+ Exclusieve distributie voor horeca en retail
+ € 150k - € 200k omzet 
+ Zuid-Holland 
+ do 6 aug 
+=== wasserij: bytes=30997 lines-with-omzet=16 headline='4 bedrijven;4 bedrijven;'
+ Tot € 50.000 € 100.000 € 150.000 € 200.000 € 250.000 € 300.000 € 350.000 € 400.000 € 450.000 € 500.000 € 600.000 € 700.000 € 800.000 € 900.000 € 1.000.000 € 1.250.000 € 1.500.000 € 1.750.000 € 2.000.000 € 3.000.000 € 4.000.000 € 5.000.000 € 10.000.000 € 15.000.000 € 20.000.000 € 25.000.000 € 30.000.000 Geen maximum 
+ Deze omzet range is niet mogelijk.
+ Locatie 
+ Nederland 
+ Stomerij en kledingreiniging
+ € 150k - € 200k omzet 
+ za 20 jun
+ Stomerij en kledingreiniging
+ Veel vaste klanten particulier en zakelijk
+ € 150k - € 200k omzet 
+ West-Nederland 
+ za 20 jun 
+ Stomerij
+ € 400k - € 450k omzet 
+ di 6 jan
+ Stomerij
+ Bedrijf met vaste klantenkring en bovenwoning
+ € 400k - € 450k omzet 
+ Tilburg 
+ di 6 jan 
+ Textielreinigingsbedrijf
+ € 600k - € 700k omzet 
+ di 25 feb 2025
+ Textielreinigingsbedrijf
+ Efficiënte dienstverlening, hoge klanttevredenheid en een gevestigde naam in de sector
+ € 600k - € 700k omzet 
+ Zuid-Nederland 
+ di 25 feb 2025 
+ Stomerij/wasserij
+ € 200k - € 250k omzet 
+ di 24 dec 2024
+ Stomerij/wasserij
+ Bevat goed klantenbestand (80% zakelijk & 20% particulier)
+ € 200k - € 250k omzet 
+ Gelderland 
+ di 24 dec 2024 
+ Wasserij met haal- en brengservice (Randstad)
+ € 900k - € 1M omzet In onderhandeling 
+ wo 9 jul 2025
+ Wasserij met haal- en brengservice (Randstad)
+ Familiebedrijf met pand en regionale naamsbekendheid
+ € 900k - € 1M omzet In onderhandeling
+ Noord-Holland 
+ wo 9 jul 2025 
+ Op Brookz staan 1.200 (dynamisch?) bedrijven te koop en worden er bovendien elke maand zo’n 200 nieuwe bedrijven toegevoegd aan ons overzicht. Het grootste gedeelte van deze bedrijven wordt volledig te koop aangeboden, terwijl een kleiner deel op zoek is naar een partner om samen de onderneming verder te laten groeien.
+ De meeste bedrijven zijn gevestigd in Nederland, maar ook in België, Spanje, Duitsland en andere landen staan er diverse bedrijven te koop. Ook als het gaat om omzet en sectoren is het aanbod op Brookz divers. Vooral webshops, IT-bedrijven en bedrijven in de zakelijke dienstverlening zijn bij kopers in trek.
+ Maak van jouw bedrijfsovername een succes!
+ Een goede voorbereiding is bij een bedrijfsovername cruciaal. (Aspirant-)ondernemers die een bedrijf willen overnemen, moeten zichzelf voorzien van de juiste informatie, hun overname-avontuur pragmatisch aanpakken, maar vooral: actie ondernemen! Bekijk daarom
+ Thuisbedrijf 
+ Een jaarlijkse omzet tot €250.000.
+ Klein bedrijf 
+ Een jaarlijkse omzet van €250.000 tot €1.000.000.
+ Middelgroot bedrijf 
+ Een jaarlijkse omzet van €1.000.000 tot €3.000.000.
+ Groot bedrijf 
+ Een jaarlijkse omzet van meer dan €3.000.000.
+ Overslaan Vorige vraag Volgende vraag 
+ In welke fase zit het bedrijf dat je zoekt?
+=== ongediertebestrijding: bytes=739 lines-with-omzet=0 headline=''
+=== opslagbedrijf: bytes=739 lines-with-omzet=0 headline=''

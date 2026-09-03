@@ -1,0 +1,14 @@
+Source: https://nos.nl/artikel/2612438-netbeheerder-tennet-hoeft-datacenter-niet-direct-aan-te-sluiten-op-overvol-stroomnet
+Publisher: NOS
+Fetch date: 2026-09-04
+Title: Netbeheerder Tennet hoeft datacenter niet direct aan te sluiten op overvol stroomnet
+Article date: 29 April 2026
+
+Key excerpts (verbatim as returned by fetch):
+- "Het Australische bedrijf Goodman vroeg in 2021 een stroomaansluiting aan"
+- Case heard by "de kortgedingrechter in Arnhem"
+- "Rond Eindhoven en Utrecht is de situatie zo ernstig dat vanaf 1 juli alle aanvragen moeten wachten"
+- "Pas in de periode 2033 tot 2035 is het stroomnet in de regio Vijfhuizen voldoende verzwaard"
+- Goodman demanded "dagelijks een half miljoen euro" if TenneT did not resume connections by 1 June
+- Congested region: "de regio Vijfhuizen, tussen Haarlem en Amsterdam"
+Limits: article gives no waiting-list count, MW or investment figures.

@@ -18,9 +18,10 @@ TEST THROUGH A PARTNER / WATCH / ACQUIRE, DO NOT BUILD / DO NOT ENTER) plus two 
 AI gate. Research instruments run by agents from public sources with saved excerpts; each memo ends with an
 honesty paragraph. Essays (when written) follow book 18's TEMPLATE plus a "Why you" section.
 
-## 4. State — v0.1 (2026-09-04)
-Published: method, edge inventory, ten research memos (crowdfunding ×2 + comparison, diaspora, succession,
-licences, trade flows, regulation-created work, triage), and a candidates table of seven under test. No essays.
+## 4. State — v0.1 (2026-09-04, second pass)
+Published: method, edge inventory, thirteen research memos (crowdfunding ×2 + comparison, diaspora, succession,
+licences, trade flows, regulation-created work, AI physical footprint, boring business, two triages), and a
+candidates table of nine under test plus one held. No essays.
 
 ## 5. Decision record
 - 2026-09-03 — Seed idea (user): crowdfunding platforms as a demand instrument. Run on codex and Gemini 3.8
@@ -30,3 +31,9 @@ licences, trade flows, regulation-created work, triage), and a candidates table 
   B2B acquisition; heat-pump company by hiring; Polish joinery/steel agency with dossier; asbestos-survey
   acquisition; funeral/repatriation desk; CRA importer, parked), 13 cut with reasons.
 - 2026-09-04 — v0.1 published: research phase in public, no essays.
+- 2026-09-04 — Two Fable 5.1 research agents (user: "let's give it a try"), instruments the first five missed:
+  the physical footprint of the AI build-out, and the boring-business lens (CBS survival/margin/exit by sector).
+  Second triage: added machine-repair microfirm (#3) and CEE fleet-service desk (#9); held the grid civil crew
+  on the BEI/VIAG language question; merged SCIOS and pest control into the certified-inspection class (#6) and
+  specialised cleaning into #2; cut battery/flex packages, guarding, ITAD-to-CEE (sanctions), haulage. Thesis
+  sentence from both runs' honest paragraphs: the edge is the crew and the paperwork, not the sector.

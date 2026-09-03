@@ -1,0 +1,52 @@
+Source: https://zoek.officielebekendmakingen.nl/stb-2023-492.pdf
+Publisher: Staatsblad (Overheid.nl officiële bekendmakingen), Stb. 2023, 492 (PDF 78 KB, text extracted with pdftotext)
+Fetch date: 2026-09-04
+Title: Besluit van 20 december 2023, houdende wijziging van Besluit kwaliteit leefomgeving in verband met een instructieregel voor hyperscale datacentra
+
+Verbatim lines (pdftotext):
+Artikel 5.161ba (toepassingsbereik)
+
+1. Deze paragraaf is van toepassing op hyperscale datacentra.
+
+
+
+
+Staatsblad 2023     492                                                      1
+                       2. Onder een hyperscale datacentrum wordt verstaan het exploiteren
+van een rekencentrum of datacentrum, als bedoeld in artikel 3.235 van het
+Besluit activiteiten leefomgeving, voor zover het gaat om een bebouwd
+vloeroppervlakte van meer dan 10 ha en een elektrisch aansluitvermogen
+van 70 MW of meer.
+3. Een hyperscale datacentrum omvat ook andere activiteiten die
+worden verricht op dezelfde locatie en die het hyperscale datacentrum
+functioneel ondersteunen.
+
+Artikel 5.161bb (aanwijzing uitsluitingsgebied hyperscale
+datacentra)
+
+Het uitsluitingsgebied hyperscale datacentra, zijnde het gebied waar
+geen hyperscale datacentra zijn toegelaten, is het grondgebied van
+Nederland met uitzondering van enkele locaties gelegen in de gemeenten
+Het Hogeland en Hollands Kroon, waarvan de geometrische begrenzing
+bij ministeriële regeling is vastgelegd.
+
+Artikel 5.161bc (geen hyperscale datacentra)
+
+Voor zover een omgevingsplan van toepassing is op het uitsluitings-
+gebied hyperscale datacentra, bedoeld in artikel 5.161bb, laat het
+omgevingsplan geen hyperscale datacentrum toe.
+ARTIKEL II
+
+Dit besluit treedt in werking met ingang van 1 januari 2024
+
+Definitie 70 MW en 10 HA
+
+In dit besluit is de definitie van een hyperscale datacentrum; het
+exploiteren van een rekencentrum of datacentrum waar ondersteuning
+wordt gegeven aan dataverkeer of dataopslag, met een bebouwd
+oppervlak van meer dan 10 ha (hectare) en een elektrisch aansluitver-
+mogen 70 MW (megawatt) of meer. Andere activiteiten die worden
+verricht op dezelfde locatie en die het hyperscale datacentrum functioneel
+ondersteunen zijn ook onderdeel van een hyperscale datacentrum.
+
+De omvang van meer dan 10 hectare en een aansluitvermogen van 70

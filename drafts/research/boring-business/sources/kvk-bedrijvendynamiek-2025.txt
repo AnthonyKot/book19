@@ -1,0 +1,367 @@
+SOURCE: KVK Bedrijvendynamiek jaaroverzicht 2025 (PDF). Publisher: Kamer van Koophandel. URL: https://production-site-nl.kvk.bloomreach.cloud/binaries/content/assets/kvkwebsite-nl/categorie/onderzoeken/kvk-jaaruitgave-bedrijvendynamiek-2025.pdf  Fetched 2026-09-04 via curl + pdftotext -layout. Excerpt: sector dynamics tables (ch.3), bankruptcies per sector (ch.6), entrepreneur profiles per sector (ch.7). Companion press release 2026-01-15: https://www.kvk.nl/pers/historisch-lage-groei-in-nederlandse-bedrijvenpopulatie-1-erbij-in-2025/ (2,599,668 establishments on 1 Jan 2026, +1%; starters -10%, stoppers +18%, bankruptcies -21% vs 2024; zzp stoppers +19%, starters -13%).
+
+Dit jaaroverzicht 2025 van de KVK Bedrijvendynamiek geeft inzicht in het aantal
+vestigingen van bedrijven in Nederland op 1 januari 2026 en de ontwikkeling van
+het aantal starters, stoppers en faillietverklaringen over geheel 2025. In de volgende
+hoofdstukken zijn de gegevens uitgesplitst naar verschillende bedrijfssectoren en
+provincies. Bovendien wordt aangegeven welk aandeel van de bedrijven in Nederland
+zzp’er is. Behalve deze ontwikkelingen bevat het jaaroverzicht ook informatie over
+geslacht, leeftijd en geboorteland van (startende) ondernemers.
+
+
+Aan het eind van dit document is een hoofdstuk opgenomen met de verantwoording en
+de gehanteerde definities.
+
+
+  KVK Cijfers en trends
+  KVK levert waardevolle data en nuttige analyses voor je onderzoek, beleid of ondernemings-
+  plan. Gebaseerd op onder andere het Handelsregister en onderzoeken. Check de meest
+  actuele cijfers en trends en vind de antwoorden die je zoekt.
+
+
+
+
+4 | KVK Bedrijvendynamiek jaaroverzicht 2025
+2. Bedrijvendynamiek totaal
+De tabellen hieronder tonen de standen (per 1/1), starters en stoppers voor het gehele jaar 2024 en 2025. Ook wordt het aandeel zzp weergegeven.
+
+
+3. Bedrijvendynamiek per sector
+De tabellen hierna tonen per sector de standen (per 1/1), starters en stoppers voor het gehele jaar 2024 en 2025.
+
+
+
+
+6 | KVK Bedrijvendynamiek jaaroverzicht 2025
+2024
+  Sector                                           Stand     Start      Stop   Overig mutatiesaldo       Stand            % Verandering
+                                                1-1-2024     2024      2024                  2024     1-1-2025   1-1-2025 t.o.v. 1-1-2024
+
+
+  A Landbouw, bosbouw en visserij                 86.602     4.095     2.693               -1.154       86.850                       0%
+
+  B Delfstoffenwinning                             1.305       68        64                   -11        1.298                      -1%
+
+  C Industrie                                     97.055     7.560     5.200                 -536       98.879                       2%
+
+  D Energievoorziening                             4.766      243       174                    17        4.852                       2%
+
+  E Waterbedrijven en afvalbeheer                  3.427      210       207                   -32        3.398                      -1%
+
+  F Bouwnijverheid                               274.990    28.165    17.539               -4.965      280.651                       2%
+
+  G Handel                                       354.588    38.721    29.197               -7.254      356.858                       1%
+
+  H Vervoer en opslag                             80.804    11.417     6.773               -1.529       83.919                       4%
+
+  I Horeca                                        93.797    11.575     7.668               -1.194       96.510                       3%
+
+  J Uitgeverijen en mediaorganisaties             35.361     3.460     1.901                 -457       36.463                       3%
+
+  K Informatie en communicatietechnologie        105.759    11.586     6.684                 -965      109.696                       4%
+
+  L Financiele diensten                           32.640     1.120     1.392                 -452       31.916                      -2%
+
+  M Verhuur van en handel in onroerend goed       31.546     2.420     1.249                 -385       32.332                       2%
+
+  N Specialistische zakelijke diensten           478.906    43.363    28.011               -4.642      489.616                       2%
+
+  O Verhuur en overige zakelijke diensten        148.080    23.260    12.806                  212      158.746                       7%
+
+  P Openbaar bestuur en overheidsdiensten           582        37        36                    22         605                        4%
+
+  Q Onderwijs                                    131.197    14.266     8.180                 -865      136.418                       4%
+
+  R Gezondheids- en welzijnszorg                 269.069    26.182    18.424                3.924      280.751                       4%
+
+  S Kunst, cultuur, sport en recreatie           141.862    12.104     6.765               -2.452      144.749                       2%
+
+  T Overige dienstverlening                      141.867    13.860     8.805               -1.739      145.183                       2%
+
+  U Huishoudens                                      32         2         0                     -5         29                       -9%
+
+  V Internationale organisaties                      15         1         0                     0          16                        7%
+
+  Totaal                                       2.514.250   253.715   163.768             -24.462     2.579.735                       3%
+
+7 | KVK Bedrijvendynamiek jaaroverzicht 2025
+2025
+  Sector                                           Stand      Start       Stop   Overig mutatiesaldo       Stand            % Verandering
+                                                1-1-2025      2025       2025                  2025     1-1-2026   1-1-2026 t.o.v. 1-1-2025
+
+
+  A Landbouw, bosbouw en visserij                 86.850     3.187      3.633                -1.244       85.160                      -2%
+
+  B Delfstoffenwinning                             1.298        38         80                   -11        1.245                      -4%
+
+  C Industrie                                     98.879     7.538      6.190                  -167      100.060                       1%
+
+  D Energievoorziening                             4.852       278        256                   -14        4.860                       0%
+
+  E Waterbedrijven en afvalbeheer                  3.398       172        217                   -21        3.332                      -2%
+
+  F Bouwnijverheid                               280.651    23.223     21.873                -1.657      280.344                       0%
+
+  G Handel                                       356.858    36.498     31.419                -4.522      357.415                       0%
+
+  H Vervoer en opslag                             83.919     9.356      7.918                -1.081       84.276                       0%
+
+  I Horeca                                        96.510    10.115      8.646                -1.064       96.915                       0%
+
+  J Uitgeverijen en mediaorganisaties             36.463     4.085      2.119                  -436       37.993                       4%
+
+  K Informatie en communicatietechnologie        109.696    12.406      8.462                   401      114.041                       4%
+
+  L Financiele diensten                           31.916     1.684      1.786                  -411       31.403                      -2%
+
+  M Verhuur van en handel in onroerend goed       32.332     2.451      1.519                   150       33.414                       3%
+
+  N Specialistische zakelijke diensten           489.616    39.726     32.181                  -825      496.336                       1%
+
+  O Verhuur en overige zakelijke diensten        158.746    18.951     16.670                -1.412      159.615                       1%
+
+  P Openbaar bestuur en overheidsdiensten           605         60         54                   -40         571                       -6%
+
+  Q Onderwijs                                    136.418    13.671      9.134                -1.479      139.476                       2%
+
+  R Gezondheids- en welzijnszorg                 280.751    19.613     25.131                   656      275.889                      -2%
+
+  S Kunst, cultuur, sport en recreatie           144.749    11.597      7.296                  -841      148.209                       2%
+
+  T Overige dienstverlening                      145.183    14.103      9.467                  -749      149.070                       3%
+
+  U Huishoudens                                      29         10          3                     -7         29                        0%
+
+  V Internationale organisaties                      16          2          3                     0          15                       -6%
+
+  Totaal                                       2.579.735   228.764    194.057              -14.774     2.599.668                       1%
+
+8 | KVK Bedrijvendynamiek jaaroverzicht 2025
+Verschillen 2025 t.o.v. 2024
+  Sector                                                Verschil stand      Verschil start      Verschil stop            Verschil stand
+                                               1-1-2025 t.o.v. 1-1-2024   2025 t.o.v. 2024   2025 t.o.v. 2024   1-1-2026 t.o.v. 1-1-2025
+
+
+  A Landbouw, bosbouw en visserij                                  0%               -22%                35%                         -2%
+
+  B Delfstoffenwinning                                             -1%              -44%                25%                         -4%
+
+  C Industrie                                                      2%                 0%                19%                         1%
+
+  D Energievoorziening                                             2%                14%                47%                         0%
+
+  E Waterbedrijven en afvalbeheer                                  -1%              -18%                 5%                         -2%
+
+  F Bouwnijverheid                                                 2%               -18%                25%                         0%
+
+  G Handel                                                         1%                 -6%                8%                         0%
+
+  H Vervoer en opslag                                              4%               -18%                17%                         0%
+
+  I Horeca                                                         3%               -13%                13%                         0%
+
+  J Uitgeverijen en mediaorganisaties                              3%                18%                11%                         4%
+
+  K Informatie en communicatietechnologie                          4%                 7%                27%                         4%
+
+  L Financiele diensten                                            -2%               50%                28%                         -2%
+
+  M Verhuur van en handel in onroerend goed                        2%                 1%                22%                         3%
+
+  N Specialistische zakelijke diensten                             2%                 -8%               15%                         1%
+
+De tabellen hieronder tonen de faillietverklaringen voor het gehele jaar 2024 en 2025, en uitgesplitst naar zzp, sector en provincie.
+
+
+Totaal
+  Segment                                                                                2024                                           2025            Verschil
+                                                                                                                                                2025 t.o.v. 2022
+
+
+  Totaal                                                                                4.468                                           3.510             -21%
+
+  Aandeel zzp                                                                             801                                           1041               30%
+
+
+
+
+13 | KVK Bedrijvendynamiek jaaroverzicht 2025
+Per sector
+  Sector                                        2024    2025            Verschil
+                                                                2025 t.o.v. 2024
+
+
+  A Landbouw, bosbouw en visserij                 31      38               23%
+
+  B Delfstoffenwinning                             1       2              100%
+
+  C Industrie                                    367     291              -21%
+
+  D Energievoorziening                            11      16               45%
+
+  E Waterbedrijven en afvalbeheer                 22      13              -41%
+
+  F Bouwnijverheid                               603     471              -22%
+
+  G Handel                                      1.445    988              -32%
+
+  H Vervoer en opslag                            310     228              -26%
+
+  I Horeca                                       433     378              -13%
+
+  J Uitgeverijen en mediaorganisaties             20      19                -5%
+
+  K Informatie en communicatietechnologie        145     159               10%
+
+  L Financiele diensten                           25      20              -20%
+
+  M Verhuur van en handel in onroerend goed       36      25              -31%
+
+  N Specialistische zakelijke diensten           386     292              -24%
+
+7. Ondernemersprofielen per sector
+De tabellen hierna tonen per sector het profiel van alle ondernemers op 1 januari 2025 en 1 januari 2026. Het profiel bestaat uit de volgende onderdelen:
+het percentage mannelijke en vrouwelijke ondernemers, de gemiddelde leeftijd en het percentage ondernemers waarvan het geboorteland anders dan Nederland is.
+
+
+
+
+18 | KVK Bedrijvendynamiek jaaroverzicht 2025
+1 januari 2025
+  Sector                                           % man    % vrouw   Gemiddelde leeftijd    % geboorteland anders
+                                                1-1-2025   1-1-2025            1-1-2025     dan Nederland 1-1-2025
+
+
+  A Landbouw, bosbouw en visserij                  74%        26%                     50                     11%
+
+  B Delfstoffenwinning                             96%          4%                    45                     24%
+
+  C Industrie                                      75%        25%                     46                     16%
+
+  D Energievoorziening                             84%        16%                     55                       9%
+
+  E Waterbedrijven en afvalbeheer                  94%          6%                    42                     28%
+
+  F Bouwnijverheid                                 96%          4%                    43                     31%
+
+  G Handel                                         66%        34%                     44                     17%
+
+  H Vervoer en opslag                              89%        11%                     42                     35%
+
+  I Horeca                                         60%        40%                     45                     31%
+
+  J Uitgeverijen en mediaorganisaties              75%        25%                     40                     13%
+
+  K Informatie en communicatietechnologie          90%        10%                     43                     20%
+
+  L Financiele diensten                            84%        16%                     57                       7%
+
+  M Verhuur van en handel in onroerend goed        72%        28%                     52                     10%
+
+  N Specialistische zakelijke diensten             61%        39%                     48                     14%
+
+  O Verhuur en overige zakelijke diensten          67%        33%                     41                     25%
+
+  P Openbaar bestuur en overheidsdiensten          75%        25%                     48                     11%
+
+  Q Onderwijs                                       44%       56%                     46                     15%
+
+  R Gezondheids- en welzijnszorg                    28%       72%                     45                     17%
+
+  S Kunst, cultuur, sport en recreatie              53%       47%                     43                     15%
+
+  T Overige dienstverlening                         30%       70%                     45                     20%
+
+  U Huishoudens                                     29%       71%                     47                     14%
+
+  V Internationale organisaties                     80%       20%                     54                     20%
+
+  Totaal                                           62%        38%                     45                     19%
+
+Totaal aantal ondernemers: 2.179.431
+
+19 | KVK Bedrijvendynamiek jaaroverzicht 2025
+1 januari 2026
+  Sector                                           % man    % vrouw   Gemiddelde leeftijd    % geboorteland anders
+                                                1-1-2026   1-1-2026            1-1-2026     dan Nederland 1-1-2026
+
+
+  A Landbouw, bosbouw en visserij                  74%        26%                     51                     10%
+
+  B Delfstoffenwinning                             96%          4%                    46                     25%
+
+  C Industrie                                      75%        25%                     46                     17%
+
+  D Energievoorziening                             84%        16%                     56                     10%
+
+  E Waterbedrijven en afvalbeheer                  93%          7%                    43                     28%
+
+  F Bouwnijverheid                                 96%          4%                    44                     31%
+
+  G Handel                                         67%        33%                     44                     17%
+
+  H Vervoer en opslag                              89%        11%                     43                     36%
+
+  I Horeca                                          60%       40%                     45                     32%
+
+  J Uitgeverijen en mediaorganisaties               74%       26%                     40                     14%
+
+  K Informatie en communicatietechnologie           89%       11%                     43                     21%
+
+  L Financiele diensten                             84%       16%                     57                       7%
+
+  M Verhuur van en handel in onroerend goed         72%       28%                     52                     11%
+
+  N Specialistische zakelijke diensten              60%       40%                     48                     14%
+
+  O Verhuur en overige zakelijke diensten           66%       34%                     42                     24%
+
+  P Openbaar bestuur en overheidsdiensten           76%       24%                     49                     11%
+
+  Q Onderwijs                                       44%       56%                     46                     15%
+
+  R Gezondheids- en welzijnszorg                    29%       71%                     46                     17%
+
+  S Kunst, cultuur, sport en recreatie              53%        47%                    43                     16%
+
+  T Overige dienstverlening                         30%        70%                    45                     21%
+
+  U Huishoudens                                     25%        75%                    48                     15%
+
+  V Internationale organisaties                     57%        43%                    51                     29%
+
+  Totaal                                           62%        38%                     45                     20%
+
+Totaal aantal ondernemers: 2.180.808
+
+20 | KVK Bedrijvendynamiek jaaroverzicht 2025
+Verschil 1 januari 2026 t.o.v. 1 januari 2025
+  Sector                                                           % man                    % vrouw        Gemiddelde leeftijd          % geboorteland anders dan
+                                                1-1-2026 t.o.v. 1-1-2025   1-1-2026 t.o.v. 1-1-2025   1-1-2026 t.o.v. 1-1-2025   Nederland 1-1-2026 t.o.v. 1-1-2025
+
+
+  A Landbouw, bosbouw en visserij                                   0%                         0%                         1%                                 -11%
+
+  B Delfstoffenwinning                                              0%                         5%                         3%                                   3%
+
+  C Industrie                                                       -1%                        3%                         0%                                   2%
+
+  D Energievoorziening                                              1%                         -3%                        1%                                  10%
+
+  E Waterbedrijven en afvalbeheer                                   -1%                       13%                         2%                                   1%
+
+  F Bouwnijverheid                                                  0%                         2%                         1%                                   2%
+
+  G Handel                                                          0%                         0%                         0%                                   4%
+
+  H Vervoer en opslag                                               0%                         0%                         1%                                   2%
+
+  I Horeca                                                          0%                         0%                         1%                                   3%
+
+  J Uitgeverijen en mediaorganisaties                               -1%                        2%                         0%                                   5%
+
+  K Informatie en communicatietechnologie                           0%                         2%                         0%                                   7%
+
+  L Financiele diensten                                             0%                         0%                         0%                                   3%
+
+  M Verhuur van en handel in onroerend goed                         0%                         1%                         1%                                   4%

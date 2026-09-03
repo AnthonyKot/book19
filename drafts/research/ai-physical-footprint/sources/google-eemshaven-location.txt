@@ -1,0 +1,12 @@
+Source: https://datacenters.google/intl/nl_ALL/locations/eemshaven-netherlands-var/
+Publisher: Google (datacenters.google)
+Fetch date: 2026-09-04
+Title: Eemshaven, Groningen: locatie van Google-datacenter
+
+Verbatim figures:
+- "Google kondigt een investering van € 600 miljoen aan voor de bouw van een nieuw datacenter in het Groningse Eemshaven" (2014); opened December 2016.
+- "€ 1,7+ mld" annual contribution to Dutch GDP (2017–2022, direct/indirect/induced); "€ 6,1 mln" in local projects.
+- "28 km" of new water pipelines; "€ 45 miljoen" in water treatment and pipeline infrastructure in Groningen; cooling with recycled industrial water.
+- "100%" of operational energy matched with renewable purchases since 2017.
+- Other Dutch sites: Middenmeer (2020); Winschoten planned, "€ 600 miljoen" (2024); Groningen city, "meer dan € 600 miljoen" (2024).
+Limits: the "2,200 jobs / 250 direct staff" figures seen in search summaries are not on this page and are not used.

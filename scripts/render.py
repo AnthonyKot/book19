@@ -14,7 +14,10 @@ MEMOS = [  # (slug, source markdown, title override)
     ("skills-licences", "drafts/research/skills-licences/findings.md", "Licences obtainable within twelve months"),
     ("trade-flows", "drafts/research/trade-flows/findings.md", "Trade-flow gaps: Poland and non-EU imports"),
     ("regulation-physical", "drafts/research/regulation-physical/findings.md", "Regulation that creates physical work, 2026–2028"),
+    ("ai-physical-footprint", "drafts/research/ai-physical-footprint/findings.md", "The physical footprint of AI in the Netherlands"),
+    ("boring-business", "drafts/research/boring-business/findings.md", "The boring-business lens: which small physical firms last"),
     ("triage", "drafts/notes/2026-09-03-fable-triage.md", "Triage: seven kept, thirteen cut"),
+    ("triage-2", "drafts/notes/2026-09-04-fable-triage-2.md", "Triage, second pass: two Fable runs"),
     ("edge-inventory", "drafts/edge-inventory.md", "Edge inventory (draft, for correction)"),
 ]
 def inline(t):

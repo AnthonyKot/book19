@@ -1,0 +1,150 @@
+SOURCE: CBS StatLine table 81156ned — Bedrijfsleven; arbeids- en financiële gegevens, per branche, SBI 2008 (2009-2024, all figures definitive, modified 2026-04-24). Publisher: CBS. URL: https://opendata.cbs.nl/ODataApi/odata/81156ned/TypedDataSet (OData, filtered; UI https://opendata.cbs.nl/#/CBS/nl/dataset/81156ned/table). Fetched 2026-09-04 via curl. Limit: branch aggregates over all firm sizes (large firms dominate revenue in transport, wholesale, cleaning); results are before owner remuneration for sole proprietorships in some legal forms; not a small-firm margin. Ratios computed by the agent. Raw rows follow.
+
+TABLE F. CBS 81156ned Bedrijfsleven; arbeids- en financiële gegevens per branche (x mln EUR; werkzame personen x1000). Margins computed by agent: operating margin = Bedrijfsresultaat / Netto-omzet; pre-tax margin = Resultaat voor belastingen / Netto-omzet; personnel share = Personele kosten / Netto-omzet; revenue per worker = Netto-omzet / werkzame personen (kEUR).
+sector | year | workers x1000 | net revenue mln | total costs | personnel costs | depreciation | operating result | pre-tax result | op margin % | pre-tax margin % | personnel % | revenue/worker kEUR
+C Industrie | 2022 | 950.4 | 493947.0 | 468470.0 | 59910.0 | 11605.0 | 40976.0 | 44089.0 | 8.3 | 8.9 | 12.1 | 519725
+C Industrie | 2023 | 967.2 | 475413.0 | 450765.0 | 64511.0 | 12343.0 | 36979.0 | 45527.0 | 7.8 | 9.6 | 13.6 | 491535
+C Industrie | 2024 | 976.4 | 473094.0 | 446358.0 | 68230.0 | 13252.0 | 40994.0 | 45265.0 | 8.7 | 9.6 | 14.4 | 484529
+10 Voedingsmiddelenind. | 2022 | 195.9 | 104511.0 | 102350.0 | 10459.0 | 2178.0 | 4770.0 | 6280.0 | 4.6 | 6.0 | 10.0 | 533492
+10 Voedingsmiddelenind. | 2023 | 193.9 | 106307.0 | 103144.0 | 11468.0 | 2279.0 | 5002.0 | 6357.0 | 4.7 | 6.0 | 10.8 | 548257
+10 Voedingsmiddelenind. | 2024 | 200.4 | 108126.0 | 103387.0 | 12447.0 | 2345.0 | 5797.0 | 6302.0 | 5.4 | 5.8 | 11.5 | 539551
+33 Reparatie/installatie machines | 2022 | 57.8 | 13624.0 | 12775.0 | 3415.0 | 285.0 | 1249.0 | None | 9.2 | - | 25.1 | 235709
+33 Reparatie/installatie machines | 2023 | 63.0 | 17314.0 | 15868.0 | 3891.0 | 310.0 | 1672.0 | None | 9.7 | - | 22.5 | 274825
+33 Reparatie/installatie machines | 2024 | 68.9 | 17671.0 | 16310.0 | 4572.0 | 365.0 | 1520.0 | None | 8.6 | - | 25.9 | 256473
+38 Afvalbehandeling/recycling | 2022 | 26.8 | 10793.0 | 9937.0 | 1657.0 | 619.0 | 1011.0 | 958.0 | 9.4 | 8.9 | 15.4 | 402724
+38 Afvalbehandeling/recycling | 2023 | 27.8 | 10045.0 | 9492.0 | 1784.0 | 705.0 | 707.0 | 622.0 | 7.0 | 6.2 | 17.8 | 361331
+38 Afvalbehandeling/recycling | 2024 | 27.6 | 10540.0 | 10174.0 | 1832.0 | 781.0 | 810.0 | 617.0 | 7.7 | 5.9 | 17.4 | 381884
+381 Inzameling van afval | 2022 | 11.9 | 3098.0 | 2816.0 | 741.0 | 150.0 | 292.0 | 293.0 | 9.4 | 9.5 | 23.9 | 260336
+381 Inzameling van afval | 2023 | 12.2 | 3035.0 | 2849.0 | 800.0 | 162.0 | 214.0 | 195.0 | 7.1 | 6.4 | 26.4 | 248770
+381 Inzameling van afval | 2024 | 12.7 | 3206.0 | 3044.0 | 806.0 | 170.0 | 194.0 | 169.0 | 6.1 | 5.3 | 25.1 | 252441
+F Bouw | 2022 | 736.6 | 141107.0 | 128467.0 | 29258.0 | 3010.0 | 17597.0 | 18159.0 | 12.5 | 12.9 | 20.7 | 191565
+F Bouw | 2023 | 755.2 | 148335.0 | 133521.0 | 30800.0 | 3443.0 | 19946.0 | 20379.0 | 13.4 | 13.7 | 20.8 | 196418
+F Bouw | 2024 | 777.2 | 154142.0 | 139294.0 | 32745.0 | 3626.0 | 20821.0 | 21325.0 | 13.5 | 13.8 | 21.2 | 198330
+43 Gespecialiseerde bouw | 2022 | 408.9 | 61253.0 | 53630.0 | 15462.0 | 1550.0 | 9093.0 | 9212.0 | 14.8 | 15.0 | 25.2 | 149799
+43 Gespecialiseerde bouw | 2023 | 420.4 | 66559.0 | 57256.0 | 16635.0 | 1680.0 | 10087.0 | 10183.0 | 15.2 | 15.3 | 25.0 | 158323
+43 Gespecialiseerde bouw | 2024 | 428.2 | 67916.0 | 58682.0 | 17212.0 | 1845.0 | 10721.0 | 10685.0 | 15.8 | 15.7 | 25.3 | 158608
+432 Bouwinstallatie | 2022 | 185.9 | 30009.0 | 27631.0 | 8787.0 | 612.0 | 3190.0 | 3162.0 | 10.6 | 10.5 | 29.3 | 161425
+432 Bouwinstallatie | 2023 | 191.3 | 33509.0 | 29789.0 | 9489.0 | 639.0 | 3877.0 | 3880.0 | 11.6 | 11.6 | 28.3 | 175165
+432 Bouwinstallatie | 2024 | 190.9 | 33174.0 | 29785.0 | 9713.0 | 737.0 | 4265.0 | 4169.0 | 12.9 | 12.6 | 29.3 | 173777
+4322 Loodgieters/installatie | 2022 | 81.0 | 13343.0 | 12014.0 | 3642.0 | 282.0 | 1453.0 | 1439.0 | 10.9 | 10.8 | 27.3 | 164728
+4322 Loodgieters/installatie | 2023 | 82.2 | 14781.0 | 13060.0 | 3891.0 | 312.0 | 1716.0 | 1685.0 | 11.6 | 11.4 | 26.3 | 179818
+4322 Loodgieters/installatie | 2024 | 81.7 | 14605.0 | 12846.0 | 3957.0 | 329.0 | 1928.0 | 1884.0 | 13.2 | 12.9 | 27.1 | 178764
+G Handel | 2022 | 2008.2 | 954419.0 | 916546.0 | 66391.0 | 11512.0 | 48238.0 | 54472.0 | 5.1 | 5.7 | 7.0 | 475261
+G Handel | 2023 | 2019.5 | 954738.0 | 919995.0 | 70207.0 | 12551.0 | 45072.0 | 50383.0 | 4.7 | 5.3 | 7.4 | 472760
+G Handel | 2024 | 2032.6 | 951855.0 | 918996.0 | 74538.0 | 14696.0 | 43150.0 | 51450.0 | 4.5 | 5.4 | 7.8 | 468294
+45 Autohandel/-reparatie | 2022 | 167.9 | 107221.0 | 103320.0 | 6228.0 | 749.0 | 4294.0 | 4635.0 | 4.0 | 4.3 | 5.8 | 638600
+45 Autohandel/-reparatie | 2023 | 176.8 | 125485.0 | 120992.0 | 6849.0 | 939.0 | 4833.0 | 6352.0 | 3.9 | 5.1 | 5.5 | 709757
+45 Autohandel/-reparatie | 2024 | 180.8 | 131834.0 | 127002.0 | 7442.0 | 993.0 | 5217.0 | 5613.0 | 4.0 | 4.3 | 5.6 | 729170
+452 Gespec. autoreparatie | 2022 | 30.6 | 4232.0 | 3861.0 | 978.0 | 114.0 | 404.0 | 402.0 | 9.5 | 9.5 | 23.1 | 138301
+452 Gespec. autoreparatie | 2023 | 32.0 | 4793.0 | 4266.0 | 1149.0 | 140.0 | 551.0 | 551.0 | 11.5 | 11.5 | 24.0 | 149781
+452 Gespec. autoreparatie | 2024 | 34.6 | 5211.0 | 4601.0 | 1266.0 | 136.0 | 628.0 | 684.0 | 12.1 | 13.1 | 24.3 | 150607
+46 Groothandel | 2022 | 726.2 | 691875.0 | 664289.0 | 39141.0 | 6106.0 | 34046.0 | 40167.0 | 4.9 | 5.8 | 5.7 | 952733
+46 Groothandel | 2023 | 727.6 | 662857.0 | 640402.0 | 40780.0 | 6744.0 | 28835.0 | 32193.0 | 4.4 | 4.9 | 6.2 | 911018
+46 Groothandel | 2024 | 736.4 | 648435.0 | 628409.0 | 42600.0 | 8757.0 | 26451.0 | 34481.0 | 4.1 | 5.3 | 6.6 | 880547
+H Vervoer/opslag | 2022 | 602.4 | 132248.0 | 123996.0 | 29088.0 | 8047.0 | 12976.0 | 13576.0 | 9.8 | 10.3 | 22.0 | 219535
+H Vervoer/opslag | 2023 | 602.7 | 128272.0 | 120938.0 | 30933.0 | 7718.0 | 12022.0 | 13199.0 | 9.4 | 10.3 | 24.1 | 212829
+H Vervoer/opslag | 2024 | 613.6 | 132074.0 | 124910.0 | 32557.0 | 7682.0 | 12645.0 | 12592.0 | 9.6 | 9.5 | 24.7 | 215244
+494 Goederenvervoer weg | 2022 | 178.1 | 33694.0 | 30994.0 | 8525.0 | 1433.0 | 2856.0 | 2975.0 | 8.5 | 8.8 | 25.3 | 189186
+494 Goederenvervoer weg | 2023 | 167.0 | 31219.0 | 29062.0 | 8546.0 | 1508.0 | 2367.0 | 2505.0 | 7.6 | 8.0 | 27.4 | 186940
+494 Goederenvervoer weg | 2024 | 171.4 | 32460.0 | 30031.0 | 9023.0 | 1512.0 | 2741.0 | 2213.0 | 8.4 | 6.8 | 27.8 | 189382
+521 Opslag | 2022 | 39.8 | 9509.0 | 8963.0 | 2117.0 | 774.0 | 732.0 | 266.0 | 7.7 | 2.8 | 22.3 | 238920
+521 Opslag | 2023 | 39.9 | 11111.0 | 10429.0 | 2339.0 | 830.0 | 1173.0 | 1324.0 | 10.6 | 11.9 | 21.1 | 278471
+521 Opslag | 2024 | 42.4 | 11912.0 | 11305.0 | 2427.0 | 937.0 | 1055.0 | 1448.0 | 8.9 | 12.2 | 20.4 | 280943
+I Horeca | 2022 | 672.4 | 34376.0 | 31482.0 | 9847.0 | 2003.0 | 3534.0 | 3543.0 | 10.3 | 10.3 | 28.6 | 51124
+I Horeca | 2023 | 690.2 | 39232.0 | 34291.0 | 10799.0 | 1961.0 | 5547.0 | 5220.0 | 14.1 | 13.3 | 27.5 | 56841
+I Horeca | 2024 | 695.8 | 41288.0 | 36428.0 | 11950.0 | 2053.0 | 5473.0 | 4912.0 | 13.3 | 11.9 | 28.9 | 59339
+77 Verhuur roerende goederen | 2022 | 51.8 | 26680.0 | 24645.0 | 2374.0 | 7685.0 | 2279.0 | 4190.0 | 8.5 | 15.7 | 8.9 | 515058
+77 Verhuur roerende goederen | 2023 | 56.9 | 28703.0 | 25528.0 | 2664.0 | 8085.0 | 3457.0 | 3620.0 | 12.0 | 12.6 | 9.3 | 504446
+77 Verhuur roerende goederen | 2024 | 56.1 | 28953.0 | 25623.0 | 2837.0 | 8493.0 | 3869.0 | -800.0 | 13.4 | -2.8 | 9.8 | 516096
+81 Schoonmaak/hoveniers | 2022 | 251.9 | 13903.0 | 11980.0 | 5982.0 | 349.0 | 1989.0 | 2038.0 | 14.3 | 14.7 | 43.0 | 55193
+81 Schoonmaak/hoveniers | 2023 | 262.2 | 14971.0 | 12810.0 | 6384.0 | 414.0 | 2242.0 | 2258.0 | 15.0 | 15.1 | 42.6 | 57098
+81 Schoonmaak/hoveniers | 2024 | 251.8 | 16178.0 | 13858.0 | 6833.0 | 418.0 | 2424.0 | 2499.0 | 15.0 | 15.4 | 42.2 | 64249
+812 Schoonmaakbedrijven | 2022 | 194.5 | 7807.0 | 6750.0 | 4271.0 | 160.0 | 1080.0 | 1116.0 | 13.8 | 14.3 | 54.7 | 40139
+812 Schoonmaakbedrijven | 2023 | 200.7 | 8614.0 | 7303.0 | 4593.0 | 208.0 | 1344.0 | 1354.0 | 15.6 | 15.7 | 53.3 | 42920
+812 Schoonmaakbedrijven | 2024 | 188.8 | 9243.0 | 7865.0 | 4866.0 | 202.0 | 1438.0 | 1498.0 | 15.6 | 16.2 | 52.6 | 48957
+8121 Interieurreiniging | 2022 | 158.9 | 5194.0 | 4602.0 | 3220.0 | 81.0 | 608.0 | 608.0 | 11.7 | 11.7 | 62.0 | 32687
+8121 Interieurreiniging | 2023 | 166.7 | 5868.0 | 5058.0 | 3529.0 | 108.0 | 820.0 | 816.0 | 14.0 | 13.9 | 60.1 | 35201
+8121 Interieurreiniging | 2024 | 152.5 | 6252.0 | 5373.0 | 3673.0 | 100.0 | 908.0 | 907.0 | 14.5 | 14.5 | 58.7 | 40997
+96 Overige pers. dienstverl. | 2022 | None | None | None | None | None | None | None | - | - | - | -
+96 Overige pers. dienstverl. | 2023 | None | None | None | None | None | None | None | - | - | - | -
+96 Overige pers. dienstverl. | 2024 | None | None | None | None | None | None | None | - | - | - | -
+9601 Wasserijen | 2022 | 12.4 | 942.0 | 881.0 | 396.0 | 134.0 | 76.0 | 77.0 | 8.1 | 8.2 | 42.0 | 75968
+9601 Wasserijen | 2023 | 11.3 | 1104.0 | 985.0 | 460.0 | 139.0 | 125.0 | 142.0 | 11.3 | 12.9 | 41.7 | 97699
+9601 Wasserijen | 2024 | 11.2 | 1139.0 | 1007.0 | 460.0 | 149.0 | 143.0 | 140.0 | 12.6 | 12.3 | 40.4 | 101696
+9603 Uitvaartbranche | 2022 | 11.5 | 1367.0 | 1218.0 | 359.0 | 60.0 | 153.0 | 145.0 | 11.2 | 10.6 | 26.3 | 118870
+9603 Uitvaartbranche | 2023 | 11.8 | 1398.0 | 1244.0 | 384.0 | 55.0 | 158.0 | 151.0 | 11.3 | 10.8 | 27.5 | 118475
+9603 Uitvaartbranche | 2024 | 12.3 | 1472.0 | 1282.0 | 413.0 | 50.0 | 196.0 | 202.0 | 13.3 | 13.7 | 28.1 | 119675
+
+RAW ROWS:
+{"BedrijfstakkenBranchesSBI2008": "307500", "Perioden": "2022JJ00", "WerkzamePersoon_2": 950.4, "NettoOmzet_6": 493947.0, "Totaal_8": 468470.0, "Totaal_20": 59910.0, "AfschrijvingenOpVasteActiva_36": 11605.0, "Bedrijfsresultaat_37": 40976.0, "ResultaatVoorBelastingen_41": 44089.0}
+{"BedrijfstakkenBranchesSBI2008": "307500", "Perioden": "2023JJ00", "WerkzamePersoon_2": 967.2, "NettoOmzet_6": 475413.0, "Totaal_8": 450765.0, "Totaal_20": 64511.0, "AfschrijvingenOpVasteActiva_36": 12343.0, "Bedrijfsresultaat_37": 36979.0, "ResultaatVoorBelastingen_41": 45527.0}
+{"BedrijfstakkenBranchesSBI2008": "307500", "Perioden": "2024JJ00", "WerkzamePersoon_2": 976.4, "NettoOmzet_6": 473094.0, "Totaal_8": 446358.0, "Totaal_20": 68230.0, "AfschrijvingenOpVasteActiva_36": 13252.0, "Bedrijfsresultaat_37": 40994.0, "ResultaatVoorBelastingen_41": 45265.0}
+{"BedrijfstakkenBranchesSBI2008": "307600", "Perioden": "2022JJ00", "WerkzamePersoon_2": 195.9, "NettoOmzet_6": 104511.0, "Totaal_8": 102350.0, "Totaal_20": 10459.0, "AfschrijvingenOpVasteActiva_36": 2178.0, "Bedrijfsresultaat_37": 4770.0, "ResultaatVoorBelastingen_41": 6280.0}
+{"BedrijfstakkenBranchesSBI2008": "307600", "Perioden": "2023JJ00", "WerkzamePersoon_2": 193.9, "NettoOmzet_6": 106307.0, "Totaal_8": 103144.0, "Totaal_20": 11468.0, "AfschrijvingenOpVasteActiva_36": 2279.0, "Bedrijfsresultaat_37": 5002.0, "ResultaatVoorBelastingen_41": 6357.0}
+{"BedrijfstakkenBranchesSBI2008": "307600", "Perioden": "2024JJ00", "WerkzamePersoon_2": 200.4, "NettoOmzet_6": 108126.0, "Totaal_8": 103387.0, "Totaal_20": 12447.0, "AfschrijvingenOpVasteActiva_36": 2345.0, "Bedrijfsresultaat_37": 5797.0, "ResultaatVoorBelastingen_41": 6302.0}
+{"BedrijfstakkenBranchesSBI2008": "344400", "Perioden": "2022JJ00", "WerkzamePersoon_2": 57.8, "NettoOmzet_6": 13624.0, "Totaal_8": 12775.0, "Totaal_20": 3415.0, "AfschrijvingenOpVasteActiva_36": 285.0, "Bedrijfsresultaat_37": 1249.0, "ResultaatVoorBelastingen_41": null}
+{"BedrijfstakkenBranchesSBI2008": "344400", "Perioden": "2023JJ00", "WerkzamePersoon_2": 63.0, "NettoOmzet_6": 17314.0, "Totaal_8": 15868.0, "Totaal_20": 3891.0, "AfschrijvingenOpVasteActiva_36": 310.0, "Bedrijfsresultaat_37": 1672.0, "ResultaatVoorBelastingen_41": null}
+{"BedrijfstakkenBranchesSBI2008": "344400", "Perioden": "2024JJ00", "WerkzamePersoon_2": 68.9, "NettoOmzet_6": 17671.0, "Totaal_8": 16310.0, "Totaal_20": 4572.0, "AfschrijvingenOpVasteActiva_36": 365.0, "Bedrijfsresultaat_37": 1520.0, "ResultaatVoorBelastingen_41": null}
+{"BedrijfstakkenBranchesSBI2008": "348700", "Perioden": "2022JJ00", "WerkzamePersoon_2": 26.8, "NettoOmzet_6": 10793.0, "Totaal_8": 9937.0, "Totaal_20": 1657.0, "AfschrijvingenOpVasteActiva_36": 619.0, "Bedrijfsresultaat_37": 1011.0, "ResultaatVoorBelastingen_41": 958.0}
+{"BedrijfstakkenBranchesSBI2008": "348700", "Perioden": "2023JJ00", "WerkzamePersoon_2": 27.8, "NettoOmzet_6": 10045.0, "Totaal_8": 9492.0, "Totaal_20": 1784.0, "AfschrijvingenOpVasteActiva_36": 705.0, "Bedrijfsresultaat_37": 707.0, "ResultaatVoorBelastingen_41": 622.0}
+{"BedrijfstakkenBranchesSBI2008": "348700", "Perioden": "2024JJ00", "WerkzamePersoon_2": 27.6, "NettoOmzet_6": 10540.0, "Totaal_8": 10174.0, "Totaal_20": 1832.0, "AfschrijvingenOpVasteActiva_36": 781.0, "Bedrijfsresultaat_37": 810.0, "ResultaatVoorBelastingen_41": 617.0}
+{"BedrijfstakkenBranchesSBI2008": "348800", "Perioden": "2022JJ00", "WerkzamePersoon_2": 11.9, "NettoOmzet_6": 3098.0, "Totaal_8": 2816.0, "Totaal_20": 741.0, "AfschrijvingenOpVasteActiva_36": 150.0, "Bedrijfsresultaat_37": 292.0, "ResultaatVoorBelastingen_41": 293.0}
+{"BedrijfstakkenBranchesSBI2008": "348800", "Perioden": "2023JJ00", "WerkzamePersoon_2": 12.2, "NettoOmzet_6": 3035.0, "Totaal_8": 2849.0, "Totaal_20": 800.0, "AfschrijvingenOpVasteActiva_36": 162.0, "Bedrijfsresultaat_37": 214.0, "ResultaatVoorBelastingen_41": 195.0}
+{"BedrijfstakkenBranchesSBI2008": "348800", "Perioden": "2024JJ00", "WerkzamePersoon_2": 12.7, "NettoOmzet_6": 3206.0, "Totaal_8": 3044.0, "Totaal_20": 806.0, "AfschrijvingenOpVasteActiva_36": 170.0, "Bedrijfsresultaat_37": 194.0, "ResultaatVoorBelastingen_41": 169.0}
+{"BedrijfstakkenBranchesSBI2008": "350000", "Perioden": "2022JJ00", "WerkzamePersoon_2": 736.6, "NettoOmzet_6": 141107.0, "Totaal_8": 128467.0, "Totaal_20": 29258.0, "AfschrijvingenOpVasteActiva_36": 3010.0, "Bedrijfsresultaat_37": 17597.0, "ResultaatVoorBelastingen_41": 18159.0}
+{"BedrijfstakkenBranchesSBI2008": "350000", "Perioden": "2023JJ00", "WerkzamePersoon_2": 755.2, "NettoOmzet_6": 148335.0, "Totaal_8": 133521.0, "Totaal_20": 30800.0, "AfschrijvingenOpVasteActiva_36": 3443.0, "Bedrijfsresultaat_37": 19946.0, "ResultaatVoorBelastingen_41": 20379.0}
+{"BedrijfstakkenBranchesSBI2008": "350000", "Perioden": "2024JJ00", "WerkzamePersoon_2": 777.2, "NettoOmzet_6": 154142.0, "Totaal_8": 139294.0, "Totaal_20": 32745.0, "AfschrijvingenOpVasteActiva_36": 3626.0, "Bedrijfsresultaat_37": 20821.0, "ResultaatVoorBelastingen_41": 21325.0}
+{"BedrijfstakkenBranchesSBI2008": "351900", "Perioden": "2022JJ00", "WerkzamePersoon_2": 408.9, "NettoOmzet_6": 61253.0, "Totaal_8": 53630.0, "Totaal_20": 15462.0, "AfschrijvingenOpVasteActiva_36": 1550.0, "Bedrijfsresultaat_37": 9093.0, "ResultaatVoorBelastingen_41": 9212.0}
+{"BedrijfstakkenBranchesSBI2008": "351900", "Perioden": "2023JJ00", "WerkzamePersoon_2": 420.4, "NettoOmzet_6": 66559.0, "Totaal_8": 57256.0, "Totaal_20": 16635.0, "AfschrijvingenOpVasteActiva_36": 1680.0, "Bedrijfsresultaat_37": 10087.0, "ResultaatVoorBelastingen_41": 10183.0}
+{"BedrijfstakkenBranchesSBI2008": "351900", "Perioden": "2024JJ00", "WerkzamePersoon_2": 428.2, "NettoOmzet_6": 67916.0, "Totaal_8": 58682.0, "Totaal_20": 17212.0, "AfschrijvingenOpVasteActiva_36": 1845.0, "Bedrijfsresultaat_37": 10721.0, "ResultaatVoorBelastingen_41": 10685.0}
+{"BedrijfstakkenBranchesSBI2008": "352400", "Perioden": "2022JJ00", "WerkzamePersoon_2": 185.9, "NettoOmzet_6": 30009.0, "Totaal_8": 27631.0, "Totaal_20": 8787.0, "AfschrijvingenOpVasteActiva_36": 612.0, "Bedrijfsresultaat_37": 3190.0, "ResultaatVoorBelastingen_41": 3162.0}
+{"BedrijfstakkenBranchesSBI2008": "352400", "Perioden": "2023JJ00", "WerkzamePersoon_2": 191.3, "NettoOmzet_6": 33509.0, "Totaal_8": 29789.0, "Totaal_20": 9489.0, "AfschrijvingenOpVasteActiva_36": 639.0, "Bedrijfsresultaat_37": 3877.0, "ResultaatVoorBelastingen_41": 3880.0}
+{"BedrijfstakkenBranchesSBI2008": "352400", "Perioden": "2024JJ00", "WerkzamePersoon_2": 190.9, "NettoOmzet_6": 33174.0, "Totaal_8": 29785.0, "Totaal_20": 9713.0, "AfschrijvingenOpVasteActiva_36": 737.0, "Bedrijfsresultaat_37": 4265.0, "ResultaatVoorBelastingen_41": 4169.0}
+{"BedrijfstakkenBranchesSBI2008": "352600", "Perioden": "2022JJ00", "WerkzamePersoon_2": 81.0, "NettoOmzet_6": 13343.0, "Totaal_8": 12014.0, "Totaal_20": 3642.0, "AfschrijvingenOpVasteActiva_36": 282.0, "Bedrijfsresultaat_37": 1453.0, "ResultaatVoorBelastingen_41": 1439.0}
+{"BedrijfstakkenBranchesSBI2008": "352600", "Perioden": "2023JJ00", "WerkzamePersoon_2": 82.2, "NettoOmzet_6": 14781.0, "Totaal_8": 13060.0, "Totaal_20": 3891.0, "AfschrijvingenOpVasteActiva_36": 312.0, "Bedrijfsresultaat_37": 1716.0, "ResultaatVoorBelastingen_41": 1685.0}
+{"BedrijfstakkenBranchesSBI2008": "352600", "Perioden": "2024JJ00", "WerkzamePersoon_2": 81.7, "NettoOmzet_6": 14605.0, "Totaal_8": 12846.0, "Totaal_20": 3957.0, "AfschrijvingenOpVasteActiva_36": 329.0, "Bedrijfsresultaat_37": 1928.0, "ResultaatVoorBelastingen_41": 1884.0}
+{"BedrijfstakkenBranchesSBI2008": "354200", "Perioden": "2022JJ00", "WerkzamePersoon_2": 2008.2, "NettoOmzet_6": 954419.0, "Totaal_8": 916546.0, "Totaal_20": 66391.0, "AfschrijvingenOpVasteActiva_36": 11512.0, "Bedrijfsresultaat_37": 48238.0, "ResultaatVoorBelastingen_41": 54472.0}
+{"BedrijfstakkenBranchesSBI2008": "354200", "Perioden": "2023JJ00", "WerkzamePersoon_2": 2019.5, "NettoOmzet_6": 954738.0, "Totaal_8": 919995.0, "Totaal_20": 70207.0, "AfschrijvingenOpVasteActiva_36": 12551.0, "Bedrijfsresultaat_37": 45072.0, "ResultaatVoorBelastingen_41": 50383.0}
+{"BedrijfstakkenBranchesSBI2008": "354200", "Perioden": "2024JJ00", "WerkzamePersoon_2": 2032.6, "NettoOmzet_6": 951855.0, "Totaal_8": 918996.0, "Totaal_20": 74538.0, "AfschrijvingenOpVasteActiva_36": 14696.0, "Bedrijfsresultaat_37": 43150.0, "ResultaatVoorBelastingen_41": 51450.0}
+{"BedrijfstakkenBranchesSBI2008": "354300", "Perioden": "2022JJ00", "WerkzamePersoon_2": 167.9, "NettoOmzet_6": 107221.0, "Totaal_8": 103320.0, "Totaal_20": 6228.0, "AfschrijvingenOpVasteActiva_36": 749.0, "Bedrijfsresultaat_37": 4294.0, "ResultaatVoorBelastingen_41": 4635.0}
+{"BedrijfstakkenBranchesSBI2008": "354300", "Perioden": "2023JJ00", "WerkzamePersoon_2": 176.8, "NettoOmzet_6": 125485.0, "Totaal_8": 120992.0, "Totaal_20": 6849.0, "AfschrijvingenOpVasteActiva_36": 939.0, "Bedrijfsresultaat_37": 4833.0, "ResultaatVoorBelastingen_41": 6352.0}
+{"BedrijfstakkenBranchesSBI2008": "354300", "Perioden": "2024JJ00", "WerkzamePersoon_2": 180.8, "NettoOmzet_6": 131834.0, "Totaal_8": 127002.0, "Totaal_20": 7442.0, "AfschrijvingenOpVasteActiva_36": 993.0, "Bedrijfsresultaat_37": 5217.0, "ResultaatVoorBelastingen_41": 5613.0}
+{"BedrijfstakkenBranchesSBI2008": "355300", "Perioden": "2022JJ00", "WerkzamePersoon_2": 30.6, "NettoOmzet_6": 4232.0, "Totaal_8": 3861.0, "Totaal_20": 978.0, "AfschrijvingenOpVasteActiva_36": 114.0, "Bedrijfsresultaat_37": 404.0, "ResultaatVoorBelastingen_41": 402.0}
+{"BedrijfstakkenBranchesSBI2008": "355300", "Perioden": "2023JJ00", "WerkzamePersoon_2": 32.0, "NettoOmzet_6": 4793.0, "Totaal_8": 4266.0, "Totaal_20": 1149.0, "AfschrijvingenOpVasteActiva_36": 140.0, "Bedrijfsresultaat_37": 551.0, "ResultaatVoorBelastingen_41": 551.0}
+{"BedrijfstakkenBranchesSBI2008": "355300", "Perioden": "2024JJ00", "WerkzamePersoon_2": 34.6, "NettoOmzet_6": 5211.0, "Totaal_8": 4601.0, "Totaal_20": 1266.0, "AfschrijvingenOpVasteActiva_36": 136.0, "Bedrijfsresultaat_37": 628.0, "ResultaatVoorBelastingen_41": 684.0}
+{"BedrijfstakkenBranchesSBI2008": "356900", "Perioden": "2022JJ00", "WerkzamePersoon_2": 726.2, "NettoOmzet_6": 691875.0, "Totaal_8": 664289.0, "Totaal_20": 39141.0, "AfschrijvingenOpVasteActiva_36": 6106.0, "Bedrijfsresultaat_37": 34046.0, "ResultaatVoorBelastingen_41": 40167.0}
+{"BedrijfstakkenBranchesSBI2008": "356900", "Perioden": "2023JJ00", "WerkzamePersoon_2": 727.6, "NettoOmzet_6": 662857.0, "Totaal_8": 640402.0, "Totaal_20": 40780.0, "AfschrijvingenOpVasteActiva_36": 6744.0, "Bedrijfsresultaat_37": 28835.0, "ResultaatVoorBelastingen_41": 32193.0}
+{"BedrijfstakkenBranchesSBI2008": "356900", "Perioden": "2024JJ00", "WerkzamePersoon_2": 736.4, "NettoOmzet_6": 648435.0, "Totaal_8": 628409.0, "Totaal_20": 42600.0, "AfschrijvingenOpVasteActiva_36": 8757.0, "Bedrijfsresultaat_37": 26451.0, "ResultaatVoorBelastingen_41": 34481.0}
+{"BedrijfstakkenBranchesSBI2008": "383100", "Perioden": "2022JJ00", "WerkzamePersoon_2": 602.4, "NettoOmzet_6": 132248.0, "Totaal_8": 123996.0, "Totaal_20": 29088.0, "AfschrijvingenOpVasteActiva_36": 8047.0, "Bedrijfsresultaat_37": 12976.0, "ResultaatVoorBelastingen_41": 13576.0}
+{"BedrijfstakkenBranchesSBI2008": "383100", "Perioden": "2023JJ00", "WerkzamePersoon_2": 602.7, "NettoOmzet_6": 128272.0, "Totaal_8": 120938.0, "Totaal_20": 30933.0, "AfschrijvingenOpVasteActiva_36": 7718.0, "Bedrijfsresultaat_37": 12022.0, "ResultaatVoorBelastingen_41": 13199.0}
+{"BedrijfstakkenBranchesSBI2008": "383100", "Perioden": "2024JJ00", "WerkzamePersoon_2": 613.6, "NettoOmzet_6": 132074.0, "Totaal_8": 124910.0, "Totaal_20": 32557.0, "AfschrijvingenOpVasteActiva_36": 7682.0, "Bedrijfsresultaat_37": 12645.0, "ResultaatVoorBelastingen_41": 12592.0}
+{"BedrijfstakkenBranchesSBI2008": "384400", "Perioden": "2022JJ00", "WerkzamePersoon_2": 178.1, "NettoOmzet_6": 33694.0, "Totaal_8": 30994.0, "Totaal_20": 8525.0, "AfschrijvingenOpVasteActiva_36": 1433.0, "Bedrijfsresultaat_37": 2856.0, "ResultaatVoorBelastingen_41": 2975.0}
+{"BedrijfstakkenBranchesSBI2008": "384400", "Perioden": "2023JJ00", "WerkzamePersoon_2": 167.0, "NettoOmzet_6": 31219.0, "Totaal_8": 29062.0, "Totaal_20": 8546.0, "AfschrijvingenOpVasteActiva_36": 1508.0, "Bedrijfsresultaat_37": 2367.0, "ResultaatVoorBelastingen_41": 2505.0}
+{"BedrijfstakkenBranchesSBI2008": "384400", "Perioden": "2024JJ00", "WerkzamePersoon_2": 171.4, "NettoOmzet_6": 32460.0, "Totaal_8": 30031.0, "Totaal_20": 9023.0, "AfschrijvingenOpVasteActiva_36": 1512.0, "Bedrijfsresultaat_37": 2741.0, "ResultaatVoorBelastingen_41": 2213.0}
+{"BedrijfstakkenBranchesSBI2008": "386900", "Perioden": "2022JJ00", "WerkzamePersoon_2": 39.8, "NettoOmzet_6": 9509.0, "Totaal_8": 8963.0, "Totaal_20": 2117.0, "AfschrijvingenOpVasteActiva_36": 774.0, "Bedrijfsresultaat_37": 732.0, "ResultaatVoorBelastingen_41": 266.0}
+{"BedrijfstakkenBranchesSBI2008": "386900", "Perioden": "2023JJ00", "WerkzamePersoon_2": 39.9, "NettoOmzet_6": 11111.0, "Totaal_8": 10429.0, "Totaal_20": 2339.0, "AfschrijvingenOpVasteActiva_36": 830.0, "Bedrijfsresultaat_37": 1173.0, "ResultaatVoorBelastingen_41": 1324.0}
+{"BedrijfstakkenBranchesSBI2008": "386900", "Perioden": "2024JJ00", "WerkzamePersoon_2": 42.4, "NettoOmzet_6": 11912.0, "Totaal_8": 11305.0, "Totaal_20": 2427.0, "AfschrijvingenOpVasteActiva_36": 937.0, "Bedrijfsresultaat_37": 1055.0, "ResultaatVoorBelastingen_41": 1448.0}
+{"BedrijfstakkenBranchesSBI2008": "389100", "Perioden": "2022JJ00", "WerkzamePersoon_2": 672.4, "NettoOmzet_6": 34376.0, "Totaal_8": 31482.0, "Totaal_20": 9847.0, "AfschrijvingenOpVasteActiva_36": 2003.0, "Bedrijfsresultaat_37": 3534.0, "ResultaatVoorBelastingen_41": 3543.0}
+{"BedrijfstakkenBranchesSBI2008": "389100", "Perioden": "2023JJ00", "WerkzamePersoon_2": 690.2, "NettoOmzet_6": 39232.0, "Totaal_8": 34291.0, "Totaal_20": 10799.0, "AfschrijvingenOpVasteActiva_36": 1961.0, "Bedrijfsresultaat_37": 5547.0, "ResultaatVoorBelastingen_41": 5220.0}
+{"BedrijfstakkenBranchesSBI2008": "389100", "Perioden": "2024JJ00", "WerkzamePersoon_2": 695.8, "NettoOmzet_6": 41288.0, "Totaal_8": 36428.0, "Totaal_20": 11950.0, "AfschrijvingenOpVasteActiva_36": 2053.0, "Bedrijfsresultaat_37": 5473.0, "ResultaatVoorBelastingen_41": 4912.0}
+{"BedrijfstakkenBranchesSBI2008": "410300", "Perioden": "2022JJ00", "WerkzamePersoon_2": 51.8, "NettoOmzet_6": 26680.0, "Totaal_8": 24645.0, "Totaal_20": 2374.0, "AfschrijvingenOpVasteActiva_36": 7685.0, "Bedrijfsresultaat_37": 2279.0, "ResultaatVoorBelastingen_41": 4190.0}
+{"BedrijfstakkenBranchesSBI2008": "410300", "Perioden": "2023JJ00", "WerkzamePersoon_2": 56.9, "NettoOmzet_6": 28703.0, "Totaal_8": 25528.0, "Totaal_20": 2664.0, "AfschrijvingenOpVasteActiva_36": 8085.0, "Bedrijfsresultaat_37": 3457.0, "ResultaatVoorBelastingen_41": 3620.0}
+{"BedrijfstakkenBranchesSBI2008": "410300", "Perioden": "2024JJ00", "WerkzamePersoon_2": 56.1, "NettoOmzet_6": 28953.0, "Totaal_8": 25623.0, "Totaal_20": 2837.0, "AfschrijvingenOpVasteActiva_36": 8493.0, "Bedrijfsresultaat_37": 3869.0, "ResultaatVoorBelastingen_41": -800.0}
+{"BedrijfstakkenBranchesSBI2008": "415000", "Perioden": "2022JJ00", "WerkzamePersoon_2": 251.9, "NettoOmzet_6": 13903.0, "Totaal_8": 11980.0, "Totaal_20": 5982.0, "AfschrijvingenOpVasteActiva_36": 349.0, "Bedrijfsresultaat_37": 1989.0, "ResultaatVoorBelastingen_41": 2038.0}
+{"BedrijfstakkenBranchesSBI2008": "415000", "Perioden": "2023JJ00", "WerkzamePersoon_2": 262.2, "NettoOmzet_6": 14971.0, "Totaal_8": 12810.0, "Totaal_20": 6384.0, "AfschrijvingenOpVasteActiva_36": 414.0, "Bedrijfsresultaat_37": 2242.0, "ResultaatVoorBelastingen_41": 2258.0}
+{"BedrijfstakkenBranchesSBI2008": "415000", "Perioden": "2024JJ00", "WerkzamePersoon_2": 251.8, "NettoOmzet_6": 16178.0, "Totaal_8": 13858.0, "Totaal_20": 6833.0, "AfschrijvingenOpVasteActiva_36": 418.0, "Bedrijfsresultaat_37": 2424.0, "ResultaatVoorBelastingen_41": 2499.0}
+{"BedrijfstakkenBranchesSBI2008": "415300", "Perioden": "2022JJ00", "WerkzamePersoon_2": 194.5, "NettoOmzet_6": 7807.0, "Totaal_8": 6750.0, "Totaal_20": 4271.0, "AfschrijvingenOpVasteActiva_36": 160.0, "Bedrijfsresultaat_37": 1080.0, "ResultaatVoorBelastingen_41": 1116.0}
+{"BedrijfstakkenBranchesSBI2008": "415300", "Perioden": "2023JJ00", "WerkzamePersoon_2": 200.7, "NettoOmzet_6": 8614.0, "Totaal_8": 7303.0, "Totaal_20": 4593.0, "AfschrijvingenOpVasteActiva_36": 208.0, "Bedrijfsresultaat_37": 1344.0, "ResultaatVoorBelastingen_41": 1354.0}
+{"BedrijfstakkenBranchesSBI2008": "415300", "Perioden": "2024JJ00", "WerkzamePersoon_2": 188.8, "NettoOmzet_6": 9243.0, "Totaal_8": 7865.0, "Totaal_20": 4866.0, "AfschrijvingenOpVasteActiva_36": 202.0, "Bedrijfsresultaat_37": 1438.0, "ResultaatVoorBelastingen_41": 1498.0}
+{"BedrijfstakkenBranchesSBI2008": "415400", "Perioden": "2022JJ00", "WerkzamePersoon_2": 158.9, "NettoOmzet_6": 5194.0, "Totaal_8": 4602.0, "Totaal_20": 3220.0, "AfschrijvingenOpVasteActiva_36": 81.0, "Bedrijfsresultaat_37": 608.0, "ResultaatVoorBelastingen_41": 608.0}
+{"BedrijfstakkenBranchesSBI2008": "415400", "Perioden": "2023JJ00", "WerkzamePersoon_2": 166.7, "NettoOmzet_6": 5868.0, "Totaal_8": 5058.0, "Totaal_20": 3529.0, "AfschrijvingenOpVasteActiva_36": 108.0, "Bedrijfsresultaat_37": 820.0, "ResultaatVoorBelastingen_41": 816.0}
+{"BedrijfstakkenBranchesSBI2008": "415400", "Perioden": "2024JJ00", "WerkzamePersoon_2": 152.5, "NettoOmzet_6": 6252.0, "Totaal_8": 5373.0, "Totaal_20": 3673.0, "AfschrijvingenOpVasteActiva_36": 100.0, "Bedrijfsresultaat_37": 908.0, "ResultaatVoorBelastingen_41": 907.0}
+{"BedrijfstakkenBranchesSBI2008": "438600", "Perioden": "2022JJ00", "WerkzamePersoon_2": null, "NettoOmzet_6": null, "Totaal_8": null, "Totaal_20": null, "AfschrijvingenOpVasteActiva_36": null, "Bedrijfsresultaat_37": null, "ResultaatVoorBelastingen_41": null}
+{"BedrijfstakkenBranchesSBI2008": "438600", "Perioden": "2023JJ00", "WerkzamePersoon_2": null, "NettoOmzet_6": null, "Totaal_8": null, "Totaal_20": null, "AfschrijvingenOpVasteActiva_36": null, "Bedrijfsresultaat_37": null, "ResultaatVoorBelastingen_41": null}
+{"BedrijfstakkenBranchesSBI2008": "438600", "Perioden": "2024JJ00", "WerkzamePersoon_2": null, "NettoOmzet_6": null, "Totaal_8": null, "Totaal_20": null, "AfschrijvingenOpVasteActiva_36": null, "Bedrijfsresultaat_37": null, "ResultaatVoorBelastingen_41": null}
+{"BedrijfstakkenBranchesSBI2008": "438800", "Perioden": "2022JJ00", "WerkzamePersoon_2": 12.4, "NettoOmzet_6": 942.0, "Totaal_8": 881.0, "Totaal_20": 396.0, "AfschrijvingenOpVasteActiva_36": 134.0, "Bedrijfsresultaat_37": 76.0, "ResultaatVoorBelastingen_41": 77.0}
+{"BedrijfstakkenBranchesSBI2008": "438800", "Perioden": "2023JJ00", "WerkzamePersoon_2": 11.3, "NettoOmzet_6": 1104.0, "Totaal_8": 985.0, "Totaal_20": 460.0, "AfschrijvingenOpVasteActiva_36": 139.0, "Bedrijfsresultaat_37": 125.0, "ResultaatVoorBelastingen_41": 142.0}
+{"BedrijfstakkenBranchesSBI2008": "438800", "Perioden": "2024JJ00", "WerkzamePersoon_2": 11.2, "NettoOmzet_6": 1139.0, "Totaal_8": 1007.0, "Totaal_20": 460.0, "AfschrijvingenOpVasteActiva_36": 149.0, "Bedrijfsresultaat_37": 143.0, "ResultaatVoorBelastingen_41": 140.0}
+{"BedrijfstakkenBranchesSBI2008": "439500", "Perioden": "2022JJ00", "WerkzamePersoon_2": 11.5, "NettoOmzet_6": 1367.0, "Totaal_8": 1218.0, "Totaal_20": 359.0, "AfschrijvingenOpVasteActiva_36": 60.0, "Bedrijfsresultaat_37": 153.0, "ResultaatVoorBelastingen_41": 145.0}
+{"BedrijfstakkenBranchesSBI2008": "439500", "Perioden": "2023JJ00", "WerkzamePersoon_2": 11.8, "NettoOmzet_6": 1398.0, "Totaal_8": 1244.0, "Totaal_20": 384.0, "AfschrijvingenOpVasteActiva_36": 55.0, "Bedrijfsresultaat_37": 158.0, "ResultaatVoorBelastingen_41": 151.0}
+{"BedrijfstakkenBranchesSBI2008": "439500", "Perioden": "2024JJ00", "WerkzamePersoon_2": 12.3, "NettoOmzet_6": 1472.0, "Totaal_8": 1282.0, "Totaal_20": 413.0, "AfschrijvingenOpVasteActiva_36": 50.0, "Bedrijfsresultaat_37": 196.0, "ResultaatVoorBelastingen_41": 202.0}

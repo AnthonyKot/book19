@@ -1,0 +1,13 @@
+Source: https://lokaleregelgeving.overheid.nl/CVDR760692/1
+Publisher: Overheid.nl lokale wet- en regelgeving (Gemeente Hollands Kroon)
+Fetch date: 2026-09-04
+Title: Beleidsregels huisvesting arbeidsmigranten 2026, in force from 17 April 2026
+
+Key excerpts:
+- Agricultural enterprises: "maximaal 80 arbeidsmigranten"; 81+ counts as "Grootschalige tijdelijke huisvesting".
+- SNF: "ondernemers die zich bij het SNF aansluiten, moeten voldoen aan deze normen"; 10 m² exception within SNF for peak periods of max 2 months a year.
+- "alle locaties voor tijdelijke huisvesting in de gemeente Hollands Kroon moeten aangesloten zijn bij het digitaal register"; since 2025 the "Platform Arbeidsmigranten" is used.
+- Temporary omgevingsvergunning for max 20 years at agricultural sites; 15 years for seasonal housing.
+- "Een afstand van 50 meter tot verblijfsfuncties is op basis van de jurisprudentie goed verdedigbaar".
+- Agriport referenced once as an exception to the 10% population-cap rule. No mention of datacenters or construction workers.
+Limits: rules are written for agricultural labour migrants; datacenter construction crews are not addressed.

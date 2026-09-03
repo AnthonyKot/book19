@@ -1,0 +1,2 @@
+SOURCE: https://www.evm.nl/diploma/  Publisher: EVM (Examenbureau Vakbekwaamheid Milieu) / Bureau Erkenningen  Fetched 2026-09-04 via curl, HTML stripped to text (nav/footer removed).
+

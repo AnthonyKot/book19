@@ -1,0 +1,12 @@
+Source: https://datacenterworks.nl/artikelen/arbeidsmarktonderzoek-datacenters-forse-groei-maar-ook-flinke-knelpunten
+Publisher: DatacenterWorks (trade press) reporting DDA/Interxion/Workrate research by Pb7
+Fetch date: 2026-09-04
+Date: 1 April 2019
+
+Verbatim quotes:
+- "Nederlandse datacenters bieden werk aan ongeveer 4.700 medewerkers"
+- "Voor de komende vijf jaar verwachten datacenters dat de hoeveelheid eigen medewerkers met 29% toeneemt"
+- Greatest challenge: "het vinden van voldoende gekwalificeerd technisch personeel"
+- "Er is geen opleiding die engineers voorbereid op het werken binnen een datacenter."; "Een belangrijk deel van de opleiding moet dus in het datacenter zelf plaatsvinden"
+- Scarce roles: facilitaire engineers and IT specialists.
+Limits: 2019; superseded by DDA 2025 FTE figure (see dda-economische-impact.txt).

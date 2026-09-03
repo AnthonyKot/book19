@@ -1,0 +1,11 @@
+Source: https://www.veiligheidsbranche.nl/volop-werk-in-de-beveiliging-maar-weinig-mensen-beschikbaar/
+Publisher: de Nederlandse Veiligheidsbranche (trade body)
+Fetch date: 2026-09-04
+Date: Gorinchem, 30 January 2020
+
+Verbatim figures:
+- "Momenteel werken ongeveer 64 duizend mensen in een beveiligingsberoep."
+- "Ruim de helft van de beveiligingsbedrijven ervaart inmiddels problemen als gevolg van de krapte op de arbeidsmarkt."
+- "Nog altijd heeft een derde van de werknemers een flexibel contract."
+- "Inmiddels werkt bijna 60% van het beveiligingspersoneel voltijds."
+Limits: 2020 figures; no datacenter-specific data. Indeed's datacenter-security vacancy page returned 403 (search summary showed "75+" listings on 11 May 2026 — not verified, not used as a figure).

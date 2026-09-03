@@ -1,0 +1,14 @@
+Source: https://www.rtvnoord.nl/economie/1322418/qts-het-onbekende-broertje-van-google-bouwt-een-mega-datacenter-in-de-eemshaven
+Publisher: RTV Noord
+Fetch date: 2026-09-04
+Article date: 13 July 2025
+Title: QTS, het onbekende broertje van Google, bouwt een mega-datacenter in de Eemshaven
+
+Verbatim figures:
+- "QTS investeert €1,4 miljard in de uitbreiding van zijn campus in Eemshaven tegen 2029"
+- "130 nieuwe banen levert het op"
+- "de toekomstige bijdrage aan de lokale economie naar verwachting oploopt tot 82 miljoen euro"; "vijftig miljoen euro aan belastinginkomsten voor heel Nederland"
+- "We verwachten samen met WarmteStad in 2026 duurzame en betaalbare warmte te leveren aan meer dan tienduizend huishoudens"
+- "verbruiken geen water voor verdampingskoeling, waardoor jaarlijks honderden miljoenen liters water worden bespaard"
+- Construction: "honderden of zelfs duizenden" jobs during building; floor area "bijna drie voetbalvelden".
+Limits: no MW, hectare or worker-count figures.

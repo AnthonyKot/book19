@@ -1,0 +1,8 @@
+Source: https://openresearch.amsterdam/en/page/62735/vestigingsbeleid-datacenters-gemeente-amsterdam-2020-%E2%80%93-2030
+Publisher: openresearch.amsterdam (Gemeente Amsterdam)
+Fetch date: 2026-09-04
+Title: Vestigingsbeleid datacenters gemeente Amsterdam 2020 – 2030, dated 14 October 2020; council decision 16 December 2020
+
+Key excerpts:
+- Policy motivated by "transportcapaciteit op het elektriciteitsnetwerk" and "ruimtelijke inpassing".
+Limits: the landing page gives no MW caps or PUE/heat figures; the full PDF was not fetched. The 2019 Amsterdam moratorium is documented in dda-regeldruk-feb-2025.txt.

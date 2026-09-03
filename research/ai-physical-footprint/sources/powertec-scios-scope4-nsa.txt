@@ -1,0 +1,12 @@
+Source: https://powertecservices.nl/blog/verplichte-scios-keuring-noodstroomaggregaten
+Publisher: Powertec Services (inspection company blog; secondary)
+Fetch date: 2026-09-04
+Title: Verplichte SCIOS-keuring noodstroomaggregaten (Scope 4 en 7c)
+
+Key excerpts:
+- Scope 4 = the combustion installation (diesel engine); Scope 7c = the fuel supply line from external tank to engine.
+- Frequencies by thermal input: 20–100 kW every 4 years; over 100 kW every 2 years.
+- "Since 1 January 2016 these inspections are mandatory for emergency power generators, as the Activity Decision has applied to emergency power supplies since that date."
+- Only SCIOS-certified companies may inspect.
+- Generators used only for emergencies at their own site and running fewer than 500 hours a year count as emergency generators with reduced requirements.
+Limits: vendor page; the 1 Jan 2026 frequency change mentioned in search summaries (4-year interval for all NSAs under 500 h/yr) was not confirmed on this page.

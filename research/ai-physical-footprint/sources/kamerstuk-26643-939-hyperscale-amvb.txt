@@ -1,0 +1,9 @@
+Source: https://zoek.officielebekendmakingen.nl/kst-26643-939.html
+Publisher: Overheid.nl officiële bekendmakingen (Tweede Kamer, Kamerstuk 26643 nr. 939)
+Fetch date: 2026-09-04
+Title: Brief van de Minister van Economische Zaken en Klimaat (M.A.M. Adriaansens), 8 November 2022
+
+Key excerpts:
+- "In deze AMvB wordt bepaald dat de vestiging van hyperscale datacenters alleen is toegestaan in de gemeente Hollands Kroon (provincie Noord-Holland) en een deel van de gemeente Het Hoge Land (provincie Groningen)."
+- "De strategie digitale economie wordt dit najaar gepresenteerd. De visie op de digitale infrastructuur zal in de eerste helft van 2023 aan uw Kamer worden gestuurd."
+Limits: 2022 policy letter; contains no MW figures, no 2025-2027 strategy detail.

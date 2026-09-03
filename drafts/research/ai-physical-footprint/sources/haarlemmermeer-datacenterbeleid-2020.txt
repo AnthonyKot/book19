@@ -1,0 +1,13 @@
+Source: https://lokaleregelgeving.overheid.nl/CVDR646404
+Publisher: Overheid.nl lokale wet- en regelgeving (Gemeente Haarlemmermeer)
+Fetch date: 2026-09-04
+Title: Besluit van de gemeenteraad van de gemeente Haarlemmermeer houdende regels omtrent Datacenterbeleid gemeente Haarlemmermeer, adopted 24 November 2020
+
+Verbatim excerpts:
+- "een maximum toename van de aansluitcapaciteit van nieuwe en uitbreiding van bestaande datacenters binnen Haarlemmermeer van 750 MVA tot 2030"
+- "Na 2030 is geen extra ruimte voor datacenters in Haarlemmermeer beschikbaar"
+- Permitted business parks: "Polanenpark, Schiphol-Rijk, STP en Corneliahoeve"
+- Waste heat: "Indien een warmtenet aanwezig is, of er concrete plannen zijn dient restwarmte op een bruikbare temperatuur te leveren aan het warmtenet"
+- Cooling water: "collectieve dan wel individuele voorziening met hemelwater" or "collectieve voorziening door productie bij een drinkwaterbedrijf"
+- "PUE < 1,2 (Power usage efficiency)"
+Limits: no generator/noise provisions in the text returned.

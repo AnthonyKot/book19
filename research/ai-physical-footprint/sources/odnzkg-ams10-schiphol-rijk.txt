@@ -1,0 +1,11 @@
+Source: https://odnzkg.nl/nieuws/bouw-datacenter-ams10-in-schiphol-rijk/
+Publisher: Omgevingsdienst Noordzeekanaalgebied (ODNZKG)
+Fetch date: 2026-09-04
+Date: 11 December 2025
+Title: Bouw datacenter AMS10 in Schiphol-Rijk
+
+Key excerpts:
+- Operator: EdgeConneX. Three omgevingsvergunningen requested: one for deviation from the zoning plan, two for environmental and construction matters.
+- Decision "naar verwachting begin 2026 gepubliceerd".
+- Preliminary works "tijdelijk" permitted "onder voorwaarden" at EdgeConneX's own risk pending the final permit. Province of Noord-Holland is competent authority.
+Limits: no MW, generator, NOx or water conditions in the text.

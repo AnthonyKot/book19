@@ -1,0 +1,101 @@
+SOURCE: CBS StatLine table 85077NED — Zelfstandigen; persoonskenmerken en bedrijfstak SBI 2008 (2011-2024, modified 2025-11-19). Publisher: Centraal Bureau voor de Statistiek. URL: https://opendata.cbs.nl/ODataApi/odata/85077NED/TypedDataSet (OData, filtered on selected SBI codes; StatLine UI: https://opendata.cbs.nl/#/CBS/nl/dataset/85077NED/table). Fetched 2026-09-04 via curl. Limit: persons (x1000) with self-employment income, not firms; age at year end; share 55+ computed by agent. Raw rows follow.
+
+TABLE E. CBS 85077NED Zelfstandigen; persoonskenmerken, 2024, both sexes; counts x 1000; type 2021380 all self-employed, 2021420 with staff (zmp). Age share 55+ = (55-65 + 65-75 + 75+)/total.
+sector | type | total | 25-35 | 35-45 | 45-55 | 55-65 | 65-75 | 75+ | share 55+ %
+A-U all | all | 2287.3 | 392.6 | 460.3 | 499.1 | 471.2 | 216.0 | 52.3 | 32.3
+A-U all | zmp | 304.6 | 37.3 | 68.7 | 89.9 | 78.5 | 20.0 | 4.1 | 33.7
+C Industrie | all | 70.9 | 11.8 | 14.5 | 17.0 | 16.7 | 6.3 | 1.2 | 34.1
+C Industrie | zmp | 17.2 | 1.8 | 3.2 | 5.2 | 5.1 | 1.3 | 0.3 | 39.0
+F Bouw | all | 258.5 | 53.2 | 65.6 | 59.1 | 44.8 | 12.3 | 1.4 | 22.6
+F Bouw | zmp | 25.6 | 3.5 | 6.5 | 7.9 | 5.8 | 1.2 | 0.2 | 28.1
+G Handel | all | 232.7 | 35.8 | 42.4 | 54.8 | 55.8 | 20.6 | 5.6 | 35.2
+G Handel | zmp | 72.3 | 7.6 | 14.0 | 21.8 | 20.9 | 5.5 | 1.3 | 38.3
+H Vervoer/opslag | all | 60.2 | 12.9 | 12.7 | 11.8 | 10.9 | 4.3 | 0.9 | 26.7
+H Vervoer/opslag | zmp | 10.8 | 1.8 | 2.5 | 2.8 | 2.5 | 0.7 | 0.2 | 31.5
+I Horeca | all | 87.4 | 14.8 | 17.7 | 19.7 | 17.9 | 5.8 | 1.2 | 28.5
+I Horeca | zmp | 40.4 | 6.4 | 10.1 | 11.3 | 9.0 | 2.1 | 0.3 | 28.2
+RAW ROWS:
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 2287.3}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 392.6}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 460.3}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 499.1}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 471.2}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 216.0}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 52.3}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 70.9}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 11.8}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 14.5}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 17.0}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 16.7}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 6.3}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 1.2}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 258.5}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 53.2}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 65.6}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 59.1}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 44.8}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 12.3}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 1.4}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 232.7}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 35.8}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 42.4}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 54.8}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 55.8}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 20.6}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 5.6}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 60.2}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 12.9}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 12.7}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 11.8}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 10.9}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 4.3}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 0.9}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 87.4}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 14.8}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 17.7}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 19.7}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 17.9}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 5.8}
+{"TypeZelfstandige": "2021380", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 1.2}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 304.6}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 37.3}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 68.7}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 89.9}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 78.5}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 20.0}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "T001081", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 4.1}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 17.2}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 1.8}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 3.2}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 5.2}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 5.1}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 1.3}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "307500 ", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 0.3}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 25.6}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 3.5}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 6.5}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 7.9}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 5.8}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 1.2}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "350000 ", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 0.2}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 72.3}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 7.6}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 14.0}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 21.8}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 20.9}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 5.5}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "354200 ", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 1.3}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 10.8}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 1.8}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 2.5}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 2.8}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 2.5}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 0.7}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "383100 ", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 0.2}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "T009002", "Perioden": "2024JJ00", "Zelfstandige_1": 40.4}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "53500  ", "Perioden": "2024JJ00", "Zelfstandige_1": 6.4}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "53700  ", "Perioden": "2024JJ00", "Zelfstandige_1": 10.1}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "53800  ", "Perioden": "2024JJ00", "Zelfstandige_1": 11.3}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "53900  ", "Perioden": "2024JJ00", "Zelfstandige_1": 9.0}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "53925  ", "Perioden": "2024JJ00", "Zelfstandige_1": 2.1}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "389100 ", "Persoonskenmerken": "21600  ", "Perioden": "2024JJ00", "Zelfstandige_1": 0.3}

@@ -1,0 +1,13 @@
+Source: https://www.rvo.nl/onderwerpen/energiebesparingsplicht/eed-auditplicht/rapportageplicht-datacentra
+Publisher: RVO (Rijksdienst voor Ondernemend Nederland)
+Fetch date: 2026-09-04
+Title: Rapportageplicht energie-efficiëntie datacentra
+
+Key excerpts:
+- Legal basis: Energy Efficiency Directive (EED) Article 12, implemented via Dutch regulation published in the Staatscourant/Staatsblad in 2024.
+- Threshold: datacenters with "geïnstalleerd IT-vermogen van minimaal 500 kilowatt" must report annually; applies to enterprise, colocation and co-hosting facilities alike.
+- Reported metrics: energy efficiency (PUE), water consumption efficiency, waste-heat recovery factor, renewable-energy percentage.
+- 2026 reporting window: 16 March – 15 May 2026; annual from 2024 onward.
+- Reports go via Mijn RVO to the European Commission and are published on RVO.nl unless marked confidential under the Woo.
+- Narrow exemption only for facilities exclusively serving defence or disaster response.
+Limits: page does not give the number of reporting datacenters.

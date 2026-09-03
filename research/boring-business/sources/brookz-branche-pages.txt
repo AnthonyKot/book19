@@ -1,0 +1,584 @@
+SOURCE: Brookz branche-informatie pages (installatiebedrijf, schoonmaakbedrijf, transportbedrijf, koeriersbedrijf, uitvaartbedrijf, verhuurbedrijf, handelsonderneming). Publisher: Brookz (brookz.nl). URLs: https://www.brookz.nl/branche-informatie/<slug>. Fetched 2026-09-04 via curl, HTML stripped to text. Limits: broker marketing pages; firm counts are Brookz's rendering of CBS 2025 size-class figures; multiples are the Brookz Overname Barometer sector bands (adviser survey, firms EUR 0.5m-50m revenue), not observed prices; M&A counts per year are Brookz chart data (CBS-based) rendered as arrays with year labels; 'te koop' listings are live ads with seller-stated revenue and FTE bands.
+
+=== installatiebedrijf: Brookz chart 'Aantal fusies en overnames installatiebedrijven' (2015..2024) and 'Gem. EBITDA-multiple Bouw & Installatietechniek' (2016..2025) and band [high, low]
+ Installatiebedrijf
+ vanaf € 1.000.000 omzet 
+ 11-20 FTE
+ Niet-locatiegebonden
+ Totaalinstallateur in W-installatietechniek
+ vanaf € 500.000 omzet 
+ 6-10 FTE
+ Oost-Nederland
+ "> 
+ Bekijk alle installatiebedrijven gezocht 
+ Totaalinstallateur in Friesland
+ € 2.297.000 omzet 
+ 11-20 FTE
+ Noord-Nederland
+ Verwarmings- & ventilatieonderhoudsbedrijf
+ € 2.350.000 omzet 
+ 6-10 FTE
+ West-Nederland
+ Installatiebedrijf in woningbouw en uitiliteit
+ € 5.080.000 omzet 
+ 21-50 FTE
+ West-Nederland
+ Keuken- & badkamerbedrijf
+ € 2.500.000 omzet 
+ 11-20 FTE
+ Locatie anoniem
+ Installatiebderijf E&W
+ € 3.300.000 omzet 
+ 11-20 FTE
+ Zuid-Nederland
+ Familiebedrijf beveiliging, camera's, toegang & artikelbeveiliging
+ € 230.000 omzet 
+ 2-5 FTE
+ Midden-Nederland
+ Installatiebedrijf met servicecontracten
+ € 1.000.000 omzet 
+ 2-5 FTE
+ Midden-Nederland
+ Installatiebedrijf
+ € 5.500.000 omzet 
+ 11-20 FTE
+ Zuid-Nederland
+ Brandmeldinstallatiebedrijf
+ € 750.000 omzet 
+ 2-5 FTE
+ Midden-Nederland
+ Installatie & onderhoud van verwarming & koeling
+ € 3.200.000 omzet 
+ 11-20 FTE
+ West-Nederland
+ "> 
+ Bekijk alle installatiebedrijven verkocht 
+ Aantal overnames installatiebedrijven
+Sinds de intrede van de globale coronapandemie is de installatiebranche in een groeispurt terechtgekomen. Een bedrijfsovername vergroot de stabiliteit. Het is vaak een noodzakelijke stap om aanwezigheid in een regio te vergroten of om de omzetgroei te doen pieken.
+Sinds afgelopen jaar is er een tekort aan essentiële materialen op de Nederlandse markt, waardoor installateurs diep in de buidel moeten tasten. Naar verwachting zal dit tekort de komende jaren toenemen, waardoor er nieuwe toelevering van materialen schaars en kostbaar blijft.
+ ["90", "110", "85", "100", "130", "115", "150", "195", "105", "140"]
+["‘15", "‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24"]
+ Aantal fusies en overnames installatiebedrijven
+ ["4,20", "4,15", "3,95", "3,95", "4,05", "4,00", "3,90", "4,10", "4,40", "4,80"]
+["‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24", "'25"]
+["5,50", "4,30"]
+ Gem. EBITDA-multiple Bouw & Installatietechniek
+ Wat is een installatiebedrijf waard?
+Er zijn vele manieren om een bedrijf te waarderen. Een veelgebruikte methode om de waarde van een bedrijf uit te drukken is “een factor x de bruto jaarwinst”. Deze factor wordt ook wel multiple genoemd en een andere aanduiding voor bruto jaarwinst is EBITDA (Earnings Before Interest Taxes Depreciation and Amortisation).
+In de bouw- en installatietechniek, de branche waartoe installatiebedrijven behoren, geldt volgens de Brookz Overname Barometer op dit moment een indicatieve bandbreedte van de EBITDA-multiple van 4,3 tot 5,5 gehanteerd. De gemiddelde EBITDA-multiple over alle sectoren in het MKB is 5,00.
+ Bedrijfswaardering
+ De waardering van een bedrijf is vaak het startpunt voor de onderhandelingen tussen koper en verkoper. De uitkomst van deze onderhandelingen is de uiteindelijke verkoopprijs. Waardering en prijs zijn dus twee verschillende grootheden. Naast de waardering wordt de prijs ook bepaald door eventuele schaarste op de markt, onderhandelingsmacht van de partijen, de strategische waarde van het bedrijf voor de koper en mogelijke synergie-effecten voor de koper (kostenbesparingen, inkoopvoordelen).
+ Doe de berekening 
+ Wat is Brookz? En waarvoor kun je het gebruiken?
+ Start met de verkoop van je bedrijf Sector Monitor
+ Wil je een bedrijf kopen of een bedrijf verkopen in de sector Bouw & Installatietechniek? Met deze Brookz Sectormonitor willen wij kopers en verkopers feiten, cijfers en een vooruitblik presenteren die inzicht geven in het aantal transacties, de waarde-ontwikkeling van bedrijven en de laatste trends en ontwikkelingen in de Bouw & Installatietechniek. Want bij ieder koop- of verkooptraject geeft een gedegen voorbereiding rust, overzicht en structuur.
+
+=== schoonmaakbedrijf
+=========== schoonmaakbedrijf
+Je wilt jouw schoonmaakbedrijf verkopen? Dan is het goed om te weten hoe de overnamemarkt op het gebied van schoonmaakbedrijven eruit ziet. Het opstarten van een schoonmaakbedrijf is relatief eenvoudig en vraagt geen hoge investering. Op de overnamemarkt kunnen de ‘grote vijf’ deze relatief kleine bedrijven wel eens gaan overnemen.
+ Schoonmaakbedrijf verkopen
+ Schoonmaakbedrijven op Brookz
+ Te koop 
+ Gezocht 
+ Verkocht 
+ Schoonmaakonderneming in Zuid-Nederland
+ € 2.180.005 omzet 
+ 21-50 FTE
+ Zuid-Nederland
+ Regionaal schoonmaak- & glasbewassingsbedrijf
+ € 208.679 omzet 
+ 2-5 FTE
+ Zuid-Nederland
+ Levering installatie & onderhoud van waterloze urinoirs
+ € 23.332 omzet 
+ 1 FTE
+ Oost-Nederland
+ Schoonmaakproducten voor retail
+ € 2.200.000 omzet 
+ 2-5 FTE
+ Midden-Nederland
+ Schoonmaakbedrijf
+ € 181.000 omzet 
+ 1 FTE
+ Niet-locatiegebonden
+ Schoonmaakbedrijf voedselverwerking
+ € 11.500.000 omzet 
+ 101-500 FTE
+ Niet-locatiegebonden
+ "> 
+ Bekijk alle schoonmaakbedrijven te koop 
+ Schoonmaakbedrijf in zakelijke markt
+ vanaf € 500.000 omzet 
+ 6-10 FTE
+ Niet-locatiegebonden
+ Schoonmaakbedrijf
+ vanaf € 1.750.000 omzet 
+ Midden-Nederland
+ "> 
+ Bekijk alle schoonmaakbedrijven gezocht 
+ Facilitair dienstverlener
+ € 2.961.000 omzet 
+ 21-50 FTE
+ Midden-Nederland
+ Reinigingsbedrijf in textiel (landelijke dekking)
+ € 2.969.188 omzet 
+ 21-50 FTE
+ West-Nederland
+ Ongediertebestrijdingbedrijf
+ € 240.000 omzet 
+ 2-5 FTE
+ Midden-Nederland
+ Schoonmaakbedrijf & conciërgediensten
+ € 200.000 omzet 
+ 2-5 FTE
+ West-Frankrijk
+ Onderneming in glasbewassing & recruitment schoonmaakpersoneel
+ € 659.000 omzet 
+ 6-10 FTE
+ Noord-Nederland
+ Bedrijf in schoonmaakonderhoud + glasbewassing
+ € 1.215.000 omzet 
+ 11-20 FTE
+ Noord-Nederland
+ Bedrijf in schoonmaak en glasbewassing
+ € 1.091.000 omzet 
+ 11-20 FTE
+ Zuid-Nederland
+ Schoonmaakbedrijf kantoren & glasbewassing
+ € 500.000 omzet 
+ 6-10 FTE
+ Oost-Nederland
+ Schoonmaakbedrijf
+ € 140.000 omzet 
+ 2-5 FTE
+ West-Nederland
+ Schoonmaakbedrijf
+ € 1.100.000 omzet 
+ 21-50 FTE
+ Zuid-Nederland
+ "> 
+ Bekijk alle schoonmaakbedrijven verkocht 
+ Aantal overnames schoonmaakbedrijven
+Veel grote partijen, zoals CSU, ISS en Asito, proberen door middel van overnames hun klantenbestand uit te breiden. De sector zag in oktober 2016 ook voor het eerst een durfinvesteerder (mede-)eigenaar worden van een facilitaire dienstverlener. Bencis Capital Partners uit Amsterdam nam toen een meerderheidsbelang in EW Facility Services uit Arnhem. De verwachting is dat deze trend doorzet en dat de ‘grote vijf’ zich zullen blijven roeren op de overnamemarkt.
+ ["30", "40", "35", "40", "35", "35", "40", "55", "25", "35"]
+["‘15", "‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24"]
+ Aantal fusies en overnames schoonmaakbedrijven
+ ["5,05", "5,05", "4,90", "4,90", "4,95", "4,95", "5,00", "4,80", "4,90", "5,00"]
+["‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24", "'25"]
+["5,70", "4,60"]
+ Gem. EBITDA-multiple Zakelijke dienstverlening
+ Wat is een schoonmaakbedrijf waard?
+Er zijn vele manieren om een bedrijf te waarderen. Een veelgebruikte methode om de waarde van een bedrijf uit te drukken is “een factor x de bruto jaarwinst”. Deze factor wordt ook wel multiple genoemd en een andere aanduiding voor bruto jaarwinst is EBITDA (Earnings Before Interest Taxes Depreciation and Amortisation).
+In de zakelijke dienstverlening, de branche waartoe schoonmaakbedrijven behoren, geldt volgens de Brookz Overname Barometer op dit moment een indicatieve bandbreedte van de EBITDA-multiple van 4,6 tot 5,7 gehanteerd. De gemiddelde EBITDA-multiple over alle sectoren in het MKB is 5,00.
+ Bedrijfswaardering
+ De waardering van een bedrijf is vaak het startpunt voor de onderhandelingen tussen koper en verkoper. De uitkomst van deze onderhandelingen is de uiteindelijke verkoopprijs. Waardering en prijs zijn dus twee verschillende grootheden. Naast de waardering wordt de prijs ook bepaald door eventuele schaarste op de markt, onderhandelingsmacht van de partijen, de strategische waarde van het bedrijf voor de koper en mogelijke synergie-effecten voor de koper (kostenbesparingen, inkoopvoordelen).
+ Doe de berekening 
+ Wat is Brookz? En waarvoor kun je het gebruiken?
+ Start met de verkoop van je bedrijf Sector Monitor
+ Wil je een bedrijf kopen of een bedrijf verkopen in de sector zakelijke dienstverlening? Met deze Brookz Sectormonitor willen wij kopers en verkopers feiten, cijfers en een vooruitblik presenteren die inzicht geven in het aantal transacties, de waarde-ontwikkeling van bedrijven en de laatste trends en ontwikkelingen in de zakelijke dienstverlening. Want bij ieder koop- of verkooptraject geeft een gedegen voorbereiding rust, overzicht en structuur.
+ Download rapport 
+ Feiten en cijfers over schoonmaakbedrijven
+De schoonmaakbranche is een vechtmarkt met vaak lage marges. Er zijn enkele grote spelers en veel kleine spelers. De schoonmaakbranche kenmerkt zich dan ook door kleinschaligheid. Ruim 90% van de schoonmaakbedrijven heeft minder dan vijf werknemers in dienst. Er komen steeds meer nieuwe toetreders op deze laagdrempelige markt waardoor de concurrentie fors is en opdrachtgevers kritisch kijken naar de prijs-kwaliteitverhouding.
+In cijfers weergegeven zag het aantal schoonmaakbedrijven er in 2025 als volgt uit (CBS):
+27.400
+Schoonmaakbedrijven, waarvan:
+21.555 met 1 werkzaam persoon
+3.080 met 2 werkzame personen
+1.160 met 3 - 5 werkzame personen
+745 met 5 - 10 werkzame personen
+395 met 10 - 20 werkzame personen
+270 met 20 - 50 werkzame personen
+100 met 50 - 100 werkzame personen
+ Training "Succesvol je Bedrijf Verkopen"
+ Met deze online training van Brookz Academy ben je optimaal voorbereid om grotendeels zelf je bedrijf te verkopen: 25 Powerpoint video’s, een uitgebreid waarderingsrapport, juridische modelcontracten, handige templates, checklists en deskundige support. Plus 50% korting op het plaatsen van jouw bedrijf op Brookz!
+ Naar Brookz Academy 
+ Trends en ontwikkelingen voor schoonmaakbedrijven
+Een aant
+=========== transportbedrijf
+Je wilt jouw transportbedrijf verkopen? Dan is het goed om te weten hoe de overnamemarkt op het gebied van transportbedrijven eruit ziet. De transportsector wordt min of meer geraakt door de coronacrisis, maar inmiddels trekt de markt aan, kopen consumenten meer online dan ooit tevoren en zal het duurzaam transport zich verder ontwikkelen.
+
+=== transportbedrijf (count block truncated on page)
+ Transportbedrijf klein & groot vervoer
+ € 1.800.000 omzet 
+ 1 FTE
+ Zuid-Nederland
+ "> 
+ Bekijk alle transportbedrijven verkocht 
+ Aantal overnames transportbedrijven
+De laatste jaren is er een groei zichtbaar in het aantal consolidaties met betrekking op de transportsector. Het internationale wegvervoer heeft een moeilijke periode achter de rug, vanwege de diverse lockdowns in diverse landen. Inmiddels trekt de markt aan, kopen we meer online dan ooit tevoren en zal het duurzaam transport zich ontwikkelen, aldus de logistieksector.
+ ["180", "230", "140", "180", "220", "210", "225", "285", "190", "170"]
+["‘15", "‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24"]
+ Aantal fusies en overnames transportbedrijven
+ ["3,85", "3,85", "3,60", "3,60", "3,60", "3,60", "3,70", "3,80", "4,10", "4,20"]
+["‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24", "'25"]
+["4,70", "3,90"]
+ Gem. EBITDA-multiple Automotive, Transport & Logistiek
+ Wat is een transportbbedrijf waard?
+Er zijn vele manieren om een bedrijf te waarderen. Een veelgebruikte methode om de waarde van een bedrijf uit te drukken is “een factor x de bruto jaarwinst”. Deze factor wordt ook wel multiple genoemd en een andere aanduiding voor bruto jaarwinst is EBITDA (Earnings Before Interest Taxes Depreciation and Amortisation).
+In de logistiek & transport, de sector waartoe transportbedrijven behoren, geldt volgens de Brookz Overname Barometer op dit moment een indicatieve bandbreedte van de EBITDA-multiple van 3,9 tot 4,7 gehanteerd. De gemiddelde EBITDA-multiple over alle sectoren in het MKB is 5,00.
+ Bedrijfswaardering
+ De waardering van een bedrijf is vaak het startpunt voor de onderhandelingen tussen koper en verkoper. De uitkomst van deze onderhandelingen is de uiteindelijke verkoopprijs. Waardering en prijs zijn dus twee verschillende grootheden. Naast de waardering wordt de prijs ook bepaald door eventuele schaarste op de markt, onderhandelingsmacht van de partijen, de strategische waarde van het bedrijf voor de koper en mogelijke synergie-effecten voor de koper (kostenbesparingen, inkoopvoordelen).
+ Doe de berekening 
+ Wat is Brookz? En waarvoor kun je het gebruiken?
+ Start met de verkoop van je bedrijf Sector Monitor
+ Wil je een bedrijf kopen of een bedrijf verkopen in de sector Automotive, Transport & Logistiek? Met deze Brookz Sectormonitor willen wij kopers en verkopers feiten, cijfers en een vooruitblik presenteren die inzicht geven in het aantal transacties, de waarde-ontwikkeling van bedrijven en de laatste trends en ontwikkelingen in de Automotive, Transport & Logistiek. Want bij ieder koop- of verkooptraject geeft een gedegen voorbereiding rust, overzicht en structuur.
+ Download rapport 
+ Feiten en cijfers over transportbedrijven
+Het goederenvervoer is in 2022 weer hersteld, zo stelt ING. De internationale groei komt in rustiger vaarwater, maar de wereldwijde toeleveringsketens zijn nog wel ernstig ontregeld. Schaarste aan containers, hoge tarieven voor transport en nieuwe corona-varianten gooien ook nog wel eens roet in het eten.
+In cijfers weergegeven zag het aantal transportbedrijven er in 2025 als volgt uit (CBS):
+69.2
+
+=== koeriersbedrijf
+=========== koeriersbedrijf
+Je wilt jouw koeriersbedrijf verkopen? Dan is het goed om te weten hoe de overnamemarkt op het gebied van koeriersbedrijven eruit ziet. Het aantal overnames staat momenteel gelijk aan de resultaten van de twee jaren ervoor tezamen.
+ Koeriersbedrijf verkopen
+ Koeriersbedrijven op Brookz
+ Te koop 
+ Gezocht 
+ Verkocht 
+ Koeriersbedrijf voor geconditioneerd transport (Benelux)
+ € 1.300.000 omzet 
+ 1 FTE
+ Zuid-Nederland
+ "> 
+ Bekijk alle koeriersbedrijven te koop 
+ Koeriersbedrijf
+ vanaf € 1.000.000 omzet 
+ 21-50 FTE
+ Niet-locatiegebonden
+ "> 
+ Bekijk alle koeriersbedrijven gezocht 
+ Transportbedrijf gespecialiseerd in sneltransport
+ € 1.382.000 omzet 
+ 6-10 FTE
+ Zuid-Nederland
+ Koeriers- en sneltransportonderneming
+ € 1.500.000 omzet 
+ 21-50 FTE
+ Zuid-Nederland
+ Logistieke onderneming
+ € 1.200.000 omzet 
+ 11-20 FTE
+ Midden-Nederland
+ Koeriersbedrijf & in/ompakwerk van textiel
+ € 600.000 omzet 
+ 2-5 FTE
+ Midden-Nederland
+ Koeriersbedrijf in spoed/same-day zendingen
+ € 350.000 omzet 
+ 2-5 FTE
+ West-Nederland
+ Expediteur met eigen koeriersdienst
+ € 1.380.000 omzet 
+ 2-5 FTE
+ Noord-Nederland
+ "> 
+ Bekijk alle koeriersbedrijven verkocht 
+ Aantal overnames koeriersbedrijven
+Het aantal consolidaties zit in de lift en dit is grotendeels te danken aan de thuiswinkelende consument. 
+ ["10", "10", "5", "10", "10", "15", "10", "15", "10", "10"]
+["‘15", "‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24"]
+ Aantal fusies en overnames koeriersbedrijven
+ ["3,85", "3,85", "3,60", "3,60", "3,60", "3,60", "3,70", "3,80", "4,10", "4,20"]
+["‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24", "'25"]
+["4,70", "3,90"]
+ Gem. EBITDA-multiple Automotive, Transport & Logistiek
+ Wat is een koeriersbedrijf waard?
+Er zijn vele manieren om een bedrijf te waarderen. Een veelgebruikte methode om de waarde van een bedrijf uit te drukken is “een factor x de bruto jaarwinst”. Deze factor wordt ook wel multiple genoemd en een andere aanduiding voor bruto jaarwinst is EBITDA (Earnings Before Interest Taxes Depreciation and Amortisation).
+In de sector transport en logistiek, waartoe een koeriersbedrijf behoort, wordt volgens de Brookz Overname Barometer op dit moment een indicatieve bandbreedte van de EBITDA-multiple van 3,9 tot 4,7 gehanteerd. De gemiddelde EBITDA-multiple over alle sectoren in het MKB is 5,00.
+ Bedrijfswaardering
+ De waardering van een bedrijf is vaak het startpunt voor de onderhandelingen tussen koper en verkoper. De uitkomst van deze onderhandelingen is de uiteindelijke verkoopprijs. Waardering en prijs zijn dus twee verschillende grootheden. Naast de waardering wordt de prijs ook bepaald door eventuele schaarste op de markt, onderhandelingsmacht van de partijen, de strategische waarde van het bedrijf voor de koper en mogelijke synergie-effecten voor de koper (kostenbesparingen, inkoopvoordelen).
+ Doe de berekening 
+ Wat is Brookz? En waarvoor kun je het gebruiken?
+ Start met de verkoop van je bedrijf Sector Monitor
+ Wil je een bedrijf kopen of een bedrijf verkopen in de sector Automotive, Transport & Logistiek? Met deze Brookz Sectormonitor willen wij kopers en verkopers feiten, cijfers en een vooruitblik presenteren die inzicht geven in het aantal transacties, de waarde-ontwikkeling van bedrijven en de laatste trends en ontwikkelingen in de Automotive, Transport & Logistiek. Want bij ieder koop- of verkooptraject geeft een gedegen voorbereiding rust, overzicht en structuur.
+ Download rapport 
+ Feiten en cijfers over koeriersbedrijven
+Er zijn jaarlijks vele starters in de branche, waardoor er ook veel bedrijven met slechts één werkzaam persoon zichtbaar zijn. De koeriersbedrijven hebben een vraag die het aanbod overstijgt en dit zal naar verwachting niet snel afnemen.
+In cijfers weergegeven zag het aantal koeriersbedrijven er in 2025 als volgt uit (CBS):
+8.655
+Koeriersbedrijven, waarvan:
+7.430 met 1 werkzaam persoon
+665 met 2 werkzame personen
+245 met 3 - 5 werkzame personen
+155 met 5 - 10 werkzame personen
+85 met 10 - 20 werkzame personen
+60 met 20 - 50 werkzame personen
+10 met 50 - 100 werkzame personen
+ Training "Succesvol je Bedrijf Verkopen"
+ Met deze online training van Brookz Academy ben je optimaal voorbereid om grotendeels zelf je bedrijf te verkopen: 25 Powerpoint video’s, een uitgebreid waarderingsrapport, juridische modelcontracten, handige templates, checklists en deskundige support. Plus 50% korting op het plaatsen van jouw bedrijf op Brookz!
+ Naar Brookz Academy 
+ Trends en ontwikkelingen voor koeriersbedrijven
+Een aantal trends en ontwikkelingen zorgen de komende jaren onvermijdelijk tot veranderingen, maar bieden koeriersbedrijven ook veel groei- en overnamekansen:
+1
+Thuiswinkelende consumenten
+Deze doelgroep zorgt voor meer pakketjes, die vanuit overige werelddelen dienen te worden vervoerd. Ook binnen de eigen landsgrenzen wordt de consument veeleisender en zijn er steeds meer bedrijven die services aanbieden, zoals ‘vandaag besteld, morgen in huis’ of zelfs na een uur al in huis. Dit zijn grote uitdagingen voor koeriers, aldus ABN Amro.
+2
+Logistiek in eigen hand
+Doordat e-commerce een groeispurt doormaakt nemen steeds meer grote spelers de logistiek in eigen hand. Hierdoor behouden ze de controle en kunnen ze zelf de touwtjes in handen houden. Deze ketenverkorting heeft absoluut voordelen, zowel voor consument als ondernemer, voorspelt ING.
+3
+Data als verdienmodel
+Data is niet alleen handig voor traffic, sales en andere marketingactiviteiten. Ook in de transportsector is dit hét kanaal voor de communicatie tussen klant en aanbieder, want de klant wordt real time op de hoogte gehouden van de vorderingen. Data als verdienmodel? Zeker wel, aldus ING.
+4
+Duurzaamheid
+Ook binnen de logistieke sector is duurzaamheid een groot aandachtspunt. Vervoer over zee en door de lucht is al aan banden gelegd en daar worden ook subsidies voor uitgereikt, voor de partijen die willen en kunnen innoveren. Ook de bekende bestelbusjes zullen steeds vaker veranderen van voorkomen, omdat er nieu
+
+=== uitvaartbedrijf
+=========== uitvaartbedrijf
+Je wilt jouw uitvaartbedrijf verkopen? Dan is het goed om te weten hoe de overnamemarkt op het gebied van uitvaartbedrijven eruit ziet. Er zijn meer uitvaarten, doordat er meer en meer mensen overlijden door de vergrijzing. De toenemende druk én de specifieker wordende wensen van de klant zorgen al jaren voor een groei in de uitvaartbranche.
+ Uitvaartbedrijf verkopen
+ Uitvaartbedrijven op Brookz
+ Te koop 
+ Verkocht 
+ Vastgoedontwikkelingsbedrijf
+ € onbekend omzet 
+ 6-10 FTE
+ Locatie anoniem
+ Uitvaartonderneming op Zuid-Hollandse eilanden
+ € 718.000 omzet 
+ 1 FTE
+ West-Nederland
+ "> 
+ Bekijk alle uitvaartbedrijven te koop 
+ Dierencrematorium
+ € 230.000 omzet 
+ 1 FTE
+ Zuid-Nederland
+ Uitvaartorganisatie met persoonlijke touch
+ € 1.500.000 omzet 
+ 6-10 FTE
+ Zuid-Nederland
+ "> 
+ Bekijk alle uitvaartbedrijven verkocht 
+ Aantal overnames uitvaartbedrijven
+Meer overlijdensgevallen door de grijze golf en recentelijk ook door COVID-19, maar ook trends vergroten de kansen voor deze branche. Het individu staat steeds meer centraal en doordat het taboe van ‘de laatste wens’ verdwijnt, nemen we ook openlijker standpunten in met betrekking tot overlijden en de uitvaart.
+ ["60", "80", "50", "60", "65", "85", "105", "90", "50", "60"]
+["‘15", "‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24"]
+ Aantal fusies en overnames Overige persoonlijke dienstverlening (CBS)
+ ["5,05", "5,05", "4,90", "4,90", "4,95", "4,95", "5,00", "4,80", "4,90", "5,00"]
+["‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24", "'25"]
+["5,70", "4,60"]
+ Gem. EBITDA-multiple Zakelijke dienstverlening
+ Wat is een uitvaartbedrijf waard?
+Er zijn vele manieren om een bedrijf te waarderen. Een veelgebruikte methode om de waarde van een bedrijf uit te drukken is “een factor x de bruto jaarwinst”. Deze factor wordt ook wel multiple genoemd en een andere aanduiding voor bruto jaarwinst is EBITDA (Earnings Before Interest Taxes Depreciation and Amortisation).
+In de zakelijke dienstverlening - waartoe een uitvaartbedrijf behoort - wordt volgens de Brookz Overname Barometer op dit moment een indicatieve bandbreedte van de EBITDA-multiple van 4,6 tot 5,7 gehanteerd. De gemiddelde EBITDA-multiple over alle sectoren in het MKB is 5,00.
+ Bedrijfswaardering
+ De waardering van een bedrijf is vaak het startpunt voor de onderhandelingen tussen koper en verkoper. De uitkomst van deze onderhandelingen is de uiteindelijke verkoopprijs. Waardering en prijs zijn dus twee verschillende grootheden. Naast de waardering wordt de prijs ook bepaald door eventuele schaarste op de markt, onderhandelingsmacht van de partijen, de strategische waarde van het bedrijf voor de koper en mogelijke synergie-effecten voor de koper (kostenbesparingen, inkoopvoordelen).
+ Doe de berekening 
+ Wat is Brookz? En waarvoor kun je het gebruiken?
+ Start met de verkoop van je bedrijf Feiten en cijfers over uitvaartbedrijven
+Er zijn jaarlijks vele starters in de branche, waardoor er ook veel bedrijven met slechts één werkzaam persoon zichtbaar zijn. In tijden van crisis of in een vergrijzingsgolf, zoals die waarin de maatschappij zich nu probeert staande te houden, is de vraag naar uitvaartorganisaties groot.
+In cijfers weergegeven zag het aantal uitvaartbedrijven er in 2025 als volgt uit (CBS):
+2.975
+Uitvaartbedrijven, waarvan:
+2.290 met 1 werkzaam persoon
+325 met 2 werkzame personen
+165 met 3 - 5 werkzame personen
+120 met 5 - 10 werkzame personen
+40 met 10 - 20 werkzame personen
+30 met 20 - 50 werkzame personen
+5 met 50 - 100 werkzame personen
+ Training "Succesvol je Bedrijf Verkopen"
+ Met deze online training van Brookz Academy ben je optimaal voorbereid om grotendeels zelf je bedrijf te verkopen: 25 Powerpoint video’s, een uitgebreid waarderingsrapport, juridische modelcontracten, handige templates, checklists en deskundige support. Plus 50% korting op het plaatsen van jouw bedrijf op Brookz!
+ Naar Brookz Academy 
+ Trends en ontwikkelingen voor uitvaartbedrijven
+Een aantal trends en ontwikkelingen zorgen de komende jaren onvermijdelijk tot veranderingen, maar bieden uitvaartbedrijven ook veel groei- en overnamekansen:
+1
+Diversiteit in uitvaartwensen
+Diversiteit in de maatschappij betekent diversiteit in uitvaartwensen. Diverse religieuze, culturele, maar ook persoonlijke wensen worden doorgevoerd bij het afscheid. Er zijn dan ook steeds meer uitvaartorganisaties die ruimte bieden voor een klantwaardig afscheid, aldus ABN Amro.
+2
+De taboe verdwijnt
+Waar voorheen het doodgaan en begraven liever gemeden werd, is het vandaag de dag prima om openlijk over te praten. Donor zijn, religieuze overtuigingen en de laatste wens kan zelfs vooraf vastgelegd worden in overleg met de uitvaartorganisatie. Dat de dood verbroedert was al bekend, maar is wel iets wat steeds zichtbaarder wordt in deze maatschappij.
+3
+Duurzaamheid
+Niet alleen crematoria denken steeds meer na over duurzaamheid, maar ook mensen willen vaker een natuurbegrafenis. Het samenkomen met de natuur is een diepe wens van veel inwoners, waardoor het aantal natuurbegraafplaatsen toeneemt.
+4
+Nieuwe methodes
+Naast persoonlijke wensen en de wens om één te zijn met de natuur, poppen er ook steeds meer methodes op. Uitvaartmogelijkheden zoals begraven en cremeren zijn achterhaald, want composteren en cryomeren zijn in opkomst. Waar bij composteren de natuur grotendeels het werk doet is bij cryomeren een gespecialiseerd crematorium benodigd.
+ Vele ondernemers gingen je voor
+ De waarderingstool levert gedetailleerde waarderingsinformatie op die onze klanten helpt bij strategische beslissingen. Daarnaast helpt het om onze waarderingswerkzaamheden efficiënt en eenduidig uit te voeren.
+ René Schouten
+ De online waarderingstool van Brookz levert gedetailleerde waarderingsinformatie die onze klanten helpt bij strategische beslissingen.
+ Erik Bos
+ Het uitgebreide waarderingsrapport gaf helder en concreet inzicht in de waarde van mijn bedrijf. Wat voor mij echt het verschil maakte, was hoe snel er geschakeld werd: we zijn ontzette
+
+=== verhuurbedrijf
+=========== verhuurbedrijf
+Je wilt jouw verhuurbedrijf verkopen? Dan is het goed om te weten hoe de overnamemarkt op het gebied van verhuurbedrijven eruit ziet. Verhuurbedrijven floreren, aangezien zowel de particuliere als de zakelijke markt liever maandelijkse termijnen of eenmalige betalingen voldoen, dan dat ze grote investeringen realiteit maken.
+ Verhuurbedrijf verkopen
+ Verhuurbedrijven op Brookz
+ Te koop 
+ Gezocht 
+ Verkocht 
+ Verhuur van hoogwerkers
+ € 350.000 omzet 
+ 2-5 FTE
+ West-Nederland
+ Verhuurbedrijf gereedschap en machines (lokaal)
+ € 117.500 omzet 
+ 1 FTE
+ Zuid-Nederland
+ Verhuurbedrijf in mobiele toiletten (Randstad)
+ € 1.600.000 omzet 
+ 6-10 FTE
+ Midden-Nederland
+ Onderneming in AI photobooths
+ € 170.000 omzet 
+ 1 FTE
+ Niet-locatiegebonden
+ Flex office concept
+ € 70.000 omzet 
+ 1 FTE
+ Midden-Nederland
+ Specialist in luchtkwaliteit
+ € 81.000 omzet 
+ 1 FTE
+ West-Nederland
+ Fietsen verhuurbedrijf
+ € 15.600 omzet 
+ 1 FTE
+ West-Nederland
+ Partyverhuurservice
+ € 255.400 omzet 
+ 1 FTE
+ West-Nederland
+ Steigerbouwbedrijf regio Randstad
+ € 3.000.000 omzet 
+ 11-20 FTE
+ West-Nederland
+ "> 
+ Bekijk alle verhuurbedrijven te koop 
+ Verhuurbedrijf/vastgoedbeheerder
+ vanaf € 100.000 omzet 
+ 2-5 FTE
+ Niet-locatiegebonden
+ Verhuurbemiddeling vakantiehuizen Veluwe
+ vanaf € 100.000 omzet 
+ 2-5 FTE
+ Oost-Nederland
+ Verhuurbedrijf gereedschap & bouwmaterieel
+ vanaf € 1.000.000 omzet 
+ 11-20 FTE
+ West-Nederland
+ "> 
+ Bekijk alle verhuurbedrijven gezocht 
+ Handelsbedrijf stretchtenten & flexibele overkappingen
+ € 500.000 omzet 
+ 1 FTE
+ Midden-Nederland
+ Verhuurder E-scooters & E-bikes
+ € 1.400.000 omzet 
+ 6-10 FTE
+ Oost-Nederland
+ Verhuurbedrijf grote lichtletters
+ € 83.500 omzet 
+ 1 FTE
+ Noord-Nederland
+ TV-productiebedrijf met verhuurtak
+ € 325.000 omzet 
+ 2-5 FTE
+ Midden-Nederland
+ Opslagbedrijf self storage
+ € 480.000 omzet 
+ 2-5 FTE
+ Zuid-Nederland
+ Verhuurbedrijf springkussens
+ € 25.000 omzet 
+ 1 FTE
+ Zuid-Nederland
+ Onderneming in B2B- en B2E-events
+ € 103.000 omzet 
+ 1 FTE
+ Niet-locatiegebonden
+ Centraal gelegen zakelijke vergaderlocatie
+ € 1.100.000 omzet 
+ 2-5 FTE
+ Midden-Nederland
+ Attractieverhuurder sport- en spelmaterialen
+ € 90.000 omzet 
+ 1 FTE
+ West-Nederland
+ Verhuur van schepen en tinyhouse
+ € 250.000 omzet 
+ 1 FTE
+ Midden-Nederland
+ "> 
+ Bekijk alle verhuurbedrijven verkocht 
+ Aantal overnames verhuurbedrijven
+Het aantal fusies en overnames van verhuurbedrijven ligt over de afgelopen tien jaar gemiddeld tussen de 35 en 55 stuks, volgens het Centraal Bureau voor de Statistiek. Maar het jaar 2022 was een absolute uitschieter met 75 overnames.
+ ["35", "55", "35", "50", "50", "50", "55", "75", "40", "55"]
+["‘15", "‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24"]
+ Aantal fusies en overnames verhuurbedrijven
+ ["5,05", "5,05", "4,90", "4,90", "4,95", "4,95", "5,00", "4,80", "4,90", "5,00"]
+["‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24", "'25"]
+["5,70", "4,60"]
+ Gem. EBITDA-multiple Zakelijke dienstverlening
+ Wat is een verhuurbedrijf waard?
+Er zijn vele manieren om een bedrijf te waarderen. Een veelgebruikte methode om de waarde van een bedrijf uit te drukken is “een factor x de bruto jaarwinst”. Deze factor wordt ook wel multiple genoemd en een andere aanduiding voor bruto jaarwinst is EBITDA (Earnings Before Interest Taxes Depreciation and Amortisation).
+In de sector zakelijke dienstverlening, waartoe een verhuurbedrijf behoort, wordt volgens de Brookz Overname Barometer op dit moment een indicatieve bandbreedte van de EBITDA-multiple van 4,6 tot 5,7 gehanteerd. De gemiddelde EBITDA-multiple over alle sectoren in het MKB is 5,00.
+ Bedrijfswaardering
+ De waardering van een bedrijf is vaak het startpunt voor de onderhandelingen tussen koper en verkoper. De uitkomst van deze onderhandelingen is de uiteindelijke verkoopprijs. Waardering en prijs zijn dus twee verschillende grootheden. Naast de waardering wordt de prijs ook bepaald door eventuele schaarste op de markt, onderhandelingsmacht van de partijen, de strategische waarde van het bedrijf voor de koper en mogelijke synergie-effecten voor de koper (kostenbesparingen, inkoopvoordelen).
+ Doe de berekening 
+ Wat is Brookz? En waarvoor kun je het gebruiken?
+ Start met de verkoop van je bedrijf Feiten en cijfers over verhuurbedrijven
+Er zijn jaarlijks vele starters in de branche, waardoor er ook veel bedrijven met slechts één werkzaam persoon zichtbaar zijn.
+In cijfers weergegeven zag het aantal verhuurbedrijven er in 2025 als volgt uit (CBS):
+11.770
+Verhuurbedrijven, waarvan:
+8.510 met 1 werkzaam persoon
+1.800 met 2 werkzame personen
+605 met 3 - 5 werkzame personen
+425 met 5 - 10 werkzame personen
+220 met 10 - 20 werkzame personen
+105 met 20 - 50 werkzame personen
+55 met 50 - 100 werkzame personen
+ Training "Succesvol je Bedrijf Verkopen"
+ Met deze online training van Brookz Academy ben je optimaal voorbereid om grotendeels zelf je bedrijf te verkopen: 25 Powerpoint video’s, een uitgebreid waarderingsrapport, juridische modelcontracten, handige templates, checklists en deskundige support. Plus 50% korting op het plaatsen van jouw bedrijf op Brookz!
+ Naar Brookz Academy 
+ Trends en ontwikkelingen voor verhuurbedrijven
+Een aantal trends en ontwikkelingen zorgen de komende jaren onvermijdelijk tot veranderingen, maar bieden verhuurbedrijven ook veel groei- en overnamekansen:
+1
+Individuele mobiliteit
+Onszelf verplaatsen van A naar B is belangrijk, maar het bezitten van een voertuig is niet altijd meer een prioriteit. We huren op vakantie onze vervoersmiddelen of gaan op zoek naar alternatieve oplossingen, zoals het openbaar vervoer, deelauto’s of elektrische fietsen, aldus Rabobank.
+2
+Huren van tools
+Waar vroeger het hebben van een eigen gereedschapskist een vereiste was voor ieder huishouden, is het tegenwoordig niet raar om geen eigen tools in huis te hebben. De huidige generaties vinden het eenvoudig om af en toe gereedschap of machines te huren, waardoor er geen grote investeringen worden gedaan én het geen extra ruimte in besla
+
+=== handelsonderneming
+ Groothandel reinigingsmiddelen
+ € 1.100.000 omzet 
+ 2-5 FTE
+ Niet-locatiegebonden
+ "> 
+ Bekijk alle handelsondernemingen verkocht 
+ Aantal overnames handelsonderneming
+Het aantal handelsondernemingen in Nederland is groot. En daardoor is er ook altijd beweging zichtbaar op de markt van fusies en overnames. 2022 is met afstand het beste overnamejaar ooit voor handelsondernemingen.
+ ["1095", "1450", "955", "1070", "1275", "1295", "1425", "1630", "870", "1040"]
+["‘15", "‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24"]
+ Aantal fusies en overnames handelsondernemingen
+ ["5,65", "5,65", "5,50", "5,50", "5,50", "5,50", "5,40", "5,30", "5,40", "5,20"]
+["‘16", "‘17", "‘18", "‘19", "‘20", "‘21", "'22", "'23", "'24", "'25"]
+["5,90", "4,80"]
+ Gem. EBITDA-multiple Groothandel
+ Wat is een handelsonderming waard?
+Er zijn vele manieren om een bedrijf te waarderen. Een veelgebruikte methode om de waarde van een bedrijf uit te drukken is “een factor x de bruto jaarwinst”. Deze factor wordt ook wel multiple genoemd en een andere aanduiding voor bruto jaarwinst is EBITDA (Earnings Before Interest Taxes Depreciation and Amortisation).
+In de sector groothandel - waartoe een handelsonderneming behoort - wordt volgens de Brookz Overname Barometer op dit moment een indicatieve bandbreedte van de EBITDA-multiple van 4,8 tot 5,9 gehanteerd. De gemiddelde EBITDA-multiple over alle sectoren in het MKB is 5,00.
+ Bedrijfswaardering
+ De waardering van een bedrijf is vaak het startpunt voor de onderhandelingen tussen koper en verkoper. De uitkomst van deze onderhandelingen is de uiteindelijke verkoopprijs. Waardering en prijs zijn dus twee verschillende grootheden. Naast de waardering wordt de prijs ook bepaald door eventuele schaarste op de markt, onderhandelingsmacht van de partijen, de strategische waarde van het bedrijf voor de koper en mogelijke synergie-effecten voor de koper (kostenbesparingen, inkoopvoordelen).
+ Doe de berekening 
+ Wat is Brookz? En waarvoor kun je het gebruiken?
+ Start met de verkoop van je bedrijf Sector Monitor
+ Wil je een bedrijf kopen of een bedrijf verkopen in de sector groothandel? Met deze Brookz Sectormonitor willen wij kopers en verkopers feiten, cijfers en een vooruitblik presenteren die inzicht geven in het aantal transacties, de waarde-ontwikkeling van bedrijven en de laatste trends en ontwikkelingen in de groothandel. Want bij ieder koop- of verkooptraject geeft een gedegen voorbereiding rust, overzicht en structuur.
+ Download rapport 
+ Feiten en cijfers over handelsonderneming
+In cijfers weergegeven zag het aantal handelsondernemingen er in 2025 als volgt uit (CBS):
+297.210
+Handelsonderming, waarvan:
+203.650 met 1 werkzaam persoon
+43.035 met 2 werkzame personen
+21.025 met 3 - 5 werkzame personen
+15.180 met 5 - 10 werkzame personen
+7.080 met 10 - 20 werkzame personen
+4.605 met 20 - 50 werkzame personen
+1.430 met 50 - 100 werkzame personen
+ Training "Succesvol je Bedrijf Verko

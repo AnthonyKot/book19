@@ -1,0 +1,12 @@
+Source: https://www.ilent.nl/onderwerpen/producentenverantwoordelijkheid/gebruikte-elektronische-apparatuur/verwerking-afgedankte-elektrische-en-elektronische-apparatuur/wet--en-regelgeving-aeea
+Publisher: Inspectie Leefomgeving en Transport (ILT)
+Fetch date: 2026-09-04
+Title: Wet- en regelgeving AEEA
+
+Key excerpts:
+- The Regeling afgedankte elektrische en elektronische apparatuur governs processors of separately collected AEEA.
+- Processors must hold a WEEELABEX conformity declaration and demonstrate compliance with the CENELEC 50625 standard ("de kwaliteit van verwerking of het omgaan met schadelijke stoffen").
+- The declaration is company- and location-specific and per WEEE stream. Type 0 processing (manual handling without depollution) needs no certificate.
+- Depollution, motor dismantling, component removal and shredding require certification; repair and refurbishment, "including hard drive replacement", fall outside certification scope.
+- Mentions "harde schijven of andere onderdelen uit afgedankte computers" often needing certified destruction for security reasons; no detailed ICT-specific framework.
+Limits: no enforcement detail or effective dates on this page.

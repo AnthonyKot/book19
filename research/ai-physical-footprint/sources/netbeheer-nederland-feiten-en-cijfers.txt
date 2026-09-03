@@ -1,0 +1,12 @@
+Source: https://www.netbeheernederland.nl/feiten-en-cijfers
+Publisher: Netbeheer Nederland (association of grid operators)
+Fetch date: 2026-09-04
+Title: Feiten en cijfers
+
+Verbatim figures:
+- Cable laid in 2025: "2.015 km" low-voltage, "2.424 km" medium-voltage.
+- "2.183" transformer stations (transformatorhuisjes) built; "104.450" small-consumer connections; "9.101" public charging connections.
+- Technician deficit through 2029: "28.000" total, of which "800" engineers, "3.000" installers, "1.200" project managers, "23.000" contractor technicians (aannemers).
+- "1298" neighbourhoods started for grid reinforcement.
+- Waiting lists end 2025: "15.014" companies awaiting consumption connections, "8.687" awaiting injection connections; "9.305 MW" consumption demand, "5.027 MW" injection.
+Limits: page does not give the count of high-voltage projects (659/915), annual investment euros, or storage contracts.

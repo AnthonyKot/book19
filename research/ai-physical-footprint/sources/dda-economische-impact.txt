@@ -1,0 +1,11 @@
+Source: https://www.dutchdatacenters.nl/economische-impact-nieuw/
+Publisher: Dutch Data Center Association (DDA)
+Fetch date: 2026-09-04
+Title: Economische Impact
+
+Key excerpts:
+- Direct employment: 6,070 FTE in 2025; forecast 7,710 FTE in 2030 (Pb7 Research).
+- Supporting functions named: security, maintenance, installation technology, cleaning, energy expertise, advisory services; "duizenden ondersteunende functies".
+- Digital infrastructure direct impact EUR 15.8 billion, indirect approx. EUR 8.4 billion (Ecorys 2023).
+- 11.09% of total expenditure in NL goes to ICT; 15.66% of investment goes to ICT (CBS 2024).
+Limits: the "27,000 direct+indirect jobs", "EUR 1.4 billion investment 2025" and "EUR 21 billion construction to 2031" figures seen in search summaries are NOT on this page and are not used.

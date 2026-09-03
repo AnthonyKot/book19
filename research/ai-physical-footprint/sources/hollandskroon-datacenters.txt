@@ -1,0 +1,13 @@
+Source: https://www.hollandskroon.nl/ontwikkelingen/datacenters/
+Publisher: Gemeente Hollands Kroon
+Fetch date: 2026-09-04
+Title: Datacenters (municipal information page)
+
+Verbatim excerpts:
+- Existing: Microsoft (Agriport A7 deelgebied B1) and Google (Tussenweg).
+- "De datacenters van Microsoft en Google zorgen samen voor meer dan 500 vaste banen. Tijdens de bouw zijn er gemiddeld 200 tot 300 tijdelijke arbeidsplaatsen."
+- Both companies are "momenteel bezig met de realisatie van een nieuw datacenter".
+- Water: "Op dit moment wordt door de datacenters op Agriport A7 gebruik gemaakt van PWN-water voor de koeling."
+- Waste heat: "De restwarmte van datacenters wordt nog niet benut, maar de gemeente en provincie onderzoeken of dit in de toekomst wel mogelijk is."
+- Policy: projects need "een passend bestemmingsplan" and "een omgevingsvergunning"; compliance monitored by the Omgevingsdienst. No moratorium mentioned.
+Limits: page gives no hectares, MW or dates for the Microsoft six-building/50 ha expansion reported in the press (Vastgoeddata/Emerce, not fetched).

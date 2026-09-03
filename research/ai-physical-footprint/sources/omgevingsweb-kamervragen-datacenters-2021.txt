@@ -1,0 +1,14 @@
+Source: https://omgevingsweb.nl/beleid/antwoorden-op-kamervragen-over-datacenters/
+Publisher: PONT Omgeving (omgevingsweb.nl), reproducing government answers to Kamervragen
+Fetch date: 2026-09-04
+Title: Antwoorden op Kamervragen over datacenters, 17 December 2021 (Staatssecretaris Yesilgöz-Zegerius, EZK, also on behalf of BZK)
+
+Key excerpts (verbatim):
+- "In 2019 is 2,7 TWh aan elektriciteit aan datacenters geleverd. Dat is ruim 2% van de totale elektriciteitsvraag."
+- "schat de mogelijke elektriciteitsbehoefte van datacenters in op 5 – 15 TWh in 2030"
+- "15 TWh komt neer op ruim 3 gigawatt vermogen wind op zee"
+- "Op dit moment staan er drie hyperscale datacenters in Nederland. Dit gaat om datacenters van Microsoft en Google in de Wieringermeer, en het Google datacenter in Eemshaven."
+- "Het bebouwd oppervlak van co-locatie-datacenters is volgens de DDA zo'n 75 hectare en voor de 3 bestaande hyperscale datacenters in Nederland (Google Eemshaven & Wieringermeer, Microsoft Wieringermeer) gaat het om circa 164 hectare, dus 239 hectare in totaal."
+- "lopen er rond 20 á 25 projecten voor de vestiging en uitbreiding van datacenters"
+- "datacenters in Nederland meer dan 80% van deze elektriciteitsbehoefte duurzaam in"
+Limits: 2021 baseline only.

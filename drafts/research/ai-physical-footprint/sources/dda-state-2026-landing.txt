@@ -1,0 +1,11 @@
+Source: https://www.dutchdatacenters.nl/publicaties/state-of-the-dutch-data-centers-2026/
+Publisher: Dutch Data Center Association (DDA)
+Fetch date: 2026-09-04
+Title: State of the Dutch Data Centers 2026 (landing page; full report behind a registration form)
+
+Key excerpts:
+- Theme headline: "Stroomtekort wordt groeitekort".
+- Europe aims to "verdrievoudigen" data-centre capacity for digital sovereignty.
+- Netherlands bottlenecks: "lange vergunningstrajecten en oplopende wachttijden voor netaansluitingen".
+- Claims datacenters can help stabilise the energy system via flexibility, storage, workload management and waste-heat reuse.
+Limits: NO figures available without registration; the MW numbers circulating in search summaries (e.g. 1.14 GW installed) come from commercial market-report vendors, not from this page, and are NOT used in findings.

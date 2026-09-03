@@ -1,0 +1,15 @@
+Source: https://www.duurzaam-ondernemen.nl/wachtlijst-netcongestie-groeit-naar-ruim-15-000-bedrijven-batterijopslag-verdubbelt/
+Publisher: Duurzaam Ondernemen (news site), reporting the third progress report of the Landelijk Actieprogramma Netcongestie (LAN), April 2026
+Fetch date: 2026-09-04
+Article date: 13 April 2026
+
+Verbatim figures:
+- "Het aantal grootverbruikers op de wachtlijst voor een nieuwe of grotere aansluiting op midden- en laagspanning" reached "15.014 grootverbruikers", "een stijging van 26% ten opzichte van een jaar eerder".
+- "Het totale wachtlijstvermogen bedraagt inmiddels 9,3 GW."
+- "Het aantal opslagcontracten bij netbeheerders steeg van 94 in 2024 naar 237 in 2025."
+- "Het totale gecontracteerde vermogen aan opslag verdubbelde naar bijna 281 MW."
+- "het aantal transformatorhuisjes steeg naar 2.183" (built in 2025)
+- "56 hoogspanningsprojecten opgeleverd" in 2025
+- Block electricity contracts rose from "41 naar 142"
+- "243 capaciteitsbeperkingscontracten af voor afname, tegenover 18 een jaar eerder"
+Limits: secondary report of the LAN progress report; the primary PDF was not fetched. Figures on TenneT battery requests (68 GW) seen in search summaries are NOT in this article and are not used.

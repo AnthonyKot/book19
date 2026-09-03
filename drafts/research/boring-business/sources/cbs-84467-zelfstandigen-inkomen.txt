@@ -1,0 +1,230 @@
+SOURCE: CBS StatLine table 84467NED — Zelfstandigen; inkomen, vermogen, bedrijfstak (2007-2024, modified 2025-11-19). Publisher: Centraal Bureau voor de Statistiek. URL: https://opendata.cbs.nl/ODataApi/odata/84467NED/TypedDataSet (OData, filtered on selected SBI codes; StatLine UI: https://opendata.cbs.nl/#/CBS/nl/dataset/84467NED/table). Fetched 2026-09-04 via curl. Limit: 2024 figures provisional; income is of persons whose main income is self-employment; 'inkomen als zelfstandige' includes profit from own firm and dga salary; sector is the person's main firm; amounts in EUR thousands. Raw rows follow.
+
+TABLE D. CBS 84467NED Zelfstandigen; inkomen, 2024 (voorlopig), income as main income source; amounts x 1000 EUR; counts x 1000 persons. Types: 2021430 zzp; 2021420 zmp (with staff); 2021392 zelfst. ondernemer met personeel; 2021395 dga met personeel.
+sector | type | n(x1000) | median personal income | median income as self-employed | mean income as self-employed
+A-U all | zzp | 1160.5 | 42.8 | 40.8 | 49.8
+A-U all | zmp | 285.0 | 64.5 | 64 | 77.3
+A-U all | ondernemer met pers. | 179.2 | 58.6 | 57.8 | 76.0
+A-U all | dga met pers. | 105.9 | 70.7 | 70.8 | 79.7
+C Industrie | zzp | 38.1 | 45.9 | 44.5 | 47.5
+C Industrie | zmp | 16.2 | 66.7 | 66.5 | 75.7
+C Industrie | ondernemer met pers. | 7.1 | 57.1 | 57.1 | 68.8
+C Industrie | dga met pers. | 9.1 | 71.7 | 72 | 81.0
+10 Voedingsmiddelenind. | zzp | 2.0 | None | None | None
+10 Voedingsmiddelenind. | zmp | 3.0 | None | None | None
+10 Voedingsmiddelenind. | ondernemer met pers. | 2.1 | None | None | None
+10 Voedingsmiddelenind. | dga met pers. | 0.9 | None | None | None
+33 Reparatie/installatie machines | zzp | 8.1 | None | None | None
+33 Reparatie/installatie machines | zmp | 2.0 | None | None | None
+33 Reparatie/installatie machines | ondernemer met pers. | 0.8 | None | None | None
+33 Reparatie/installatie machines | dga met pers. | 1.2 | None | None | None
+38 Afvalbehandeling/recycling | zzp | 0.3 | None | None | None
+38 Afvalbehandeling/recycling | zmp | 0.2 | None | None | None
+38 Afvalbehandeling/recycling | ondernemer met pers. | 0.0 | None | None | None
+38 Afvalbehandeling/recycling | dga met pers. | 0.2 | None | None | None
+F Bouw | zzp | 193.8 | 45.9 | 45.3 | 48.1
+F Bouw | zmp | 24.6 | 66.3 | 66.5 | 74.7
+F Bouw | ondernemer met pers. | 12.8 | 62.8 | 63 | 72.9
+F Bouw | dga met pers. | 11.8 | 68.7 | 69.4 | 76.7
+43 Gespecialiseerde bouw | zzp | 104.2 | None | None | None
+43 Gespecialiseerde bouw | zmp | 16.1 | None | None | None
+43 Gespecialiseerde bouw | ondernemer met pers. | 8.7 | None | None | None
+43 Gespecialiseerde bouw | dga met pers. | 7.4 | None | None | None
+432 Bouwinstallatie | zzp | 25.6 | None | None | None
+432 Bouwinstallatie | zmp | 6.0 | None | None | None
+432 Bouwinstallatie | ondernemer met pers. | 2.8 | None | None | None
+432 Bouwinstallatie | dga met pers. | 3.2 | None | None | None
+4321 Elektrotechnische inst. | zzp | 12.2 | None | None | None
+4321 Elektrotechnische inst. | zmp | 2.4 | None | None | None
+4321 Elektrotechnische inst. | ondernemer met pers. | 1.1 | None | None | None
+4321 Elektrotechnische inst. | dga met pers. | 1.4 | None | None | None
+4322 Loodgieters/installatie | zzp | 11.4 | None | None | None
+4322 Loodgieters/installatie | zmp | 3.2 | None | None | None
+4322 Loodgieters/installatie | ondernemer met pers. | 1.6 | None | None | None
+4322 Loodgieters/installatie | dga met pers. | 1.6 | None | None | None
+4329 Overige bouwinstallatie | zzp | 2.0 | None | None | None
+4329 Overige bouwinstallatie | zmp | 0.4 | None | None | None
+4329 Overige bouwinstallatie | ondernemer met pers. | 0.1 | None | None | None
+4329 Overige bouwinstallatie | dga met pers. | 0.2 | None | None | None
+G Handel | zzp | 96.3 | 34.1 | 31.6 | 40.0
+G Handel | zmp | 68.0 | 60.4 | 60 | 71.2
+G Handel | ondernemer met pers. | 43.0 | 53.1 | 52.1 | 67.5
+G Handel | dga met pers. | 25.0 | 69.6 | 69.3 | 77.6
+45 Autohandel/-reparatie | zzp | 18.5 | None | None | None
+45 Autohandel/-reparatie | zmp | 11.7 | None | None | None
+45 Autohandel/-reparatie | ondernemer met pers. | 7.6 | None | None | None
+45 Autohandel/-reparatie | dga met pers. | 4.1 | None | None | None
+452 Gespec. autoreparatie | zzp | 4.1 | None | None | None
+452 Gespec. autoreparatie | zmp | 2.2 | None | None | None
+452 Gespec. autoreparatie | ondernemer met pers. | 1.5 | None | None | None
+452 Gespec. autoreparatie | dga met pers. | 0.7 | None | None | None
+46 Groothandel | zzp | 27.8 | None | None | None
+46 Groothandel | zmp | 17.0 | None | None | None
+46 Groothandel | ondernemer met pers. | 5.5 | None | None | None
+46 Groothandel | dga met pers. | 11.5 | None | None | None
+H Vervoer/opslag | zzp | 36.0 | 36.2 | 34.3 | 40.9
+H Vervoer/opslag | zmp | 10.0 | 61.7 | 60.7 | 70.7
+H Vervoer/opslag | ondernemer met pers. | 5.7 | 53.8 | 52.5 | 65.6
+H Vervoer/opslag | dga met pers. | 4.3 | 69.6 | 69 | 77.5
+49 Vervoer over land | zzp | 21.7 | None | None | None
+49 Vervoer over land | zmp | 5.8 | None | None | None
+49 Vervoer over land | ondernemer met pers. | 3.3 | None | None | None
+49 Vervoer over land | dga met pers. | 2.5 | None | None | None
+494 Goederenvervoer weg | zzp | 10.1 | None | None | None
+494 Goederenvervoer weg | zmp | 4.9 | None | None | None
+494 Goederenvervoer weg | ondernemer met pers. | 2.7 | None | None | None
+494 Goederenvervoer weg | dga met pers. | 2.3 | None | None | None
+52 Opslag/dienstverl. vervoer | zzp | 6.3 | None | None | None
+52 Opslag/dienstverl. vervoer | zmp | 1.5 | None | None | None
+52 Opslag/dienstverl. vervoer | ondernemer met pers. | 0.5 | None | None | None
+52 Opslag/dienstverl. vervoer | dga met pers. | 1.0 | None | None | None
+521 Opslag | zzp | 0.2 | None | None | None
+521 Opslag | zmp | 0.2 | None | None | None
+521 Opslag | ondernemer met pers. | 0.1 | None | None | None
+521 Opslag | dga met pers. | 0.2 | None | None | None
+I Horeca | zzp | 24.4 | 30.2 | 27.6 | 35.4
+I Horeca | zmp | 37.6 | 52 | 51 | 57.8
+I Horeca | ondernemer met pers. | 31.4 | 48.5 | 47.3 | 56.4
+I Horeca | dga met pers. | 6.2 | 59.4 | 58.7 | 65.1
+77 Verhuur roerende goederen | zzp | 3.9 | None | None | None
+77 Verhuur roerende goederen | zmp | 1.5 | None | None | None
+77 Verhuur roerende goederen | ondernemer met pers. | 0.8 | None | None | None
+77 Verhuur roerende goederen | dga met pers. | 0.7 | None | None | None
+773 Zakelijke verhuur goederen | zzp | 1.3 | None | None | None
+773 Zakelijke verhuur goederen | zmp | 0.5 | None | None | None
+773 Zakelijke verhuur goederen | ondernemer met pers. | 0.2 | None | None | None
+773 Zakelijke verhuur goederen | dga met pers. | 0.3 | None | None | None
+81 Schoonmaak/hoveniers | zzp | 26.5 | None | None | None
+81 Schoonmaak/hoveniers | zmp | 8.5 | None | None | None
+81 Schoonmaak/hoveniers | ondernemer met pers. | 6.5 | None | None | None
+81 Schoonmaak/hoveniers | dga met pers. | 2.0 | None | None | None
+812 Schoonmaakbedrijven | zzp | 15.3 | None | None | None
+812 Schoonmaakbedrijven | zmp | 4.6 | None | None | None
+812 Schoonmaakbedrijven | ondernemer met pers. | 3.5 | None | None | None
+812 Schoonmaakbedrijven | dga met pers. | 1.1 | None | None | None
+96 Overige pers. dienstverlening | zzp | 59.1 | None | None | None
+96 Overige pers. dienstverlening | zmp | 11.6 | None | None | None
+96 Overige pers. dienstverlening | ondernemer met pers. | 10.4 | None | None | None
+96 Overige pers. dienstverlening | dga met pers. | 1.2 | None | None | None
+9601 Wasserijen | zzp | 0.4 | None | None | None
+9601 Wasserijen | zmp | 0.4 | None | None | None
+9601 Wasserijen | ondernemer met pers. | 0.3 | None | None | None
+9601 Wasserijen | dga met pers. | 0.1 | None | None | None
+9603 Uitvaartbranche | zzp | 1.4 | None | None | None
+9603 Uitvaartbranche | zmp | 0.5 | None | None | None
+9603 Uitvaartbranche | ondernemer met pers. | 0.3 | None | None | None
+9603 Uitvaartbranche | dga met pers. | 0.2 | None | None | None
+
+RAW ROWS:
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "T001081", "Perioden": "2024JJ00", "Zelfstandigen_1": 1160.5, "MediaanPersoonlijkInkomen_3": 42.8, "MediaanInkomenAlsZelfstandige_5": 40.8, "GemiddeldInkomenAlsZelfstandige_4": 49.8}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "307500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 38.1, "MediaanPersoonlijkInkomen_3": 45.9, "MediaanInkomenAlsZelfstandige_5": 44.5, "GemiddeldInkomenAlsZelfstandige_4": 47.5}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "307600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 2.0, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "344400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 8.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "348700 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.3, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "350000 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 193.8, "MediaanPersoonlijkInkomen_3": 45.9, "MediaanInkomenAlsZelfstandige_5": 45.3, "GemiddeldInkomenAlsZelfstandige_4": 48.1}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "351900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 104.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "352400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 25.6, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "352500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 12.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "352600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 11.4, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "352900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 2.0, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "354200 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 96.3, "MediaanPersoonlijkInkomen_3": 34.1, "MediaanInkomenAlsZelfstandige_5": 31.6, "GemiddeldInkomenAlsZelfstandige_4": 40.0}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "354300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 18.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "355300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 4.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "356900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 27.8, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "383100 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 36.0, "MediaanPersoonlijkInkomen_3": 36.2, "MediaanInkomenAlsZelfstandige_5": 34.3, "GemiddeldInkomenAlsZelfstandige_4": 40.9}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "383200 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 21.7, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "384400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 10.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "386800 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 6.3, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "386900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "389100 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 24.4, "MediaanPersoonlijkInkomen_3": 30.2, "MediaanInkomenAlsZelfstandige_5": 27.6, "GemiddeldInkomenAlsZelfstandige_4": 35.4}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "410300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 3.9, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "411600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.3, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "415000 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 26.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "415300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 15.3, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "438600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 59.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "438800 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.4, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021430", "BedrijfstakkenBranchesSBI2008": "439500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.4, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "T001081", "Perioden": "2024JJ00", "Zelfstandigen_1": 285.0, "MediaanPersoonlijkInkomen_3": 64.5, "MediaanInkomenAlsZelfstandige_5": 64, "GemiddeldInkomenAlsZelfstandige_4": 77.3}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "307500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 16.2, "MediaanPersoonlijkInkomen_3": 66.7, "MediaanInkomenAlsZelfstandige_5": 66.5, "GemiddeldInkomenAlsZelfstandige_4": 75.7}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "307600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 3.0, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "344400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 2.0, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "348700 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "350000 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 24.6, "MediaanPersoonlijkInkomen_3": 66.3, "MediaanInkomenAlsZelfstandige_5": 66.5, "GemiddeldInkomenAlsZelfstandige_4": 74.7}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "351900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 16.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "352400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 6.0, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "352500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 2.4, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "352600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 3.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "352900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.4, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "354200 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 68.0, "MediaanPersoonlijkInkomen_3": 60.4, "MediaanInkomenAlsZelfstandige_5": 60, "GemiddeldInkomenAlsZelfstandige_4": 71.2}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "354300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 11.7, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "355300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 2.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "356900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 17.0, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "383100 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 10.0, "MediaanPersoonlijkInkomen_3": 61.7, "MediaanInkomenAlsZelfstandige_5": 60.7, "GemiddeldInkomenAlsZelfstandige_4": 70.7}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "383200 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 5.8, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "384400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 4.9, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "386800 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "386900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "389100 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 37.6, "MediaanPersoonlijkInkomen_3": 52, "MediaanInkomenAlsZelfstandige_5": 51, "GemiddeldInkomenAlsZelfstandige_4": 57.8}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "410300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "411600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "415000 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 8.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "415300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 4.6, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "438600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 11.6, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "438800 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.4, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021420", "BedrijfstakkenBranchesSBI2008": "439500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "T001081", "Perioden": "2024JJ00", "Zelfstandigen_1": 179.2, "MediaanPersoonlijkInkomen_3": 58.6, "MediaanInkomenAlsZelfstandige_5": 57.8, "GemiddeldInkomenAlsZelfstandige_4": 76.0}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "307500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 7.1, "MediaanPersoonlijkInkomen_3": 57.1, "MediaanInkomenAlsZelfstandige_5": 57.1, "GemiddeldInkomenAlsZelfstandige_4": 68.8}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "307600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 2.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "344400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.8, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "348700 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.0, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "350000 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 12.8, "MediaanPersoonlijkInkomen_3": 62.8, "MediaanInkomenAlsZelfstandige_5": 63, "GemiddeldInkomenAlsZelfstandige_4": 72.9}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "351900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 8.7, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "352400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 2.8, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "352500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "352600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.6, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "352900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "354200 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 43.0, "MediaanPersoonlijkInkomen_3": 53.1, "MediaanInkomenAlsZelfstandige_5": 52.1, "GemiddeldInkomenAlsZelfstandige_4": 67.5}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "354300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 7.6, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "355300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "356900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 5.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "383100 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 5.7, "MediaanPersoonlijkInkomen_3": 53.8, "MediaanInkomenAlsZelfstandige_5": 52.5, "GemiddeldInkomenAlsZelfstandige_4": 65.6}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "383200 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 3.3, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "384400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 2.7, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "386800 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "386900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "389100 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 31.4, "MediaanPersoonlijkInkomen_3": 48.5, "MediaanInkomenAlsZelfstandige_5": 47.3, "GemiddeldInkomenAlsZelfstandige_4": 56.4}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "410300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.8, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "411600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "415000 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 6.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "415300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 3.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "438600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 10.4, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "438800 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.3, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021392", "BedrijfstakkenBranchesSBI2008": "439500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.3, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "T001081", "Perioden": "2024JJ00", "Zelfstandigen_1": 105.9, "MediaanPersoonlijkInkomen_3": 70.7, "MediaanInkomenAlsZelfstandige_5": 70.8, "GemiddeldInkomenAlsZelfstandige_4": 79.7}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "307500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 9.1, "MediaanPersoonlijkInkomen_3": 71.7, "MediaanInkomenAlsZelfstandige_5": 72, "GemiddeldInkomenAlsZelfstandige_4": 81.0}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "307600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.9, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "344400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "348700 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "350000 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 11.8, "MediaanPersoonlijkInkomen_3": 68.7, "MediaanInkomenAlsZelfstandige_5": 69.4, "GemiddeldInkomenAlsZelfstandige_4": 76.7}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "351900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 7.4, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "352400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 3.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "352500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.4, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "352600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.6, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "352900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "354200 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 25.0, "MediaanPersoonlijkInkomen_3": 69.6, "MediaanInkomenAlsZelfstandige_5": 69.3, "GemiddeldInkomenAlsZelfstandige_4": 77.6}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "354300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 4.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "355300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.7, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "356900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 11.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "383100 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 4.3, "MediaanPersoonlijkInkomen_3": 69.6, "MediaanInkomenAlsZelfstandige_5": 69, "GemiddeldInkomenAlsZelfstandige_4": 77.5}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "383200 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 2.5, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "384400 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 2.3, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "386800 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.0, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "386900 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "389100 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 6.2, "MediaanPersoonlijkInkomen_3": 59.4, "MediaanInkomenAlsZelfstandige_5": 58.7, "GemiddeldInkomenAlsZelfstandige_4": 65.1}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "410300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.7, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "411600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.3, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "415000 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 2.0, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "415300 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "438600 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 1.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "438800 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.1, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}
+{"TypeZelfstandige": "2021395", "BedrijfstakkenBranchesSBI2008": "439500 ", "Perioden": "2024JJ00", "Zelfstandigen_1": 0.2, "MediaanPersoonlijkInkomen_3": null, "MediaanInkomenAlsZelfstandige_5": null, "GemiddeldInkomenAlsZelfstandige_4": null}

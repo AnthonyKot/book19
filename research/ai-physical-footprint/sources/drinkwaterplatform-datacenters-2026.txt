@@ -1,0 +1,11 @@
+Source: https://www.drinkwaterplatform.nl/datacenters-drinkwater-hoe-zit-dat-in-nederland/
+Publisher: Drinkwaterplatform (Vewin-linked information platform)
+Fetch date: 2026-09-04
+Date: 26 February 2026
+Title: Datacenters & drinkwater: hoe zit dat in Nederland?
+
+Verbatim figures:
+- CBS: "datacenters jaarlijks maximaal 1 miljoen kuub drinkwater", about the drinking water of 10,000 households.
+- "zo'n 0,088 procent van het totale drinkwatergebruik".
+- Microsoft captures rainwater on the Agriport A7 roof and passes surplus to nearby greenhouses; Google Eemshaven uses industrial water via North Water (Waterbedrijf Groningen + Evides Industriewater).
+Limits: the PWN "0.33 percent" figure and NH-Water B.V. date seen in search summaries are not on this page and not used.

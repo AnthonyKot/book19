@@ -1,0 +1,11 @@
+Source: https://www.emerce.nl/nieuws/microsoft-kondigt-nieuwe-uitbreiding-datacenter-middenmeer
+Publisher: Emerce
+Fetch date: 2026-09-04
+Date: 10 September 2025
+Title: Microsoft kondigt nieuwe uitbreiding datacenter Middenmeer aan
+
+Key excerpts:
+- Expansion driven by explosively increased demand for data storage from business, healthcare and multinationals, attributed to artificial intelligence.
+- Land "acquired last Thursday" (early September 2025); underground water storage for cooling mentioned.
+- "These developments have prompted Microsoft to further expand the datacenter in Middenmeer, despite earlier hesitation."
+Limits: no building count, m2, hectares, application timing or job figures on this page. The "six buildings / 500,000 m2 / application H2 2026 / 37.5 ha for EUR 44 m (June 2026)" details in search summaries (Vastgoeddata, Wikipedia) were NOT verified and are not used as figures.

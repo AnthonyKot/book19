@@ -1,0 +1,53 @@
+Source: https://www.uwv.nl/assets-kai/files/63956f9f-f057-445f-ad98-c3ce2c541b03/kansrijke-beroepen-2026-2027.pdf
+Publisher: UWV
+Fetch date: 2026-09-04
+Title: Kansrijke beroepen 2026-2027 (PDF, 1.1 MB, text extracted with pdftotext)
+
+Verbatim lines from the list relevant to the data-centre/grid build-out (section headings as printed):
+ | Energie- en installatietechniek | Voertuigentechniek
+ | Middelbaar beroepsniveau / gespecialiseerd vakmanschap | Middelbaar beroepsniveau / gespecialiseerd vakmanschap
+ | ▪ | Monteurs en leidingleggers gas, water1 | ▪ Rijwielmonteurs
+ | ▪ Kabelwerkers en monteurs datacommunicatie2 | ▪ Autospuiters
+ | ▪ Monteurs glasvezel en telecommunicatiesystemen | ▪ Autoschadeherstellers (incl. caravan-/campermonteur)
+ | ▪ Monteurs laag-, midden- en hoogspanning | ▪ Automonteurs (personen- en bedrijfswagens)
+ | ▪ Loodgieters, installateurs en monteurs gas, water, sanitair, verwarming | ▪ Werkplaatschefs auto
+ | ▪ Elektriciens, installateurs en monteurs elektrische installaties (incl. zonnepanelen en laadpalen) | ▪ Monteurs mobiele werktuigen (incl. landbouwmachines)
+ | ▪ Installateurs en monteurs luchtbehandeling, koeltechniek | ▪ Elektromonteurs schepen en treinen
+ | ▪ Monteurs lifttechniek en elektromotoren | ▪ Scheepswerktuigkundigen
+ | ▪ Monteurs beveiligingsinstallaties | ▪ Bedrijfsleiders / ondernemers autogaragebedrijf
+ | ▪ Medewerkers technische dienst (elektrotechnisch)
+ | ▪ Monteurs meet- en regeltechniek en medische elektronica
+ | ▪ Tekenaars installatietechniek3
+ | ▪ Tekenaars elektrotechniek3
+ | ▪ Werkvoorbereiders en calculatoren elektrotechniek3
+
+
+ | Hoger / wetenschappelijk beroepsniveau
+ | ▪ Adviseurs, engineers en projectleiders installatietechniek
+ | ▪ Inspecteurs elektrische installaties
+ | ▪ Projectleiders elektrotechniek
+ | ▪ Engineers, constructeurs en onderzoekers elektrotechnische installaties
+
+Bouw section lines:
+ | ▪ | Oppermannen / hulparbeiders grond-, weg- en waterbouw1 | ▪ Werkplaatstimmermannen, interieurbouwers, standbouwers, wand- en plafondmonteurs
+ | ▪ Oppermannen / hulparbeiders bouw1 | ▪ Rolluik- en zonweringinstallateurs
+ | ▪ Rioleringsmedewerkers | ▪ (Hoofd)uitvoerders bouw en installatietechniek3
+ | ▪ Stratenmakers | ▪ Werkvoorbereiders en calculatoren bouw en installatietechniek3
+ | ▪ Slopers bouw en asbestverwijderaars | ▪ Tekenaars bouwkunde en BIM modelleurs3
+ | ▪ Betonwerkers | ▪ Bouwkundig inspecteurs, opzichters en adviseurs (EPA- en BENG adviseurs)3, 4
+
+Veiligheid section lines:
+ | ▪ Taxichauffeurs groepsvervoer2 | Veiligheid
+ | Basisvakmanschap
+ | Middelbaar beroepsniveau / gespecialiseerd vakmanschap | ▪ Verkeersregelaars
+ | ▪ Vrachtwagenchauffeurs | ▪ Brandwachten / heetwerkwachten
+ | ▪ Buschauffeurs lijndienst
+ | ▪ Buschauffeurs touringcar | Middelbaar beroepsniveau / gespecialiseerd vakmanschap
+ | ▪ Conducteurs | ▪ Handhavers openbare ruimte (BOA's en toezichthouders)
+ | ▪ Treinmachinisten | ▪ (Complex)beveiligers penitentiaire inrichting
+ | ▪ Matrozen binnenvaart | ▪ Objectbeveiligers
+
+Footnotes:
+ 1 Opperman/hulpkracht grond-, weg- en waterbouw kan een opstap zijn voor doorgroei naar monteur en leidinglegger gas, water.
+ 2 Opperman/hulpkracht grond-, weg- en waterbouw kan een opstap zijn voor doorgroei naar kabelwerker en monteur datacommunicatie.
+Limits: the list is qualitative (occupations where demand exceeds supply); it gives no vacancy counts and does not name 'datacenter' as an occupation.

@@ -1,0 +1,16 @@
+Source: https://www.dutchdatacenters.nl/wp-content/uploads/2026/03/20250212-Uitwerking-van-regelgeving-en-impact-op-de-datacentersector.pdf
+Publisher: Stichting Dutch Datacenter Association (DDA), Amsterdam, 12 February 2025 (PDF 1.9 MB, text extracted with pdftotext)
+Fetch date: 2026-09-04
+Title: Uitwerking van regelgeving en impact op de datacentersector (DDA Regeldruk ATR)
+
+Verbatim excerpts:
+- "Het huidige stroomverbruik van datacenters in Nederland komt neer op 3,7 miljard kilowattuur (TWh). Dat is 3,3% van het Nederlandse stroomverbruik."
+- "Het leidingwaterverbruik gemonitord door het Centraal Bureau van Statistiek is volgens de laatste gegevens jaarlijks 1 miljoen m3 (CBS), wat 0,083 % van het totale leidingwatergebruik in Nederland is."
+- "Volgens jaarlijks terugkerend DDA-onderzoek kopen Nederlandse datacenters aangesloten bij de DDA inmiddels 99% van hun stroombehoefte duurzaam in."
+- "Er is een omgevingsvergunning nodig voor het lozen van koelwater met een warmtevracht van meer dan 50 MW op een oppervlaktewater."
+- "Als de noodstroomvoorziening een vermogen van meer dan 50 MWth heeft, is het een IPPC-installatie. Dan zijn het datacentrum en de noodstroomvoorziening samen een vergunning plichtige IPPC-installatie."
+- "Qua zeggenschap bij de overheid zijn er Rijks instructies voor hyperscales, 'hyperscale' datacenters, van meer dan 10 hectare en een vermogen van 70 MW. De provincie heeft zeggenschap over datacenters van 50MW of groter. Bij kleinere datacentra zijn gemeenten het bevoegd gezag."
+- "In 2019 kondigde de gemeente Amsterdam een moratorium af wat een onmiddellijke stop voor de bouw van nieuwe" [datacenters].
+- Sector examples: "Bancaire Sector: Beschikt over 15 datacenters. Mediapark: Herbergt 4 datacenters. Defensie: Heeft 7 datacenters".
+- Section 6 covers NIS2 / vitale infrastructuur: NIS2 requires "Investeringen in beveiliging" and overlaps ISO 27001; DDA complains of "Dubbele audits".
+Limits: trade-body advocacy document; no MW or job counts.

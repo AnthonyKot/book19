@@ -1,0 +1,13 @@
+Source: https://tenderview.ai/aanbestedingen/erkenningsregeling-eu-401-lijnen-qualification-system-eu-j4vqmn94
+Publisher: TenderView.ai (mirror of TenderNed publication by TenneT TSO B.V.)
+Fetch date: 2026-09-04
+Title: Erkenningsregeling EU-401 Lijnen (qualification system)
+
+Key excerpts:
+- Buyer: TenneT TSO B.V. Qualification system "EU-401 Lijnen" to establish "a list of suitable contractors to carry out civil engineering, conductor, and installation work" for new and existing high-voltage lines of 110 kV and above.
+- Submissions exclusively via the Mercell Source-to-Contract platform.
+- Ongoing qualification system without fixed closing dates.
+- Award criterion: best price-quality ratio.
+- Certificates the mirror notes as typically requested in this sector: VCA, ISO 9001, ISO 14001, CO2-Prestatieladder.
+- Probable bidders per the mirror's analysis: BAM Infra, ENGIE Infra & Mobility, KWS Infra, VolkerRail.
+Limits: secondary mirror of a TenderNed notice; the certificate list is the mirror's sector note, not the notice text.

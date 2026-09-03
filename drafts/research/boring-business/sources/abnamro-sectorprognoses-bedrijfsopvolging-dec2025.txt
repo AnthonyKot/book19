@@ -1,0 +1,271 @@
+SOURCE: ABN AMRO Sectorprognoses december 2025 — 'Bedrijfsopvolging' (PDF, 31 pages), mirrored at https://www.ttm.nl/wp-content/uploads/2025/12/ABN-AMRO-rapport-Sectorprognoses-2026-2027.pdf (also https://assets.abnamro.com/api/public/content/sectorprognoses-abn-amro-bedrijfsopvolging-dec-2025.pdf). Publisher: ABN AMRO. Fetched 2026-09-04 via curl + pdftotext -layout. Excerpt: pp.1-4 (succession table by sector), pp. with volume forecasts 2025-2027.
+
+Twee derde van ondernemers wil binnen tien
+jaar stoppen, maar opvolging hapert
+Sector & Sustainability Expertise | Mario Bersem, David Bolscher, Melanie Murk, Albert Jan Swart,
+Gerarda Westerhuis | Sectorprognoses | 03-12-2025
+
+
+Uit een enquête onder 519 ondernemers, uitgevoerd door Ipsos I&O in opdracht van ABN AMRO, blijkt
+dat 68 procent van de ondernemers nog maximaal tien jaar het eigen bedrijf wil blijven aansturen. Van
+deze groep is 22 procent nog niet bezig met opvolging, terwijl 20 procent wel zoekt maar nog geen
+opvolger heeft gevonden. Het feit dat een aanzienlijk deel van de ondernemers nog geen opvolger
+heeft, duidt op een groot risico op discontinuïteit en daarmee het verlies van werkgelegenheid, kapitaal
+en kennis.
+
+
+De vergrijzing maakt voorbereiding op opvolging des te urgenter. Cijfers van het Centraal Bureau voor de
+Statistiek (CBS) laten zien dat inmiddels bijna 13 procent van alle ondernemers van bedrijven met minimaal
+twee werkzame personen 65 jaar of ouder is; een forse stijging ten opzichte van de ruim 7 procent in 2010.
+In de komende jaren zal dus een groot aantal ondernemers hun onderneming willen of moeten overdragen.
+Zonder een goed gepland opvolgingsproces lopen bedrijven het risico op discontinuïteit en daarmee verlies
+van werkgelegenheid, kapitaal en het verdwijnen van opgebouwde kennis en ervaring. Vooral in sectoren
+waar onvoldoende opvolging is en juist veel bedrijven in de verkoop komen door vergrijzing, zoals in de
+landbouw en de detailhandel, neemt de kans op opheffingen toe.
+
+Het overdrachtsproces brengt complexe financiële, juridische en emotionele vraagstukken met zich mee. Uit
+de Ipsos-enquête blijkt dat ondernemers vooral worstelen met het loslaten van controle, het bepalen van
+een realistische waarde van het bedrijf en de complexiteit van het juridisch en fiscaal kader.
+
+ Top 15 branches met hoogst aantal ondernemers van 65 jaar en ouder
+(Aantal ondernemers 65+ met bedrijven met 2 of meer werkzame personen)
+
+                                             Leeftijd: 65 jaar of ouder   Leeftijd: 65 jaar of ouder
+
+                                                  aantal ondernemers               % ondernemers
+      Alle economische activiteiten                           82.310                        12,7
+1.    Landbouw                                                18.790                        21,5
+2.    Detailhandel (niet in auto's)                            8.990                         9,8
+3.    Groothandel en handelsbemiddeling                        5.210                        15,7
+4.    Gezondheidszorg                                          4.820                        12,8
+5.    Eet- en drinkgelegenheden                                3.960                         7,9
+6.    Gespecialiseerde bouw                                    3.060                         9,8
+7.    Verhuur en handel van onroerend goed                     2.930                        21,5
+8.    Holdings en managementadviesbureaus                      2.760                        13,8
+9.    Juridische diensten en administratie                     2.650                        18,5
+10.   Autohandel en -reparatie                                 2.470                        12,6
+11.   Logiesverstrekking                                       1.630                        18,2
+12.   Vervoer over land                                        1.470                        10,5
+13.   Algemene bouw en projectontwikkeling                     1.440                         8,3
+14.   Architecten-, ingenieursbureaus e.d.                     1.350                        13,6
+15.   Schoonmaakbedrijven, hoveniers e.d.                      1.270                         8,5
+
+
+Bron: CBS
+
+
+
+
+                                                                                                         1
+Opvolging en overdracht
+Bij opvolging is het belangrijk onderscheid te maken tussen opvolging in leiding en overdracht van
+eigendom. Deze twee processen kunnen tegelijkertijd plaatsvinden, maar ook na elkaar. Zo kan een
+ondernemer de eigendom van zijn onderneming overdragen aan zijn kinderen, maar nog niet zijn
+leidinggevende positie opgeven. Of vice versa, de ondernemer behoudt de eigendom en draagt de leiding
+over aan een nieuwe directeur.
+
+In het bijzonder binnen familiebedrijven krijgt bedrijfsoverdracht een extra dimensie. Familiebedrijven
+vormen het hart van de Nederlandse economie: deze 300.000 familiebedrijven zijn goed voor ruim 30
+procent van alle banen in Nederland en bijna 30 procent van de toegevoegde waarde van het (niet-
+financiële) bedrijfsleven, blijkt uit CBS-data en waarbij alleen gekeken wordt naar bedrijven met twee of
+meer werkzame personen. Tegelijkertijd zijn deze ondernemingen vaak kwetsbaar wanneer een overdracht
+plaatsvindt, omdat de bedrijfsvoering sterk verweven is met de persoon van de ondernemer en de familie.
+Persoonlijke relaties, emoties en zakelijke belangen lopen vaak door elkaar.
+
+CBS-data laten zien dat familiebedrijven relatief veel voorkomen in de sectoren Landbouw (47 procent van
+alle landbouwbedrijven), Horeca (39 procent), Autohandel- en reparatie (30 procent), Groothandel (26
+procent) en Detailhandel (24 procent). Ze komen het minst voor in de sectoren Informatie en communicatie
+(8 procent) en Specialistische zakelijke diensten (7 procent).
+
+Tot voor kort was het vanzelfsprekend dat een bedrijf overging naar de volgende generatie. Tegenwoordig
+wordt het steeds gebruikelijker om leiding en/of eigendom (gedeeltelijk) over te dragen aan een derde partij,
+zoals private equity of een strategische koper, of aan het zittende management of een medewerker. Zo blijkt
+
+*Totale populatie. Door een weergavefout is de respons iets lager (N=519) bij vraag 8: Hoe lang bent u nog van plan het
+bedrijf aan te sturen?, en bij vraag 10: Hoe lang bent u nog van plan het bedrijf in eigendom te houden?
+
+
+
+
+                                                                                                                      2
+Plannen voor opvolging vooral binnen de familie
+Uit onze enquête blijkt dat 68 procent van de ondernemers maximaal tien jaar het bedrijf wil blijven
+aansturen. Van deze groep is 22 procent nog niet begonnen met opvolgingsplannen, terwijl 20 procent wel
+zoekt maar nog geen opvolger heeft gevonden. Dit onderstreept dat opvolging vaak pas laat aandacht krijgt,
+ondanks de complexiteit van het proces.
+
+Opvallend is dat ondernemers die binnen vijf jaar willen stoppen actiever bezig zijn met opvolging dan
+ondernemers die nog vijf tot tien jaar willen doorgaan. Van de eerste groep is slechts 8 procent nog niet
+begonnen met opvolging, tegenover ruim 37 procent in de tweede groep. Toch is het probleem van
+onzekerheid groot: ruim een kwart van de ondernemers die binnen vijf jaar wil stoppen, zoekt wel maar weet
+nog niet wie de opvolger wordt. Bij ondernemers met een langere horizon geldt dit voor bijna 14 procent.
+
+Ondernemers die binnen vijf jaar willen stoppen, hebben vaker concrete opvolgingsplannen. Bijna 24
+procent van hen geeft aan dat de beoogde opvolger een familielid is. Dit zien we vooral in de landbouw- en
+visserijsector, waar familiebedrijven domineren. Daarnaast heeft bijna 12 procent een werknemer op het oog
+en ruim 8 procent iemand van buiten het bedrijf. Opvallend is dat ruim 12 procent aangeeft het bedrijf te
+willen beëindigen; dit zijn relatief vaak kleinere bedrijven, met name in sectoren waar schaalgrootte en
+continuïteit lastiger te realiseren zijn.
+
+                              Heeft u al plannen voor de opvolging van uw bedrijf?
+
+                                                        Maximaal aantal jaar dat ondernemer bedrijf wilt aansturen
+
+
+Wanneer een familielid over onvoldoende middelen beschikt om het bedrijf ineens over te nemen, kan een
+oplossing gevonden worden in een combinatie van een achtergestelde lening van de verkoper en
+(her)financiering vanuit de onderneming. Daarnaast kan de Bedrijfsopvolgingsregeling (BOR) een rol spelen.
+De BOR verlaagt de belastingdruk bij overdracht binnen de familie. De fiscale regeling biedt vrijstellingen en
+uitstel van betaling voor erf- en schenkbelasting en is bedoeld om het voortbestaan van bedrijven te
+ondersteunen bij overdracht door schenking of erfenis. Vooral landbouwbedrijven in de Ipsos-enquête gaven
+aan hier gebruik van te maken.
+
+
+
+
+                                                                                                               4
+Overdracht aan derde partijen
+Overdracht aan derde partijen wordt ook steeds vaker overwogen, zoals wanneer opvolging binnen de
+familie niet haalbaar is. Jongere generaties hebben soms andere ambities, onvoldoende middelen of missen
+de juiste competenties. Ook verschillen in visie en waarden kunnen een rol spelen.
+
+Wanneer een geschikte opvolger ontbreekt, kiezen ondernemers bijvoorbeeld voor een management buy-
+out (4 procent van de ondernemers die binnen tien jaar willen stoppen). Hierbij nemen de huidige managers
+het bedrijf over. Dit geeft stabiliteit en waarborgt continuïteit, omdat de zittende managers de organisatie en
+markt goed kennen. Een voorbeeld zien we in de maakindustrie, waar ervaren productiemanagers een
+familiebedrijf overnemen om kennis en klantrelaties te behouden. Een vergelijkbare optie is een employee
+buy-out (6 procent), waarbij werknemers eigenaar worden. Dit vergroot betrokkenheid en minimaliseert
+verstoring.
+
+Als intern geen geschikte opvolger gevonden wordt, kan een management buy-in (6 procent van de
+ondernemers die maximaal tien jaar wil blijven) uitkomst bieden. Ondernemers halen dan ervaren managers
+van buiten binnen om het bedrijf voort te zetten. Het motief hierbij is vaak modernisering en innovatie. Zo
+zegt 11 procent van de ondernemers uit de enquête die opvolgingsplannen hebben ruimte te willen maken
+voor andere ideeën.
+
+Strategische overnames zijn een andere gekozen route (ruim 11 procent van de ondernemers die het bedrijf
+maximaal tien jaar willen aansturen). Hierbij verkoopt de ondernemer het bedrijf aan een partij in dezelfde
+sector, bijvoorbeeld een concurrent of leverancier. Het belangrijkste motief is het realiseren van
+schaalvoordelen en synergie, bijvoorbeeld in sectoren waar marges onder druk staan door stijgende kosten.
+In de horeca kan consolidatie leiden tot efficiëntere inkoop en flexibeler inzet van personeel. Dit biedt een
+uitweg voor horecaondernemers die worstelen met stijgende kosten, krappe marges en tekort aan
+personeel. In de foodsector zien we dat afnemers steeds groter worden en kostenleiderschap de dominante
+strategie. Om hier tegenwicht aan te bieden, consolideren leveranciers ook.
+
+bedrijfsactiviteiten raken.
+
+Ruim een derde van de ondernemers met opvolgingsplannen ervaart het loslaten van de controle als
+uitdaging. Een groot deel van hun leven speelt zich af bij het bedrijf waarmee een sterk sociale en
+emotionele verbintenis is ontstaan. Ondernemers ontwikkelen producten, bouwen relaties met klanten op en
+creëren een hechte werknemersfamilie.
+
+Vooral ondervraagde ondernemers in de landbouw vinden het lastig om de controle over hun bedrijf los te
+laten: de helft van hen noemt dit als een van de belangrijkste uitdagingen. Deze ondernemers hebben
+doorgaans een sterke binding met hun landbouwbedrijf, omdat het meestal familiebedrijven zijn en het
+bedrijf doorgaans ook hun woonplek is.
+
+Ook in de sectoren industrie en transport komt het voor dat oudere ondernemers het zoeken van een
+opvolger of het uit handen geven van de controle te lang uitstellen. Het risico bestaat dan dat de
+onderneming zich onvoldoende aanpast aan snel veranderende markten. Het kan raadzaam zijn tijdig ruimte
+te bieden aan jongere, talentvolle managers. Zij krijgen zo de kans zich te ontwikkelen en kunnen ervoor
+zorgen dat de onderneming tijdig inspeelt op veranderende marktomstandigheden. Dat kan een positief
+effect hebben op de productiviteit en op de waarde van de onderneming.
+
+Ondernemers die het lastig vinden om de controle los te laten kunnen gefaseerd afstand nemen van hun
+bedrijf. Met een geschikte opvolger kan een ondernemer stapsgewijs werkzaamheden overdragen. Zo wordt
+de ondernemer minder afhankelijk van het bedrijf. Met vrijgespeelde dagen kunnen ondernemers interesses
+voor andere werkzaamheden en vrijetijdsbesteding ontdekken.
+
+
+
+
+                                                                                                                     6
+Naast de emotionele band zijn ondernemers bang dat hun missie en opgebouwde bedrijfswaarden verloren
+gaan. De ondernemer en opvolger moeten elkaar goed kunnen vinden in hun opvattingen en
+toekomstplannen. Als een beoogde opvolger verder van de ondernemer af staat, is het moeilijk om de
+controle los te laten. Dan moet eerst gewerkt worden aan het vertrouwen in de opvolger of overnemende
+partij. Een alternatieve manier om de bedrijfswaarden te behouden is het eerdergenoemde steward
+ownership. Het winstrecht kan dan los overgedragen worden, terwijl het stemrecht bij bijvoorbeeld een
+stichting komt te liggen die de missie van de onderneming bewaakt.
+
+                                                                                                                       8
+Sectorprognoses
+ABN AMRO verwacht een redelijk stabiele groei voor de Nederlandse economie. Op sectorniveau verwacht
+ABN AMRO de volgende volumegroei:
+
+Volumeprognoses (% j-o-j)                     2025      2026       2027
+
+Agri                                            3,0      -2,0       -0,5
+Bouw                                            1,5       2,5        2,5
+Food                                            1,5       0,5        1,0
+Healthcare                                      3,0       3,5        2,5
+Industrie                                       0,5       3,0        3,0
+Leisure                                         1,5      -3,0        1,0
+Retail                                          1,0       1,0        1,5
+TMT                                             4,5       5,0        4,0
+Transport & Logistiek                           0,0       2,0        1,5
+Zakelijke dienstverlening                       1,5       1,0        1,0
+
+
+In 2025 lag de productie in de agrarische sector fors hoger ten opzichte van 2024. Zo waren
+weersomstandigheden gunstiger en nam de productie na een aanvankelijke dip fors toe. Daarnaast
+verwachten wij het effect van stoppersregelingen pas in de komende jaren.
+
+
+De bouwsector heeft na een afname van de vraag in vooral 2023 weer flinke orderportefeuilles, maar door
+toenemende complexiteit van bouwprojecten en personeelstekorten bleef de groei in 2025 beperkt. Vanaf
+2026 worden naar verwachting meer eerder gestarte projecten voltooid.
+
+
+De foodsector kende in 2025 een volumestijging gedreven door gestegen koopkracht in het binnenland en
+een hogere uitvoer. Voor 2026 en 2027 blijven de prognoses gunstig. Omgaan met onvoorspelbare ketens
+en personeelskrapte blijven hoog op de agenda van foodondernemers.
+
+
+De zorgsector groeit met 3 procent dit jaar en met 3,5 procent in 2026. De zorgsector toonde vorig jaar al
+een flinke resultaatverbetering dankzij uitgestelde bezuinigingen van de overheid en verbeterde
+inzetbaarheid van zorgverleners. ABN AMRO verwacht dat zorgaanbieders ook in 2025 en 2026 een goed
+rendement behalen. Dankzij het ruime budget van de overheid groeien de volumes naar verwachting met 3
+procent dit jaar en met 3,5 procent in 2026. Ook stijgen een aantal tarieven die aanbieders ontvangen harder
+dan de inflatie. De prognose voor 2027 staat op 2,5 procent; de overheid wil waarschijnlijk vanaf 2027 de
+stijgende zorguitgaven remmen om ruimte te vinden voor andere uitgaven zoals aan defensie.
+
+
+De industrie kreeg in 2025 tegenwind van de door de Amerikaanse president Trump ontketende
+handelsoorlog, maar laat de grootste schok daarvan in 2026 achter zich. Eerder uitgestelde
+investeringsplannen worden nu alsnog doorgezet, wat de vraag naar machines aanjaagt. De industrie kan
+zowel in 2026 als in 2027 groeien met 3 procent. Wel hebben energie-intensieve branches zoals de
+chemische industrie het lastig door de hoge energieprijzen in Europa en Chinese concurrentie.
+
+
+
+
+                                                                                                             9
+Onze ramingen voor 2026 voor de leisuresector zijn onzeker. Het blijft lastig om het effect van de btw-
+verhoging in te schatten. De daling in overnachtingen wordt enigszins gecompenseerd door andere
+subsectoren zoals groei van de reisbranche. Al met al verwachten we voor 2026 een krimp van de
+vrijetijdssector van -3 procent, gevolgd door een normalisatie van de volumegroei in 2027 (1 procent)
+wanneer de markt zich heeft aangepast.
+
+Voor 2026 en 2027 verwacht ABN AMRO opnieuw groei van de consumptie van respectievelijk 1 procent en
+1,2 procent. Het herstel van de binnenlandse vraag wordt gedragen door een stijgende koopkracht en een
+verbeterd consumentenvertrouwen. Onze sectorramingen voor de brede retail – detailhandel, groothandel
+non-food en autohandel en -reparatie – zijn voor 2026 opwaarts bijgesteld van een 0,5 naar 1 procent
+volumegroei, gevolgd door 1,5 procent in 2027
+
+
+De technologie-, media- en telecomsector veerde in 2025 op met een groei van 4,5 procent, aangejaagd
+door digitalisering, cloud-migraties en sterke investeringen in kunstmatige intelligentie. Voor 2026 en 2027
+wordt respectievelijk 5 en 4 procent groei verwacht.
+
+
+De transportsector werd in 2025 belemmerd door de handelsoorlog, die de wereldhandel in chaos stortte.
+In 2026 laat de sector de grootste schok daarvan achter zich. De internationale handel trekt naar
+verwachting aan, terwijl ook de binnenlandse groei aantrekt, zoals in de bouwsector en retail. De sector
+groeit naar verwachting in 2026 met 2 procent en in 2027 met 1,5 procent.
+
+
+De zakelijke dienstverlening groeit met 1,5 procent in 2025, 1 procent in 2026 en 1,5 procent in 2027. De
+sector houdt koers in turbulente tijden, ondanks personeelstekorten, uitdagingen rondom bedrijfsopvolging
+en veranderende wet- en regelgeving.
+
