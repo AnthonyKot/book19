@@ -1,0 +1,109 @@
+# GUS (Główny Urząd Statystyczny / Statistics Poland)
+# Publication: Produkcja wyrobów przemysłowych w 2025 r. (Production of industrial products in 2025)
+# Tablica 1: Produkcja wytworzona wyrobów przemysłowych w 2025 r.
+# Tablica 5: Wartość produkcji sprzedanej wyrobów wg działów, grup i klas PKWiU w latach 2023-2025
+# URL: https://stat.gov.pl/obszary-tematyczne/przemysl-budownictwo-srodki-trwale/przemysl/produkcja-wyrobow-przemyslowych-w-2025-r-,3,23.html
+# Data file URL: https://stat.gov.pl/download/gfx/portalinformacyjny/pl/defaultaktualnosci/5477/3/23/1/produkcja_wyrobow_przemyslowych_w_2025-_tablice.xlsx (Size: 665,801 bytes)
+# Publisher: Główny Urząd Statystyczny (GUS), Warszawa
+# Fetch date: 2026-09-03
+
+## 1. Sold Production Value by Selected PKWiU Sectors (Tablica 5)
+Values in thousands of PLN (tys. zł):
+
+Total Sold Industrial Production (PKWiU 00 - Ogółem):
+- 2023: 1,793,588,905.9 tys. PLN (~1,793.6 billion PLN)
+- 2024: 1,722,039,533.5 tys. PLN (~1,722.0 billion PLN)
+- 2025: 1,705,678,235.5 tys. PLN (~1,705.7 billion PLN)
+
+Division 16: Drewno i wyroby z drewna i korka (Wood & wood products):
+- 2023: 38,863,532.3 tys. PLN
+- 2024: 35,515,065.1 tys. PLN
+- 2025: 38,921,102.0 tys. PLN
+
+Division 22: Wyroby z gumy i tworzyw sztucznych (Rubber & plastic products):
+- 2023: 118,385,846.8 tys. PLN
+- 2024: 112,987,333.4 tys. PLN
+- 2025: 112,376,922.7 tys. PLN
+PKWiU 22.23: Wyroby z tworzyw sztucznych dla budownictwa (Plastic builders ware / PVC joinery):
+- 2023: 22,489,230.8 tys. PLN
+- 2024: 23,280,909.1 tys. PLN
+- 2025: 23,583,121.7 tys. PLN
+
+Division 25: Wyroby metalowe gotowe (Fabricated metal products excl. machinery):
+- 2023: 98,910,387.9 tys. PLN
+- 2024: 95,584,740.8 tys. PLN
+- 2025: 93,617,938.2 tys. PLN
+PKWiU 25.1: Metalowe elementy konstrukcyjne (Structural metal products):
+- 2023: 37,681,195.3 tys. PLN
+- 2024: 36,053,062.1 tys. PLN
+- 2025: 36,584,223.1 tys. PLN
+PKWiU 25.11: Konstrukcje metalowe i ich części (Metal structures and parts):
+- 2023: 32,629,001.6 tys. PLN
+- 2024: 30,816,805.9 tys. PLN
+- 2025: 30,917,530.3 tys. PLN
+PKWiU 25.12: Metalowe elementy stolarki budowlanej (Metal doors, windows & frames / aluminium joinery):
+- 2023: 5,052,193.7 tys. PLN
+- 2024: 5,236,256.2 tys. PLN
+- 2025: 5,666,692.8 tys. PLN
+
+Division 27: Urządzenia elektryczne (Electrical equipment):
+- 2023: 146,543,727.0 tys. PLN
+- 2024: 119,012,065.8 tys. PLN
+- 2025: 106,594,771.7 tys. PLN
+PKWiU 27.3: Przewody i kable izolowane oraz sprzęt instalacyjny (Wires, cables & wiring devices):
+- 2023: 17,014,188.5 tys. PLN
+- 2024: 17,262,080.9 tys. PLN
+- 2025: 19,173,478.2 tys. PLN
+PKWiU 27.32: Pozostałe elektroniczne i elektryczne przewody i kable:
+- 2023: 12,027,139.3 tys. PLN
+- 2024: 11,409,394.4 tys. PLN
+- 2025: 12,056,411.1 tys. PLN
+PKWiU 27.40: Sprzęt oświetleniowy elektryczny (Electric lighting equipment):
+- 2025: 4,985,090.8 tys. PLN
+
+Division 28: Maszyny i urządzenia gdzie indziej niesklasyfikowane (Machinery & equipment n.e.c.):
+- 2023: 70,308,235.7 tys. PLN
+- 2024: 64,998,858.0 tys. PLN
+- 2025: 64,436,765.7 tys. PLN
+
+Division 31: Meble (Furniture):
+- 2023: 51,961,966.7 tys. PLN
+- 2024: 50,236,617.3 tys. PLN
+- 2025: 50,206,511.4 tys. PLN
+PKWiU 31.01: Meble biurowe i sklepowe (Office and shop furniture):
+- 2023: 3,270,101.4 tys. PLN
+- 2024: 3,308,029.8 tys. PLN
+- 2025: 3,402,496.5 tys. PLN
+PKWiU 31.02: Meble kuchenne (Kitchen furniture):
+- 2023: 1,370,038.4 tys. PLN
+- 2024: 1,518,152.8 tys. PLN
+- 2025: 1,443,195.2 tys. PLN
+PKWiU 31.09: Pozostałe meble (Other furniture):
+- 2023: 20,554,558.0 tys. PLN
+- 2024: 20,040,742.1 tys. PLN
+- 2025: 19,668,079.8 tys. PLN
+
+## 2. Physical Production Volumes in 2025 (Tablica 1)
+- Plastic doors and windows (Drzwi, okna i ich ościeżnice oraz progi, z tworzyw sztucznych): 10,894,046 units (szt.), index 2024=100: 96.5
+  - of which plastic windows (okna z tworzyw sztucznych dla budownictwa): 9,712,590 units, index 2024=100: 97.7
+  - of which plastic doors (drzwi z tworzyw sztucznych dla budownictwa): 337,268 units, index 2024=100: 94.9
+- Wooden doors and windows (Okna i drzwi, ościeżnice i progi z drewna): 16,479,791 m2, index 2024=100: 104.8
+  - of which wooden windows and frames: 1,786,188 units, index 2024=100: 97.1
+  - of which wooden doors and frames: 9,667,589 units, index 2024=100: 107.8
+- Steel doors and frames (Drzwi i ich futryny, progi drzwiowe stalowe): 1,317,302 units, index 2024=100: 97.1
+- Steel windows, skylights, portholes (Okna, świetliki i iluminatory stalowe): 20,161 units, index 2024=100: 89.7
+- Aluminium doors and frames (Drzwi i ich futryny oraz progi drzwiowe aluminiowe): 293,721 units, index 2024=100: 89.4
+- Aluminium windows, skylights (Okna, świetliki i iluminatory aluminiowe): 299,053 units, index 2024=100: 107.0
+- Insulated wires and cables (Druty i przewody izolowane): 545,916 tonnes, index 2024=100: 114.2
+  - of which optical fiber cables: 147,338 tonnes, index 2024=100: 163.2
+  - of which power cables: 85,125 tonnes, index 2024=100: 103.1
+- Seating furniture with metal frame (Meble do siedzenia o konstrukcji głównie metalowej): 2,902,640 units, index 2024=100: 87.9
+- Convertible seating into beds, wooden: 2,980,376 units, index 2024=100: 98.3
+- Upholstered seating with wooden frame: 9,314,912 units, index 2024=100: 96.2
+- Wooden office furniture: 5,449,376 units, index 2024=100: 118.9
+- Wooden kitchen furniture (other than built-in): 4,033,872 units, index 2024=100: 106.7
+- Wooden bedroom furniture: 10,300.0 thousand units (10,300,000 units), index 2024=100: 108.4
+- Wooden dining/living room furniture: 43,338.6 thousand units (43,338,600 units), index 2024=100: 72.6
+- Plastic furniture: 3,303,274 units, index 2024=100: 101.5
+- Electric accumulators (lead-acid): 7,263.5 thousand units (7,263,500 units), index 2024=100: 109.6
+- Transformers: 6,662,426 units, index 2024=100: 96.1

@@ -1,0 +1,107 @@
+# CBS StatLine: International goods trade (Grensoverschrijding)
+# Table: 85429NED - Internationale goederenhandel; grensoverschrijding, kerncijfers
+# Publisher: Centraal Bureau voor de Statistiek (CBS)
+# URL: https://opendata.cbs.nl/ODataApi/odata/85429NED
+# Fetch date: 2026-09-03
+# Values in Million EUR
+
+Partner | Period | SITC_Code | SITC_Description | TotaleInvoerwaarde_mln_EUR
+Poland | 2023JJ00 | T001082 | Totaal goederen | 15650
+Poland | 2023JJ00 | A018524 | 0 Voeding en levende dieren | 2436
+Poland | 2023JJ00 | A018528 | 1 Dranken en tabak | 315
+Poland | 2023JJ00 | A018540 | 2 Grondstoffen, niet eetbaar, behalve... | 218
+Poland | 2023JJ00 | A018591 | 3 Minerale brandstoffen, smeermiddele... | 609
+Poland | 2023JJ00 | A018612 | 4 Dierlijke en plantaardige oliën en ... | 149
+Poland | 2023JJ00 | A018629 | 5 Chemische producten | 1125
+Poland | 2023JJ00 | A018678 | 6 Fabricaten hoofdzakelijk gerangschi... | 1975
+Poland | 2023JJ00 | A018743 | 7 Machines en vervoermaterieel | 5740
+Poland | 2023JJ00 | A018809 | 8 Diverse gefabriceerde goederen | 3082
+Poland | 2023JJ00 | A018851 | 9 Niet afzonderlijk genoemde goederen | 1
+Poland | 2024JJ00 | T001082 | Totaal goederen | 15835
+Poland | 2024JJ00 | A018524 | 0 Voeding en levende dieren | 2313
+Poland | 2024JJ00 | A018528 | 1 Dranken en tabak | 302
+Poland | 2024JJ00 | A018540 | 2 Grondstoffen, niet eetbaar, behalve... | 195
+Poland | 2024JJ00 | A018591 | 3 Minerale brandstoffen, smeermiddele... | 572
+Poland | 2024JJ00 | A018612 | 4 Dierlijke en plantaardige oliën en ... | 144
+Poland | 2024JJ00 | A018629 | 5 Chemische producten | 1196
+Poland | 2024JJ00 | A018678 | 6 Fabricaten hoofdzakelijk gerangschi... | 1964
+Poland | 2024JJ00 | A018743 | 7 Machines en vervoermaterieel | 6057
+Poland | 2024JJ00 | A018809 | 8 Diverse gefabriceerde goederen | 3092
+Poland | 2024JJ00 | A018851 | 9 Niet afzonderlijk genoemde goederen | 1
+Poland | 2025JJ00 | T001082 | Totaal goederen | 16205
+Poland | 2025JJ00 | A018524 | 0 Voeding en levende dieren | 2730
+Poland | 2025JJ00 | A018528 | 1 Dranken en tabak | 328
+Poland | 2025JJ00 | A018540 | 2 Grondstoffen, niet eetbaar, behalve... | 175
+Poland | 2025JJ00 | A018591 | 3 Minerale brandstoffen, smeermiddele... | 394
+Poland | 2025JJ00 | A018612 | 4 Dierlijke en plantaardige oliën en ... | 131
+Poland | 2025JJ00 | A018629 | 5 Chemische producten | 1343
+Poland | 2025JJ00 | A018678 | 6 Fabricaten hoofdzakelijk gerangschi... | 1948
+Poland | 2025JJ00 | A018743 | 7 Machines en vervoermaterieel | 5857
+Poland | 2025JJ00 | A018809 | 8 Diverse gefabriceerde goederen | 3299
+Poland | 2025JJ00 | A018851 | 9 Niet afzonderlijk genoemde goederen | 0
+Niet-EU | 2023JJ00 | T001082 | Totaal goederen | 459679
+Niet-EU | 2023JJ00 | A018524 | 0 Voeding en levende dieren | 26043
+Niet-EU | 2023JJ00 | A018528 | 1 Dranken en tabak | 1400
+Niet-EU | 2023JJ00 | A018540 | 2 Grondstoffen, niet eetbaar, behalve... | 14226
+Niet-EU | 2023JJ00 | A018591 | 3 Minerale brandstoffen, smeermiddele... | 116490
+Niet-EU | 2023JJ00 | A018612 | 4 Dierlijke en plantaardige oliën en ... | 3982
+Niet-EU | 2023JJ00 | A018629 | 5 Chemische producten | 42953
+Niet-EU | 2023JJ00 | A018678 | 6 Fabricaten hoofdzakelijk gerangschi... | 31654
+Niet-EU | 2023JJ00 | A018743 | 7 Machines en vervoermaterieel | 166683
+Niet-EU | 2023JJ00 | A018809 | 8 Diverse gefabriceerde goederen | 56219
+Niet-EU | 2023JJ00 | A018851 | 9 Niet afzonderlijk genoemde goederen | 29
+Niet-EU | 2024JJ00 | T001082 | Totaal goederen | 434651
+Niet-EU | 2024JJ00 | A018524 | 0 Voeding en levende dieren | 31006
+Niet-EU | 2024JJ00 | A018528 | 1 Dranken en tabak | 1309
+Niet-EU | 2024JJ00 | A018540 | 2 Grondstoffen, niet eetbaar, behalve... | 14231
+Niet-EU | 2024JJ00 | A018591 | 3 Minerale brandstoffen, smeermiddele... | 93131
+Niet-EU | 2024JJ00 | A018612 | 4 Dierlijke en plantaardige oliën en ... | 4272
+Niet-EU | 2024JJ00 | A018629 | 5 Chemische producten | 42569
+Niet-EU | 2024JJ00 | A018678 | 6 Fabricaten hoofdzakelijk gerangschi... | 30611
+Niet-EU | 2024JJ00 | A018743 | 7 Machines en vervoermaterieel | 157732
+Niet-EU | 2024JJ00 | A018809 | 8 Diverse gefabriceerde goederen | 59743
+Niet-EU | 2024JJ00 | A018851 | 9 Niet afzonderlijk genoemde goederen | 47
+Niet-EU | 2025JJ00 | T001082 | Totaal goederen | 445998
+Niet-EU | 2025JJ00 | A018524 | 0 Voeding en levende dieren | 35469
+Niet-EU | 2025JJ00 | A018528 | 1 Dranken en tabak | 1562
+Niet-EU | 2025JJ00 | A018540 | 2 Grondstoffen, niet eetbaar, behalve... | 13762
+Niet-EU | 2025JJ00 | A018591 | 3 Minerale brandstoffen, smeermiddele... | 83567
+Niet-EU | 2025JJ00 | A018612 | 4 Dierlijke en plantaardige oliën en ... | 5302
+Niet-EU | 2025JJ00 | A018629 | 5 Chemische producten | 43715
+Niet-EU | 2025JJ00 | A018678 | 6 Fabricaten hoofdzakelijk gerangschi... | 31158
+Niet-EU | 2025JJ00 | A018743 | 7 Machines en vervoermaterieel | 168222
+Niet-EU | 2025JJ00 | A018809 | 8 Diverse gefabriceerde goederen | 63184
+Niet-EU | 2025JJ00 | A018851 | 9 Niet afzonderlijk genoemde goederen | 57
+Total | 2023JJ00 | T001082 | Totaal goederen | 780164
+Total | 2023JJ00 | A018524 | 0 Voeding en levende dieren | 61461
+Total | 2023JJ00 | A018528 | 1 Dranken en tabak | 6115
+Total | 2023JJ00 | A018540 | 2 Grondstoffen, niet eetbaar, behalve... | 23405
+Total | 2023JJ00 | A018591 | 3 Minerale brandstoffen, smeermiddele... | 148693
+Total | 2023JJ00 | A018612 | 4 Dierlijke en plantaardige oliën en ... | 7607
+Total | 2023JJ00 | A018629 | 5 Chemische producten | 105844
+Total | 2023JJ00 | A018678 | 6 Fabricaten hoofdzakelijk gerangschi... | 69331
+Total | 2023JJ00 | A018743 | 7 Machines en vervoermaterieel | 261178
+Total | 2023JJ00 | A018809 | 8 Diverse gefabriceerde goederen | 96156
+Total | 2023JJ00 | A018851 | 9 Niet afzonderlijk genoemde goederen | 373
+Total | 2024JJ00 | T001082 | Totaal goederen | 754710
+Total | 2024JJ00 | A018524 | 0 Voeding en levende dieren | 66702
+Total | 2024JJ00 | A018528 | 1 Dranken en tabak | 6024
+Total | 2024JJ00 | A018540 | 2 Grondstoffen, niet eetbaar, behalve... | 23138
+Total | 2024JJ00 | A018591 | 3 Minerale brandstoffen, smeermiddele... | 120408
+Total | 2024JJ00 | A018612 | 4 Dierlijke en plantaardige oliën en ... | 7835
+Total | 2024JJ00 | A018629 | 5 Chemische producten | 112272
+Total | 2024JJ00 | A018678 | 6 Fabricaten hoofdzakelijk gerangschi... | 66622
+Total | 2024JJ00 | A018743 | 7 Machines en vervoermaterieel | 250120
+Total | 2024JJ00 | A018809 | 8 Diverse gefabriceerde goederen | 101083
+Total | 2024JJ00 | A018851 | 9 Niet afzonderlijk genoemde goederen | 506
+Total | 2025JJ00 | T001082 | Totaal goederen | 772690
+Total | 2025JJ00 | A018524 | 0 Voeding en levende dieren | 74602
+Total | 2025JJ00 | A018528 | 1 Dranken en tabak | 6277
+Total | 2025JJ00 | A018540 | 2 Grondstoffen, niet eetbaar, behalve... | 23127
+Total | 2025JJ00 | A018591 | 3 Minerale brandstoffen, smeermiddele... | 108426
+Total | 2025JJ00 | A018612 | 4 Dierlijke en plantaardige oliën en ... | 8610
+Total | 2025JJ00 | A018629 | 5 Chemische producten | 114794
+Total | 2025JJ00 | A018678 | 6 Fabricaten hoofdzakelijk gerangschi... | 67336
+Total | 2025JJ00 | A018743 | 7 Machines en vervoermaterieel | 263710
+Total | 2025JJ00 | A018809 | 8 Diverse gefabriceerde goederen | 105225
+Total | 2025JJ00 | A018851 | 9 Niet afzonderlijk genoemde goederen | 584

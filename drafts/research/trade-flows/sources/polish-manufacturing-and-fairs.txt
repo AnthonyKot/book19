@@ -1,0 +1,39 @@
+# Polish Manufacturing Capacity, PAIH Reports, and Trade Fairs
+# Publisher: PAIH (Polska Agencja Inwestycji i Handlu), Trade.gov.pl, Grupa MTP, Targi Kielce
+# Fetch date: 2026-09-03
+# URLs:
+#   - PAIH Brand HUB: https://www.trade.gov.pl
+#   - Meble Polska: https://www.meblepolska.pl
+#   - BUDMA: https://www.budma.pl
+#   - Plastpol: https://www.targikielce.pl/plastpol
+
+## 1. PAIH and Industry Sector Export Capacity
+- Furniture Sector (Sektor meblarski):
+  - Poland ranks as #2 global exporter of furniture (#1 in the EU).
+  - Polish furniture export in 2024 reached ~EUR 16.2 billion.
+  - PAIH runs the "Umiędzynarodowienie MŚP – BRAND HUB" (2024–2029) supporting export of furniture and interior finishings.
+  - Major destinations: Germany, Czechia, France, Netherlands, UK, US.
+
+- Window and Door Joinery (Sektor stolarki budowlanej / otworowej):
+  - Poland is the #2 global exporter of windows and doors (behind China) and the undisputed #1 exporter in the EU.
+  - Polish joinery export value reached ~EUR 3.9 billion in 2024.
+  - Over 10.8 million plastic (PVC) window and door units produced in 2025 (GUS).
+  - PAIH supports internationalization via the Forum Eksporterów Stolarki Budowlanej and foreign trade offices (ZBH).
+
+- Fabricated Metal Products & Structures:
+  - Sold production of structural metal products (PKWiU 25.1) exceeded 36.5 billion PLN in 2025 (GUS).
+  - Production of metal joinery (PKWiU 25.12) reached 5.67 billion PLN (+12.2% 2023-2025).
+
+## 2. Key Polish B2B Industrial Trade Fairs (Contracting Hubs)
+- Meble Polska (Grupa MTP, Poznań):
+  - Largest B2B furniture contracting fair in Central and Eastern Europe.
+  - February 2025 edition: Exhibitors from 17 countries, professional buyers from 71 countries (>50% foreign buyers).
+  - February 24–27, 2026 edition: Primary contracting platform for EU furniture retail chains and distributors.
+
+- BUDMA (Grupa MTP, Poznań) - International Construction and Architecture Fair:
+  - February 11–14, 2025: >600 exhibitors from 27 countries, ~30,000 visitors from 40 countries.
+  - February 3–6, 2026: Focused on prefabrication, PVC/aluminium architectural systems, industrial joinery, modular construction.
+
+- Plastpol (Targi Kielce) - International Fair of Plastics and Rubber Processing:
+  - May 20–23, 2025: 600 companies from 30 countries.
+  - May 19–22, 2026 (30th jubilee edition): 600 exhibitors from >30 countries, participants from ~50 nations. Focus on circular economy, technical polymers, thermoforming, injection molding.

@@ -1,0 +1,14 @@
+Source: https://eur-lex.europa.eu/eli/reg/2025/40/oj
+Publisher: EUR-Lex (European Union)
+Fetch date: 2026-09-03
+Title: Regulation (EU) 2025/40 on packaging and packaging waste (PPWR)
+
+Key Excerpts:
+"Entry into force: 11 February 2025.
+General application: 12 August 2026 (18 months after entry into force).
+Key dated obligations 2026-2028:
+- 12 August 2026: General application of packaging reduction, substances restrictions (PFAS in food contact packaging), and recyclability design requirements.
+- 12 February 2027 (Art. 28): HORECA sector takeaway food/beverage providers must allow consumers to bring their own containers without charge.
+- 1 January 2028: Phased introduction of harmonised EU sorting labels and return pictograms on packaging.
+- 1 January 2030: Mandatory binding reuse targets (e.g., 40% of transport packaging, e-commerce packaging, pallet wrapping; 10% reusable beverage packaging) and 100% recyclable packaging mandate.
+Obligated parties: Packaging manufacturers, brand owners, importers, distributors, HORECA businesses, e-commerce fulfillment centers."

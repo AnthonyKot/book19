@@ -1,0 +1,45 @@
+# Dutch Market Structure, Importer Concentration, and Trade Body Excerpts
+# Publishers: CBS (Centraal Bureau voor de Statistiek), VMRG, Fedet / NLA, LightingEurope
+# Fetch date: 2026-09-03
+# URLs:
+#   - CBS Nederland Handelsland 2025: https://longreads.cbs.nl/nederland-handelsland-2025/
+#   - VMRG: https://www.vmrg.nl
+#   - Fedet / NLA: https://www.fedet.nl/secties/nla/
+
+## 1. CBS Importer Concentration Findings (Nederland Handelsland 2025)
+- Overall import value in 2024: EUR 585.8 billion (down 3.3% from 2023 due to price declines, volume +0.3%).
+- Re-exports represent 35% of total import value (EUR 277 billion in 2023).
+- Top 5 import partner concentration:
+  - Germany, US, Belgium, China, and UK account for 50.0% of total Dutch goods imports (+0.6 percentage points vs 2023).
+  - Chemical products (58.0%), transport equipment (55.7%), and machinery (54.5%) show highest concentration among top 5 partners.
+  - Manufactured goods (SITC 6 and 8), building materials, and fabricated metal/plastics show high geographic and enterprise fragmentation.
+- Poland is the #10 goods supplier to NL (EUR 13.59 billion in 2024; EUR 15.84B in Eurostat Comext).
+
+## 2. Sector Market Structure: Dominated vs. Fragmented
+
+### A. Architectural Joinery & Building Systems (HS 7610 Aluminium, HS 3925 PVC)
+- Structure: FRAGMENTED on the importing/distributing side.
+- Dutch trade body: VMRG (Vereniging Metalen Ramen en Gevelbranche) enforces VMRG-Kwaliteitseisen and CE marking under CPR.
+- Regulatory trigger: The Dutch Wet kwaliteitsborging voor het bouwen (Wkb) took effect in 2024, mandating complete technical dossiers (dossier bevoegd gezag / consumentendossier), DoP (Declaration of Performance), and BENG energy calculations for all building elements installed by contractors.
+- Dynamic: Over 1,500 regional facade builders, renovation firms, and installation contractors source project-by-project. Polish mega-fabricators (Eko-Okna, Drutex, Oknoplast, Aluprof fabricators) supply custom dimensions with 2-3 week lead times. No single importer controls >10% of Dutch distribution.
+
+### B. Commercial & Industrial LED Luminaires (HS 9405)
+- Structure: FRAGMENTED in commercial/project specification.
+- Trade body: Fedet | NLA (Nederlandse Licht Associatie), LightingEurope, LightRec (WEEE compliance).
+- Dynamic: While retail consumer lighting is brand-dominated, commercial/industrial lighting (logistics warehouses, offices, sports halls, horticulture) is driven by installation companies (installateurs like Equans, SPIE, Croonwolter&dros, Unica, and mid-sized regional E-installateurs) buying via technical wholesalers (Technische Unie, Rexel, Oosterberg) or direct project distributors. Polish manufacturers (Lena Lighting, LUG Light Factory, Kanlux) provide ENEC/CE-certified luminaires at 30-40% lower cost than western incumbents.
+- Compliance: EcoDesign / Energy Labelling (EPREL), WEEE EPR via LightRec, and CRA ((EU) 2024/2847) for smart IoT/DALI connected controllers.
+
+### C. Structural Steel & Metal Fabrications (HS 7308, HS 7326)
+- Structure: HIGHLY FRAGMENTED.
+- Dynamic: Sourced by solar EPC contractors (mounting structures), warehouse racking developers, greenhouse builders, and agricultural shed contractors.
+- Compliance: CPR EN 1090-1/2 (Execution Class EXC2/EXC3), factory production control (FPC), welder ISO 9606 certs, EN 10204 3.1 material test certificates, and CBAM (EU Carbon Border Adjustment Mechanism) carbon footprint documentation.
+
+### D. Connected Industrial Electronics & Edge Computing (HS 8471, 8517, 8473)
+- Structure: BIMODAL. Mass consumer laptops and servers are 100% dominated by OEMs (Dell Łódź, Apple, HP, Lenovo). Industrial IoT gateways, DIN-rail edge computers, LoRaWAN/cellular routers, and network appliances are distributed through specialized industrial automation value-added distributors (VADs).
+- Compliance: CRA ((EU) 2024/2847) enforces CE marking, mandatory SBOM, vulnerability disclosure, and EU Importer liability starting September 2026. Non-EU manufacturers (Taiwan, China, US) require an EU Authorized Representative / Importer of Record.
+
+### E. B2B Contract Furniture & Acoustic Pods (HS 9401, 9403)
+- Structure: MODERATELY FRAGMENTED.
+- Trade body: Koninklijke CBM (Branchevereniging voor interieurbouw en meubelindustrie).
+- Dynamic: Commercial fit-out dealers (projectinrichters like Ahrend, Gispen, Lensvelt, Alvero, and independent workplace consultants) specify ergonomic workstations, acoustic booths, and breakout seating. Polish makers (Nowy Styl, Mikomax/HushOffice, Bejot) lead European contract production.
+- Compliance: EUDR (EU Deforestation Regulation 2023/1115), ESPR / DPP (Digital Product Passport), PPWR packaging EPR.

@@ -1,0 +1,13 @@
+Source: https://eur-lex.europa.eu/eli/reg/2023/1115/oj
+Publisher: EUR-Lex (European Union)
+Fetch date: 2026-09-03
+Title: Regulation (EU) 2023/1115 on deforestation-free products (EUDR)
+
+Key Excerpts:
+"Scope: 7 commodities and derived products: cattle, cocoa, coffee, oil palm, rubber, soya, wood.
+Application timeline (post-amendment):
+- Large and medium-sized operators: 30 December 2025 / 30 December 2026.
+- Micro and small enterprises: 30 June 2026 / 30 June 2027.
+Obligated parties: Importers and traders placing relevant commodities on the EU market.
+Work created: Geolocation mapping of plots of land, Due Diligence Statements (DDS) submitted to the EU Traces system, timber legality and wood species anatomical identification audits.
+Physical work: Physical container sampling and microscopic/macroscopic wood species testing (performed by NVWA/Customs or ISO-accredited testing laboratories)."

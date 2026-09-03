@@ -1,0 +1,13 @@
+Source: https://eur-lex.europa.eu/eli/reg/2023/956/oj
+Publisher: EUR-Lex (European Union)
+Fetch date: 2026-09-03
+Title: Regulation (EU) 2023/956 establishing a carbon border adjustment mechanism (CBAM)
+
+Key Excerpts:
+"Timeline:
+- Transitional period: 1 October 2023 to 31 December 2025 (reporting without financial adjustment).
+- Definitive regime entry into force: 1 January 2026.
+Obligated parties: Importers of goods in 6 carbon-intensive sectors: iron and steel, aluminium, cement, fertilisers, electricity, hydrogen.
+Requirements: Importers must hold authorized CBAM declarant status, register in CBAM Registry, calculate embedded emissions (direct and indirect), purchase CBAM certificates, and submit an annual CBAM declaration by 31 May each year (first full declaration due May 2027).
+Verification: Embedded emissions must be verified by an independent accredited verifier under EN ISO 14065 and Commission Implementing Regulation (EU) 2018/2067.
+Work type: Predominantly carbon accounting, customs data verification, and on-site industrial plant verification audits at overseas manufacturing facilities."
