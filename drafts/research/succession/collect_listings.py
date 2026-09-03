@@ -54,6 +54,14 @@ def retirement(text: str) -> str:
     return "yes" if any(re.search(p, text, re.I) for p in pats) else "no"
 
 
+def retirement_evidence(text: str) -> str:
+    for pat in [r"pensioen\w*", r"pensionering", r"wegens leeftijd", r"vanwege (?:de )?leeftijd", r"gezien (?:de )?leeftijd", r"ouderdom", r"bedrijfsopvolging"]:
+        match = re.search(pat, text, re.I)
+        if match:
+            return compact(text[max(0, match.start() - 70) : match.end() + 90], 180)
+    return "none"
+
+
 def next_line(lines: list[str], label: str) -> str:
     for i, line in enumerate(lines):
         if line.strip().casefold() == label.casefold():
@@ -154,6 +162,7 @@ def bt_sample() -> tuple[list[dict], str]:
             f"Fetch date: {FETCH_DATE}\nTitle: {title}\nExtracted fields: region={row['region']}; "
             f"ask={row['asking_price_eur_or_band']}; revenue={row['revenue']}; profit={row['profit']}; "
             f"staff={row['staff']}; retirement stated={row['retirement_stated']}\n"
+            f"Retirement evidence: {retirement_evidence(desc)}\n"
             f"Public listing excerpt: {compact(desc)}\n"
         )
         time.sleep(0.05)
@@ -208,6 +217,7 @@ def brookz_sample() -> tuple[list[dict], str]:
             f"Fetch date: {FETCH_DATE}\nTitle: {row['title']}\nExtracted fields: region={row['region']}; "
             f"ask={row['asking_price_eur_or_band']}; revenue={row['revenue']}; profit={row['profit']}; "
             f"staff={row['staff']}; retirement stated={row['retirement_stated']}\n"
+            f"Retirement evidence: {retirement_evidence(main)}\n"
             f"Public listing excerpt: {compact(main)}\n"
         )
         time.sleep(0.05)
@@ -297,6 +307,7 @@ def marktplaats_sample() -> tuple[list[dict], str]:
             f"Fetch date: {FETCH_DATE}\nTitle: {row['title']}\nExtracted fields: region={row['region']}; "
             f"ask={row['asking_price_eur_or_band']}; revenue={row['revenue']}; profit={row['profit']}; "
             f"staff={row['staff']}; retirement stated={row['retirement_stated']}\n"
+            f"Retirement evidence: {retirement_evidence(desc)}\n"
             f"Public listing excerpt: {compact(desc)}\n"
         )
         time.sleep(0.05)
