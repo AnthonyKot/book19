@@ -49,7 +49,7 @@ INDIEGOGO_PHYSICAL = {
 }
 PROVEN_FIELDS = [
     "platform", "project_id", "title", "creator", "country", "year", "category",
-    "parent_category", "raised_usd", "backers", "currency", "state",
+    "parent_category", "launched_date", "deadline_date", "raised_usd", "backers", "currency", "state",
     "compliance_flags", "url", "source_archive", "amount_basis", "backers_basis",
 ]
 
@@ -76,6 +76,14 @@ def unix_year(value: str | None) -> int | None:
         return datetime.fromtimestamp(stamp, tz=timezone.utc).year
     except (TypeError, ValueError, OSError):
         return None
+
+
+def unix_date(value: str | None) -> str:
+    try:
+        stamp = float(value or 0)
+        return datetime.fromtimestamp(stamp, tz=timezone.utc).date().isoformat() if stamp > 0 else ""
+    except (TypeError, ValueError, OSError):
+        return ""
 
 
 def iso_year(value: str | None) -> int | None:
@@ -139,6 +147,8 @@ def read_kickstarter() -> tuple[dict[str, dict], dict[str, int]]:
                             "year": year,
                             "category": category.get("name", "Unknown"),
                             "parent_category": category.get("parent_name") or category.get("name", "Unknown"),
+                            "launched_date": unix_date(row.get("launched_at")),
+                            "deadline_date": unix_date(row.get("deadline")),
                             "state": row.get("state", ""),
                             "raised_usd": as_int(row.get("converted_pledged_amount")),
                             "backers": as_int(row.get("backers_count")),
@@ -187,6 +197,8 @@ def read_indiegogo() -> tuple[dict[str, dict], dict[str, int]]:
                     "year": year,
                     "category": category,
                     "parent_category": category,
+                    "launched_date": row.get("open_date", ""),
+                    "deadline_date": close_date,
                     "state": state,
                     "raised_usd": as_int(row.get("funds_raised_amount")) if row.get("currency") == "USD" else 0,
                     "raised_native": as_int(row.get("funds_raised_amount")),

@@ -51,4 +51,5 @@ The structured version of these checks is `resources/data/eu-seller-checks.csv`.
 ## Additional candidate-channel checks
 
 - **COFO Chair Pro 2.** The global maker page offers the chair in USD and the Japan shop plus its store list show Japanese channels. Exact-title searches with the EU terms above returned no European retailer or distributor. URLs: https://cofoglobal.com/products/cofo-chair-pro-2 ; https://cofo.jp/pages/shoplist_new . Fetch date: 2026-09-03.
+- **il modo Air wallet.** The maker shop and a 2026 retail announcement show Japanese pricing and Japanese stores; the maker's premium-product page also reports a completed Taiwan crowdfunding sale. Exact-title searches with the EU terms above returned no European seller; unrelated audio products sharing the name were discarded. URLs: https://statusy.jp/pages/ilmodoair ; https://statusy.jp/pages/il-modo-air-premium ; https://www.store.artphere.com/blogs/news/statusy-fair202604 . Fetch date: 2026-09-03.
 - **iFLYTEK AINOTE Air 2.** Not a gap: official German store lists the exact product for EUR 444. URL: https://de.iflytek.com/products/iflytek-ainote-air-2 . Fetch date: 2026-09-03.
