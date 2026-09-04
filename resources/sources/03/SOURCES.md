@@ -1,6 +1,6 @@
 # Essay 3 — source index
 
-Accessed 2026-09-04. Manufacturer, broker and dealer pages support only the services and materials they market. They do not establish customer outcomes, market share or willingness to pay. Every checked claim has its own saved excerpt.
+Sources were first accessed 2026-09-04; the KRS record was accessed and all checked rows were reviewed 2026-09-05. Manufacturer, broker and dealer pages support only the services and materials they market. They do not establish customer outcomes, market share or willingness to pay. Every checked claim has its own saved excerpt.
 
 1. **Informatiepunt Leefomgeving, “Wet kwaliteitsborging voor het bouwen (Wkb).”**  
    URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/wet-kwaliteitsborging-bouwen-wkb/  
@@ -10,7 +10,7 @@ Accessed 2026-09-04. Manufacturer, broker and dealer pages support only the serv
 2. **Informatiepunt Leefomgeving, “Bouwmelding en gereedmelding bij de technische bouwactiviteit.”**  
    URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/plichten/melding-bouwactiviteit/  
    Excerpt: `excerpts/03-completion-dossier.txt`.  
-   Supports: the completion notification, its defined authority-dossier contents and the consequence of incompleteness (`03-completion-dossier`).
+   Supports: construction-stage assurance and reporting, the post-construction statement, the completion notification, its defined contents and the consequence of incompleteness (`03-completion-dossier`).
 
 3. **Informatiepunt Leefomgeving, “Consumentendossier (opleverdossier) en Wet kwaliteitsborging voor het bouwen.”**  
    URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/privaatrecht-wet-kwaliteitsborging/consumentendossier-opleverdossier-wkb/  
@@ -52,20 +52,25 @@ Accessed 2026-09-04. Manufacturer, broker and dealer pages support only the serv
     Excerpt: `excerpts/03-fenbro-model.txt`.  
     Supports: the firm's own history and bundled cross-border joinery offer (`03-fenbro-model`).
 
-11. **UK Companies House, FENBRO LTD, company number 16295546 — officers and filing history.**  
+11. **Polish Ministry of Justice, current KRS extract for FENBRO Sp. z o.o., KRS 0000947765.**  
+    URL: https://api-krs.ms.gov.pl/api/krs/OdpisAktualny/0000947765?rejestr=P&format=json  
+    Excerpt: `excerpts/03-fenbro-krs.txt`.  
+    Supports: the Polish company's registration, Warsaw address and registered joinery and building-material agency activities (`03-fenbro-krs`).
+
+12. **UK Companies House, FENBRO LTD, company number 16295546 — officers and filing history.**  
     URLs: https://find-and-update.company-information.service.gov.uk/company/16295546/officers and https://find-and-update.company-information.service.gov.uk/company/16295546/filing-history  
     Excerpts: `excerpts/03-fenbro-trace.txt` and `excerpts/03-fenbro-dormant.txt`.  
-    Supports: the director/address link and dormant-account caveat (`03-fenbro-trace`, `03-fenbro-dormant`). This independent trace confirms a same-address legal entity, not trading success.
+    Supports: the UK company's directors/address and dormant-account caveat (`03-fenbro-trace`, `03-fenbro-dormant`). Read with KRS, the records establish a shared name and address but no disclosed corporate relationship (`03-fenbro-relationship`).
 
-12. **Kozijnen Unie, homepage.**  
+13. **Kozijnen Unie, homepage.**  
     URL: https://www.kozijnenunie.nl/  
     Excerpt: `excerpts/03-dutch-dealer.txt`.  
-    Supports: the Dutch dealer's marketed supply, guidance, language and installation bundle (`03-dutch-dealer`).
+    Supports: the Dutch dealer's marketed supply, Dutch-language staff and installation bundle (`03-dutch-dealer`).
 
-13. **Toelatingsorganisatie Kwaliteitsborging Bouw, “Verklaring kwaliteitsborger.”**  
+14. **Toelatingsorganisatie Kwaliteitsborging Bouw, “Verklaring kwaliteitsborger.”**  
     URL: https://www.tlokb.nl/wet-kwaliteitsborging/verklaring  
     No checked excerpt; used only for the role-boundary inference that the proposed coordinator does not issue the quality assurer's reserved statement (`03-language-gate`).
 
 ## Evidence boundary
 
-No public source found reports the pitch's load-bearing denominator: Polish-origin orders reviewed by Dutch quality assurers, together with the count rejected or delayed for an unusable CPR or EN 1090 evidence file. No source shows a builder paying a separate dossier fee. The essay therefore does not convert import values, Wkb scope or document libraries into paid demand. Those two facts remain the field experiment.
+No public source found reports the launch denominator: Polish-origin, non-fire-rated exterior-joinery orders in new consequence-class-1 projects, together with the count inadequate on first review. No source shows a builder paying a separate dossier fee. The essay therefore does not convert import values, Wkb scope or document libraries into paid demand. Those two facts remain the field experiment. Steel requires a separate denominator and is outside this launch test.

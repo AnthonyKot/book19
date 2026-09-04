@@ -1,0 +1,27 @@
+URL: https://api-krs.ms.gov.pl/api/krs/OdpisAktualny/0000947765?rejestr=P&format=json
+Fetched: 2026-09-05
+
+Verbatim passage:
+
+“numerKRS”: “0000947765”
+“dataRejestracjiWKRS”: “20.01.2022”
+
+“formaPrawna”: “SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ”
+“nazwa”: “FENBRO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ”
+
+“ulica”: “UL. LUDNA”
+“nrDomu”: “2”
+“nrLokalu”: “320”
+“miejscowosc”: “WARSZAWA”
+“kodPocztowy”: “00-406”
+“kraj”: “POLSKA”
+
+“opis”: “ZAKŁADANIE STOLARKI BUDOWLANEJ”
+“kodDzial”: “43”
+“kodKlasa”: “32”
+“kodPodklasa”: “Z”
+
+“opis”: “DZIAŁALNOŚĆ AGENTÓW ZAJMUJĄCYCH SIĘ SPRZEDAŻĄ DREWNA I MATERIAŁÓW BUDOWLANYCH”
+“kodDzial”: “46”
+“kodKlasa”: “13”
+“kodPodklasa”: “Z”
