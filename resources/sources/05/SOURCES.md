@@ -20,7 +20,7 @@ Accessed 2026-09-04. Marketplace counts are a one-day snapshot. Broker, lender a
 
 5. **Shawbrook, “Euston Ventures completes acquisition of Hammond Chemicals.”**  
    URL: https://www.shawbrook.co.uk/business/news-case-studies/case-studies/euston-ventures-completes-acquisition-of-hammond-chemicals-with-support-from-shawbrook/  
-   Excerpt: `excerpts/05-precedent-deal.txt`. Supports the acquisition, incoming CEO and retained family leadership (`05-precedent-deal`).
+   Excerpt: `excerpts/05-precedent-deal.txt`. Supports the lender-described acquisition, Hammond's activities, incoming CEO, retained family leadership and Shawbrook support (`05-precedent-deal`).
 
 6. **Companies House, Hammond Chemicals Limited, company 00964829.**  
    URL: https://find-and-update.company-information.service.gov.uk/company/00964829  
@@ -56,4 +56,4 @@ Accessed 2026-09-04. Marketplace counts are a one-day snapshot. Broker, lender a
 
 ## Evidence boundary
 
-The public record settles the current Qredits product ceiling, rate, fee and ordinary term language. Its currently linked general conditions also require company collateral and a director guarantee for joint liability. The record does not settle approval or the personal-recourse cap in a specific offer. BMKB is a guarantee used by a financier, not committed proceeds. No public source can establish a target's replacement-adjusted cash flow, customer transfer, normal stock level or seller-note acceptance. Those remain explicit paid-test and diligence gates. The Hammond transaction traces the operating pattern, not a comparable purchase price.
+The public record settles the current Qredits product ceiling, rate, fee and ordinary term language. Its currently linked general conditions also require company collateral and a director guarantee for joint liability. The record does not settle approval, an acquisition-specific ten-year term or the personal-recourse cap in a specific offer. BMKB is a guarantee used by a financier, not committed proceeds. No public source can establish a target's replacement-adjusted cash flow, customer transfer, normal stock level or seller-note acceptance. Those remain explicit paid-test and diligence gates. The Hammond records illustrate incoming and retained leadership. They do not independently verify the transaction structure, publish target cash flow or provide a comparable purchase price.

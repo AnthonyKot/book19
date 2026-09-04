@@ -1,6 +1,6 @@
 # Essay 2 — source index
 
-Live research accessed 2026-09-04. Official legal and operating sources are used first. Vendor pages establish marketed scope, not price, customer outcome or market share. Each checked claim has exactly one saved excerpt.
+Initial live research was accessed 2026-09-04; review repairs were accessed 2026-09-05. Official legal and operating sources are used first. Vendor pages establish marketed scope, not price, customer outcome or market share. Each checked claim has exactly one saved excerpt.
 
 1. **Nederlandse Emissieautoriteit, “Hoe werkt de ondergrens van 50 ton?”**
    URL: https://www.emissieautoriteit.nl/vraag-en-antwoord/faq-cbam/hoe-werkt-de-ondergrens-van-50-ton
@@ -28,9 +28,9 @@ Live research accessed 2026-09-04. Official legal and operating sources are used
 
 5. **Nederlandse Emissieautoriteit, “CBAM-aangifte met standaardwaarden.”**
    URL: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden
-   Accessed: 2026-09-04.
+   Accessed: 2026-09-05.
    Excerpt: `excerpts/02-default-route.txt`.
-   Supports: the no-verification default route, its usual cost direction and the enacted uplifts (`02-default-route`).
+   Supports: the no-verification default route, its usual cost direction, the enacted uplifts, registry inclusion and the NEa cost calculator (`02-default-route`).
 
 6. **Nederlandse Emissieautoriteit, “CBAM-aangifte” and “Accreditatie en verificatie.”**
    URLs: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte and https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-werkelijke-gegevens/accreditatie-en-verificatie
@@ -62,11 +62,11 @@ Live research accessed 2026-09-04. Official legal and operating sources are used
    Excerpt: `excerpts/02-english-report.txt`.
    Supports: English as the required language of the operator's emissions report (`02-english-report`).
 
-11. **European Commission, 2026 report on EUDR simplification.**
-   URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026DC0191
-   Accessed: 2026-09-04.
-   Excerpt: `excerpts/02-eudr-revision.txt`.
-   Supports: the enacted December 2025 delay and the narrowed downstream statement workflow (`02-eudr-revision`).
+11. **European Union, Regulation (EU) 2025/2650 amending EUDR.**
+    URL: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32025R2650
+    Accessed: 2026-09-05.
+    Excerpt: `excerpts/02-eudr-revision.txt`.
+    Supports: the enacted dates and the replacement of repeated downstream statements with information-collection and retention duties (`02-eudr-revision`).
 
 12. **European Union, consolidated Regulation (EU) 2023/1115 on deforestation-free products.**
     URL: https://eur-lex.europa.eu/eli/reg/2023/1115
@@ -82,9 +82,9 @@ Live research accessed 2026-09-04. Official legal and operating sources are used
 
 14. **State Forest Resources Agency of Ukraine, “EU Regulation EUDR: how Ukraine is preparing for new export conditions.”**
     URL: https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions
-    Accessed: 2026-09-04.
+    Accessed: 2026-09-05.
     Excerpt: `excerpts/02-ukraine-system.txt`.
-    Supports: the agency's account of current timber traceability, users and available documents (`02-ukraine-system`). This is a government description of its own system, not an independent performance audit.
+    Supports: the publication date and the agency's presentation of tracking and legality services in response to a harvest-site geolocation question (`02-ukraine-system`). This is a government description of its own system, not an independent performance audit or proof of a named geolocation function.
 
 15. **Ingdilligenz, “CBAM-Beratung.”**
     URL: https://ingdilligenz.de/cbam-beratung/
@@ -96,7 +96,7 @@ Live research accessed 2026-09-04. Official legal and operating sources are used
     URL: https://www.unternehmen24.info/Handelsregister/Deutschland/Handelsregisterauszug/Firma/4959350
     Accessed: 2026-09-04.
     Excerpt: `excerpts/02-precedent-trace.txt`.
-    Supports: the independent company trace, register number, formation date and stated capital (`02-precedent-trace`).
+    Supports: the independent company trace, register number, articles date, notice publication date and stated capital (`02-precedent-trace`).
 
 17. **Customs Support Group, “Compliance Consulting.”**
     URL: https://www.customssupport.com/solutions/compliance-reporting/

@@ -17,17 +17,19 @@ Live research accessed 2026-09-05. Legal claims use enacted official texts. Vend
 3. **European Union, Commission Regulation (EU) 2020/1149, REACH Annex XVII entry 74.**
    URL: https://eur-lex.europa.eu/eli/reg/2020/1149
    Accessed: 2026-09-05.
+   Retrieval copy read for revision: https://publications.europa.eu/resource/celex/32020R1149 (English XHTML representation).
    Excerpts: `excerpts/04-reach-duty.txt`, `excerpts/04-reach-detail.txt`.
-   Supports: the 0.1% threshold, 24 August 2023 use restriction, process-specific training levels, official-language materials, employer documentation and five-year renewal (`04-reach-duty`, `04-reach-detail`).
+   Supports: the 0.1% threshold, 24 August 2023 use restriction, competent-expert course gate, process-specific training levels, official-language materials, employer documentation and five-year renewal (`04-reach-duty`, `04-reach-detail`).
 
 4. **Dutch Labour Inspectorate, “Stap 2: Beoordelen.”**
    URL: https://www.nlarbeidsinspectie.nl/onderwerpen/toelichting-zelfinspectie-werken-met-gevaarlijke-stoffen/beoordelen
    Accessed: 2026-09-05.
    Excerpts: `excerpts/04-assessment-method.txt`, `excerpts/04-expert-gate.txt`.
-   Supports: model-or-measurement path, reporting, possible multi-day measurements and the occupational-hygienist-level expertise gate (`04-assessment-method`, `04-expert-gate`).
+   Supports: model-or-measurement path, reporting, expert model selection and interpretation, possible multi-day measurements and the occupational-hygienist-level expertise gate (`04-assessment-method`, `04-expert-gate`).
 
 5. **Dutch Labour Inspectorate, “Blootstelling gevaarlijke stoffen bij composietbedrijven.”**
    URL: https://www.nlarbeidsinspectie.nl/binaries/nlarbeidsinspectie/documenten/rapporten/2021/03/23/blootstelling-gevaarlijke-stoffen-bij-composietbedrijven/Blootstelling%2Bgevaarlijke%2Bstoffen%2Bbij%2Bcomposietbedrijven.pdf
+   Retrieval copy read for revision: https://web.archive.org/web/20230522025025id_/https://www.nlarbeidsinspectie.nl/binaries/nlarbeidsinspectie/documenten/rapporten/2021/03/23/blootstelling-gevaarlijke-stoffen-bij-composietbedrijven/Blootstelling+gevaarlijke+stoffen+bij+composietbedrijven.pdf (the current official file URL returned 404).
    Accessed: 2026-09-05.
    Excerpts: `excerpts/04-enforcement.txt`, `excerpts/04-enforcement-response.txt`.
    Supports: adjacent-sector inspection outcomes and recorded corrective behaviour (`04-enforcement`, `04-enforcement-response`). It is not treated as a current survey of spray contractors or payment evidence.
@@ -48,7 +50,7 @@ Live research accessed 2026-09-05. Legal claims use enacted official texts. Vend
    URL: https://www.sgssearch.nl/diensten/blootstellingsonderzoek/blootstellingsmetingen.html
    Accessed: 2026-09-05.
    Excerpt: `excerpts/04-sgs-offer.txt`.
-   Supports: the incumbent's marketed measurement, analysis and reporting surface and quotation route (`04-sgs-offer`). Also one input to the bundling evidence boundary (`04-bundle-boundary`).
+   Supports: the incumbent's marketed scope selection, measurement, analysis, interpretation and reporting surface and quotation route (`04-sgs-offer`). Also one input to the bundling evidence boundary (`04-bundle-boundary`).
 
 9. **KWA, “Blootstellingsonderzoek gevaarlijke stoffen, hoe werkt dat?”**
    URL: https://www.kwa.nl/nieuws/blootstellingsonderzoeken-gevaarlijke-stoffen--hoe-werkt-dat-
@@ -76,7 +78,7 @@ Live research accessed 2026-09-05. Legal claims use enacted official texts. Vend
 
 ## Evidence boundary
 
-The public record did not settle the pitch's requested count of Dutch firms using diisocyanates in spray form or the share holding current training records. The Health Council documented the historical registration gap; the current NVPU directory covers members and only one application segment. CBS business classifications do not identify chemical use, and REACH places completion records with each employer. A current cross-trade national total is therefore not inferred (`04-count-boundary`).
+The public record did not settle the pitch's requested count of Dutch firms using diisocyanates in spray form or the share holding current training records. The Health Council documented the historical registration gap; the current NVPU directory covers members and only one application segment. Those views do not aggregate the other spray trades, and REACH places completion records with each employer. A current cross-trade national total is therefore not inferred (`04-count-boundary`).
 
 The public record also did not settle the pitch's bundling kill fact. ArboNed publishes paid expert blocks and SGS requests quotations for exposure studies, but neither page discloses existing-customer bundles or a comparable diisocyanate crew-file price. Absence of a public free offer is not proof that bundling does not occur (`04-bundle-boundary`). No source establishes payment at the essay's price hurdles, a Dutch hygienist's willingness to share the customer, or annual demand for change reviews. Those remain the ninety-day gates.
 

@@ -1,10 +1,20 @@
 URL: https://zoek.officielebekendmakingen.nl/stcrt-2026-29952.html
-Fetch date: 2026-09-05
+Fetch date: 2026-09-04
 Verbatim passage:
 
-Gemiddeld aantal DIA’s werkzaam per vestiging per certificatiejaar | Totaal aantal asbestinventarisatierapporten per certificatiejaar van de vestiging | Totaal aantal beoordelingen per certificatiejaar door de certificerende instelling
+Artikel 64. Beoordelingen op projectlocaties asbestinventarisatiebedrijf
 
-1–2 | < 500 | 4
-3–5 | 500–1100 | 6
-6–8 | 1100–1600 | 9
-> 8 | > 1600 | 12
+1. De certificerende instelling voert per vestiging van een Certificaathouder Procescertificaat Asbestinventarisatie in ieder certificatiejaar een aantal aangekondigde beoordelingen en een aantal onaangekondigde beoordelingen op projectlocaties uit.
+
+2. De certificerende instelling bepaalt hoeveel aangekondigde beoordelingen en onaangekondigde beoordelingen per vestiging op de projectlocaties plaatsvinden op basis van het gemiddeld aantal DIA’s werkzaam op een vestiging in één certificatiejaar en het aantal asbestinventarisatierapporten dat door die vestiging in één certificatiejaar wordt opgesteld overeenkomstig onderstaande tabel.
+
+Gemiddeld aantal DIA’s werkzaam per vestiging per certificatiejaar | Totaal aantal asbestinventarisatierapporten per certificatiejaar van de vestiging | Totaal aantal beoordelingen per certificatiejaar door de certificerende instelling | Aantal onaangekondigde beoordelingen per certificatiejaar | Aantal aangekondigde beoordelingen per certificatiejaar
+
+1–2 | < 500 | 4 | 3 | 1
+3–5 | 500–1100 | 6 | 4 | 2
+6–8 | 1100–1600 | 9 | 6 | 3
+> 8 | > 1600 | 12 | 8 | 4
+
+3. Voor de vaststelling van het gemiddelde aantal DIA’s, bedoeld in het tweede lid, wordt uitgegaan van alle DIA’s die al dan niet op basis van een arbeidsovereenkomst op een vestiging voor de Certificaathouder werkzaam zijn.
+
+4. Het aantal per certificatiejaar uit te voeren aangekondigde en onaangekondigde beoordelingen per vestiging wordt bepaald door het criterium dat tot het hoogste aantal beoordelingen leidt.

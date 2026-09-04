@@ -1,7 +1,13 @@
 URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/sloopactiviteit/asbestinventarisatieplicht/
-Fetch date: 2026-09-05
+Fetch date: 2026-09-04
 Verbatim passage:
 
 Degene die sloopwerkzaamheden uitvoert of laat uitvoeren, moet een asbestinventarisatierapport hebben (artikel 7.9 Bbl). Dat geldt voor het te slopen deel van het bouwwerk waarvan diegene weet of kan vermoeden dat er asbest in zit. In gebouwen voor 1994 bestaat het vermoeden dat er asbest is toegepast.
 
-Een asbestinventarisatierapport is niet verplicht bij het slopen van een (deel van een) bouwwerk dat na 1 januari 1994 is gebouwd.
+Een asbestinventarisatierapport is niet verplicht bij het slopen van een (deel van een) bouwwerk dat na 1 januari 1994 is gebouwd. Een asbestinventarisatierapport is ook niet verplicht als het voldoet aan de voorwaarden die staan bij Asbestverwijdering door niet-gecertificeerd bedrijf en Verwijdering van asbesthoudende materialen door particulieren.
+
+Dit staat in artikel 7.9, lid 2 van het Bbl.
+
+Afschrift rapport aan opdrachtnemer
+
+Degene die sloopwerkzaamheden laat uitvoeren (opdrachtgever) moet aan degene die de sloopwerkzaamheden uitvoert (opdrachtnemer), een afschrift van het asbestinventarisatierapport geven. Dat moet gebeuren vóór het verwijderen van het asbest (artikel 7.9, lid 3 Bbl).

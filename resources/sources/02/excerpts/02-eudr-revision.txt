@@ -1,7 +1,21 @@
-URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026DC0191
-Fetch date: 2026-09-04
+URL: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32025R2650
+Fetch date: 2026-09-05
 Verbatim passage:
 
-On 19 December 2025, the European Parliament and the Council adopted a revised EUDR, adding an extra period before the entry into application and introducing some changes on substance. All companies, whether in the EU or elsewhere, received one more year to prepare for entry into application. More specifically, the EUDR will enter into application on 30 December 2026 with regard to all companies except for most micro- or small operators, for which the entry into application is 30 June 2027.
+(5) In order to provide legal clarity in downstream supply chains, and to reduce further reporting requirements and the corresponding load of the information system, a new category of ‘downstream operator’ should be introduced. The obligations on such downstream operators should be identical to those applicable to traders. Neither downstream operators nor traders should be required to ascertain that due diligence was exercised or to submit due diligence statements, significantly reducing reporting requirements and the number of needed interactions with the information system.
 
-Downstream operators and traders are no longer required to submit their own due diligence statement in the Information System nor to ascertain that due diligence was exercised across supply chains.
+Article 5
+Obligations of downstream operators and traders
+
+1. Downstream operators and traders shall place or make available on the market or export relevant products only if they are in possession of the information required under paragraph 3.
+
+3. Downstream operators and traders shall collect and keep the following information relating to the relevant products they intend to place or make available on the market or export:
+
+4. Downstream operators and traders shall keep the information referred to in paragraph 3 for at least five years from the date of the placing or making available on the market or export, and shall provide that information to the competent authorities upon request.
+
+Article 38
+Entry into force and date of application
+
+2. Subject to paragraph 3 of this Article, Articles 3 to 13, Articles 16 to 24 and Articles 26, 31 and 32 shall apply from 30 December 2026.
+
+3. Except as regards the products covered by the Annex to Regulation (EU) No 995/2010, for operators, whether natural persons or micro- or small undertakings within the meaning of Article 3(1) or Article 3(2), first subparagraph, respectively, of Directive 2013/34/EU, irrespective of their legal form, who were established as such by 31 December 2024, the Articles referred to in paragraph 2 of this Article shall apply from 30 June 2027.

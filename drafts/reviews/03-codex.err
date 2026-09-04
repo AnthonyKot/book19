@@ -1,0 +1,1454 @@
+Reading additional input from stdin...
+OpenAI Codex v0.153.0
+--------
+workdir: /home/diablo/book19
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: high
+reasoning summaries: none
+session id: 01a06b57-d007-7893-9da1-f41896e1b357
+--------
+user
+Two reviewers assessed chapters/03-joinery-steel-dossier.html independently; their reports are in drafts/reviews/03-flash.md and drafts/reviews/03-pro.md (either may be empty).
+Read CONTEXT.md, AGENT.md, the chapter, checks/claims/03.tsv, resources/sources/03/, and both reports. Be adversarial toward
+the REVIEWERS: for each of their findings, verify it against the chapter and the sources and mark it CONFIRMED / REJECTED
+(with why) / UNVERIFIABLE. Then add findings they both missed, using the checklist in scripts/prompts/review-checklist.md.
+Output one consolidated markdown report, ranked, with a one-line ship / revise / block verdict at the top.
+warning: Codex could not find bubblewrap on PATH. Install bubblewrap with your OS package manager. See the sandbox prerequisites: https://developers.openai.com/codex/concepts/sandboxing#prerequisites. Codex will use the bundled bubblewrap in the meantime.
+codex
+I’ll audit the reviewers’ claims against the chapter’s own evidence pack first, then run the checklist independently and produce a ranked consolidated report.
+exec
+/bin/bash -lc "pwd && rg --files -g 'CONTEXT.md' -g 'AGENT.md' -g 'chapters/03-joinery-steel-dossier.html' -g 'checks/claims/03.tsv' -g 'drafts/reviews/03-flash.md' -g 'drafts/reviews/03-pro.md' -g 'scripts/prompts/review-checklist.md' -g 'resources/sources/03/**'" in /home/diablo/book19
+ succeeded in 135ms:
+/home/diablo/book19
+chapters/03-joinery-steel-dossier.html
+AGENT.md
+checks/claims/03.tsv
+drafts/reviews/03-pro.md
+drafts/reviews/03-flash.md
+scripts/prompts/review-checklist.md
+CONTEXT.md
+resources/sources/03/SOURCES.md
+resources/sources/03/excerpts/03-completion-dossier.txt
+resources/sources/03/excerpts/03-dutch-dealer.txt
+resources/sources/03/excerpts/03-fenbro-model.txt
+resources/sources/03/excerpts/03-wkb-scope.txt
+resources/sources/03/excerpts/03-trade-flow.txt
+resources/sources/03/excerpts/03-eko-incumbent.txt
+resources/sources/03/excerpts/03-fenbro-dormant.txt
+resources/sources/03/excerpts/03-consumer-dossier.txt
+resources/sources/03/excerpts/03-fenbro-trace.txt
+resources/sources/03/excerpts/03-product-evidence.txt
+resources/sources/03/excerpts/03-cbam.txt
+resources/sources/03/excerpts/03-cpr-duty.txt
+resources/sources/03/excerpts/03-harmonised-standards.txt
+
+exec
+/bin/bash -lc "wc -l CONTEXT.md AGENT.md chapters/03-joinery-steel-dossier.html checks/claims/03.tsv drafts/reviews/03-flash.md drafts/reviews/03-pro.md scripts/prompts/review-checklist.md resources/sources/03/SOURCES.md resources/sources/03/excerpts/*.txt && sed -n '1,240p' AGENT.md && sed -n '1,260p' CONTEXT.md && sed -n '1,260p' scripts/prompts/review-checklist.md" in /home/diablo/book19
+ succeeded in 134ms:
+   82 CONTEXT.md
+   74 AGENT.md
+  153 chapters/03-joinery-steel-dossier.html
+   18 checks/claims/03.tsv
+  157 drafts/reviews/03-flash.md
+   43 drafts/reviews/03-pro.md
+   25 scripts/prompts/review-checklist.md
+   71 resources/sources/03/SOURCES.md
+   17 resources/sources/03/excerpts/03-cbam.txt
+   25 resources/sources/03/excerpts/03-completion-dossier.txt
+   14 resources/sources/03/excerpts/03-consumer-dossier.txt
+    9 resources/sources/03/excerpts/03-cpr-duty.txt
+   10 resources/sources/03/excerpts/03-dutch-dealer.txt
+   20 resources/sources/03/excerpts/03-eko-incumbent.txt
+    8 resources/sources/03/excerpts/03-fenbro-dormant.txt
+   14 resources/sources/03/excerpts/03-fenbro-model.txt
+   19 resources/sources/03/excerpts/03-fenbro-trace.txt
+   10 resources/sources/03/excerpts/03-harmonised-standards.txt
+    8 resources/sources/03/excerpts/03-product-evidence.txt
+   12 resources/sources/03/excerpts/03-trade-flow.txt
+   10 resources/sources/03/excerpts/03-wkb-scope.txt
+  799 total
+# AGENT.md — instructions for Book 19 research and writing (ported from Book 18, 2026-09-05)
+
+## Who is reading
+
+An experienced enterprise developer in the Netherlands looking for income outside software over
+the next two to five years, as AI progresses. Their edges are in `drafts/edge-inventory.md`:
+English, Russian and Polish; Dutch at A2; EU and Dutch regulatory literacy; an engineering
+habit; a Polish, Ukrainian and Russian-speaking network on the supply and crew side; about
+EUR 100k. Their constraints, confirmed 2026-09-05: hands-on; alongside the job at first; no more
+than EUR 50k at risk in year one; retraining of days or weeks in English, no Dutch trade exam.
+The book's line: outside software, not outside engineering. They sell installed iron and a
+signed file, never a product with a login. They are not asking to be reassured.
+
+## Priority stack
+
+1. **Never false.** Current claims are sourced; proposals are not presented as law; arithmetic
+   hypotheses are not presented as observed prices.
+2. **Find the buyer and event.** Name the person or function who pays and what happens to make
+   this purchase outrank other work.
+3. **Make the money legible.** Revenue, gross margin, founder replacement cost, working capital
+   and owner income are separate.
+4. **Earn scalability.** State which work remains human, what can be delegated, and what asset
+   accumulates. Never use "platform" as a magic word.
+5. **Attack the idea.** Entrenched vendors, internal teams, consultancies, free tools, standards
+   uncertainty and partner capture belong in the main argument.
+6. **Leave a cheap next move.** The reader must be able to test the riskiest assumption without
+   resigning or buying the full equipment stack.
+
+## Research rules
+
+- Browse because laws, deadlines, standards, products and competitors are current.
+- Prefer primary sources for law and technical requirements.
+- For competitors, use their own product documentation and pricing where published; label
+  marketing claims as marketing claims.
+- Record every relied-on URL and its purpose in `resources/sources/NN/SOURCES.md`.
+- Write a claim ledger in `checks/claims/NN.tsv` before or alongside prose. Schema:
+  `id<TAB>claim<TAB>source_url<TAB>source_locator<TAB>status` where status is `verified`,
+  `inference`, or `open`. HTML may ship only with no `open` claims.
+- Use `<!-- CHECK: id -->` immediately after the factual sentence or paragraph.
+- Save the passage that supports each `verified` row as a text excerpt in
+  `resources/sources/NN/excerpts/<slug>.txt` (URL, date fetched, then the verbatim passage),
+  and name that file in the `source_locator` column. A `verified` row without an excerpt is
+  not verified.
+- Do not download or reproduce copyrighted reports unless needed and permitted; links and
+  concise paraphrases are normally enough.
+
+## Voice
+
+Plain, adult, analytical. No startup cheerleading, future-of-X throat-clearing, fake scenes,
+or inflated market-size paragraphs. Explain technical mechanisms where they change the business
+case. The reader should feel that a skeptical operator and a skeptical investor wrote together.
+
+## Required challenge
+
+Each essay must contain at least one credible path by which capable execution still loses. This
+is Book 4's counter-case discipline adapted to an opportunity that may not yet have a historical
+post-mortem. It must not be a straw man such as "poor sales" or "bad execution."
+
+## Pre-ship test
+
+1. Can the reader name the buyer, purchase event and substitute?
+2. Is demand evidence distinct from regulation and market size?
+3. Does the economic model pay replacement-cost labour and still reach the owner target?
+4. Is the twentieth delivery visibly different from the first?
+5. Does the essay name why an incumbent, partner or customer might capture the margin?
+6. Is Dutch-language dependence stated for this exact channel, and does the "Why you" section answer it honestly?
+7. Is there a bounded 90-day experiment with a price, pass rule and kill rule?
+8. Are all external claims receipted and all arithmetic labelled?
+
+## Coordination
+
+Agents edit only their assigned essay HTML, claim TSV, source index and optional draft notes.
+The coordinating agent alone edits `CONTEXT.md`, `AGENT.md`, `TEMPLATE.md`, `README.md`,
+`index.html`, `about.html`, static assets and cross-essay comparisons.
+# Book 19 — The Third Engine (working title) — CONTEXT
+
+## 1. Thesis
+Books 4 and 18 covered firms as going concerns and an IT-adjacent second business. Book 19 asks what the
+same reader can earn outside software that survives AI progress to 2030. Working thesis after the research
+phase: no instrument found a secret market; the reader's edge is languages plus regulatory literacy plus
+capital applied to physical work that Dutch operators find bureaucratic and foreign makers find foreign.
+
+## 2. Reader and fixed assumptions
+The book 18 reader: ~40, enterprise developer, Zaandam, Dutch A2, English/Russian/Polish, ~EUR 100k, four
+books of regulatory reading, engineering habit, ~30k LinkedIn audience. Draft edge inventory in
+`drafts/edge-inventory.md` (published as a memo) awaits the author's correction. Four constraints still
+open: passive vs hands-on; alongside the job or replacing it; capital ceiling; retraining tolerance.
+
+## 3. Method
+Book 18 spine (demand → payment → economics → operations → resilience; scalability test; verdicts TEST NOW /
+TEST THROUGH A PARTNER / WATCH / ACQUIRE, DO NOT BUILD / DO NOT ENTER) plus two gates: the A2 gate and the
+AI gate. Research instruments run by agents from public sources with saved excerpts; each memo ends with an
+honesty paragraph. Essays (when written) follow book 18's TEMPLATE plus a "Why you" section.
+
+## 4. State — v0.1 (2026-09-04, second pass)
+Published: method, edge inventory, thirteen research memos (crowdfunding ×2 + comparison, diaspora, succession,
+licences, trade flows, regulation-created work, AI physical footprint, boring business, two triages), and a
+candidates table of thirteen under test, eight on watch, one held; ten pitches under `drafts/pitches/` written by the coordinating session under four stated assumptions; an ideation metaprompt (`scripts/prompts/idea-metaprompt.md`, runner `scripts/ideate.sh`) with two seeded runs and their precedent reviews. Book line, decided 2026-09-04: outside software, not outside engineering. No essays.
+
+## 5. Evidence rules (from book 18)
+Primary sources for law, deadlines, standards; demand shown by buyer behaviour, enforcement, procurement or
+filings, never by a regulation alone; named competitors and substitutes; no market-size theatre; no numbers
+from memory; every external factual claim in HTML carries `<!-- CHECK: id -->` and a row in
+`checks/claims/NN.tsv` with a saved excerpt under `resources/sources/NN/excerpts/`; enacted separated from
+proposed, deadlines from expectations, obligation from budget; each essay makes the strongest case against
+itself.
+
+## 6. Essay contracts (2026-09-05)
+Each essay tests one picked pitch under the confirmed constraints. The pitch file is the contract; the essay
+must settle the pitch's "number to settle first" and its kill fact from sources, or say the record cannot.
+1. `01-cell-file.html` — pitch 2, `drafts/pitches/02-cell-file.md`.
+2. `02-border-files.html` — pitch 7, `drafts/pitches/07-border-files.md`.
+3. `03-joinery-steel-dossier.html` — pitch 6, `drafts/pitches/06-joinery-steel-dossier.md`.
+4. `04-spray-crew-file.html` — pitch 10, `drafts/pitches/10-spray-crew-file.md`.
+5. `05-owner-independent-acquisition.html` — pitch 3, `drafts/pitches/03-owner-independent-acquisition.md`;
+   written as a step-two path: the job ends at closing.
+6. `06-certified-inspection-microfirm.html` — pitch 9, `drafts/pitches/09-certified-inspection-microfirm.md`;
+   also step two.
+
+## 7. Common verdict (from book 18)
+Exactly one per essay: **TEST NOW**; **TEST THROUGH A PARTNER**; **WATCH**; **ACQUIRE, DO NOT BUILD**;
+**DO NOT ENTER**. Provisional until customer payment exists.
+
+## 8. Decision record
+- 2026-09-03 — Seed idea (user): crowdfunding platforms as a demand instrument. Run on codex and Gemini 3.8
+  Flash; both traced to the downloaded Kickstarter dataset; verdict: instrument works, business narrow.
+- 2026-09-03 — Five further instruments run in parallel (three codex, two Gemini), agents barred from git.
+- 2026-09-03 — Triage by the coordinating session: 7 kept (housing/agency compliance operator; owner-independent
+  B2B acquisition; heat-pump company by hiring; Polish joinery/steel agency with dossier; asbestos-survey
+  acquisition; funeral/repatriation desk; CRA importer, parked), 13 cut with reasons.
+- 2026-09-04 — v0.1 published: research phase in public, no essays.
+- 2026-09-04 — Two Fable 5.1 research agents (user: "let's give it a try"), instruments the first five missed:
+  the physical footprint of the AI build-out, and the boring-business lens (CBS survival/margin/exit by sector).
+  Second triage: added machine-repair microfirm (#3) and CEE fleet-service desk (#9); held the grid civil crew
+  on the BEI/VIAG language question; merged SCIOS and pest control into the certified-inspection class (#6) and
+  specialised cleaning into #2; cut battery/flex packages, guarding, ITAD-to-CEE (sanctions), haulage. Thesis
+  sentence from both runs' honest paragraphs: the edge is the crew and the paperwork, not the sector.
+- 2026-09-04 (evening) — User: the instruments were "nothing connected to me"; look at what the existing pages already
+  contain (IoT gateways, machinery-class crowdfunding products, machine repair) and abstract the shape. Book line
+  widened to "outside software, not outside engineering"; #8 unparked. Metaprompt written from the seven common
+  parts (iron plus paper, dated rule, small English-speaking buyers, edge without a Dutch exam, per-unit price
+  with a <€5k test, AI adds units, one kill fact) plus, on the user's request, part 8: a named precedent firm
+  elsewhere. Two seeded ideation agents, then two precedent-review agents. The first seed reproduced the editor's
+  cobot CE idea unprompted. Triage 3: added the cell file (#2), border files for CEE imports (#7), used-equipment
+  inspection (#8); watch: sanctions file, crowdfunding machinery hub, battery-pack file; cut: ML safety file.
+- 2026-09-05 — Second ideation round (seeds: the worker as a file; the object as a certificate) with the precedent
+  rule; precedent review on site-person; triage 4 added the spray crew's file (#13), five ideas to watch. Verdict:
+  the pool is close to complete for this reader's edge; no fifth seed. Pitch step started without the author's
+  four constraints: ten pitches under stated assumptions (hands-on; beside the job at first; €100k, ≤€50k at
+  risk in year one; no multi-year retraining), each saying what changes if an assumption is wrong. The author
+  picks five to seven for essays.
+- 2026-09-05 — Constraints confirmed by the author: hands-on; alongside the job at first; €100k with ≤€50k at risk in
+  year one; retraining of days or weeks in English. Essay picks (six): 2 the cell file, 3 owner-independent
+  acquisition, 6 joinery/steel dossier, 7 border files, 9 certified-inspection microfirm, 10 spray crew's file.
+  Not picked: 1 housing/agency file, 4 machine repair, 5 heat pump, 8 used-equipment inspection (stay as pitches).
+  Essays 3 and 9 are written as step-two paths under the constraints (the job ends at closing).
+Review this essay against the book's own rules (CONTEXT.md sections 1–7, AGENT.md priority
+stack and pre-ship test). Rank findings by severity. For each: quote the passage, say what the
+cited source (excerpt file or URL) actually supports, and give a concrete fix.
+
+1. Never false: is any proposal presented as enacted law, expectation as deadline, or design
+   hurdle as market price? Check dates against the cited primary sources.
+2. Buyer and event: is the payer and the purchase event named and plausible, or is a
+   regulation standing in for demand?
+3. Economics: does the model pay replacement-cost labour, working capital and the owner
+   separately, and is the arithmetic internally consistent?
+4. Scalability: is the twentieth customer concretely different from the first, or is
+   "platform" doing the work?
+5. Incumbents and capture: are named competitors treated fairly from their own material, and is
+   the margin-capture risk by partner or customer confronted?
+6. Capable failure: is it a non-straw-man path, or "poor execution" in disguise?
+7. Dutch-language dependence stated for the exact channel and answered in the "Why you" section
+   (paper, partner or fail); reader constraints respected (A2 Dutch; hands-on; alongside the job at
+   first; EUR 100k with at most EUR 50k at risk in year one; no Dutch trade exam; outside software).
+   Is the precedent firm real, with an independent trace?
+8. Receipts: every CHECK marker's row supports the sentence it follows; every verified row has
+   an excerpt that says what the claim says; inference rows are honest about what they infer.
+9. Verdict: is it the one the evidence earns, and is the kill assumption the right one?
+10. Readability: wall paragraphs, sentences over 40 words, jargon without mechanism.
+
+End with: verdict SHIP / REVISE / BLOCK, and the three fixes that matter most.
+
+exec
+/bin/bash -lc "sed -n '1,240p' chapters/03-joinery-steel-dossier.html && sed -n '1,240p' checks/claims/03.tsv && sed -n '1,240p' drafts/reviews/03-flash.md && sed -n '1,240p' drafts/reviews/03-pro.md" in /home/diablo/book19
+ succeeded in 120ms:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The file is valuable only when it is missing — The Third Engine</title>
+<meta name="description" content="A test of a bilingual order-and-evidence service for Dutch builders buying Polish joinery, and whether the dossier can be sold separately from the goods.">
+<link rel="stylesheet" href="../static/style.css">
+<script src="../static/theme.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">The Third <span>Engine</span></a>
+    <nav class="site-nav">
+      <a href="../index.html">Contents</a>
+      <a href="../about.html">Method</a>
+      <button class="theme-toggle" type="button">☾ Dark</button>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+<p class="kicker">Essay 3 of 6 · The joinery and steel dossier · from pitch 6</p>
+<h1>The file is valuable only when it is missing</h1>
+<p class="lede">A small Dutch builder can buy windows from Poland and save money on the object, then lose the saving while matching declarations, performance values and installation evidence to a live project. The proposed business closes that gap in Polish and hands the builder a Dutch-ready evidence pack. Yet the strongest official guidance says correct manufacturer instructions may already give the quality assurer sufficient proof. <!-- CHECK: 03-product-evidence --> Large factories publish documents and sell through distributors. <!-- CHECK: 03-eko-incumbent --> The purchase decision is therefore not “does Wkb create paperwork?” It is whether a builder importing directly will pay a separate fee before one incomplete order delays approval or creates rework.</p>
+
+<section class="proposition">
+<h2>The proposition</h2>
+<p>The first buyer is the project manager at a Dutch contractor building ground-level homes, holiday units or a small industrial building. The company buys project-specific exterior windows and doors directly from a Polish factory. It has no Polish-speaking procurement employee and no internal product-compliance specialist. Its quality assurer has already named the evidence needed for the project.</p>
+<p>The purchase event comes before the goods order. A quotation is attractive, but the product references, declared performance and installation method have not yet been reconciled with the drawings and the quality plan. The buyer can either send questions across three organisations or pay one party to close the order gate.</p>
+<p>The fixed deliverable has two stages. A pre-order gate maps each opening to the quotation, product identity, required performance and available declaration. It records missing evidence, owners and due dates. A completion pack then matches the delivered units to the approved schedule, preserves the manufacturer’s instructions, indexes installation photographs and lists unresolved exceptions. It supports the builder and quality assurer; it is not their declaration.</p>
+<p>The boundary matters. The service does not manufacture, install or certify a window. It does not issue a Declaration of Performance, decide structural adequacy or act as the quality assurer. The buyer contracts and pays the factory directly. Freight, defects, design changes and installation remain with the named commercial parties. This company sells installed-iron evidence, never software with a login.</p>
+<p>Start with non-fire-rated exterior joinery in new consequence-class-1 projects. Structural steel is not an adjacent SKU. Its design authority, fabrication controls and site evidence are different. The Commission’s harmonised-standard notice lists EN 14351-1 for windows and doors and EN 1090-1 for conformity assessment of structural components. <!-- CHECK: 03-harmonised-standards --> Steel becomes a later line only with a Dutch structural engineer and a fabricator already working within the required system.</p>
+<p>The substitute is formidable: the factory’s export desk, an established Dutch dealer, the builder’s work preparer and the quality assurer’s own checklist. The dossier company wins only on awkward direct orders that cross those boundaries. If the factory and dealer already make the file usable, there is nothing left to sell.</p>
+</section>
+
+<section class="changed">
+<h2>What changed</h2>
+<p>The Wkb rules began on 1 January 2024 for new buildings in consequence class 1. That class includes ground-level homes and certain simple industrial buildings. Renovation remains postponed without a fixed start date, and higher consequence classes await evaluation. <!-- CHECK: 03-wkb-scope --> This is a narrow trigger, not a mandate covering every replacement-window job.</p>
+<p>For a covered project, the quality assurer checks the work during construction and issues a statement when there is justified confidence that the building meets the technical rules. Before use, the client submits a completion notification. The authority receives the assurer’s statement plus specified information on risks, structure, ventilation, energy, environmental performance, fire safety and equivalent measures. An incomplete notification prevents the two-week clock to lawful use from starting. <!-- CHECK: 03-completion-dossier --></p>
+<p>That “dossier bevoegd gezag” is not a sack containing every certificate for every product. The private consumer or handover dossier is also distinct. It includes drawings, calculations, materials, installations, functions and use and maintenance information. The municipality and quality assurer are not parties to that private dossier, although some material can be reused for the completion notification. <!-- CHECK: 03-consumer-dossier --></p>
+<p>Construction-product rules still create real inputs. Dutch government guidance names windows as construction products and says a Declaration of Performance is mandatory, with the manufacturer stating the product’s performance. <!-- CHECK: 03-cpr-duty --> TloKB adds the operational point: where a builder installs a product according to the manufacturer’s instructions, that can be sufficient evidence of product performance and processing. A deviation can require the builder to provide its own substantiation. <!-- CHECK: 03-product-evidence --> The opportunity sits in matching and exceptions, not inventing certificates.</p>
+<p>There is a substantial physical corridor. Eurostat reports 2025 Dutch imports from Poland of €160.0 million under HS 7308 iron or steel structures and parts, and €148.3 million under HS 7610 aluminium structures and parts. Both headings include far more than the proposed window orders. <!-- CHECK: 03-trade-flow --> They prove goods move, not that Dutch builders bought them directly, that files were deficient or that a separate budget exists.</p>
+<p>CBAM should leave the launch offer. The definitive regime began on 1 January 2026 and applies to EU importers bringing covered goods into the EU. The current single mass threshold is more than 50 tonnes, with iron, steel and aluminium among the sectors. <!-- CHECK: 03-cbam --> A Polish-to-Dutch movement is intra-EU. Any CBAM duty arose at the external EU border, so a Dutch joinery dossier should not casually promise a new CBAM filing for each Polish order. <!-- CHECK: 03-cbam-boundary --></p>
+<p>The number the pitch needed first was the share of Polish joinery and steel orders arriving without a usable CPR or EN 1090 file, as observed by quality assurers. The public record reviewed here does not publish that numerator and denominator. <!-- CHECK: 03-gap-rate --> It also does not show how often a file problem delayed a declaration. The number remains unsettled and must be measured from case files, not replaced by import value.</p>
+</section>
+
+<section class="whyyou">
+<h2>Why you</h2>
+<p>Polish does useful work on the supply side. The founder can challenge a quotation, obtain a product-specific declaration, resolve conflicting identifiers and ask a factory engineer why the installation instruction differs from the drawing. Regulatory literacy keeps the request tied to the project requirement. The engineering habit turns messages and PDFs into a controlled acceptance record.</p>
+<p>The Dutch gate is not an exam; it is the customer channel. <!-- CHECK: 03-language-gate --> The buyer, site supervisor and quality assurer discuss risk, deviations and responsibility in Dutch. A2 is not enough for a disputed site meeting or a sales call about liability. From the first paid order, a Dutch-speaking construction-quality consultant must lead those meetings under a fixed fee. The founder keeps the contract and the Polish factory relationship. If no credible consultant accepts that boundary, the channel fails.</p>
+<p>FENBRO is the closest precedent found elsewhere. Its site describes selling Polish joinery abroad and a complete Irish service of product, delivery, installation and warranty. It identifies its company at Ludna 2/320 in Warsaw. <!-- CHECK: 03-fenbro-model --> Companies House independently records a same-named FENBRO LTD with two Polish directors at 2 Lok. 320, Ludna in Warsaw. <!-- CHECK: 03-fenbro-trace --> An April 2026 accounts filing describes the UK company as dormant through March 2026. <!-- CHECK: 03-fenbro-dormant --> That is a trace, not proof of attractive economics. More importantly, FENBRO sells the whole transaction. No independently traced small firm was found whose principal product is a separately priced dossier. <!-- CHECK: 03-precedent-gap --></p>
+<p>The edge breaks if the reader will not work through a Dutch lead or cannot visit projects during business hours. A perfect Polish supplier call does not replace a Dutch conversation when the quality assurer flags an exception.</p>
+</section>
+
+<section class="sale">
+<h2>The first sale</h2>
+<p>Build a list around ten prospect types: modular-home builders, timber-frame contractors, holiday-home builders, small developer-contractors, self-build general contractors, agricultural-building contractors, two-storey warehouse builders, light-workshop builders, facade subcontractors and import-direct window installers serving new homes. Exclude consumer replacement work, public tenders and projects outside consequence class 1.</p>
+<p>The signer is the project manager or operations director who controls the purchase order and can require evidence before release. Approach through Dutch construction-quality consultants, quality-assurer introductions and the founder’s professional network. The message names one order and one acceptance risk. It does not promise cheaper Polish windows or “Wkb compliance.” Polish factories are suppliers, not leads to be resold.</p>
+<p>The first offer is a pre-order evidence gate at a €2,000 required-price hurdle, 50% in advance. It covers one quotation, one building and up to twenty openings. The completion pack is a separate €3,000 hurdle. Both prices are test design, not observed market rates. The buyer receives the index, source documents and exception log even if it stops.</p>
+<p>That separation tests the kill fact. A commission on goods can hide whether the file has value. A paid evidence line cannot. The factory and builder contract directly; the service never finances the goods. If the buyer accepts only a percentage hidden inside the window price, the thesis has become ordinary brokerage.</p>
+</section>
+
+<section class="economics">
+<h2>Does the money work?</h2>
+<p>Every figure below is a required-price, cost or capacity hurdle, not a sourced price or forecast. The model excludes product commission, VAT, goods, freight and installation. Customer and factory contract directly. The point is to discover whether evidence alone can carry a company.</p>
+<div class="ledger-wrap"><table class="ledger">
+<thead><tr><th>€000</th><th>Year 1 design</th><th>Mature design</th></tr></thead>
+<tbody>
+<tr><td>Pre-order gates</td><td>8 × €2k = 16</td><td>120 × €2k = 240</td></tr>
+<tr><td>Completion packs</td><td>4 × €3k = 12</td><td>120 × €3k = 360</td></tr>
+<tr><td><strong>Revenue</strong></td><td><strong>28</strong></td><td><strong>600</strong></td></tr>
+<tr><td>Dutch technical review</td><td>8 × €0.5k = 4</td><td>€0.5k × 120 = 60</td></tr>
+<tr><td>Contract dossier support</td><td>120 hours × €80 = 9.6</td><td>0</td></tr>
+<tr><td>Two dossier coordinators, loaded</td><td>0</td><td>2 × €65k = 130</td></tr>
+<tr><td>Dutch quality lead, loaded</td><td>0</td><td>1 × €90k = 90</td></tr>
+<tr><td>Delivery travel, insurance and tools</td><td>2</td><td>20</td></tr>
+<tr><td><strong>Total delivery cost</strong></td><td><strong>15.6</strong></td><td><strong>300</strong></td></tr>
+<tr><td><strong>Gross margin</strong></td><td><strong>12.4 (44%)</strong></td><td><strong>300 (50%)</strong></td></tr>
+<tr><td>Sales, legal and administration</td><td>6</td><td>80</td></tr>
+<tr><td>Founder labour at replacement cost</td><td>300 hours × €100 = 30</td><td>100</td></tr>
+<tr><td><strong>Operating surplus after founder replacement</strong></td><td><strong>−23.6</strong></td><td><strong>120</strong></td></tr>
+</tbody></table></div>
+<p>Year one is a paid experiment beside the job, not owner income. It loses €23,600 after valuing founder time. Cash loss is lower because that labour is not a payroll cheque, but ignoring it would disguise a weak practice. The model has passed only when customers pay both stages without a goods margin subsidising them.</p>
+<p>The mature hurdle assumes ten completed orders a month. At twenty-four delivery hours per order, delivery consumes 240 hours monthly. Two coordinators and one quality lead each provide a designed 120 productive hours, leaving one-third of capacity for exceptions, training and absences. The founder sells, handles escalations and maintains supplier relationships. If average delivery exceeds thirty hours, gross margin falls below the intended level before overhead.</p>
+<p>The €100,000 founder line is replacement-cost compensation before personal tax. The €120,000 operating surplus is separate and must fund tax, hiring variance and retained capital. There is no recurring revenue in the base case. Repeat projects and supplier familiarity may lower acquisition and delivery cost, but each fee must be earned on an order.</p>
+<p>Working capital is controlled by refusing title to the goods, billing each service stage 50% in advance and using contractors until receipts support employment. Before hiring, use a €25,000 reserve hurdle for late customer payments, rework and professional fees. Year-one cash at risk stays below €50,000 only if no factory deposit, freight bill or warranty claim enters the company. Crossing that boundary changes the business into a distributor and requires a new liability and capital case.</p>
+</section>
+
+<section class="scale">
+<h2>From service to company</h2>
+<p><strong>Customer one</strong> is founder-led. The durable output is a field map: drawing reference, opening, product code, required performance, declared performance, instruction revision, delivery identity, installation evidence, exception, owner and decision. The Dutch reviewer signs only their own professional judgement. The factory remains responsible for its documents.</p>
+<p><strong>Customer five</strong> uses a written intake, naming convention and exception taxonomy. A bilingual coordinator chases routine evidence. The founder handles supplier engineering questions; the Dutch lead handles buyer and assurer meetings. At least half of delivery hours must now occur without the founder. Otherwise Polish fluency is a job, not a company asset.</p>
+<p><strong>Customer twenty</strong> should reveal repetition across several factories. The accumulating asset is not an app. It is a verified supplier-document map, typical response times, recurring identifier errors, accepted installation evidence patterns and trained coordinators. Customer project data remains separated and exportable. Ordinary document storage can support the operation; customers never need another login.</p>
+<p>Scale is earned if one coordinator can run four live orders, supplier familiarity reduces missing-document time, and the Dutch lead reviews exceptions rather than every line. It fails if each quality assurer demands a unique format, every project needs senior engineering judgement or factories refuse reuse. In those cases, the twentieth delivery still resembles the first.</p>
+</section>
+
+<section class="competition">
+<h2>The incumbent gets a turn</h2>
+<p>Eko-Okna already presents a Dutch-language export channel, direct contact for new business customers, a distributor platform and a document library containing product-parameter certificates. <!-- CHECK: 03-eko-incumbent --> This is the kill fact in public view. The factory can place documents next to the order without a specialist intermediary.</p>
+<p>FENBRO bundles quotation, delivery, installation and warranty around Polish joinery. <!-- CHECK: 03-fenbro-model --> A Dutch wholesaler such as Kozijnen Unie markets Dutch-speaking staff, supply, project guidance and its own installation team. <!-- CHECK: 03-dutch-dealer --> Those businesses can include document chasing in product margin. The proposed company asks the buyer to see and pay for the line separately.</p>
+<p>The internal substitute is one good work preparer using the factory portal and the quality assurer’s checklist. The assurer may identify gaps during ordinary project review. A facade subcontractor may already own measurement and installation evidence. For structural steel, the certified fabricator and structural engineer sit closer to the design decision than a broker does.</p>
+<p>The Dutch-speaking partner can also capture the margin. After learning which Polish contacts respond and which documents matter, that consultant can hire a Polish coordinator or offer the pack free with broader Wkb work. Protecting introductions contractually will not fix weak buyer value. The defence is faster closure across repeated suppliers, transparent fixed fees and direct ownership of the builder contract. The ninety-day test must show that this is enough.</p>
+</section>
+
+<div class="counter">
+<div class="case-head"><span class="who">The capable failure</span></div>
+<p>The company executes cleanly. It recruits a respected Dutch quality lead, answers in both languages, obtains every declaration and leaves immaculate indexes. Builders like the service. Quality assurers accept the packs. Yet almost every factory file was already substantively adequate. The real work was naming files and forwarding installation photographs.</p>
+<p>Dealers then copy the checklist and include it with the windows. Factories improve their Dutch portals because missing documents slow their own collections. Quality assurers standardise evidence requests. Only unusual products and site deviations still need help, and those cases consume senior judgement. The average fee falls while liability anxiety rises.</p>
+<p>Nothing failed in execution. The service trained the channel to absorb a temporary coordination gap. There is no recurring contract, no control of the goods margin and no proprietary certification. The founder ends with an intermittent expert practice. Better software cannot repair the missing willingness to pay.</p>
+</div>
+
+<section class="monday">
+<h2>The first ninety days</h2>
+<ol>
+<li><strong>Days 1–15:</strong> retain one Dutch-speaking construction-quality consultant for a €1,000 fee hurdle. Review the service boundary, one intake sheet and one exception report. The consultant must remain independent of any quality assurer engaged on the same project.</li>
+<li><strong>Days 1–25:</strong> ask two quality-assurer firms to review ten recent Polish-origin joinery or steel orders each, anonymised. Count complete-on-first-review files, document requests, site deviations, lost hours and effects on the assurer’s statement. If they cannot identify origin reliably, record that the pitch’s first number cannot be measured this way.</li>
+<li><strong>Days 10–35:</strong> interview four direct-import builders and four Polish factories. Reconstruct the last order from quotation through installation. Ask who supplied each declaration and instruction, what was rejected, who repaired it and whether any fee was visible.</li>
+<li><strong>Days 25–50:</strong> send one scoped €2,000 pre-order-gate offer, 50% in advance, to ten qualified builders. Cap Dutch support, travel, insurance advice and document handling at €3,500 before payment. Build no portal, buy no goods and sign no factory exclusivity.</li>
+<li><strong>Days 40–75:</strong> deliver one paid gate beside the day job. Time supplier chasing, technical judgement, Dutch review and rework separately. Offer the same buyer the €3,000 completion pack before installation; never rebate it through a commission.</li>
+<li><strong>Days 76–90:</strong> pass only if one of ten builders pays for the gate, buys the completion pack, and the two stages fit within forty-eight delivery hours. Also require the quality-assurer sample to show at least four material first-review gaps in twenty Polish-origin orders. These are test hurdles, not observed rates. Kill if eighteen of twenty files were good enough on first review, no builder pays after ten qualified offers, or Dutch review pushes expected gross margin below 50%.</li>
+</ol>
+</section>
+
+<div class="verdict-box">
+<h2>Verdict</h2>
+<p class="verdict"><strong>WATCH</strong></p>
+<p>The rule creates evidence work, but official guidance and incumbent behaviour both suggest that much of it is already bundled with the product or the builder’s normal process. The single assumption that would most change the verdict is that a direct-import builder will pay the separate €5,000-per-order hurdle for acceptance evidence, without hiding the fee in a goods commission.</p>
+</div>
+
+<div class="reading">
+<h2>Reading</h2>
+<ul>
+<li>Informatiepunt Leefomgeving, <a href="https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/wet-kwaliteitsborging-bouwen-wkb/">Wkb scope and phased introduction</a>.</li>
+<li>Informatiepunt Leefomgeving, <a href="https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/plichten/melding-bouwactiviteit/">construction and completion notifications</a>, and <a href="https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/privaatrecht-wet-kwaliteitsborging/consumentendossier-opleverdossier-wkb/">the separate consumer dossier</a>.</li>
+<li>TloKB, <a href="https://www.tlokb.nl/wet-kwaliteitsborging/bouwproducten-verwerken-in-een-bouwwerk">using construction products in a building</a> and <a href="https://www.tlokb.nl/erkende-kwaliteitsverklaringen/europese-certificatie/verordening-bouwproducten">Construction Products Regulation guidance</a>.</li>
+<li>European Commission, <a href="https://publications.europa.eu/resource/celex/52018XC0309%2809%29">harmonised standards under the Construction Products Regulation</a>.</li>
+<li>Eurostat Comext, <a href="https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/ds-045409?freq=A&amp;reporter=NL&amp;partner=PL&amp;flow=1&amp;indicators=VALUE_IN_EUROS&amp;time=2025&amp;product=7308&amp;product=7610">2025 Netherlands imports from Poland, HS 7308 and 7610</a>.</li>
+<li>European Commission, <a href="https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en">CBAM definitive regime</a>.</li>
+<li>Eko-Okna, <a href="https://ekookna.nl/ekonl/om-te-downloaden/documenten">Dutch document library</a>; FENBRO, <a href="https://fenbro.com/about-us/">business model and history</a>.</li>
+<li>UK Companies House, <a href="https://find-and-update.company-information.service.gov.uk/company/16295546">FENBRO LTD company record</a>.</li>
+</ul>
+</div>
+
+<nav class="chapter-nav" aria-label="Essay navigation">
+  <span></span>
+  <a href="../index.html">Contents</a>
+  <span></span>
+</nav>
+</main>
+<footer class="site-footer"><div class="wrap"><p>Six candidates. One third engine. Evidence before commitment.</p></div></footer>
+</body>
+</html>
+id	claim	source_url	source_locator	status
+03-wkb-scope	IPLO says Wkb quality-assurance rules began on 1 January 2024 for new consequence-class-1 buildings; renovations are postponed without a definitive date and higher classes await evaluation.	https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/wet-kwaliteitsborging-bouwen-wkb/	excerpts/03-wkb-scope.txt — “Gefaseerde invoering”	checked-by:codex:2026-09-05
+03-completion-dossier	IPLO says a covered building needs a completion notification at least two weeks before use; the authority receives the quality assurer's statement and specified technical information, and an incomplete notification does not start the two-week use period.	https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/plichten/melding-bouwactiviteit/	excerpts/03-completion-dossier.txt — “Gereedmelding”; “Inhoud gereedmelding”; “Gemeente controleert”	checked-by:codex:2026-09-05
+03-consumer-dossier	IPLO distinguishes the private consumer/handover dossier from the authority dossier; it lists drawings, calculations, materials, installations and use/maintenance information, and says the municipality and quality assurer are not involved.	https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/privaatrecht-wet-kwaliteitsborging/consumentendossier-opleverdossier-wkb/	excerpts/03-consumer-dossier.txt — introduction and “Inhoud consumentendossier”	checked-by:codex:2026-09-05
+03-product-evidence	TloKB says that installing a construction product according to manufacturer instructions is sufficient evidence for the quality assurer of the product's performance and processing against Bbl requirements; deviations can require the builder's own substantiation.	https://www.tlokb.nl/wet-kwaliteitsborging/bouwproducten-verwerken-in-een-bouwwerk	excerpts/03-product-evidence.txt — “Verwerking van bouwproducten en het Bbl”; “Andere verwerking”	checked-by:codex:2026-09-05
+03-cpr-duty	Dutch RVO guidance identifies windows as construction products and says a Declaration of Performance is mandatory and states product performance.	https://www.rvo.nl/onderwerpen/eu-wetgeving/ce-markering/verplichte-productgroepen	excerpts/03-cpr-duty.txt — “Bouwproducten”	checked-by:codex:2026-09-05
+03-harmonised-standards	The European Commission's harmonised-standard notice lists EN 14351-1 for windows and doors and EN 1090-1 for conformity assessment of structural steel and aluminium components.	https://publications.europa.eu/resource/celex/52018XC0309%2809%29	excerpts/03-harmonised-standards.txt — entries for EN 1090-1 and EN 14351-1	checked-by:codex:2026-09-05
+03-trade-flow	Eurostat Comext reports 2025 Dutch imports from Poland worth EUR 160013376 under HS 7308 and EUR 148271001 under HS 7610; the headings broadly cover iron/steel and aluminium structures and parts.	https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/ds-045409?freq=A&reporter=NL&partner=PL&flow=1&indicators=VALUE_IN_EUROS&time=2025&product=7308&product=7610	excerpts/03-trade-flow.txt — JSON value and product dimensions	checked-by:codex:2026-09-05
+03-cbam	The European Commission says the definitive CBAM regime applies from 1 January 2026 and that EU importers bringing more than the 50-tonne mass threshold of covered goods into the EU need authorised declarant status; covered sectors include iron, steel and aluminium.	https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en	excerpts/03-cbam.txt — “Definitive regime (from 2026)” and products list	checked-by:codex:2026-09-05
+03-cbam-boundary	Because CBAM attaches to import into the EU, an ordinary Polish-to-Dutch movement is not itself the external-border CBAM import event; any relevant obligation sits upstream unless the Dutch buyer is also the EU importer.	https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en	Reasoned application of the cited import boundary to intra-EU movement	inference
+03-gap-rate	The public sources reviewed do not quantify the share of Polish-origin joinery or steel orders whose evidence is unusable on first review by Dutch quality assurers.	https://www.tlokb.nl/wet-kwaliteitsborging/bouwproducten-verwerken-in-een-bouwwerk	Public-record boundary after regulator, assurer, manufacturer, dealer and trade-source review	inference
+03-language-gate	The proposed intermediary role does not assume a Dutch trade exam or regulated signatory role; the binding language constraint is Dutch buyer, site and quality-assurer communication.	https://www.tlokb.nl/wet-kwaliteitsborging/verklaring	Role-boundary inference from the quality assurer's reserved declaration and the proposed service boundary	inference
+03-eko-incumbent	Eko-Okna's Dutch-language site markets to new business customers, exposes a distributor platform and lists a document library category for product-parameter certificates.	https://ekookna.nl/ekonl/om-te-downloaden/documenten	excerpts/03-eko-incumbent.txt — page navigation, categories and contact block	checked-by:codex:2026-09-05
+03-fenbro-model	FENBRO's site says it began selling Polish joinery abroad, later offered in Ireland a complete product, delivery, installation and warranty service, and identifies its company at Ludna 2/320 in Warsaw.	https://fenbro.com/about-us/	excerpts/03-fenbro-model.txt — company history, 2018 and 2020 entries, footer	checked-by:codex:2026-09-05
+03-fenbro-trace	UK Companies House records a same-named FENBRO LTD with two Polish directors using 2 Lok. 320, Ludna in Warsaw.	https://find-and-update.company-information.service.gov.uk/company/16295546/officers	excerpts/03-fenbro-trace.txt — current officers	checked-by:codex:2026-09-05
+03-fenbro-dormant	An April 2026 FENBRO LTD accounts filing describes the UK company as dormant through 31 March 2026.	https://find-and-update.company-information.service.gov.uk/company/16295546/filing-history	excerpts/03-fenbro-dormant.txt — 29 April 2026 accounts filing	checked-by:codex:2026-09-05
+03-precedent-gap	No independently traced small firm was found whose principal product is a separately priced joinery or structural-steel evidence dossier.	https://fenbro.com/about-us/	Research boundary after precedent and competitor search	inference
+03-dutch-dealer	Kozijnen Unie markets Dutch-language staff, supply to contractors and builders, project guidance and installation by its own team.	https://www.kozijnenunie.nl/	excerpts/03-dutch-dealer.txt — homepage service and benefits text	checked-by:codex:2026-09-05
+# Review of `chapters/03-joinery-steel-dossier.html` (NN=03)
+
+**Document Reviewed:** [`chapters/03-joinery-steel-dossier.html`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html)  
+**Pitch Contract:** [`drafts/pitches/06-joinery-steel-dossier.md`](file:///home/diablo/book19/drafts/pitches/06-joinery-steel-dossier.md)  
+**Ledger & Sources:** [`checks/claims/03.tsv`](file:///home/diablo/book19/checks/claims/03.tsv) · [`resources/sources/03/SOURCES.md`](file:///home/diablo/book19/resources/sources/03/SOURCES.md)  
+**Evaluation Standard:** `CONTEXT.md` (Sections 1–7), `AGENT.md` (Priority Stack & Pre-Ship Test), `TEMPLATE.md`.
+
+---
+
+## Executive Summary & Overall Verdict
+
+`chapters/03-joinery-steel-dossier.html` is an exceptionally disciplined, skeptical, and well-researched essay. It rigorously resists market-size theatre, explicitly refutes the idea that Wkb regulation equates to paid demand, dissects incumbent bundling (Eko-Okna, FENBRO, Kozijnen Unie), and correctly concludes with a **WATCH** verdict. All 20 claim markers across 17 unique claims are verified with primary source excerpts or transparent inference labels.
+
+The essay requires minor adjustments in its mature economic cost structure and prospect scoping before publication.
+
+**Recommended Verdict:** **REVISE** (Clean, fast revision; no structural block).
+
+---
+
+## Ranked Findings by Severity
+
+### Finding 1 (Medium Severity — Economics): Unexplained Double-Counting / Redundancy in Mature Delivery Cost
+
+* **Quoted Passage** ([`chapters/03-joinery-steel-dossier.html:L73-L86`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L73-L86)):
+  ```html
+  <tr><td>Dutch technical review</td><td>8 × €0.5k = 4</td><td>€0.5k × 120 = 60</td></tr>
+  ...
+  <tr><td>Dutch quality lead, loaded</td><td>0</td><td>1 × €90k = 90</td></tr>
+  ...
+  <tr><td><strong>Total delivery cost</strong></td><td><strong>15.6</strong></td><td><strong>300</strong></td></tr>
+  ```
+  > *"The mature hurdle assumes ten completed orders a month. At twenty-four delivery hours per order, delivery consumes 240 hours monthly. Two coordinators and one quality lead each provide a designed 120 productive hours, leaving one-third of capacity for exceptions, training and absences."*
+
+* **What the Cited Source / Evidence Supports**:
+  The labor capacity calculation in the text allocates 240 delivery hours/month to two in-house coordinators (2 × 120h) plus one in-house Dutch quality lead (120h), totaling 360 available productive hours for 10 orders/month. The quality lead is salaried at €90k loaded. Neither IPLO regulations nor TloKB guidance require an additional external third-party technical reviewer on top of an internal quality specialist.
+
+* **Issue**:
+  In Year 1, when there is no salaried quality lead, paying an external contractor €500 per order (`8 × €0.5k = €4k`) makes sense. However, in the Mature model, the business pays **both** a full-time in-house Dutch quality lead (€90,000) **and** €500 per order across all 120 orders (€60,000) for "Dutch technical review", without explaining whether the €60k is for external chartered engineering sign-offs on complex openings or a redundant line item.
+
+* **Concrete Fix**:
+  Either:
+  1. Add a brief sentence in the Section 5 narrative explaining that the mature €60k (€500/order) represents external chartered structural/fire engineer sign-offs for non-standard opening calculations beyond the in-house lead's scope; OR
+  2. Drop the external €500/order review in the mature column once the in-house quality lead is on payroll, reducing mature delivery cost from €300k to €240k and adjusting gross margin to 60% (€360k) and operating surplus to €180k.
+
+---
+
+### Finding 2 (Minor Severity — Economics): Pre-Order Gate vs Completion Pack Review Asymmetry in Year 1
+
+* **Quoted Passage** ([`chapters/03-joinery-steel-dossier.html:L70-L73`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L70-L73)):
+  ```html
+  <tr><td>Pre-order gates</td><td>8 × €2k = 16</td><td>120 × €2k = 240</td></tr>
+  <tr><td>Completion packs</td><td>4 × €3k = 12</td><td>120 × €3k = 360</td></tr>
+  ...
+  <tr><td>Dutch technical review</td><td>8 × €0.5k = 4</td><td>€0.5k × 120 = 60</td></tr>
+  ```
+
+* **What the Cited Source / Evidence Supports**:
+  The pre-order gate reconciles quotation, DoP, and drawings. The completion pack indexes delivery and installation photographs.
+
+* **Issue**:
+  In Year 1, Dutch technical review is calculated as `8 × €0.5k = 4`, which accounts only for the 8 pre-order gates, allocating €0 review cost to the 4 completion packs. In the Mature column, it is calculated as `€0.5k × 120 = 60` (120 completed order pairs). It is left ambiguous whether completion packs incur zero technical review hours or whether the €500 review is strictly an intake-gate cost.
+
+* **Concrete Fix**:
+  Add a clarifying phrase in the table note or prose: *"The €500 technical review fee attaches to the pre-order drawing and DoP intake gate; completion packs are delivered by bilingual coordinators without additional specialist review."*
+
+---
+
+### Finding 3 (Minor Severity — Proposition Scoping): Prospect List vs Structural Steel Boundary
+
+* **Quoted Passage** ([`chapters/03-joinery-steel-dossier.html:L33`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L33) & [`L58`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L58)):
+  > Line 33: *"Start with non-fire-rated exterior joinery in new consequence-class-1 projects. Structural steel is not an adjacent SKU. Its design authority, fabrication controls and site evidence are different... Steel becomes a later line only with a Dutch structural engineer and a fabricator already working within the required system."*  
+  > Line 58: *"Build a list around ten prospect types: modular-home builders, timber-frame contractors, holiday-home builders, small developer-contractors, self-build general contractors, agricultural-building contractors, two-storey warehouse builders, light-workshop builders, facade subcontractors and import-direct window installers serving new homes."*
+
+* **What the Cited Source / Evidence Supports**:
+  `03-harmonised-standards.txt` (EN 14351-1 vs EN 1090-1) establishes that structural steel involves distinct factory production control (FPC) and execution classes, justifying the exclusion of steel from launch.
+
+* **Issue**:
+  Agricultural-building and light-workshop builders frequently purchase primary structural steel frames alongside windows. While Section 1 correctly excludes steel, Section 4's prospect list includes these contractors without clarifying that the initial pitch to them is strictly limited to their window/door envelope openings.
+
+* **Concrete Fix**:
+  Clarify in line 58: *"For warehouse, agricultural and workshop builders, the offer is strictly restricted to their exterior window and door packages, keeping structural steel out of scope until an EN 1090 partner is integrated."*
+
+---
+
+## Detailed Evaluation Against Book Rules (Questions 1–10)
+
+### 1. Never False
+* **Enacted Law vs Proposal**: Wkb status is stated precisely (in force since 1 January 2024 for new consequence class 1; renovations postponed without definitive date) ([`03-wkb-scope.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-wkb-scope.txt)). CPR DoP obligations are correctly referenced under Regulation (EU) 305/2011 and harmonised standards EN 14351-1 and EN 1090-1 ([`03-cpr-duty.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-cpr-duty.txt), [`03-harmonised-standards.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-harmonised-standards.txt)).
+* **CBAM Distinctions**: The definitive regime date (1 January 2026) and the >50-tonne mass threshold are cited accurately ([`03-cbam.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-cbam.txt)). The text explicitly clarifies that CBAM attaches at the external EU customs border, correctly warning that intra-EU Poland-to-NL transactions do not generate external CBAM import filings (`03-cbam-boundary`).
+* **Hurdles vs Market Prices**: Sourced facts are separated from required-price arithmetic. The €2,000 pre-order gate and €3,000 completion pack are labeled as *"test design, not observed market rates"* and *"required-price hurdles"*.
+* **Dates**: All dates match primary sources.
+
+### 2. Buyer and Purchase Event
+* **Payer**: Project manager or operations director at a Dutch general contractor building consequence-class-1 homes or small commercial units who directly imports Polish joinery.
+* **Purchase Event**: The pre-order quotation reconciliation stage, before purchase order release, when product references, declared performance (DoP), and installation manuals must align with the building quality plan.
+* **Regulation vs Demand**: The essay explicitly distinguishes between regulatory burden and buyer willingness to pay:
+  > *"They prove goods move, not that Dutch builders bought them directly, that files were deficient or that a separate budget exists."* ([`L43`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L43))
+
+### 3. Economics & Arithmetic
+* **Founder Replacement Cost**: Sourced separately as €100/hr (300 hours = €30,000 in Year 1; €100,000 in Mature).
+* **Owner Operating Surplus**: Separated from founder compensation (-€23.6k in Year 1; +€120k in Mature).
+* **Working Capital & Risk**: Working capital is controlled by refusing title to goods, billing 50% in advance, maintaining a €25,000 reserve hurdle, and capping pre-evidence spend at €3,500, honoring the ≤€50k cash-at-risk constraint.
+* **Internal Consistency**: Arithmetic in the table reconciles across all lines (`Revenue - Delivery = Gross Margin; Gross Margin - Overheads - Founder = Operating Surplus`). (See Finding 1 for capacity overlap).
+
+### 4. Scalability
+* **Evolution of Delivery**:
+  * *Customer 1*: Founder-led field mapping across drawings, codes, and declarations.
+  * *Customer 5*: Standardized intake sheets, exception taxonomy, bilingual coordinator handling routine document chasing (>50% non-founder hours).
+  * *Customer 20*: Multi-factory supplier response mapping, recurring error patterns, coordinator handling 4 live orders concurrently.
+* **No Platform Hand-Waving**: Explicitly rejects software illusions:
+  > *"The accumulating asset is not an app... customers never need another login."* ([`L94`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L94))
+
+### 5. Incumbents and Capture
+* **Incumbent Treatment**: 
+  * Eko-Okna's Dutch distributor portal and parameter certificate download library are cited directly from their website ([`03-eko-incumbent.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-eko-incumbent.txt)).
+  * FENBRO's turnkey supply/install model and Kozijnen Unie's Dutch-speaking builder supply model are analyzed from primary sources ([`03-fenbro-model.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-fenbro-model.txt), [`03-dutch-dealer.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-dutch-dealer.txt)).
+* **Partner Margin Capture**: Directly addresses the risk that a Dutch quality consultant could bypass the founder after learning Polish supplier channels, providing realistic operational defenses.
+
+### 6. Capable Failure
+* **Structural Failure Mode**: Presents a non-straw-man failure scenario: The founder executes cleanly, but the supply chain standardizes around the new rules, factories enhance their Dutch document portals, quality assurers clarify checklists, and the startup is left holding only low-volume, high-liability edge cases where fees collapse.
+
+### 7. Dutch-Language Gate, Reader Constraints & Precedent Firm
+* **Language Gate**: Channel-specific Dutch dependence (site meetings, buyer liability discussions, quality assurer negotiations) is stated and answered with a fixed-fee Dutch quality consultant (*"paper, partner or fail"*).
+* **Reader Constraints**: Respected in full:
+  * A2 Dutch: Founder handles Polish factories and document engineering; Dutch consultant handles buyer/site meetings.
+  * Hands-on & alongside job: 300 founder hours in Year 1 (~6h/week).
+  * Capital: €25k reserve, pre-evidence test capped at €3,500, no goods/freight liability.
+  * No trade exam: No statutory assurer role claimed.
+  * Outside software: Physical iron evidence pack.
+* **Precedent Firm**: **FENBRO Sp. z o.o.** verified via UK Companies House (FENBRO LTD, company #16295546, directors Agnieszka Justyna Brodzik and Pawel Brodzik at Ludna 2/320, Warsaw). Transparently notes the UK entity filed dormant accounts in April 2026 and sells bundled goods rather than standalone dossiers (`03-fenbro-trace`, `03-fenbro-dormant`, `03-precedent-gap`).
+
+### 8. Receipts & Claim Ledger
+* All 20 `<!-- CHECK: ... -->` markers in the HTML match rows in [`checks/claims/03.tsv`](file:///home/diablo/book19/checks/claims/03.tsv).
+* All 13 verified rows have verbatim text excerpts in [`resources/sources/03/excerpts/`](file:///home/diablo/book19/resources/sources/03/excerpts/).
+* All 4 inference rows (`03-cbam-boundary`, `03-gap-rate`, `03-language-gate`, `03-precedent-gap`) are properly reasoned.
+
+### 9. Verdict and Kill Assumption
+* **Verdict**: **WATCH** — accurately reflects that while Wkb creates documentation requirements, official guidance (TloKB) and incumbent portals (Eko-Okna) absorb standard compliance, making standalone willingness to pay uncertain.
+* **Kill Assumption**: Accurately targets the unproven willingness of a direct-import builder to pay a separate €5,000 evidence fee without bundling it into goods margins.
+
+### 10. Readability & Mechanics
+* **Word Count**: 2,884 words (within target range of 2,400–3,600).
+* **Sentences > 40 words**: 0.
+* **Paragraphs > 120 words**: 0.
+* **Jargon**: All acronyms (Wkb, DoP, CPR, EN 1090, CBAM, Bbl) are tied directly to operational mechanisms.
+
+---
+
+## The Three Fixes That Matter Most
+
+1. **Clarify Mature Technical Review Cost Allocation**: Reconcile the €60k external technical review line with the €90k in-house Dutch quality lead in the mature ledger table and narrative (Finding 1).
+2. **Clarify Year 1 Gate vs Pack Technical Review**: Specify that the €500 technical review applies to the pre-order intake gate rather than the completion pack (Finding 2).
+3. **Explicitly Bound Warehouse/Agricultural Prospect Scoping**: Add a sentence clarifying that agricultural/workshop builder outreach targets only their exterior window/door packages, keeping structural steel out of initial scope (Finding 3).
+
+---
+
+**Final Pre-Ship Verdict:** **REVISE** (Addresses Findings 1–3).
+Here is the review of `03-joinery-steel-dossier.html` against the book's rules, ranked by severity.
+
+### Findings
+
+**1. Unsupported claim in receipted sentence (Severity: High, Rule 8)**
+*   **Passage:** "The municipality and quality assurer are not parties to that private dossier, although some material can be reused for the completion notification. `<!-- CHECK: 03-consumer-dossier -->`"
+*   **What the source actually supports:** The excerpt (`03-consumer-dossier.txt`) and TSV verify that the municipality and quality assurer are not involved, and list the mandatory contents of the consumer dossier. It does not state or imply that material can be reused for the completion notification. 
+*   **Concrete fix:** Delete the unsupported clause so the sentence ends at "private dossier." 
+
+**2. Excerpt mismatch for competitor claim (Severity: Low, Rule 8)**
+*   **Passage:** "A Dutch wholesaler such as Kozijnen Unie markets Dutch-speaking staff, supply, project guidance and its own installation team. `<!-- CHECK: 03-dutch-dealer -->`"
+*   **What the source actually supports:** The excerpt (`03-dutch-dealer.txt`) confirms Dutch-speaking staff, supply to contractors/builders, and its own installation team. It does not explicitly mention "project guidance" (it mentions clear communication).
+*   **Concrete fix:** Remove "project guidance" from the sentence and update the corresponding TSV row.
+
+**3. Minor word substitution in competitor bundle (Severity: Low, Rule 8)**
+*   **Passage:** "FENBRO bundles quotation, delivery, installation and warranty around Polish joinery. `<!-- CHECK: 03-fenbro-model -->`" *(Second usage in text)*
+*   **What the source actually supports:** The excerpt (`03-fenbro-model.txt`) states they offer "a complete service: product + delivery + installation, with full warranty". It does not explicitly use the word "quotation".
+*   **Concrete fix:** Change "quotation" to "the product" to mirror the excerpt exactly: *"FENBRO bundles the product, delivery, installation and warranty..."*
+
+***
+
+### General Rule Compliance
+
+*   **Rule 1 (Never false):** Passed. Proposals and hurdles are clearly labelled as test designs ("required-price hurdle", "not observed market rates"). Implementation dates for Wkb and CBAM are accurate.
+*   **Rule 2 (Buyer and event):** Passed. The buyer is the project manager/operations director; the event is needing evidence before purchase order release to avoid acceptance delays.
+*   **Rule 3 (Economics):** Passed. The arithmetic is internally consistent. Founder replacement cost (€100k) is strictly separated from operating surplus (€120k). Working capital is credibly controlled by billing 50% in advance.
+*   **Rule 4 (Scalability):** Passed. The essay explicitly avoids the "platform" magic word, correctly describing the 20th-customer asset as a "verified supplier-document map" and "trained coordinators."
+*   **Rule 5 (Incumbents and capture):** Passed. Eko-Okna acting as an incumbent is treated fairly as the "kill fact in public view." Partner margin capture is explicitly confronted.
+*   **Rule 6 (Capable failure):** Passed. It outlines a highly credible non-straw-man scenario where the founder executes perfectly, but the structural willingness to pay evaporates once coordination gaps close.
+*   **Rule 7 (Constraints & Precedent):** Passed. Respects the A2 Dutch limit by enforcing a fixed-fee Dutch consultant partner. Cash at risk stays under €50k. The precedent firm (FENBRO) is independently traced to UK Companies House.
+*   **Rule 9 (Verdict):** Passed. **WATCH** is the earned verdict because incumbent bundling makes independent demand doubtful without further evidence. The €5k separate fee kill assumption is exactly right.
+*   **Rule 10 (Readability):** Passed. No sentences over 40 words (the longest is 34), no wall paragraphs, and no jargon without an explained mechanism.
+
+***
+
+### Verdict
+
+**REVISE**
+
+The three fixes that matter most:
+1. Delete the "although some material can be reused..." clause in the `03-consumer-dossier` sentence.
+2. Remove "project guidance" from the Kozijnen Unie sentence.
+3. Change "quotation" to "the product" in the FENBRO bundle sentence.
+
+exec
+/bin/bash -lc "nl -ba chapters/03-joinery-steel-dossier.html | sed -n '1,220p'
+printf '\\nCLAIMS\\n'
+nl -ba checks/claims/03.tsv
+printf '\\nSOURCES INDEX\\n'
+nl -ba resources/sources/03/SOURCES.md" in /home/diablo/book19
+ succeeded in 127ms:
+     1	<!DOCTYPE html>
+     2	<html lang="en">
+     3	<head>
+     4	<meta charset="utf-8">
+     5	<meta name="viewport" content="width=device-width, initial-scale=1">
+     6	<title>The file is valuable only when it is missing — The Third Engine</title>
+     7	<meta name="description" content="A test of a bilingual order-and-evidence service for Dutch builders buying Polish joinery, and whether the dossier can be sold separately from the goods.">
+     8	<link rel="stylesheet" href="../static/style.css">
+     9	<script src="../static/theme.js"></script>
+    10	</head>
+    11	<body>
+    12	<header class="site-header">
+    13	  <div class="wrap">
+    14	    <a class="brand" href="../index.html">The Third <span>Engine</span></a>
+    15	    <nav class="site-nav">
+    16	      <a href="../index.html">Contents</a>
+    17	      <a href="../about.html">Method</a>
+    18	      <button class="theme-toggle" type="button">☾ Dark</button>
+    19	    </nav>
+    20	  </div>
+    21	</header>
+    22	<main class="wrap">
+    23	<p class="kicker">Essay 3 of 6 · The joinery and steel dossier · from pitch 6</p>
+    24	<h1>The file is valuable only when it is missing</h1>
+    25	<p class="lede">A small Dutch builder can buy windows from Poland and save money on the object, then lose the saving while matching declarations, performance values and installation evidence to a live project. The proposed business closes that gap in Polish and hands the builder a Dutch-ready evidence pack. Yet the strongest official guidance says correct manufacturer instructions may already give the quality assurer sufficient proof. <!-- CHECK: 03-product-evidence --> Large factories publish documents and sell through distributors. <!-- CHECK: 03-eko-incumbent --> The purchase decision is therefore not “does Wkb create paperwork?” It is whether a builder importing directly will pay a separate fee before one incomplete order delays approval or creates rework.</p>
+    26	
+    27	<section class="proposition">
+    28	<h2>The proposition</h2>
+    29	<p>The first buyer is the project manager at a Dutch contractor building ground-level homes, holiday units or a small industrial building. The company buys project-specific exterior windows and doors directly from a Polish factory. It has no Polish-speaking procurement employee and no internal product-compliance specialist. Its quality assurer has already named the evidence needed for the project.</p>
+    30	<p>The purchase event comes before the goods order. A quotation is attractive, but the product references, declared performance and installation method have not yet been reconciled with the drawings and the quality plan. The buyer can either send questions across three organisations or pay one party to close the order gate.</p>
+    31	<p>The fixed deliverable has two stages. A pre-order gate maps each opening to the quotation, product identity, required performance and available declaration. It records missing evidence, owners and due dates. A completion pack then matches the delivered units to the approved schedule, preserves the manufacturer’s instructions, indexes installation photographs and lists unresolved exceptions. It supports the builder and quality assurer; it is not their declaration.</p>
+    32	<p>The boundary matters. The service does not manufacture, install or certify a window. It does not issue a Declaration of Performance, decide structural adequacy or act as the quality assurer. The buyer contracts and pays the factory directly. Freight, defects, design changes and installation remain with the named commercial parties. This company sells installed-iron evidence, never software with a login.</p>
+    33	<p>Start with non-fire-rated exterior joinery in new consequence-class-1 projects. Structural steel is not an adjacent SKU. Its design authority, fabrication controls and site evidence are different. The Commission’s harmonised-standard notice lists EN 14351-1 for windows and doors and EN 1090-1 for conformity assessment of structural components. <!-- CHECK: 03-harmonised-standards --> Steel becomes a later line only with a Dutch structural engineer and a fabricator already working within the required system.</p>
+    34	<p>The substitute is formidable: the factory’s export desk, an established Dutch dealer, the builder’s work preparer and the quality assurer’s own checklist. The dossier company wins only on awkward direct orders that cross those boundaries. If the factory and dealer already make the file usable, there is nothing left to sell.</p>
+    35	</section>
+    36	
+    37	<section class="changed">
+    38	<h2>What changed</h2>
+    39	<p>The Wkb rules began on 1 January 2024 for new buildings in consequence class 1. That class includes ground-level homes and certain simple industrial buildings. Renovation remains postponed without a fixed start date, and higher consequence classes await evaluation. <!-- CHECK: 03-wkb-scope --> This is a narrow trigger, not a mandate covering every replacement-window job.</p>
+    40	<p>For a covered project, the quality assurer checks the work during construction and issues a statement when there is justified confidence that the building meets the technical rules. Before use, the client submits a completion notification. The authority receives the assurer’s statement plus specified information on risks, structure, ventilation, energy, environmental performance, fire safety and equivalent measures. An incomplete notification prevents the two-week clock to lawful use from starting. <!-- CHECK: 03-completion-dossier --></p>
+    41	<p>That “dossier bevoegd gezag” is not a sack containing every certificate for every product. The private consumer or handover dossier is also distinct. It includes drawings, calculations, materials, installations, functions and use and maintenance information. The municipality and quality assurer are not parties to that private dossier, although some material can be reused for the completion notification. <!-- CHECK: 03-consumer-dossier --></p>
+    42	<p>Construction-product rules still create real inputs. Dutch government guidance names windows as construction products and says a Declaration of Performance is mandatory, with the manufacturer stating the product’s performance. <!-- CHECK: 03-cpr-duty --> TloKB adds the operational point: where a builder installs a product according to the manufacturer’s instructions, that can be sufficient evidence of product performance and processing. A deviation can require the builder to provide its own substantiation. <!-- CHECK: 03-product-evidence --> The opportunity sits in matching and exceptions, not inventing certificates.</p>
+    43	<p>There is a substantial physical corridor. Eurostat reports 2025 Dutch imports from Poland of €160.0 million under HS 7308 iron or steel structures and parts, and €148.3 million under HS 7610 aluminium structures and parts. Both headings include far more than the proposed window orders. <!-- CHECK: 03-trade-flow --> They prove goods move, not that Dutch builders bought them directly, that files were deficient or that a separate budget exists.</p>
+    44	<p>CBAM should leave the launch offer. The definitive regime began on 1 January 2026 and applies to EU importers bringing covered goods into the EU. The current single mass threshold is more than 50 tonnes, with iron, steel and aluminium among the sectors. <!-- CHECK: 03-cbam --> A Polish-to-Dutch movement is intra-EU. Any CBAM duty arose at the external EU border, so a Dutch joinery dossier should not casually promise a new CBAM filing for each Polish order. <!-- CHECK: 03-cbam-boundary --></p>
+    45	<p>The number the pitch needed first was the share of Polish joinery and steel orders arriving without a usable CPR or EN 1090 file, as observed by quality assurers. The public record reviewed here does not publish that numerator and denominator. <!-- CHECK: 03-gap-rate --> It also does not show how often a file problem delayed a declaration. The number remains unsettled and must be measured from case files, not replaced by import value.</p>
+    46	</section>
+    47	
+    48	<section class="whyyou">
+    49	<h2>Why you</h2>
+    50	<p>Polish does useful work on the supply side. The founder can challenge a quotation, obtain a product-specific declaration, resolve conflicting identifiers and ask a factory engineer why the installation instruction differs from the drawing. Regulatory literacy keeps the request tied to the project requirement. The engineering habit turns messages and PDFs into a controlled acceptance record.</p>
+    51	<p>The Dutch gate is not an exam; it is the customer channel. <!-- CHECK: 03-language-gate --> The buyer, site supervisor and quality assurer discuss risk, deviations and responsibility in Dutch. A2 is not enough for a disputed site meeting or a sales call about liability. From the first paid order, a Dutch-speaking construction-quality consultant must lead those meetings under a fixed fee. The founder keeps the contract and the Polish factory relationship. If no credible consultant accepts that boundary, the channel fails.</p>
+    52	<p>FENBRO is the closest precedent found elsewhere. Its site describes selling Polish joinery abroad and a complete Irish service of product, delivery, installation and warranty. It identifies its company at Ludna 2/320 in Warsaw. <!-- CHECK: 03-fenbro-model --> Companies House independently records a same-named FENBRO LTD with two Polish directors at 2 Lok. 320, Ludna in Warsaw. <!-- CHECK: 03-fenbro-trace --> An April 2026 accounts filing describes the UK company as dormant through March 2026. <!-- CHECK: 03-fenbro-dormant --> That is a trace, not proof of attractive economics. More importantly, FENBRO sells the whole transaction. No independently traced small firm was found whose principal product is a separately priced dossier. <!-- CHECK: 03-precedent-gap --></p>
+    53	<p>The edge breaks if the reader will not work through a Dutch lead or cannot visit projects during business hours. A perfect Polish supplier call does not replace a Dutch conversation when the quality assurer flags an exception.</p>
+    54	</section>
+    55	
+    56	<section class="sale">
+    57	<h2>The first sale</h2>
+    58	<p>Build a list around ten prospect types: modular-home builders, timber-frame contractors, holiday-home builders, small developer-contractors, self-build general contractors, agricultural-building contractors, two-storey warehouse builders, light-workshop builders, facade subcontractors and import-direct window installers serving new homes. Exclude consumer replacement work, public tenders and projects outside consequence class 1.</p>
+    59	<p>The signer is the project manager or operations director who controls the purchase order and can require evidence before release. Approach through Dutch construction-quality consultants, quality-assurer introductions and the founder’s professional network. The message names one order and one acceptance risk. It does not promise cheaper Polish windows or “Wkb compliance.” Polish factories are suppliers, not leads to be resold.</p>
+    60	<p>The first offer is a pre-order evidence gate at a €2,000 required-price hurdle, 50% in advance. It covers one quotation, one building and up to twenty openings. The completion pack is a separate €3,000 hurdle. Both prices are test design, not observed market rates. The buyer receives the index, source documents and exception log even if it stops.</p>
+    61	<p>That separation tests the kill fact. A commission on goods can hide whether the file has value. A paid evidence line cannot. The factory and builder contract directly; the service never finances the goods. If the buyer accepts only a percentage hidden inside the window price, the thesis has become ordinary brokerage.</p>
+    62	</section>
+    63	
+    64	<section class="economics">
+    65	<h2>Does the money work?</h2>
+    66	<p>Every figure below is a required-price, cost or capacity hurdle, not a sourced price or forecast. The model excludes product commission, VAT, goods, freight and installation. Customer and factory contract directly. The point is to discover whether evidence alone can carry a company.</p>
+    67	<div class="ledger-wrap"><table class="ledger">
+    68	<thead><tr><th>€000</th><th>Year 1 design</th><th>Mature design</th></tr></thead>
+    69	<tbody>
+    70	<tr><td>Pre-order gates</td><td>8 × €2k = 16</td><td>120 × €2k = 240</td></tr>
+    71	<tr><td>Completion packs</td><td>4 × €3k = 12</td><td>120 × €3k = 360</td></tr>
+    72	<tr><td><strong>Revenue</strong></td><td><strong>28</strong></td><td><strong>600</strong></td></tr>
+    73	<tr><td>Dutch technical review</td><td>8 × €0.5k = 4</td><td>€0.5k × 120 = 60</td></tr>
+    74	<tr><td>Contract dossier support</td><td>120 hours × €80 = 9.6</td><td>0</td></tr>
+    75	<tr><td>Two dossier coordinators, loaded</td><td>0</td><td>2 × €65k = 130</td></tr>
+    76	<tr><td>Dutch quality lead, loaded</td><td>0</td><td>1 × €90k = 90</td></tr>
+    77	<tr><td>Delivery travel, insurance and tools</td><td>2</td><td>20</td></tr>
+    78	<tr><td><strong>Total delivery cost</strong></td><td><strong>15.6</strong></td><td><strong>300</strong></td></tr>
+    79	<tr><td><strong>Gross margin</strong></td><td><strong>12.4 (44%)</strong></td><td><strong>300 (50%)</strong></td></tr>
+    80	<tr><td>Sales, legal and administration</td><td>6</td><td>80</td></tr>
+    81	<tr><td>Founder labour at replacement cost</td><td>300 hours × €100 = 30</td><td>100</td></tr>
+    82	<tr><td><strong>Operating surplus after founder replacement</strong></td><td><strong>−23.6</strong></td><td><strong>120</strong></td></tr>
+    83	</tbody></table></div>
+    84	<p>Year one is a paid experiment beside the job, not owner income. It loses €23,600 after valuing founder time. Cash loss is lower because that labour is not a payroll cheque, but ignoring it would disguise a weak practice. The model has passed only when customers pay both stages without a goods margin subsidising them.</p>
+    85	<p>The mature hurdle assumes ten completed orders a month. At twenty-four delivery hours per order, delivery consumes 240 hours monthly. Two coordinators and one quality lead each provide a designed 120 productive hours, leaving one-third of capacity for exceptions, training and absences. The founder sells, handles escalations and maintains supplier relationships. If average delivery exceeds thirty hours, gross margin falls below the intended level before overhead.</p>
+    86	<p>The €100,000 founder line is replacement-cost compensation before personal tax. The €120,000 operating surplus is separate and must fund tax, hiring variance and retained capital. There is no recurring revenue in the base case. Repeat projects and supplier familiarity may lower acquisition and delivery cost, but each fee must be earned on an order.</p>
+    87	<p>Working capital is controlled by refusing title to the goods, billing each service stage 50% in advance and using contractors until receipts support employment. Before hiring, use a €25,000 reserve hurdle for late customer payments, rework and professional fees. Year-one cash at risk stays below €50,000 only if no factory deposit, freight bill or warranty claim enters the company. Crossing that boundary changes the business into a distributor and requires a new liability and capital case.</p>
+    88	</section>
+    89	
+    90	<section class="scale">
+    91	<h2>From service to company</h2>
+    92	<p><strong>Customer one</strong> is founder-led. The durable output is a field map: drawing reference, opening, product code, required performance, declared performance, instruction revision, delivery identity, installation evidence, exception, owner and decision. The Dutch reviewer signs only their own professional judgement. The factory remains responsible for its documents.</p>
+    93	<p><strong>Customer five</strong> uses a written intake, naming convention and exception taxonomy. A bilingual coordinator chases routine evidence. The founder handles supplier engineering questions; the Dutch lead handles buyer and assurer meetings. At least half of delivery hours must now occur without the founder. Otherwise Polish fluency is a job, not a company asset.</p>
+    94	<p><strong>Customer twenty</strong> should reveal repetition across several factories. The accumulating asset is not an app. It is a verified supplier-document map, typical response times, recurring identifier errors, accepted installation evidence patterns and trained coordinators. Customer project data remains separated and exportable. Ordinary document storage can support the operation; customers never need another login.</p>
+    95	<p>Scale is earned if one coordinator can run four live orders, supplier familiarity reduces missing-document time, and the Dutch lead reviews exceptions rather than every line. It fails if each quality assurer demands a unique format, every project needs senior engineering judgement or factories refuse reuse. In those cases, the twentieth delivery still resembles the first.</p>
+    96	</section>
+    97	
+    98	<section class="competition">
+    99	<h2>The incumbent gets a turn</h2>
+   100	<p>Eko-Okna already presents a Dutch-language export channel, direct contact for new business customers, a distributor platform and a document library containing product-parameter certificates. <!-- CHECK: 03-eko-incumbent --> This is the kill fact in public view. The factory can place documents next to the order without a specialist intermediary.</p>
+   101	<p>FENBRO bundles quotation, delivery, installation and warranty around Polish joinery. <!-- CHECK: 03-fenbro-model --> A Dutch wholesaler such as Kozijnen Unie markets Dutch-speaking staff, supply, project guidance and its own installation team. <!-- CHECK: 03-dutch-dealer --> Those businesses can include document chasing in product margin. The proposed company asks the buyer to see and pay for the line separately.</p>
+   102	<p>The internal substitute is one good work preparer using the factory portal and the quality assurer’s checklist. The assurer may identify gaps during ordinary project review. A facade subcontractor may already own measurement and installation evidence. For structural steel, the certified fabricator and structural engineer sit closer to the design decision than a broker does.</p>
+   103	<p>The Dutch-speaking partner can also capture the margin. After learning which Polish contacts respond and which documents matter, that consultant can hire a Polish coordinator or offer the pack free with broader Wkb work. Protecting introductions contractually will not fix weak buyer value. The defence is faster closure across repeated suppliers, transparent fixed fees and direct ownership of the builder contract. The ninety-day test must show that this is enough.</p>
+   104	</section>
+   105	
+   106	<div class="counter">
+   107	<div class="case-head"><span class="who">The capable failure</span></div>
+   108	<p>The company executes cleanly. It recruits a respected Dutch quality lead, answers in both languages, obtains every declaration and leaves immaculate indexes. Builders like the service. Quality assurers accept the packs. Yet almost every factory file was already substantively adequate. The real work was naming files and forwarding installation photographs.</p>
+   109	<p>Dealers then copy the checklist and include it with the windows. Factories improve their Dutch portals because missing documents slow their own collections. Quality assurers standardise evidence requests. Only unusual products and site deviations still need help, and those cases consume senior judgement. The average fee falls while liability anxiety rises.</p>
+   110	<p>Nothing failed in execution. The service trained the channel to absorb a temporary coordination gap. There is no recurring contract, no control of the goods margin and no proprietary certification. The founder ends with an intermittent expert practice. Better software cannot repair the missing willingness to pay.</p>
+   111	</div>
+   112	
+   113	<section class="monday">
+   114	<h2>The first ninety days</h2>
+   115	<ol>
+   116	<li><strong>Days 1–15:</strong> retain one Dutch-speaking construction-quality consultant for a €1,000 fee hurdle. Review the service boundary, one intake sheet and one exception report. The consultant must remain independent of any quality assurer engaged on the same project.</li>
+   117	<li><strong>Days 1–25:</strong> ask two quality-assurer firms to review ten recent Polish-origin joinery or steel orders each, anonymised. Count complete-on-first-review files, document requests, site deviations, lost hours and effects on the assurer’s statement. If they cannot identify origin reliably, record that the pitch’s first number cannot be measured this way.</li>
+   118	<li><strong>Days 10–35:</strong> interview four direct-import builders and four Polish factories. Reconstruct the last order from quotation through installation. Ask who supplied each declaration and instruction, what was rejected, who repaired it and whether any fee was visible.</li>
+   119	<li><strong>Days 25–50:</strong> send one scoped €2,000 pre-order-gate offer, 50% in advance, to ten qualified builders. Cap Dutch support, travel, insurance advice and document handling at €3,500 before payment. Build no portal, buy no goods and sign no factory exclusivity.</li>
+   120	<li><strong>Days 40–75:</strong> deliver one paid gate beside the day job. Time supplier chasing, technical judgement, Dutch review and rework separately. Offer the same buyer the €3,000 completion pack before installation; never rebate it through a commission.</li>
+   121	<li><strong>Days 76–90:</strong> pass only if one of ten builders pays for the gate, buys the completion pack, and the two stages fit within forty-eight delivery hours. Also require the quality-assurer sample to show at least four material first-review gaps in twenty Polish-origin orders. These are test hurdles, not observed rates. Kill if eighteen of twenty files were good enough on first review, no builder pays after ten qualified offers, or Dutch review pushes expected gross margin below 50%.</li>
+   122	</ol>
+   123	</section>
+   124	
+   125	<div class="verdict-box">
+   126	<h2>Verdict</h2>
+   127	<p class="verdict"><strong>WATCH</strong></p>
+   128	<p>The rule creates evidence work, but official guidance and incumbent behaviour both suggest that much of it is already bundled with the product or the builder’s normal process. The single assumption that would most change the verdict is that a direct-import builder will pay the separate €5,000-per-order hurdle for acceptance evidence, without hiding the fee in a goods commission.</p>
+   129	</div>
+   130	
+   131	<div class="reading">
+   132	<h2>Reading</h2>
+   133	<ul>
+   134	<li>Informatiepunt Leefomgeving, <a href="https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/wet-kwaliteitsborging-bouwen-wkb/">Wkb scope and phased introduction</a>.</li>
+   135	<li>Informatiepunt Leefomgeving, <a href="https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/plichten/melding-bouwactiviteit/">construction and completion notifications</a>, and <a href="https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/privaatrecht-wet-kwaliteitsborging/consumentendossier-opleverdossier-wkb/">the separate consumer dossier</a>.</li>
+   136	<li>TloKB, <a href="https://www.tlokb.nl/wet-kwaliteitsborging/bouwproducten-verwerken-in-een-bouwwerk">using construction products in a building</a> and <a href="https://www.tlokb.nl/erkende-kwaliteitsverklaringen/europese-certificatie/verordening-bouwproducten">Construction Products Regulation guidance</a>.</li>
+   137	<li>European Commission, <a href="https://publications.europa.eu/resource/celex/52018XC0309%2809%29">harmonised standards under the Construction Products Regulation</a>.</li>
+   138	<li>Eurostat Comext, <a href="https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/ds-045409?freq=A&amp;reporter=NL&amp;partner=PL&amp;flow=1&amp;indicators=VALUE_IN_EUROS&amp;time=2025&amp;product=7308&amp;product=7610">2025 Netherlands imports from Poland, HS 7308 and 7610</a>.</li>
+   139	<li>European Commission, <a href="https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en">CBAM definitive regime</a>.</li>
+   140	<li>Eko-Okna, <a href="https://ekookna.nl/ekonl/om-te-downloaden/documenten">Dutch document library</a>; FENBRO, <a href="https://fenbro.com/about-us/">business model and history</a>.</li>
+   141	<li>UK Companies House, <a href="https://find-and-update.company-information.service.gov.uk/company/16295546">FENBRO LTD company record</a>.</li>
+   142	</ul>
+   143	</div>
+   144	
+   145	<nav class="chapter-nav" aria-label="Essay navigation">
+   146	  <span></span>
+   147	  <a href="../index.html">Contents</a>
+   148	  <span></span>
+   149	</nav>
+   150	</main>
+   151	<footer class="site-footer"><div class="wrap"><p>Six candidates. One third engine. Evidence before commitment.</p></div></footer>
+   152	</body>
+   153	</html>
+
+CLAIMS
+     1	id	claim	source_url	source_locator	status
+     2	03-wkb-scope	IPLO says Wkb quality-assurance rules began on 1 January 2024 for new consequence-class-1 buildings; renovations are postponed without a definitive date and higher classes await evaluation.	https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/wet-kwaliteitsborging-bouwen-wkb/	excerpts/03-wkb-scope.txt — “Gefaseerde invoering”	checked-by:codex:2026-09-05
+     3	03-completion-dossier	IPLO says a covered building needs a completion notification at least two weeks before use; the authority receives the quality assurer's statement and specified technical information, and an incomplete notification does not start the two-week use period.	https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/plichten/melding-bouwactiviteit/	excerpts/03-completion-dossier.txt — “Gereedmelding”; “Inhoud gereedmelding”; “Gemeente controleert”	checked-by:codex:2026-09-05
+     4	03-consumer-dossier	IPLO distinguishes the private consumer/handover dossier from the authority dossier; it lists drawings, calculations, materials, installations and use/maintenance information, and says the municipality and quality assurer are not involved.	https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/privaatrecht-wet-kwaliteitsborging/consumentendossier-opleverdossier-wkb/	excerpts/03-consumer-dossier.txt — introduction and “Inhoud consumentendossier”	checked-by:codex:2026-09-05
+     5	03-product-evidence	TloKB says that installing a construction product according to manufacturer instructions is sufficient evidence for the quality assurer of the product's performance and processing against Bbl requirements; deviations can require the builder's own substantiation.	https://www.tlokb.nl/wet-kwaliteitsborging/bouwproducten-verwerken-in-een-bouwwerk	excerpts/03-product-evidence.txt — “Verwerking van bouwproducten en het Bbl”; “Andere verwerking”	checked-by:codex:2026-09-05
+     6	03-cpr-duty	Dutch RVO guidance identifies windows as construction products and says a Declaration of Performance is mandatory and states product performance.	https://www.rvo.nl/onderwerpen/eu-wetgeving/ce-markering/verplichte-productgroepen	excerpts/03-cpr-duty.txt — “Bouwproducten”	checked-by:codex:2026-09-05
+     7	03-harmonised-standards	The European Commission's harmonised-standard notice lists EN 14351-1 for windows and doors and EN 1090-1 for conformity assessment of structural steel and aluminium components.	https://publications.europa.eu/resource/celex/52018XC0309%2809%29	excerpts/03-harmonised-standards.txt — entries for EN 1090-1 and EN 14351-1	checked-by:codex:2026-09-05
+     8	03-trade-flow	Eurostat Comext reports 2025 Dutch imports from Poland worth EUR 160013376 under HS 7308 and EUR 148271001 under HS 7610; the headings broadly cover iron/steel and aluminium structures and parts.	https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/ds-045409?freq=A&reporter=NL&partner=PL&flow=1&indicators=VALUE_IN_EUROS&time=2025&product=7308&product=7610	excerpts/03-trade-flow.txt — JSON value and product dimensions	checked-by:codex:2026-09-05
+     9	03-cbam	The European Commission says the definitive CBAM regime applies from 1 January 2026 and that EU importers bringing more than the 50-tonne mass threshold of covered goods into the EU need authorised declarant status; covered sectors include iron, steel and aluminium.	https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en	excerpts/03-cbam.txt — “Definitive regime (from 2026)” and products list	checked-by:codex:2026-09-05
+    10	03-cbam-boundary	Because CBAM attaches to import into the EU, an ordinary Polish-to-Dutch movement is not itself the external-border CBAM import event; any relevant obligation sits upstream unless the Dutch buyer is also the EU importer.	https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en	Reasoned application of the cited import boundary to intra-EU movement	inference
+    11	03-gap-rate	The public sources reviewed do not quantify the share of Polish-origin joinery or steel orders whose evidence is unusable on first review by Dutch quality assurers.	https://www.tlokb.nl/wet-kwaliteitsborging/bouwproducten-verwerken-in-een-bouwwerk	Public-record boundary after regulator, assurer, manufacturer, dealer and trade-source review	inference
+    12	03-language-gate	The proposed intermediary role does not assume a Dutch trade exam or regulated signatory role; the binding language constraint is Dutch buyer, site and quality-assurer communication.	https://www.tlokb.nl/wet-kwaliteitsborging/verklaring	Role-boundary inference from the quality assurer's reserved declaration and the proposed service boundary	inference
+    13	03-eko-incumbent	Eko-Okna's Dutch-language site markets to new business customers, exposes a distributor platform and lists a document library category for product-parameter certificates.	https://ekookna.nl/ekonl/om-te-downloaden/documenten	excerpts/03-eko-incumbent.txt — page navigation, categories and contact block	checked-by:codex:2026-09-05
+    14	03-fenbro-model	FENBRO's site says it began selling Polish joinery abroad, later offered in Ireland a complete product, delivery, installation and warranty service, and identifies its company at Ludna 2/320 in Warsaw.	https://fenbro.com/about-us/	excerpts/03-fenbro-model.txt — company history, 2018 and 2020 entries, footer	checked-by:codex:2026-09-05
+    15	03-fenbro-trace	UK Companies House records a same-named FENBRO LTD with two Polish directors using 2 Lok. 320, Ludna in Warsaw.	https://find-and-update.company-information.service.gov.uk/company/16295546/officers	excerpts/03-fenbro-trace.txt — current officers	checked-by:codex:2026-09-05
+    16	03-fenbro-dormant	An April 2026 FENBRO LTD accounts filing describes the UK company as dormant through 31 March 2026.	https://find-and-update.company-information.service.gov.uk/company/16295546/filing-history	excerpts/03-fenbro-dormant.txt — 29 April 2026 accounts filing	checked-by:codex:2026-09-05
+    17	03-precedent-gap	No independently traced small firm was found whose principal product is a separately priced joinery or structural-steel evidence dossier.	https://fenbro.com/about-us/	Research boundary after precedent and competitor search	inference
+    18	03-dutch-dealer	Kozijnen Unie markets Dutch-language staff, supply to contractors and builders, project guidance and installation by its own team.	https://www.kozijnenunie.nl/	excerpts/03-dutch-dealer.txt — homepage service and benefits text	checked-by:codex:2026-09-05
+
+SOURCES INDEX
+     1	# Essay 3 — source index
+     2	
+     3	Accessed 2026-09-04. Manufacturer, broker and dealer pages support only the services and materials they market. They do not establish customer outcomes, market share or willingness to pay. Every checked claim has its own saved excerpt.
+     4	
+     5	1. **Informatiepunt Leefomgeving, “Wet kwaliteitsborging voor het bouwen (Wkb).”**  
+     6	   URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/wet-kwaliteitsborging-bouwen-wkb/  
+     7	   Excerpt: `excerpts/03-wkb-scope.txt`.  
+     8	   Supports: the 1 January 2024 start, present new-build consequence-class-1 scope, postponed renovation scope and later-class boundary (`03-wkb-scope`).
+     9	
+    10	2. **Informatiepunt Leefomgeving, “Bouwmelding en gereedmelding bij de technische bouwactiviteit.”**  
+    11	   URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/plichten/melding-bouwactiviteit/  
+    12	   Excerpt: `excerpts/03-completion-dossier.txt`.  
+    13	   Supports: the completion notification, its defined authority-dossier contents and the consequence of incompleteness (`03-completion-dossier`).
+    14	
+    15	3. **Informatiepunt Leefomgeving, “Consumentendossier (opleverdossier) en Wet kwaliteitsborging voor het bouwen.”**  
+    16	   URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/privaatrecht-wet-kwaliteitsborging/consumentendossier-opleverdossier-wkb/  
+    17	   Excerpt: `excerpts/03-consumer-dossier.txt`.  
+    18	   Supports: the private handover dossier's contents and its separation from municipality and quality assurer (`03-consumer-dossier`).
+    19	
+    20	4. **Toelatingsorganisatie Kwaliteitsborging Bouw, “Bouwproducten verwerken in een bouwwerk.”**  
+    21	   URL: https://www.tlokb.nl/wet-kwaliteitsborging/bouwproducten-verwerken-in-een-bouwwerk  
+    22	   Excerpt: `excerpts/03-product-evidence.txt`.  
+    23	   Supports: how manufacturer instructions can prove correct processing and what happens after a deviation (`03-product-evidence`). This page does not publish rejection frequency; that absence is the evidence boundary recorded as `03-gap-rate`.
+    24	
+    25	5. **Rijksdienst voor Ondernemend Nederland, “Productgroepen met verplichte CE-markering.”**  
+    26	   URL: https://www.rvo.nl/onderwerpen/eu-wetgeving/ce-markering/verplichte-productgroepen  
+    27	   Excerpt: `excerpts/03-cpr-duty.txt`.  
+    28	   Supports: windows as construction products and the mandatory Declaration of Performance (`03-cpr-duty`).
+    29	
+    30	6. **European Commission, Official Journal notice of harmonised standards under Regulation (EU) No 305/2011.**  
+    31	   URL: https://publications.europa.eu/resource/celex/52018XC0309%2809%29  
+    32	   Excerpt: `excerpts/03-harmonised-standards.txt`.  
+    33	   Supports: the listed scopes of EN 1090-1 and EN 14351-1 (`03-harmonised-standards`).
+    34	
+    35	7. **Eurostat Comext, dataset DS-045409, Netherlands reporter, Poland partner, 2025, HS 7308 and 7610.**  
+    36	   URL: https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/ds-045409?freq=A&reporter=NL&partner=PL&flow=1&indicators=VALUE_IN_EUROS&time=2025&product=7308&product=7610  
+    37	   Excerpt: `excerpts/03-trade-flow.txt`.  
+    38	   Supports: the two import values and the broad commodity descriptions (`03-trade-flow`). The values do not measure domestic absorption, direct purchasing or document quality.
+    39	
+    40	8. **European Commission, “CBAM definitive regime.”**  
+    41	   URL: https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en  
+    42	   Excerpt: `excerpts/03-cbam.txt`.  
+    43	   Supports: the 1 January 2026 definitive regime, import boundary, 50-tonne threshold and covered sectors (`03-cbam`). The exclusion of an ordinary intra-EU Polish-to-Dutch movement is a reasoned application, marked inference (`03-cbam-boundary`).
+    44	
+    45	9. **Eko-Okna, Dutch document library.**  
+    46	   URL: https://ekookna.nl/ekonl/om-te-downloaden/documenten  
+    47	   Excerpt: `excerpts/03-eko-incumbent.txt`.  
+    48	   Supports: the factory's marketed Dutch B2B contact, distributor platform and document-library surface (`03-eko-incumbent`).
+    49	
+    50	10. **FENBRO, “About us.”**  
+    51	    URL: https://fenbro.com/about-us/  
+    52	    Excerpt: `excerpts/03-fenbro-model.txt`.  
+    53	    Supports: the firm's own history and bundled cross-border joinery offer (`03-fenbro-model`).
+    54	
+    55	11. **UK Companies House, FENBRO LTD, company number 16295546 — officers and filing history.**  
+    56	    URLs: https://find-and-update.company-information.service.gov.uk/company/16295546/officers and https://find-and-update.company-information.service.gov.uk/company/16295546/filing-history  
+    57	    Excerpts: `excerpts/03-fenbro-trace.txt` and `excerpts/03-fenbro-dormant.txt`.  
+    58	    Supports: the director/address link and dormant-account caveat (`03-fenbro-trace`, `03-fenbro-dormant`). This independent trace confirms a same-address legal entity, not trading success.
+    59	
+    60	12. **Kozijnen Unie, homepage.**  
+    61	    URL: https://www.kozijnenunie.nl/  
+    62	    Excerpt: `excerpts/03-dutch-dealer.txt`.  
+    63	    Supports: the Dutch dealer's marketed supply, guidance, language and installation bundle (`03-dutch-dealer`).
+    64	
+    65	13. **Toelatingsorganisatie Kwaliteitsborging Bouw, “Verklaring kwaliteitsborger.”**  
+    66	    URL: https://www.tlokb.nl/wet-kwaliteitsborging/verklaring  
+    67	    No checked excerpt; used only for the role-boundary inference that the proposed coordinator does not issue the quality assurer's reserved statement (`03-language-gate`).
+    68	
+    69	## Evidence boundary
+    70	
+    71	No public source found reports the pitch's load-bearing denominator: Polish-origin orders reviewed by Dutch quality assurers, together with the count rejected or delayed for an unusable CPR or EN 1090 evidence file. No source shows a builder paying a separate dossier fee. The essay therefore does not convert import values, Wkb scope or document libraries into paid demand. Those two facts remain the field experiment.
+
+exec
+/bin/bash -lc "for f in resources/sources/03/excerpts/*.txt; do printf '\\n===== %s =====\\n' \""'$f"; nl -ba "$f"; done' in /home/diablo/book19
+ succeeded in 142ms:
+
+===== resources/sources/03/excerpts/03-cbam.txt =====
+     1	URL: https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passage:
+     5	
+     6	“The CBAM definitive regime applies from 1 January 2026.”
+     7	
+     8	“EU importers (or their indirect customs representatives) who import more than the single mass-based threshold of 50 tonnes of CBAM goods into the EU are required to apply for the status of authorised CBAM declarants.”
+     9	
+    10	“What products are under CBAM?
+    11	CBAM covers
+    12	- iron and steel
+    13	- cement
+    14	- aluminium
+    15	- fertilizers
+    16	- electricity
+    17	- hydrogen”
+
+===== resources/sources/03/excerpts/03-completion-dossier.txt =====
+     1	URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/plichten/melding-bouwactiviteit/
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passage:
+     5	
+     6	“Vóór het in gebruik nemen van een bouwwerk moet eerst een gereedmelding naar het bevoegd gezag. Dit moet ten minste 2 weken voor het in gebruik nemen van het bouwwerk (artikel 2.21 Bbl).”
+     7	
+     8	“De gereedmelding bestaat uit:
+     9	1. naam, adres en telefoonnummer van degene die de bouwmelding heeft gedaan
+    10	2. adres, kadastrale aanduiding of coördinaten van de locatie waar de bouwactiviteit is uitgevoerd
+    11	3. dagtekening
+    12	4. de verklaring van de kwaliteitsborger
+    13	5. informatie (als die van belang is) die ingaat op de getroffen maatregelen in het borgingsplan om bouwtechnische risico's te voorkomen of te beperken
+    14	6. aanduiding van de gebruiksfuncties, verblijfsgebieden, verblijfsruimten en de afmetingen en de bezetting van alle ruimten, inclusief totaaloppervlakten per gebruiksfunctie
+    15	7. informatie waaruit blijkt dat het bouwwerk voldoet aan de regels over:
+    16	- bouwconstructie
+    17	- luchtverversing
+    18	- energiezuinigheid
+    19	- milieuprestatie
+    20	8. informatie over brandveiligheid
+    21	9. informatie over toegepaste gelijkwaardige maatregelen”
+    22	
+    23	“De onderdelen d t/m i vormen samen het 'dossier bevoegd gezag'.”
+    24	
+    25	“Bij een onvolledige gereedmelding informeert de gemeente de indiener hierover. Het in gebruik nemen van het bouwwerk kan dan nog niet. Dat kan pas 2 weken nadat alle informatie die hoort bij de gereedmelding, bij de gemeente is.”
+
+===== resources/sources/03/excerpts/03-consumer-dossier.txt =====
+     1	URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/privaatrecht-wet-kwaliteitsborging/consumentendossier-opleverdossier-wkb/
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passage:
+     5	
+     6	“De aannemer moet na afronding van een bouwproject informatie aanleveren aan de opdrachtgever (professioneel of particulier) over wat er gebouwd is. Ook de informatie die nodig is voor onderhoud moet de aannemer aanleveren. De set aan informatie heet 'consumentendossier' of 'opleverdossier'.”
+     7	
+     8	“De gemeente en de kwaliteitsborger zijn niet betrokken bij het consumentendossier.”
+     9	
+    10	“Het volgende moet in ieder geval in het dossier staan:
+    11	- tekeningen en berekeningen over het gebouwde bouwwerk inclusief bijbehorende installaties
+    12	- beschrijving van de toegepaste materialen en installaties
+    13	- gebruiksfuncties van het bouwwerk
+    14	- informatie die nodig is voor het gebruik en onderhoud van het bouwwerk”
+
+===== resources/sources/03/excerpts/03-cpr-duty.txt =====
+     1	URL: https://www.rvo.nl/onderwerpen/eu-wetgeving/ce-markering/verplichte-productgroepen
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passage:
+     5	
+     6	“Wat valt er onder bouwproducten?
+     7	Bijvoorbeeld ramen, hang- en sluitwerk, dakbedekkingen, kit, cement, bouwlijm, stroomkabels, rookmelders en producten voor wegenbouw.”
+     8	
+     9	“Voor bouwproducten wordt de EU-conformiteitsverklaring ook wel een Prestatieverklaring (DoP) genoemd. Dit is verplicht om te hebben. In de DoP vermeldt de fabrikant de prestaties van zijn product.”
+
+===== resources/sources/03/excerpts/03-dutch-dealer.txt =====
+     1	URL: https://www.kozijnenunie.nl/
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passage:
+     5	
+     6	“Wij leveren aan aannemers, bouwbedrijven én particulieren. Bestel eenvoudig kozijnen van topkwaliteit en kies voor deskundige plaatsing door onze vakmensen.”
+     7	
+     8	“Nederlands bedrijf met Nederlandstalig personeel – duidelijke communicatie en korte lijnen.”
+     9	
+    10	“Ons eigen team van vakmensen verzorgt de complete montage van jouw kozijnen.”
+
+===== resources/sources/03/excerpts/03-eko-incumbent.txt =====
+     1	URL: https://ekookna.nl/ekonl/om-te-downloaden/documenten
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passage:
+     5	
+     6	“Samenwerking
+     7	- Platform van de distributeur
+     8	- Verkoopnetwerk
+     9	- Kenniszone van de distributeur”
+    10	
+    11	“Alle documenten
+    12	- Certificeringen ISO
+    13	- Formulieren, contracten, Instructies
+    14	- Kleurenpalet
+    15	- Logo EkoOkna S.A.
+    16	- Marketingmateriaal
+    17	- Parameters certificaten voor het product
+    18	- RODO”
+    19	
+    20	“Direct contact: +48 32 459 15 00 Contact alleen voor nieuwe zakelijke klanten.”
+
+===== resources/sources/03/excerpts/03-fenbro-dormant.txt =====
+     1	URL: https://find-and-update.company-information.service.gov.uk/company/16295546/filing-history
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passage:
+     5	
+     6	“29 Apr 2026
+     7	AA
+     8	Accounts for a dormant company made up to 31 March 2026”
+
+===== resources/sources/03/excerpts/03-fenbro-model.txt =====
+     1	URL: https://fenbro.com/about-us/
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passage:
+     5	
+     6	“2018
+     7	The beginnings of the online business and FENBRO. We set our unique business goal: selling top Polish joinery to customers inside and outside the EU.”
+     8	
+     9	“2020
+    10	We entered the Irish market and offered a complete service: product + delivery + installation, with full warranty, across the whole country.”
+    11	
+    12	“FENBRO Sp. z o.o.
+    13	Ludna 2/320
+    14	00-406, Warsaw, Poland”
+
+===== resources/sources/03/excerpts/03-fenbro-trace.txt =====
+     1	URL: https://find-and-update.company-information.service.gov.uk/company/16295546/officers
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passage:
+     5	
+     6	“FENBRO LTD
+     7	Company number 16295546”
+     8	
+     9	“BRODZIK, Agnieszka Justyna
+    10	Correspondence address
+    11	2 Lok. 320, Ludna, 00-406 Warsaw, Poland
+    12	Role Active
+    13	Director”
+    14	
+    15	“BRODZIK, Pawel
+    16	Correspondence address
+    17	2 Lok. 320, Ludna, 00-406 Warsaw, Poland
+    18	Role Active
+    19	Director”
+
+===== resources/sources/03/excerpts/03-harmonised-standards.txt =====
+     1	URL: https://publications.europa.eu/resource/celex/52018XC0309%2809%29
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passages from the Official Journal table:
+     5	
+     6	“EN 1090-1:2009+A1:2011
+     7	Execution of steel structures and aluminium structures — Part 1: Requirements for conformity assessment of structural components”
+     8	
+     9	“EN 14351-1:2006+A2:2016
+    10	Windows and doors — Product standard, performance characteristics — Part 1: Windows and external pedestrian doorsets”
+
+===== resources/sources/03/excerpts/03-product-evidence.txt =====
+     1	URL: https://www.tlokb.nl/wet-kwaliteitsborging/bouwproducten-verwerken-in-een-bouwwerk
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passage:
+     5	
+     6	“De fabrikant van het bouwproduct geeft bij het product verwerkingsvoorschriften mee. Hiermee beschrijft hij hoe zijn product moet worden verwerkt, zodat het product de gewenste prestatie levert. Als de bouwer het bouwproduct aan de hand van deze voorschriften van de fabrikant verwerkt, is dat voor de kwaliteitsborger voldoende bewijs dat het product en de verwerking ervan aan de prestatie-eigenschappen en dus de Bbl-vereisten voldoet.”
+     7	
+     8	“Twijfelt de kwaliteitsborger eraan dat het bouwwerk dan nog voldoet aan het Bbl? Dan geeft hij dit bij de bouwer aan. De bouwer moet in dat geval zelf onderbouwen dat hij met zijn werkwijze alsnog aan de Bbl-vereisten voldoet.”
+
+===== resources/sources/03/excerpts/03-trade-flow.txt =====
+     1	URL: https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/ds-045409?freq=A&reporter=NL&partner=PL&flow=1&indicators=VALUE_IN_EUROS&time=2025&product=7308&product=7610
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim JSON passage:
+     5	
+     6	“"value":{"0":160013376,"1":148271001}”
+     7	
+     8	“"product":{"label":"PRODUCT","category":{"index":{"7308":0,"7610":1},"label":{"7308":"Structures and parts of structures \"e.g., bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns\", of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel (excl. prefabricated buildings of heading 9406)","7610":"Structures and parts of structures \"e.g., bridges and bridge-sections, towers, lattice masts, pillars and columns, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, shutters, balustrades\", of aluminium (excl. prefabricated buildings of heading 9406); plates, rods, profiles, tubes and the like, prepared for use in structures, of aluminium"}}}”
+     9	
+    10	“"flow":{"label":"FLOW","category":{"index":{"1":0},"label":{"1":"IMPORT"}}}”
+    11	
+    12	“"time":{"label":"TIME_PERIOD","category":{"index":{"2025":0},"label":{"2025":"2025"}}}”
+
+===== resources/sources/03/excerpts/03-wkb-scope.txt =====
+     1	URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/wet-kwaliteitsborging-bouwen-wkb/
+     2	Fetched: 2026-09-04
+     3	
+     4	Verbatim passage:
+     5	
+     6	“De regels voor kwaliteitsborging zijn op 1 januari 2024 ingegaan voor nieuwe bouwwerken in gevolgklasse 1. Dat is de laagste risicoklasse waar bijvoorbeeld eengezinswoningen en kleinere bedrijfspanden onder vallen.”
+     7	
+     8	“De invoering van de Wkb voor verbouwingen is voorlopig uitgesteld en kent nog geen definitieve ingangsdatum.”
+     9	
+    10	“Afhankelijk van de uitkomsten van de evaluatie volgen daarna (al dan niet gelijktijdig) de bouwwerken in hogere risicoklassen.”
+
+codex
+The reviewers found six discrete issues, but their own summaries already contain assertions that need checking—for example, the ledger’s status format and whether the economic “double count” is actually a contradiction. I’m reconciling every marker and arithmetic assumption now.
+exec
+/bin/bash -lc "printf 'CHECK markers\\n'; rg -o '<"'!-- CHECK: [''^ ]+ -->'"' chapters/03-joinery-steel-dossier.html | sort | uniq -c; printf '\\nSentence lengths (>40)\\n'; perl -0777 -ne 's/<["'^>]+>/ /g; s/'"\\s+/ /g; @s=split /(?<=[."'!?])'"\\s+/; for "'$x (@s){@w=$x=~/'"\\b[\\pL\\pN’'-]+\\b/g; print scalar(@w),\"\\t\","'$x,"'"\\n\" if @w>40}' chapters/03-joinery-steel-dossier.html; printf '\\nParagraph word counts (>120)\\n'; perl -0777 -ne 'while (/<p(?: ["'^>]*)?>(.*?)<'"\\/p>/sg){"'$x=$1;$x=~s/<[''^>]+>/ /g;$x=~s/'"\\s+/ /g;@w="'$x=~/'"\\b[\\pL\\pN’'-]+\\b/g; print scalar(@w),\"\\t\","'$x,"'"\\n\" if @w>120}' chapters/03-joinery-steel-dossier.html" in /home/diablo/book19
+ exited 2 in 103ms:
+/bin/bash: -c: line 1: syntax error near unexpected token `('
+/bin/bash: -c: line 1: `printf 'CHECK markers\n'; rg -o '<!-- CHECK: [^ ]+ -->' chapters/03-joinery-steel-dossier.html | sort | uniq -c; printf '\nSentence lengths (>40)\n'; perl -0777 -ne 's/<[^>]+>/ /g; s/\s+/ /g; @s=split /(?<=[.!?])\s+/; for $x (@s){@w=$x=~/\b[\pL\pN’'-]+\b/g; print scalar(@w),"\t",$x,"\n" if @w>40}' chapters/03-joinery-steel-dossier.html; printf '\nParagraph word counts (>120)\n'; perl -0777 -ne 'while (/<p(?: [^>]*)?>(.*?)<\/p>/sg){$x=$1;$x=~s/<[^>]+>/ /g;$x=~s/\s+/ /g;@w=$x=~/\b[\pL\pN’'-]+\b/g; print scalar(@w),"\t",$x,"\n" if @w>120}' chapters/03-joinery-steel-dossier.html'
+
+exec
+/bin/bash -lc "printf 'CHECK markers\\n'
+rg -o '<"'!-- CHECK: [''^ ]+ -->'"' chapters/03-joinery-steel-dossier.html | sort | uniq -c
+printf '\\nSentence lengths (>40)\\n'
+perl -0777 -ne 's/<["'^>]+>/ /g; s/'"\\s+/ /g; @s=split /(?<=[."'!?])'"\\s+/; for "'$x (@s){@w=$x=~/'"\\b[\\pL\\pN’-]+\\b/g; print scalar(@w),\"\\t\","'$x,"'"\\n\" if @w>40}' chapters/03-joinery-steel-dossier.html
+printf '\\nParagraph word counts (>120)\\n'
+perl -0777 -ne 'while (/<p(?: ["'^>]*)?>(.*?)<'"\\/p>/sg){"'$x=$1;$x=~s/<[''^>]+>/ /g;$x=~s/'"\\s+/ /g;@w="'$x=~/'"\\b[\\pL\\pN’-]+\\b/g; print scalar(@w),\"\\t\","'$x,"'"\\n\" if @w>120}' chapters/03-joinery-steel-dossier.html" in /home/diablo/book19
+ succeeded in 131ms:
+CHECK markers
+      1 <!-- CHECK: 03-cbam -->
+      1 <!-- CHECK: 03-cbam-boundary -->
+      1 <!-- CHECK: 03-completion-dossier -->
+      1 <!-- CHECK: 03-consumer-dossier -->
+      1 <!-- CHECK: 03-cpr-duty -->
+      1 <!-- CHECK: 03-dutch-dealer -->
+      2 <!-- CHECK: 03-eko-incumbent -->
+      1 <!-- CHECK: 03-fenbro-dormant -->
+      2 <!-- CHECK: 03-fenbro-model -->
+      1 <!-- CHECK: 03-fenbro-trace -->
+      1 <!-- CHECK: 03-gap-rate -->
+      1 <!-- CHECK: 03-harmonised-standards -->
+      1 <!-- CHECK: 03-language-gate -->
+      1 <!-- CHECK: 03-precedent-gap -->
+      2 <!-- CHECK: 03-product-evidence -->
+      1 <!-- CHECK: 03-trade-flow -->
+      1 <!-- CHECK: 03-wkb-scope -->
+
+Sentence lengths (>40)
+74	 The file is valuable only when it is missing — The Third Engine The Third Engine Contents Method ☾ Dark Essay 3 of 6 · The joinery and steel dossier · from pitch 6 The file is valuable only when it is missing A small Dutch builder can buy windows from Poland and save money on the object, then lose the saving while matching declarations, performance values and installation evidence to a live project.
+139	€000 Year 1 design Mature design Pre-order gates 8 × €2k = 16 120 × €2k = 240 Completion packs 4 × €3k = 12 120 × €3k = 360 Revenue 28 600 Dutch technical review 8 × €0.5k = 4 €0.5k × 120 = 60 Contract dossier support 120 hours × €80 = 9.6 0 Two dossier coordinators, loaded 0 2 × €65k = 130 Dutch quality lead, loaded 0 1 × €90k = 90 Delivery travel, insurance and tools 2 20 Total delivery cost 15.6 300 Gross margin 12.4 (44%) 300 (50%) Sales, legal and administration 6 80 Founder labour at replacement cost 300 hours × €100 = 30 100 Operating surplus after founder replacement −23.6 120 Year one is a paid experiment beside the job, not owner income.
+
+Paragraph word counts (>120)
+
+exec
+/bin/bash -lc "perl -0777 -ne '"'$n=0; while (/<(?:p|li)(?: [''^>]*)?>(.*?)<'"\\/(?:p|li)>/sg){"'$x=$1;$x=~s/<!--.*?-->//sg;$x=~s/<[''^>]+>/ /g;$x=~s/&[''^;]+;/X/g;$x=~s/'"\\s+/ /g;for "'$s (split /(?<=[.!?])'"\\s+/, "'$x){@w=$s=~/'"\\b[\\pL\\pN’-]+\\b/g;if(@w>40){"'$n++; print scalar(@w),"'"\\t\","'$s,"'"\\n\"}}} print \"COUNT="'$n'"\\n\"' chapters/03-joinery-steel-dossier.html" in /home/diablo/book19
+ succeeded in 111ms:
+COUNT=0
+
+exec
+/bin/bash -lc "printf 'FLASH\\n'; nl -ba drafts/reviews/03-flash.md; printf '\\nPRO\\n'; nl -ba drafts/reviews/03-pro.md" in /home/diablo/book19
+ succeeded in 109ms:
+FLASH
+     1	# Review of `chapters/03-joinery-steel-dossier.html` (NN=03)
+     2	
+     3	**Document Reviewed:** [`chapters/03-joinery-steel-dossier.html`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html)  
+     4	**Pitch Contract:** [`drafts/pitches/06-joinery-steel-dossier.md`](file:///home/diablo/book19/drafts/pitches/06-joinery-steel-dossier.md)  
+     5	**Ledger & Sources:** [`checks/claims/03.tsv`](file:///home/diablo/book19/checks/claims/03.tsv) · [`resources/sources/03/SOURCES.md`](file:///home/diablo/book19/resources/sources/03/SOURCES.md)  
+     6	**Evaluation Standard:** `CONTEXT.md` (Sections 1–7), `AGENT.md` (Priority Stack & Pre-Ship Test), `TEMPLATE.md`.
+     7	
+     8	---
+     9	
+    10	## Executive Summary & Overall Verdict
+    11	
+    12	`chapters/03-joinery-steel-dossier.html` is an exceptionally disciplined, skeptical, and well-researched essay. It rigorously resists market-size theatre, explicitly refutes the idea that Wkb regulation equates to paid demand, dissects incumbent bundling (Eko-Okna, FENBRO, Kozijnen Unie), and correctly concludes with a **WATCH** verdict. All 20 claim markers across 17 unique claims are verified with primary source excerpts or transparent inference labels.
+    13	
+    14	The essay requires minor adjustments in its mature economic cost structure and prospect scoping before publication.
+    15	
+    16	**Recommended Verdict:** **REVISE** (Clean, fast revision; no structural block).
+    17	
+    18	---
+    19	
+    20	## Ranked Findings by Severity
+    21	
+    22	### Finding 1 (Medium Severity — Economics): Unexplained Double-Counting / Redundancy in Mature Delivery Cost
+    23	
+    24	* **Quoted Passage** ([`chapters/03-joinery-steel-dossier.html:L73-L86`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L73-L86)):
+    25	  ```html
+    26	  <tr><td>Dutch technical review</td><td>8 × €0.5k = 4</td><td>€0.5k × 120 = 60</td></tr>
+    27	  ...
+    28	  <tr><td>Dutch quality lead, loaded</td><td>0</td><td>1 × €90k = 90</td></tr>
+    29	  ...
+    30	  <tr><td><strong>Total delivery cost</strong></td><td><strong>15.6</strong></td><td><strong>300</strong></td></tr>
+    31	  ```
+    32	  > *"The mature hurdle assumes ten completed orders a month. At twenty-four delivery hours per order, delivery consumes 240 hours monthly. Two coordinators and one quality lead each provide a designed 120 productive hours, leaving one-third of capacity for exceptions, training and absences."*
+    33	
+    34	* **What the Cited Source / Evidence Supports**:
+    35	  The labor capacity calculation in the text allocates 240 delivery hours/month to two in-house coordinators (2 × 120h) plus one in-house Dutch quality lead (120h), totaling 360 available productive hours for 10 orders/month. The quality lead is salaried at €90k loaded. Neither IPLO regulations nor TloKB guidance require an additional external third-party technical reviewer on top of an internal quality specialist.
+    36	
+    37	* **Issue**:
+    38	  In Year 1, when there is no salaried quality lead, paying an external contractor €500 per order (`8 × €0.5k = €4k`) makes sense. However, in the Mature model, the business pays **both** a full-time in-house Dutch quality lead (€90,000) **and** €500 per order across all 120 orders (€60,000) for "Dutch technical review", without explaining whether the €60k is for external chartered engineering sign-offs on complex openings or a redundant line item.
+    39	
+    40	* **Concrete Fix**:
+    41	  Either:
+    42	  1. Add a brief sentence in the Section 5 narrative explaining that the mature €60k (€500/order) represents external chartered structural/fire engineer sign-offs for non-standard opening calculations beyond the in-house lead's scope; OR
+    43	  2. Drop the external €500/order review in the mature column once the in-house quality lead is on payroll, reducing mature delivery cost from €300k to €240k and adjusting gross margin to 60% (€360k) and operating surplus to €180k.
+    44	
+    45	---
+    46	
+    47	### Finding 2 (Minor Severity — Economics): Pre-Order Gate vs Completion Pack Review Asymmetry in Year 1
+    48	
+    49	* **Quoted Passage** ([`chapters/03-joinery-steel-dossier.html:L70-L73`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L70-L73)):
+    50	  ```html
+    51	  <tr><td>Pre-order gates</td><td>8 × €2k = 16</td><td>120 × €2k = 240</td></tr>
+    52	  <tr><td>Completion packs</td><td>4 × €3k = 12</td><td>120 × €3k = 360</td></tr>
+    53	  ...
+    54	  <tr><td>Dutch technical review</td><td>8 × €0.5k = 4</td><td>€0.5k × 120 = 60</td></tr>
+    55	  ```
+    56	
+    57	* **What the Cited Source / Evidence Supports**:
+    58	  The pre-order gate reconciles quotation, DoP, and drawings. The completion pack indexes delivery and installation photographs.
+    59	
+    60	* **Issue**:
+    61	  In Year 1, Dutch technical review is calculated as `8 × €0.5k = 4`, which accounts only for the 8 pre-order gates, allocating €0 review cost to the 4 completion packs. In the Mature column, it is calculated as `€0.5k × 120 = 60` (120 completed order pairs). It is left ambiguous whether completion packs incur zero technical review hours or whether the €500 review is strictly an intake-gate cost.
+    62	
+    63	* **Concrete Fix**:
+    64	  Add a clarifying phrase in the table note or prose: *"The €500 technical review fee attaches to the pre-order drawing and DoP intake gate; completion packs are delivered by bilingual coordinators without additional specialist review."*
+    65	
+    66	---
+    67	
+    68	### Finding 3 (Minor Severity — Proposition Scoping): Prospect List vs Structural Steel Boundary
+    69	
+    70	* **Quoted Passage** ([`chapters/03-joinery-steel-dossier.html:L33`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L33) & [`L58`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L58)):
+    71	  > Line 33: *"Start with non-fire-rated exterior joinery in new consequence-class-1 projects. Structural steel is not an adjacent SKU. Its design authority, fabrication controls and site evidence are different... Steel becomes a later line only with a Dutch structural engineer and a fabricator already working within the required system."*  
+    72	  > Line 58: *"Build a list around ten prospect types: modular-home builders, timber-frame contractors, holiday-home builders, small developer-contractors, self-build general contractors, agricultural-building contractors, two-storey warehouse builders, light-workshop builders, facade subcontractors and import-direct window installers serving new homes."*
+    73	
+    74	* **What the Cited Source / Evidence Supports**:
+    75	  `03-harmonised-standards.txt` (EN 14351-1 vs EN 1090-1) establishes that structural steel involves distinct factory production control (FPC) and execution classes, justifying the exclusion of steel from launch.
+    76	
+    77	* **Issue**:
+    78	  Agricultural-building and light-workshop builders frequently purchase primary structural steel frames alongside windows. While Section 1 correctly excludes steel, Section 4's prospect list includes these contractors without clarifying that the initial pitch to them is strictly limited to their window/door envelope openings.
+    79	
+    80	* **Concrete Fix**:
+    81	  Clarify in line 58: *"For warehouse, agricultural and workshop builders, the offer is strictly restricted to their exterior window and door packages, keeping structural steel out of scope until an EN 1090 partner is integrated."*
+    82	
+    83	---
+    84	
+    85	## Detailed Evaluation Against Book Rules (Questions 1–10)
+    86	
+    87	### 1. Never False
+    88	* **Enacted Law vs Proposal**: Wkb status is stated precisely (in force since 1 January 2024 for new consequence class 1; renovations postponed without definitive date) ([`03-wkb-scope.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-wkb-scope.txt)). CPR DoP obligations are correctly referenced under Regulation (EU) 305/2011 and harmonised standards EN 14351-1 and EN 1090-1 ([`03-cpr-duty.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-cpr-duty.txt), [`03-harmonised-standards.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-harmonised-standards.txt)).
+    89	* **CBAM Distinctions**: The definitive regime date (1 January 2026) and the >50-tonne mass threshold are cited accurately ([`03-cbam.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-cbam.txt)). The text explicitly clarifies that CBAM attaches at the external EU customs border, correctly warning that intra-EU Poland-to-NL transactions do not generate external CBAM import filings (`03-cbam-boundary`).
+    90	* **Hurdles vs Market Prices**: Sourced facts are separated from required-price arithmetic. The €2,000 pre-order gate and €3,000 completion pack are labeled as *"test design, not observed market rates"* and *"required-price hurdles"*.
+    91	* **Dates**: All dates match primary sources.
+    92	
+    93	### 2. Buyer and Purchase Event
+    94	* **Payer**: Project manager or operations director at a Dutch general contractor building consequence-class-1 homes or small commercial units who directly imports Polish joinery.
+    95	* **Purchase Event**: The pre-order quotation reconciliation stage, before purchase order release, when product references, declared performance (DoP), and installation manuals must align with the building quality plan.
+    96	* **Regulation vs Demand**: The essay explicitly distinguishes between regulatory burden and buyer willingness to pay:
+    97	  > *"They prove goods move, not that Dutch builders bought them directly, that files were deficient or that a separate budget exists."* ([`L43`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L43))
+    98	
+    99	### 3. Economics & Arithmetic
+   100	* **Founder Replacement Cost**: Sourced separately as €100/hr (300 hours = €30,000 in Year 1; €100,000 in Mature).
+   101	* **Owner Operating Surplus**: Separated from founder compensation (-€23.6k in Year 1; +€120k in Mature).
+   102	* **Working Capital & Risk**: Working capital is controlled by refusing title to goods, billing 50% in advance, maintaining a €25,000 reserve hurdle, and capping pre-evidence spend at €3,500, honoring the ≤€50k cash-at-risk constraint.
+   103	* **Internal Consistency**: Arithmetic in the table reconciles across all lines (`Revenue - Delivery = Gross Margin; Gross Margin - Overheads - Founder = Operating Surplus`). (See Finding 1 for capacity overlap).
+   104	
+   105	### 4. Scalability
+   106	* **Evolution of Delivery**:
+   107	  * *Customer 1*: Founder-led field mapping across drawings, codes, and declarations.
+   108	  * *Customer 5*: Standardized intake sheets, exception taxonomy, bilingual coordinator handling routine document chasing (>50% non-founder hours).
+   109	  * *Customer 20*: Multi-factory supplier response mapping, recurring error patterns, coordinator handling 4 live orders concurrently.
+   110	* **No Platform Hand-Waving**: Explicitly rejects software illusions:
+   111	  > *"The accumulating asset is not an app... customers never need another login."* ([`L94`](file:///home/diablo/book19/chapters/03-joinery-steel-dossier.html#L94))
+   112	
+   113	### 5. Incumbents and Capture
+   114	* **Incumbent Treatment**: 
+   115	  * Eko-Okna's Dutch distributor portal and parameter certificate download library are cited directly from their website ([`03-eko-incumbent.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-eko-incumbent.txt)).
+   116	  * FENBRO's turnkey supply/install model and Kozijnen Unie's Dutch-speaking builder supply model are analyzed from primary sources ([`03-fenbro-model.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-fenbro-model.txt), [`03-dutch-dealer.txt`](file:///home/diablo/book19/resources/sources/03/excerpts/03-dutch-dealer.txt)).
+   117	* **Partner Margin Capture**: Directly addresses the risk that a Dutch quality consultant could bypass the founder after learning Polish supplier channels, providing realistic operational defenses.
+   118	
+   119	### 6. Capable Failure
+   120	* **Structural Failure Mode**: Presents a non-straw-man failure scenario: The founder executes cleanly, but the supply chain standardizes around the new rules, factories enhance their Dutch document portals, quality assurers clarify checklists, and the startup is left holding only low-volume, high-liability edge cases where fees collapse.
+   121	
+   122	### 7. Dutch-Language Gate, Reader Constraints & Precedent Firm
+   123	* **Language Gate**: Channel-specific Dutch dependence (site meetings, buyer liability discussions, quality assurer negotiations) is stated and answered with a fixed-fee Dutch quality consultant (*"paper, partner or fail"*).
+   124	* **Reader Constraints**: Respected in full:
+   125	  * A2 Dutch: Founder handles Polish factories and document engineering; Dutch consultant handles buyer/site meetings.
+   126	  * Hands-on & alongside job: 300 founder hours in Year 1 (~6h/week).
+   127	  * Capital: €25k reserve, pre-evidence test capped at €3,500, no goods/freight liability.
+   128	  * No trade exam: No statutory assurer role claimed.
+   129	  * Outside software: Physical iron evidence pack.
+   130	* **Precedent Firm**: **FENBRO Sp. z o.o.** verified via UK Companies House (FENBRO LTD, company #16295546, directors Agnieszka Justyna Brodzik and Pawel Brodzik at Ludna 2/320, Warsaw). Transparently notes the UK entity filed dormant accounts in April 2026 and sells bundled goods rather than standalone dossiers (`03-fenbro-trace`, `03-fenbro-dormant`, `03-precedent-gap`).
+   131	
+   132	### 8. Receipts & Claim Ledger
+   133	* All 20 `<!-- CHECK: ... -->` markers in the HTML match rows in [`checks/claims/03.tsv`](file:///home/diablo/book19/checks/claims/03.tsv).
+   134	* All 13 verified rows have verbatim text excerpts in [`resources/sources/03/excerpts/`](file:///home/diablo/book19/resources/sources/03/excerpts/).
+   135	* All 4 inference rows (`03-cbam-boundary`, `03-gap-rate`, `03-language-gate`, `03-precedent-gap`) are properly reasoned.
+   136	
+   137	### 9. Verdict and Kill Assumption
+   138	* **Verdict**: **WATCH** — accurately reflects that while Wkb creates documentation requirements, official guidance (TloKB) and incumbent portals (Eko-Okna) absorb standard compliance, making standalone willingness to pay uncertain.
+   139	* **Kill Assumption**: Accurately targets the unproven willingness of a direct-import builder to pay a separate €5,000 evidence fee without bundling it into goods margins.
+   140	
+   141	### 10. Readability & Mechanics
+   142	* **Word Count**: 2,884 words (within target range of 2,400–3,600).
+   143	* **Sentences > 40 words**: 0.
+   144	* **Paragraphs > 120 words**: 0.
+   145	* **Jargon**: All acronyms (Wkb, DoP, CPR, EN 1090, CBAM, Bbl) are tied directly to operational mechanisms.
+   146	
+   147	---
+   148	
+   149	## The Three Fixes That Matter Most
+   150	
+   151	1. **Clarify Mature Technical Review Cost Allocation**: Reconcile the €60k external technical review line with the €90k in-house Dutch quality lead in the mature ledger table and narrative (Finding 1).
+   152	2. **Clarify Year 1 Gate vs Pack Technical Review**: Specify that the €500 technical review applies to the pre-order intake gate rather than the completion pack (Finding 2).
+   153	3. **Explicitly Bound Warehouse/Agricultural Prospect Scoping**: Add a sentence clarifying that agricultural/workshop builder outreach targets only their exterior window/door packages, keeping structural steel out of initial scope (Finding 3).
+   154	
+   155	---
+   156	
+   157	**Final Pre-Ship Verdict:** **REVISE** (Addresses Findings 1–3).
+
+PRO
+     1	Here is the review of `03-joinery-steel-dossier.html` against the book's rules, ranked by severity.
+     2	
+     3	### Findings
+     4	
+     5	**1. Unsupported claim in receipted sentence (Severity: High, Rule 8)**
+     6	*   **Passage:** "The municipality and quality assurer are not parties to that private dossier, although some material can be reused for the completion notification. `<!-- CHECK: 03-consumer-dossier -->`"
+     7	*   **What the source actually supports:** The excerpt (`03-consumer-dossier.txt`) and TSV verify that the municipality and quality assurer are not involved, and list the mandatory contents of the consumer dossier. It does not state or imply that material can be reused for the completion notification. 
+     8	*   **Concrete fix:** Delete the unsupported clause so the sentence ends at "private dossier." 
+     9	
+    10	**2. Excerpt mismatch for competitor claim (Severity: Low, Rule 8)**
+    11	*   **Passage:** "A Dutch wholesaler such as Kozijnen Unie markets Dutch-speaking staff, supply, project guidance and its own installation team. `<!-- CHECK: 03-dutch-dealer -->`"
+    12	*   **What the source actually supports:** The excerpt (`03-dutch-dealer.txt`) confirms Dutch-speaking staff, supply to contractors/builders, and its own installation team. It does not explicitly mention "project guidance" (it mentions clear communication).
+    13	*   **Concrete fix:** Remove "project guidance" from the sentence and update the corresponding TSV row.
+    14	
+    15	**3. Minor word substitution in competitor bundle (Severity: Low, Rule 8)**
+    16	*   **Passage:** "FENBRO bundles quotation, delivery, installation and warranty around Polish joinery. `<!-- CHECK: 03-fenbro-model -->`" *(Second usage in text)*
+    17	*   **What the source actually supports:** The excerpt (`03-fenbro-model.txt`) states they offer "a complete service: product + delivery + installation, with full warranty". It does not explicitly use the word "quotation".
+    18	*   **Concrete fix:** Change "quotation" to "the product" to mirror the excerpt exactly: *"FENBRO bundles the product, delivery, installation and warranty..."*
+    19	
+    20	***
+    21	
+    22	### General Rule Compliance
+    23	
+    24	*   **Rule 1 (Never false):** Passed. Proposals and hurdles are clearly labelled as test designs ("required-price hurdle", "not observed market rates"). Implementation dates for Wkb and CBAM are accurate.
+    25	*   **Rule 2 (Buyer and event):** Passed. The buyer is the project manager/operations director; the event is needing evidence before purchase order release to avoid acceptance delays.
+    26	*   **Rule 3 (Economics):** Passed. The arithmetic is internally consistent. Founder replacement cost (€100k) is strictly separated from operating surplus (€120k). Working capital is credibly controlled by billing 50% in advance.
+    27	*   **Rule 4 (Scalability):** Passed. The essay explicitly avoids the "platform" magic word, correctly describing the 20th-customer asset as a "verified supplier-document map" and "trained coordinators."
+    28	*   **Rule 5 (Incumbents and capture):** Passed. Eko-Okna acting as an incumbent is treated fairly as the "kill fact in public view." Partner margin capture is explicitly confronted.
+    29	*   **Rule 6 (Capable failure):** Passed. It outlines a highly credible non-straw-man scenario where the founder executes perfectly, but the structural willingness to pay evaporates once coordination gaps close.
+    30	*   **Rule 7 (Constraints & Precedent):** Passed. Respects the A2 Dutch limit by enforcing a fixed-fee Dutch consultant partner. Cash at risk stays under €50k. The precedent firm (FENBRO) is independently traced to UK Companies House.
+    31	*   **Rule 9 (Verdict):** Passed. **WATCH** is the earned verdict because incumbent bundling makes independent demand doubtful without further evidence. The €5k separate fee kill assumption is exactly right.
+    32	*   **Rule 10 (Readability):** Passed. No sentences over 40 words (the longest is 34), no wall paragraphs, and no jargon without an explained mechanism.
+    33	
+    34	***
+    35	
+    36	### Verdict
+    37	
+    38	**REVISE**
+    39	
+    40	The three fixes that matter most:
+    41	1. Delete the "although some material can be reused..." clause in the `03-consumer-dossier` sentence.
+    42	2. Remove "project guidance" from the Kozijnen Unie sentence.
+    43	3. Change "quotation" to "the product" in the FENBRO bundle sentence.
+
+web search: 
+web search: https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/wet-kwaliteitsborging-bouwen-wkb/
+web search: 
+web search: https://www.rvo.nl/onderwerpen/eu-wetgeving/ce-markering/verplichte-productgroepen
+web search: 
+web search: site:wyszukiwarka-krs.ms.gov.pl FENBRO Ludna 2 320 ...
+web search: 
+web search: 
+web search: 
+web search: https://www.tlokb.nl/wet-kwaliteitsborging/verklaring
+web search: 
+web search: site:single-market-economy.ec.europa.eu harmonised standards construction products EN 14351-1 EN 1090-1 current 2026 ...
+codex
+**Verdict: REVISE — the thesis can stand, but the evidence ledger, central source characterizations, experiment design, and economic narrative are not yet shippable.**
+
+# Reviewer adjudication
+
+| Reviewer finding | Decision | Why |
+|---|---|---|
+| Flash 1: mature Dutch review and quality-lead costs are double-counted | **CONFIRMED, narrowly** | The two costs may represent different work, so double-counting is not proved. However, the model never explains why it needs both €60k of per-order review and a €90k quality lead. The reviewer’s suggested structural/fire-engineer explanation is invented and conflicts with the launch scope. |
+| Flash 2: completion packs receive no Year-1 technical review | **REJECTED** | The four completion packs are a subset of eight order engagements. Nothing says the €500 review is charged per stage rather than per order. Eight reviews for eight orders is internally possible; the reviewer inferred twelve review events without evidence. |
+| Flash 3: agricultural/workshop prospects contradict the steel exclusion | **REJECTED** | A contractor’s sector does not define the product being offered. The chapter expressly limits launch to exterior joinery. Moreover, official IPLO scope includes qualifying two-storey industrial buildings such as warehouses, livestock buildings and workshops in consequence class 1. The reviewer’s claim that these prospects “frequently” buy primary steel is unsourced, and the cited standards excerpt says nothing about “execution classes” or factory-production controls. [IPLO scope](https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/kwaliteitsborging/bouwwerken-gevolgklasse/) |
+| Pro 1: reuse between the private and authority dossiers is unsupported | **CONFIRMED** | [03-consumer-dossier.txt](/home/diablo/book19/resources/sources/03/excerpts/03-consumer-dossier.txt:6) establishes contents and separation of the parties, but not that material can be reused. The clause needs another receipt or an explicit inference marker; deletion is not the only valid fix. |
+| Pro 2: Kozijnen Unie “project guidance” is unsupported | **CONFIRMED** | [03-dutch-dealer.txt](/home/diablo/book19/resources/sources/03/excerpts/03-dutch-dealer.txt:6) supports supply, Dutch-speaking staff and installation. “Clear communication” is not evidence of project guidance. |
+| Pro 3: FENBRO “quotation” bundle is unsupported | **CONFIRMED** | [03-fenbro-model.txt](/home/diablo/book19/resources/sources/03/excerpts/03-fenbro-model.txt:9) says product, delivery, installation and warranty—not quotation. |
+
+# Consolidated ranked findings
+
+## 1. High — The central public counter-case overstates two sources
+
+> “correct manufacturer instructions may already give the quality assurer sufficient proof.”
+
+The TloKB source says proof is sufficient when the builder **installs the product according to** the manufacturer’s instructions. Possessing “correct instructions” is not itself enough. The chapter states the mechanism correctly later, but the lede changes it in a way that exaggerates how easily the substitute absorbs the work. [TloKB guidance](https://www.tlokb.nl/wet-kwaliteitsborging/bouwproducten-verwerken-in-een-bouwwerk)
+
+Likewise:
+
+> “This is the kill fact in public view. The factory can place documents next to the order without a specialist intermediary.”
+
+[03-eko-incumbent.txt](/home/diablo/book19/resources/sources/03/excerpts/03-eko-incumbent.txt:6) proves that Eko-Okna markets a distributor platform, a document-library category and a Dutch business-contact channel. It does not show that documents are matched to individual orders, complete for Dutch project requirements, or usable without an intermediary. The lede also generalizes from one manufacturer to “Large factories.”
+
+**Fix:** Correct the lede to require installation according to the instructions. Describe Eko-Okna as evidence that incumbents possess relevant distribution and document surfaces—not as proof they already close the project-specific evidence gap. Make actual first-review adequacy the kill fact.
+
+## 2. High — The experiment mixes the excluded steel business into the joinery pass rule
+
+> “review ten recent Polish-origin joinery or steel orders each”
+
+> “require the quality-assurer sample to show at least four material first-review gaps in twenty Polish-origin orders.”
+
+The launch explicitly excludes structural steel because its evidence and authority chain differ. A mixed sample could pass solely because four steel files were deficient, even if every target window-and-door file was adequate. The cited standards excerpt establishes different standards; it does not justify combining their failure rates.
+
+**Fix:** Sample only non-fire-rated exterior joinery in new consequence-class-1 projects. If steel is investigated, give it a separate denominator, pass rule and later-line decision.
+
+## 3. High — The claim ledger fails the required schema and is future-dated
+
+AGENT.md requires the status field to be exactly `verified`, `inference`, or `open`. Thirteen rows instead use values such as:
+
+> `checked-by:codex:2026-09-05`
+
+See [03.tsv](/home/diablo/book19/checks/claims/03.tsv:2). The source index and excerpts say 2026-09-04, while the verification metadata is dated 2026-09-05—after the declared current date. Flash’s statement that all thirteen rows are “verified” is therefore false as a schema claim.
+
+**Fix:** Change the thirteen supported statuses to `verified`; retain reviewer/date metadata in a separate column or note, using a non-future date.
+
+## 4. Medium — The economic prose contradicts the table and capacity model
+
+> “Cash loss is lower because that labour is not a payroll cheque”
+
+The table yields €6,400 positive cash operating result before founder compensation: €28k − €15.6k − €6k. It shows an economic loss after imputing founder labour, not a smaller cash loss.
+
+> “If average delivery exceeds thirty hours, gross margin falls below the intended level”
+
+At 30 hours × 10 orders, the operation uses 300 of the stated 360 monthly productive hours. The table’s payroll and gross margin do not change; only contingency capacity falls. Separately, the 90-day test permits 48 hours per order, which would require 480 monthly hours at mature volume—33% more than stated capacity.
+
+**Fix:** State the €6.4k pre-founder cash result explicitly. Replace the unsupported 30-hour margin assertion with a capacity threshold, and distinguish an acceptable first-pilot time from the ≤24-hour mature target.
+
+## 5. Medium — The completion paragraph outruns its saved excerpt
+
+> “the quality assurer checks the work during construction and issues a statement when there is justified confidence that the building meets the technical rules.”
+
+The `03-completion-dossier` excerpt begins with the completion notification and does not contain either the construction-stage inspection or “justified confidence” support. The current official pages support these facts, but the required saved receipt does not. [Chapter passage](/home/diablo/book19/chapters/03-joinery-steel-dossier.html:40)
+
+**Fix:** Add the relevant official passages to a saved excerpt and split the marker if necessary; update the ledger claim to cover every receipted sentence.
+
+## 6. Medium — Mature technical-review economics are unexplained
+
+> “Dutch technical review … €60k”  
+> “Dutch quality lead, loaded … €90k”
+
+This confirms the useful core of Flash finding 1: readers cannot tell what the external €500 buys once a Dutch quality lead is employed, or whether its hours sit inside or outside the 24-hour order estimate.
+
+**Fix:** Define each role, its hours and whether the €500 is external independent review. If it duplicates the lead, remove it and recalculate; do not invent structural or fire sign-offs outside the stated scope.
+
+## 7. Medium — The precedent trace follows a different legal entity
+
+The website identifies **FENBRO Sp. z o.o.**; the independent excerpt identifies **FENBRO LTD**, a UK entity that filed dormant accounts. Matching name, address and directors is corroboration, but it does not independently establish that the Polish website entity is the operating precedent. Pro’s statement that Companies House verifies FENBRO Sp. z o.o. is too strong.
+
+**Fix:** Add an official Polish KRS extract for the Polish company and identify the relationship, if any, between it and the dormant UK company.
+
+## 8. Medium — Private-dossier reuse is unreceipted
+
+This is Pro finding 1. The source supports dossier separation and contents, not reuse across submissions.
+
+**Fix:** Remove the reuse clause, add a source, or separate it under an `inference` claim.
+
+## 9. Low — Two competitor descriptions exceed their excerpts
+
+- Replace “quotation” with “product” in the FENBRO bundle.
+- Remove “project guidance” from the Kozijnen Unie description unless a supporting passage is saved.
+- Update the corresponding ledger rows so they exactly match the repaired prose.
+
+The buyer and purchase event, anti-platform scalability discussion, Dutch-language gate, capable-failure case and overall **WATCH** chapter verdict otherwise survive review. The three fixes that matter most are the central-source corrections, a joinery-only experiment, and repair of the claim ledger.
+tokens used
+98,857

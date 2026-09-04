@@ -1,8 +1,10 @@
 URL: https://www.nlarbeidsinspectie.nl/binaries/nlarbeidsinspectie/documenten/rapporten/2021/03/23/blootstelling-gevaarlijke-stoffen-bij-composietbedrijven/Blootstelling%2Bgevaarlijke%2Bstoffen%2Bbij%2Bcomposietbedrijven.pdf
 Fetched: 2026-09-05
-Provenance: live WebSearch/WebFetch; p. 9.
+Provenance: Dutch Labour Inspectorate PDF, retrieved from the Internet Archive snapshot dated 2023-05-22 because the current official file URL returned 404; report p. 10 (PDF p. 11).
 
 “Tijdens de twee inspectierondes zijn 89 en 67 bedrijven gecontroleerd. Daarbij zijn bij respectievelijk 76% en 42% van de bezochte bedrijfsvestgingen overtredingen geconstateerd.”
+
+“De waarschuwing komt veruit het meest voor (219 keer), daarnaast is met enige regelmaat een eis gesteld (17 keer). Bij zowel een waarschuwing als een eis is een bedrijf gehouden de tekortkomingen op te heffen en aanwijzingen van de Inspectie op te volgen.”
 
 “Er zijn zeven boetes gegeven.”
 

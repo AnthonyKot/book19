@@ -1,0 +1,1689 @@
+Reading additional input from stdin...
+OpenAI Codex v0.153.0
+--------
+workdir: /home/diablo/book19
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: high
+reasoning summaries: none
+session id: 01a06b59-3315-7033-b8a0-d8f40629783d
+--------
+user
+Two reviewers assessed chapters/02-border-files.html independently; their reports are in drafts/reviews/02-flash.md and drafts/reviews/02-pro.md (either may be empty).
+Read CONTEXT.md, AGENT.md, the chapter, checks/claims/02.tsv, resources/sources/02/, and both reports. Be adversarial toward
+the REVIEWERS: for each of their findings, verify it against the chapter and the sources and mark it CONFIRMED / REJECTED
+(with why) / UNVERIFIABLE. Then add findings they both missed, using the checklist in scripts/prompts/review-checklist.md.
+Output one consolidated markdown report, ranked, with a one-line ship / revise / block verdict at the top.
+warning: Codex could not find bubblewrap on PATH. Install bubblewrap with your OS package manager. See the sandbox prerequisites: https://developers.openai.com/codex/concepts/sandboxing#prerequisites. Codex will use the bundled bubblewrap in the meantime.
+codex
+I’ll verify every reviewer claim against the chapter’s actual wording and its cited source set, then run the checklist independently so the consolidated report doesn’t inherit either reviewer’s assumptions.
+exec
+/bin/bash -lc "pwd && rg --files -g 'CONTEXT.md' -g 'AGENT.md' -g 'AGENTS.md' -g 'chapters/02-border-files.html' -g 'checks/claims/02.tsv' -g 'drafts/reviews/02-flash.md' -g 'drafts/reviews/02-pro.md' -g 'scripts/prompts/review-checklist.md' -g 'resources/sources/02/**'" in /home/diablo/book19
+ succeeded in 110ms:
+/home/diablo/book19
+CONTEXT.md
+scripts/prompts/review-checklist.md
+checks/claims/02.tsv
+chapters/02-border-files.html
+AGENT.md
+drafts/reviews/02-pro.md
+drafts/reviews/02-flash.md
+resources/sources/02/SOURCES.md
+resources/sources/02/excerpts/02-precedent-trace.txt
+resources/sources/02/excerpts/02-low-risk-effect.txt
+resources/sources/02/excerpts/02-population-estimate.txt
+resources/sources/02/excerpts/02-cbam-declaration-date.txt
+resources/sources/02/excerpts/02-installation-registry.txt
+resources/sources/02/excerpts/02-cbam-threshold.txt
+resources/sources/02/excerpts/02-cbam-sectors.txt
+resources/sources/02/excerpts/02-cbam-grace.txt
+resources/sources/02/excerpts/02-eudr-representative.txt
+resources/sources/02/excerpts/02-definitive-start.txt
+resources/sources/02/excerpts/02-actual-verification.txt
+resources/sources/02/excerpts/02-english-report.txt
+resources/sources/02/excerpts/02-customs-support.txt
+resources/sources/02/excerpts/02-service-provider-role.txt
+resources/sources/02/excerpts/02-ukraine-risk.txt
+resources/sources/02/excerpts/02-declarant-responsibility.txt
+resources/sources/02/excerpts/02-precedent-offer.txt
+resources/sources/02/excerpts/02-cbam-late-application.txt
+resources/sources/02/excerpts/02-verifier-capacity.txt
+resources/sources/02/excerpts/02-application-count.txt
+resources/sources/02/excerpts/02-eudr-revision.txt
+resources/sources/02/excerpts/02-default-route.txt
+resources/sources/02/excerpts/02-deloitte-incumbent.txt
+resources/sources/02/excerpts/02-ukraine-system.txt
+resources/sources/02/excerpts/02-cbam-authorisation.txt
+
+exec
+/bin/bash -lc 'wc -l CONTEXT.md AGENT.md scripts/prompts/review-checklist.md chapters/02-border-files.html checks/claims/02.tsv drafts/reviews/02-flash.md drafts/reviews/02-pro.md resources/sources/02/SOURCES.md resources/sources/02/excerpts/*' in /home/diablo/book19
+ succeeded in 108ms:
+   82 CONTEXT.md
+   74 AGENT.md
+   25 scripts/prompts/review-checklist.md
+  149 chapters/02-border-files.html
+   30 checks/claims/02.tsv
+  161 drafts/reviews/02-flash.md
+   28 drafts/reviews/02-pro.md
+  119 resources/sources/02/SOURCES.md
+    5 resources/sources/02/excerpts/02-actual-verification.txt
+    9 resources/sources/02/excerpts/02-application-count.txt
+    7 resources/sources/02/excerpts/02-cbam-authorisation.txt
+    5 resources/sources/02/excerpts/02-cbam-declaration-date.txt
+    5 resources/sources/02/excerpts/02-cbam-grace.txt
+    5 resources/sources/02/excerpts/02-cbam-late-application.txt
+    5 resources/sources/02/excerpts/02-cbam-sectors.txt
+    7 resources/sources/02/excerpts/02-cbam-threshold.txt
+   15 resources/sources/02/excerpts/02-customs-support.txt
+    5 resources/sources/02/excerpts/02-declarant-responsibility.txt
+   13 resources/sources/02/excerpts/02-default-route.txt
+    5 resources/sources/02/excerpts/02-definitive-start.txt
+    7 resources/sources/02/excerpts/02-deloitte-incumbent.txt
+    5 resources/sources/02/excerpts/02-english-report.txt
+    5 resources/sources/02/excerpts/02-eudr-representative.txt
+    7 resources/sources/02/excerpts/02-eudr-revision.txt
+    5 resources/sources/02/excerpts/02-installation-registry.txt
+    7 resources/sources/02/excerpts/02-low-risk-effect.txt
+    7 resources/sources/02/excerpts/02-population-estimate.txt
+    7 resources/sources/02/excerpts/02-precedent-offer.txt
+    9 resources/sources/02/excerpts/02-precedent-trace.txt
+    9 resources/sources/02/excerpts/02-service-provider-role.txt
+    7 resources/sources/02/excerpts/02-ukraine-risk.txt
+    9 resources/sources/02/excerpts/02-ukraine-system.txt
+    7 resources/sources/02/excerpts/02-verifier-capacity.txt
+  845 total
+
+exec
+/bin/bash -lc "sed -n '1,220p' CONTEXT.md; sed -n '1,220p' AGENT.md; sed -n '1,220p' scripts/prompts/review-checklist.md; sed -n '1,240p' drafts/reviews/02-flash.md; sed -n '1,160p' drafts/reviews/02-pro.md" in /home/diablo/book19
+ succeeded in 139ms:
+# Book 19 — The Third Engine (working title) — CONTEXT
+
+## 1. Thesis
+Books 4 and 18 covered firms as going concerns and an IT-adjacent second business. Book 19 asks what the
+same reader can earn outside software that survives AI progress to 2030. Working thesis after the research
+phase: no instrument found a secret market; the reader's edge is languages plus regulatory literacy plus
+capital applied to physical work that Dutch operators find bureaucratic and foreign makers find foreign.
+
+## 2. Reader and fixed assumptions
+The book 18 reader: ~40, enterprise developer, Zaandam, Dutch A2, English/Russian/Polish, ~EUR 100k, four
+books of regulatory reading, engineering habit, ~30k LinkedIn audience. Draft edge inventory in
+`drafts/edge-inventory.md` (published as a memo) awaits the author's correction. Four constraints still
+open: passive vs hands-on; alongside the job or replacing it; capital ceiling; retraining tolerance.
+
+## 3. Method
+Book 18 spine (demand → payment → economics → operations → resilience; scalability test; verdicts TEST NOW /
+TEST THROUGH A PARTNER / WATCH / ACQUIRE, DO NOT BUILD / DO NOT ENTER) plus two gates: the A2 gate and the
+AI gate. Research instruments run by agents from public sources with saved excerpts; each memo ends with an
+honesty paragraph. Essays (when written) follow book 18's TEMPLATE plus a "Why you" section.
+
+## 4. State — v0.1 (2026-09-04, second pass)
+Published: method, edge inventory, thirteen research memos (crowdfunding ×2 + comparison, diaspora, succession,
+licences, trade flows, regulation-created work, AI physical footprint, boring business, two triages), and a
+candidates table of thirteen under test, eight on watch, one held; ten pitches under `drafts/pitches/` written by the coordinating session under four stated assumptions; an ideation metaprompt (`scripts/prompts/idea-metaprompt.md`, runner `scripts/ideate.sh`) with two seeded runs and their precedent reviews. Book line, decided 2026-09-04: outside software, not outside engineering. No essays.
+
+## 5. Evidence rules (from book 18)
+Primary sources for law, deadlines, standards; demand shown by buyer behaviour, enforcement, procurement or
+filings, never by a regulation alone; named competitors and substitutes; no market-size theatre; no numbers
+from memory; every external factual claim in HTML carries `<!-- CHECK: id -->` and a row in
+`checks/claims/NN.tsv` with a saved excerpt under `resources/sources/NN/excerpts/`; enacted separated from
+proposed, deadlines from expectations, obligation from budget; each essay makes the strongest case against
+itself.
+
+## 6. Essay contracts (2026-09-05)
+Each essay tests one picked pitch under the confirmed constraints. The pitch file is the contract; the essay
+must settle the pitch's "number to settle first" and its kill fact from sources, or say the record cannot.
+1. `01-cell-file.html` — pitch 2, `drafts/pitches/02-cell-file.md`.
+2. `02-border-files.html` — pitch 7, `drafts/pitches/07-border-files.md`.
+3. `03-joinery-steel-dossier.html` — pitch 6, `drafts/pitches/06-joinery-steel-dossier.md`.
+4. `04-spray-crew-file.html` — pitch 10, `drafts/pitches/10-spray-crew-file.md`.
+5. `05-owner-independent-acquisition.html` — pitch 3, `drafts/pitches/03-owner-independent-acquisition.md`;
+   written as a step-two path: the job ends at closing.
+6. `06-certified-inspection-microfirm.html` — pitch 9, `drafts/pitches/09-certified-inspection-microfirm.md`;
+   also step two.
+
+## 7. Common verdict (from book 18)
+Exactly one per essay: **TEST NOW**; **TEST THROUGH A PARTNER**; **WATCH**; **ACQUIRE, DO NOT BUILD**;
+**DO NOT ENTER**. Provisional until customer payment exists.
+
+## 8. Decision record
+- 2026-09-03 — Seed idea (user): crowdfunding platforms as a demand instrument. Run on codex and Gemini 3.8
+  Flash; both traced to the downloaded Kickstarter dataset; verdict: instrument works, business narrow.
+- 2026-09-03 — Five further instruments run in parallel (three codex, two Gemini), agents barred from git.
+- 2026-09-03 — Triage by the coordinating session: 7 kept (housing/agency compliance operator; owner-independent
+  B2B acquisition; heat-pump company by hiring; Polish joinery/steel agency with dossier; asbestos-survey
+  acquisition; funeral/repatriation desk; CRA importer, parked), 13 cut with reasons.
+- 2026-09-04 — v0.1 published: research phase in public, no essays.
+- 2026-09-04 — Two Fable 5.1 research agents (user: "let's give it a try"), instruments the first five missed:
+  the physical footprint of the AI build-out, and the boring-business lens (CBS survival/margin/exit by sector).
+  Second triage: added machine-repair microfirm (#3) and CEE fleet-service desk (#9); held the grid civil crew
+  on the BEI/VIAG language question; merged SCIOS and pest control into the certified-inspection class (#6) and
+  specialised cleaning into #2; cut battery/flex packages, guarding, ITAD-to-CEE (sanctions), haulage. Thesis
+  sentence from both runs' honest paragraphs: the edge is the crew and the paperwork, not the sector.
+- 2026-09-04 (evening) — User: the instruments were "nothing connected to me"; look at what the existing pages already
+  contain (IoT gateways, machinery-class crowdfunding products, machine repair) and abstract the shape. Book line
+  widened to "outside software, not outside engineering"; #8 unparked. Metaprompt written from the seven common
+  parts (iron plus paper, dated rule, small English-speaking buyers, edge without a Dutch exam, per-unit price
+  with a <€5k test, AI adds units, one kill fact) plus, on the user's request, part 8: a named precedent firm
+  elsewhere. Two seeded ideation agents, then two precedent-review agents. The first seed reproduced the editor's
+  cobot CE idea unprompted. Triage 3: added the cell file (#2), border files for CEE imports (#7), used-equipment
+  inspection (#8); watch: sanctions file, crowdfunding machinery hub, battery-pack file; cut: ML safety file.
+- 2026-09-05 — Second ideation round (seeds: the worker as a file; the object as a certificate) with the precedent
+  rule; precedent review on site-person; triage 4 added the spray crew's file (#13), five ideas to watch. Verdict:
+  the pool is close to complete for this reader's edge; no fifth seed. Pitch step started without the author's
+  four constraints: ten pitches under stated assumptions (hands-on; beside the job at first; €100k, ≤€50k at
+  risk in year one; no multi-year retraining), each saying what changes if an assumption is wrong. The author
+  picks five to seven for essays.
+- 2026-09-05 — Constraints confirmed by the author: hands-on; alongside the job at first; €100k with ≤€50k at risk in
+  year one; retraining of days or weeks in English. Essay picks (six): 2 the cell file, 3 owner-independent
+  acquisition, 6 joinery/steel dossier, 7 border files, 9 certified-inspection microfirm, 10 spray crew's file.
+  Not picked: 1 housing/agency file, 4 machine repair, 5 heat pump, 8 used-equipment inspection (stay as pitches).
+  Essays 3 and 9 are written as step-two paths under the constraints (the job ends at closing).
+# AGENT.md — instructions for Book 19 research and writing (ported from Book 18, 2026-09-05)
+
+## Who is reading
+
+An experienced enterprise developer in the Netherlands looking for income outside software over
+the next two to five years, as AI progresses. Their edges are in `drafts/edge-inventory.md`:
+English, Russian and Polish; Dutch at A2; EU and Dutch regulatory literacy; an engineering
+habit; a Polish, Ukrainian and Russian-speaking network on the supply and crew side; about
+EUR 100k. Their constraints, confirmed 2026-09-05: hands-on; alongside the job at first; no more
+than EUR 50k at risk in year one; retraining of days or weeks in English, no Dutch trade exam.
+The book's line: outside software, not outside engineering. They sell installed iron and a
+signed file, never a product with a login. They are not asking to be reassured.
+
+## Priority stack
+
+1. **Never false.** Current claims are sourced; proposals are not presented as law; arithmetic
+   hypotheses are not presented as observed prices.
+2. **Find the buyer and event.** Name the person or function who pays and what happens to make
+   this purchase outrank other work.
+3. **Make the money legible.** Revenue, gross margin, founder replacement cost, working capital
+   and owner income are separate.
+4. **Earn scalability.** State which work remains human, what can be delegated, and what asset
+   accumulates. Never use "platform" as a magic word.
+5. **Attack the idea.** Entrenched vendors, internal teams, consultancies, free tools, standards
+   uncertainty and partner capture belong in the main argument.
+6. **Leave a cheap next move.** The reader must be able to test the riskiest assumption without
+   resigning or buying the full equipment stack.
+
+## Research rules
+
+- Browse because laws, deadlines, standards, products and competitors are current.
+- Prefer primary sources for law and technical requirements.
+- For competitors, use their own product documentation and pricing where published; label
+  marketing claims as marketing claims.
+- Record every relied-on URL and its purpose in `resources/sources/NN/SOURCES.md`.
+- Write a claim ledger in `checks/claims/NN.tsv` before or alongside prose. Schema:
+  `id<TAB>claim<TAB>source_url<TAB>source_locator<TAB>status` where status is `verified`,
+  `inference`, or `open`. HTML may ship only with no `open` claims.
+- Use `<!-- CHECK: id -->` immediately after the factual sentence or paragraph.
+- Save the passage that supports each `verified` row as a text excerpt in
+  `resources/sources/NN/excerpts/<slug>.txt` (URL, date fetched, then the verbatim passage),
+  and name that file in the `source_locator` column. A `verified` row without an excerpt is
+  not verified.
+- Do not download or reproduce copyrighted reports unless needed and permitted; links and
+  concise paraphrases are normally enough.
+
+## Voice
+
+Plain, adult, analytical. No startup cheerleading, future-of-X throat-clearing, fake scenes,
+or inflated market-size paragraphs. Explain technical mechanisms where they change the business
+case. The reader should feel that a skeptical operator and a skeptical investor wrote together.
+
+## Required challenge
+
+Each essay must contain at least one credible path by which capable execution still loses. This
+is Book 4's counter-case discipline adapted to an opportunity that may not yet have a historical
+post-mortem. It must not be a straw man such as "poor sales" or "bad execution."
+
+## Pre-ship test
+
+1. Can the reader name the buyer, purchase event and substitute?
+2. Is demand evidence distinct from regulation and market size?
+3. Does the economic model pay replacement-cost labour and still reach the owner target?
+4. Is the twentieth delivery visibly different from the first?
+5. Does the essay name why an incumbent, partner or customer might capture the margin?
+6. Is Dutch-language dependence stated for this exact channel, and does the "Why you" section answer it honestly?
+7. Is there a bounded 90-day experiment with a price, pass rule and kill rule?
+8. Are all external claims receipted and all arithmetic labelled?
+
+## Coordination
+
+Agents edit only their assigned essay HTML, claim TSV, source index and optional draft notes.
+The coordinating agent alone edits `CONTEXT.md`, `AGENT.md`, `TEMPLATE.md`, `README.md`,
+`index.html`, `about.html`, static assets and cross-essay comparisons.
+Review this essay against the book's own rules (CONTEXT.md sections 1–7, AGENT.md priority
+stack and pre-ship test). Rank findings by severity. For each: quote the passage, say what the
+cited source (excerpt file or URL) actually supports, and give a concrete fix.
+
+1. Never false: is any proposal presented as enacted law, expectation as deadline, or design
+   hurdle as market price? Check dates against the cited primary sources.
+2. Buyer and event: is the payer and the purchase event named and plausible, or is a
+   regulation standing in for demand?
+3. Economics: does the model pay replacement-cost labour, working capital and the owner
+   separately, and is the arithmetic internally consistent?
+4. Scalability: is the twentieth customer concretely different from the first, or is
+   "platform" doing the work?
+5. Incumbents and capture: are named competitors treated fairly from their own material, and is
+   the margin-capture risk by partner or customer confronted?
+6. Capable failure: is it a non-straw-man path, or "poor execution" in disguise?
+7. Dutch-language dependence stated for the exact channel and answered in the "Why you" section
+   (paper, partner or fail); reader constraints respected (A2 Dutch; hands-on; alongside the job at
+   first; EUR 100k with at most EUR 50k at risk in year one; no Dutch trade exam; outside software).
+   Is the precedent firm real, with an independent trace?
+8. Receipts: every CHECK marker's row supports the sentence it follows; every verified row has
+   an excerpt that says what the claim says; inference rows are honest about what they infer.
+9. Verdict: is it the one the evidence earns, and is the kill assumption the right one?
+10. Readability: wall paragraphs, sentences over 40 words, jargon without mechanism.
+
+End with: verdict SHIP / REVISE / BLOCK, and the three fixes that matter most.
+# Essay Review: `chapters/02-border-files.html`
+**Candidate:** Border files for CEE imports (Pitch 7) · **Essay NN:** 02  
+**Review Standard:** `CONTEXT.md` (Sections 1–7), `AGENT.md` (Priority Stack & Pre-Ship Test), `TEMPLATE.md`
+
+---
+
+## Ranked Findings by Severity
+
+### Finding 1 (Medium Severity) — Over-claiming on default values receipt
+* **Category:** Rule 1 (*Never false*) & Rule 8 (*Receipts*)
+* **Location:** Section 7 (`section.competition`), Paragraph 2, Line 95
+* **Quoted Passage:**
+  > `"The CBAM registry carries default values, while the Dutch authority publishes a calculator and guidance. <!-- CHECK: 02-default-route -->"`
+* **What the cited source actually supports:**
+  The cited excerpt [`resources/sources/02/excerpts/02-default-route.txt`](file:///home/diablo/book19/resources/sources/02/excerpts/02-default-route.txt) (and the ledger row `02-default-route`) contains only the NEa rules stating that default values require no verified installation report, usually result in higher CBAM costs, and incur statutory penalty uplifts of 10% in 2026, 20% in 2027, and 30% from 2028. It contains **no mention** of an NEa-published calculator or official guidance tools, nor does it confirm the registry's default value interface.
+* **Concrete Fix:**
+  Rephrase the sentence so the tagged clause strictly aligns with the excerpt, and state the tooling context separately without attributing it to `02-default-route`:
+  ```html
+  The CBAM registry enables default values without installation verification, carrying the statutory cost uplift. <!-- CHECK: 02-default-route --> Meanwhile, the Dutch authority publishes separate calculation guidance.
+  ```
+
+---
+
+### Finding 2 (Medium Severity) — Marker stacking and misplaced claim anchor
+* **Category:** Rule 8 (*Receipts*)
+* **Location:** Section 2 (`section.changed`), Paragraph 11, Line 46
+* **Quoted Passage:**
+  > `"Ukraine is classified low-risk. Low-risk sourcing permits simplified due diligence when origin is unmixed, though the operator must still collect compliance information. <!-- CHECK: 02-ukraine-risk --> <!-- CHECK: 02-low-risk-effect -->"`
+* **What the cited source actually supports:**
+  `02-ukraine-risk` ([`02-ukraine-risk.txt`](file:///home/diablo/book19/resources/sources/02/excerpts/02-ukraine-risk.txt)) verifies solely that Ukraine is listed in the European Commission's low-risk country classification. `02-low-risk-effect` ([`02-low-risk-effect.txt`](file:///home/diablo/book19/resources/sources/02/excerpts/02-low-risk-effect.txt)) verifies the legal consequence: simplified due diligence applies without full risk assessment/mitigation, but compliance collection remains obligatory. Stacking both markers at the end leaves the first factual sentence unstamped while overloading the second.
+* **Concrete Fix:**
+  Place each marker immediately after the sentence it supports:
+  ```html
+  Ukraine is classified low-risk. <!-- CHECK: 02-ukraine-risk --> Low-risk sourcing permits simplified due diligence when origin is unmixed, though the operator must still collect compliance information. <!-- CHECK: 02-low-risk-effect -->
+  ```
+
+---
+
+### Finding 3 (Low Severity) — Sourcing locator distinction for EUDR revision
+* **Category:** Rule 1 (*Never false*) & Rule 8 (*Receipts*)
+* **Location:** `checks/claims/02.tsv` (Row 17) & `resources/sources/02/SOURCES.md` (Item 11)
+* **Quoted Passage:**
+  > `checks/claims/02.tsv`: `"The enacted December 2025 EUDR revision moved application to 30 December 2026 for most companies and 30 June 2027 for most micro/small operators, and concentrated due-diligence statement submission on the first operator rather than downstream firms."`  
+  > `source_url`: `https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026DC0191`
+* **What the cited source actually supports:**
+  CELEX `52026DC0191` is the European Commission's report/communication summarizing the 19 December 2025 political agreement and revised timeline. While the verbatim excerpt accurately quotes the adopted dates and downstream simplification, the primary legal act is the amending regulation adopted by Parliament and Council.
+* **Concrete Fix:**
+  Add a cross-reference in `SOURCES.md` to the consolidated EUDR Regulation (EU) 2023/1115 as amended, ensuring the primary legislative instrument is cited alongside the Commission's guidance document.
+
+---
+
+## Detailed Evaluation Against Book Rules
+
+### 1. Never False
+* **Enacted Law vs. Proposal:** Cleanly separated. Regulation (EU) 2025/2083 (CBAM 50-tonne threshold and September 30 filing deadline) and the December 2025 EUDR revision are correctly presented as enacted law.
+* **Expectation vs. Deadline:** The essay explicitly notes that while the CBAM authorization requirement took effect on 1 January 2026, the first financial declaration and surrender of certificates for 2026 does not occur until 30 September 2027 (Section 2, Paragraph 3). EUDR dates (30 Dec 2026 / 30 June 2027) are explicitly treated as subject to prior slippage.
+* **Design Hurdles vs. Market Prices:** Handled strictly. Section 5 opens with: *"Every amount below is a labelled design hurdle, not a market price or forecast."* All diagnostic (€2k) and retainer fees (€750/mo, €12k/yr) are explicitly labelled as hurdles.
+* **Date Consistency:** All dates align with 2026 primary sources and local timeline context (2026-09-04).
+
+---
+
+### 2. Buyer and Event
+* **The Payer:** Named specifically as the finance, procurement, or customs lead of a Dutch SME metal importer crossing the 50-tonne threshold with Ukrainian, Turkish, or Kazakh suppliers (Section 1 & 4).
+* **The Purchase Event:** Concrete triggers are named: a customs hold at the border, a post-March 2026 authorization review, or the financial evaluation of whether default emission penalty uplifts (10–30%) exceed the cost of acquiring and verifying actual installation data.
+* **Anti-Regulation Discipline:** The essay explicitly rejects the assumption that regulation automatically creates demand:
+  > *"Enforcement creates urgency for authorisation. It does not prove a 2026 consulting budget for supplier data."* (Section 2)
+  > *"If default values are cheaper than the full data-and-verification path, recommend the default route and stop."* (Section 4)
+
+---
+
+### 3. Economics
+* **Model Separation:**
+  * **Founder Replacement Labour:** Hurdle of €24,000 in Year 1 (beside the job) and €100,000 in Mature year.
+  * **Operating Expenses & Direct Costs:** Separately budgeted (CEE associate €2k/€50k; delivery analyst €65k; specialist review €3k/€15k; admin, sales, insurance €6k/€55k).
+  * **Owner Income / Result:** Year 1 leaves **−€16k** (demonstrating that founder hours are not treated as free); Mature design yields **€75k** operating result before tax.
+* **Arithmetic Consistency:**
+  * Year 1: Revenue €21k (€8k diagnostics + €9k retainers + €4k EUDR) − Direct costs €7k = Gross margin €14k (66.7% → 67%). Gross margin €14k − Overheads/Founder (€24k + €6k = €30k) = **−€16k**.
+  * Mature: Revenue €375k (€240k CBAM + €90k EUDR + €45k onboarding) − Direct costs €145k = Gross margin €230k (61.3% → 61%). Gross margin €230k − Overheads/Founder (€100k + €55k = €155k) = **€75k**.
+  * Capacity: 240 CBAM days + 90 EUDR days + 45 onboarding days = 375 delivery days, covered by 2 delivery staff (~420–440 available working days).
+* **Working Capital & Risk:** Advanced billing (50% upfront diagnostics, quarterly retainers) prevents inventory/certificate working-capital liabilities. Cash-at-risk is capped at €12,000 (pre-evidence spend ≤€4,000), well within the reader's €50,000 ceiling.
+
+---
+
+### 4. Scalability
+* **Evolution of the Delivery:**
+  * *Customer 1:* 100% founder delivery establishing data lineage templates.
+  * *Customer 5:* Second broker channel; CEE associate and carbon specialist handle >50% of intake and review.
+  * *Customer 20:* Accumulated library of permissioned installation data and known mill failure modes by production route across three broker channels.
+* **No "Platform" Magic:** Explicitly rejects software productization:
+  > *"It is not a portal sold to customers. The entrant never becomes software with a login."* (Section 1 & 6)
+  > *"If every pack is customer-confidential and every supplier starts from zero, the asset is merely the team's experience."* (Section 6)
+
+---
+
+### 5. Incumbents and Capture
+* **Fair Competitor Treatment:**
+  * **Customs Support Group:** Acknowledged with 1,700+ customs experts and 60k clients offering integrated CBAM/EUDR clearance.
+  * **Deloitte Netherlands:** Acknowledged for enterprise managed services handling data collection, declaration, and certificate procurement.
+* **Margin-Capture Confronted:** Addressed as a central structural risk:
+  > *"The partner-capture response is structural. A broker gives the entrant two difficult suppliers, observes the protocol, then hires a Russian-speaking coordinator or sends the rest to Deloitte's tooling."* (Section 7)
+
+---
+
+### 6. Capable Failure
+* **Non-Straw-Man Mechanism:** Section 8 (`div.counter`) outlines a true structural defeat despite flawless execution:
+  1. Entrant successfully extracts mill data and structures reporting packs.
+  2. Large foreign mills subsequently register verified data centrally in the EU registry.
+  3. Dutch customs brokers standardize intake and hire low-cost coordinators for routine filings.
+  4. The entrant's valuable transition work educates both sides of the market to disintermediate the entrant, reducing the business to occasional low-volume remediation.
+
+---
+
+### 7. Dutch-Language Dependence & Reader Constraints
+* **Language Gate:** Explicitly stated that A2 Dutch is insufficient for Dutch B2B sales and customs disputes. Answered honestly via the **Partner** channel (Dutch customs brokers fronting the client relationship, entrant acting as CEE data subcontractor).
+* **Reader Constraints Respected:**
+  * Hands-on: Founder personally conducts supplier interviews and diagnostic mappings.
+  * Alongside the job: Year 1 model and 90-day plan operate around day-job hours.
+  * Capital at risk: €4k pre-evidence spend; €12k Year 1 cash-at-risk hurdle (≤€50k limit).
+  * No Dutch trade exam: Verified in official role descriptions (`02-credential-boundary`).
+  * Outside software: Sells data lineage, diagnostic memos, and handover packs.
+* **Precedent Trace:** Ingdilligenz GmbH in Würzburg verified via official German register data (Amtsgericht Würzburg HRB 15952, incorporated 17 Nov 2021, €25,000 share capital).
+
+---
+
+### 8. Receipts and Claims Ledger
+* **Ledger Synchronization:** 29 unique claims in `checks/claims/02.tsv`, 36 markers in `chapters/02-border-files.html`. All status fields are valid (`checked-by:codex:2026-09-05` or `inference`). Zero open claims.
+* **Inference Rows Honesty:**
+  * `02-count-boundary`: Accurately states that published NEa statistics omit the specific numerator/denominator required by the pitch contract.
+  * `02-credential-boundary`: Accurately states that absence of a consultant exam in role descriptions is an inference across published roles.
+  * `02-price-boundary` & `02-payment-boundary`: Accurately identifies that vendor websites omit SME transaction pricing and do not prove payment willingness.
+
+---
+
+### 9. Verdict and Kill Assumption
+* **Verdict:** `TEST THROUGH A PARTNER` (Matches `CONTEXT.md` allowed list). Earned by the combination of A2 language limitation and broker relationship ownership.
+* **Kill Assumption:**
+  > *"The single assumption that would most change the verdict is that a Dutch customs broker will introduce a paying importer while leaving the entrant enough fee and permission to build a reusable CEE supplier-data asset."* (Accurate and decisive).
+
+---
+
+### 10. Readability
+* **Paragraph Length:** All body paragraphs are between 40 and 89 words. Lede is 106 words (satisfies TEMPLATE.md ≤130-word limit). Zero wall paragraphs.
+* **Sentence Length:** **0 sentences exceed 40 words** across the entire essay.
+* **Jargon vs. Mechanism:** Technical terms (*CBAM*, *EUDR*, *eHerkenning chain authorization*, *default value uplifts*, *accredited verifiers*) are paired immediately with their mechanical and legal implications.
+
+---
+
+## Verdict & Three Key Fixes
+
+### Overall Verdict: **REVISE**
+
+*(The chapter passes structural and economic gates with distinction; revision is required solely to correct two claim marker placements and refine one citation receipt.)*
+
+### The Three Fixes That Matter Most
+
+1. **Fix Marker 32 Receipt Over-Claim (Section 7, line 95):**  
+   Reword `"The CBAM registry carries default values, while the Dutch authority publishes a calculator and guidance. <!-- CHECK: 02-default-route -->"` to separate the statutory default value rules supported by `02-default-route.txt` from generic statements about agency guidance.
+2. **Unstack Markers 18 & 19 (Section 2, line 46):**  
+   Move `<!-- CHECK: 02-ukraine-risk -->` immediately after `"Ukraine is classified low-risk."`, leaving `<!-- CHECK: 02-low-risk-effect -->` to anchor the subsequent sentence on simplified due diligence.
+3. **Harmonize EUDR Legislative Citation in Sources Index:**  
+   In `resources/sources/02/SOURCES.md` and `checks/claims/02.tsv` (Row 17), supplement the Commission Report CELEX (`52026DC0191`) with the primary reference to consolidated Regulation (EU) 2023/1115 as amended.
+Here are the findings from reviewing `chapters/02-border-files.html` against the book's rules, ranked by severity.
+
+### 1. Hands-on constraint violation and unearned verdict (Severity: High)
+* **Rule:** 7 (Reader constraints respected) and 9 (Verdict earned by evidence)
+* **Quote:** "The constraint that breaks the fit is the buyer side. [...] If the reader wants physical site work, this also fails personally. It is desk work attached to metal, and the least physical candidate in the book." ... "Verdict: **TEST THROUGH A PARTNER**"
+* **What the cited source actually supports:** The essay text openly admits that the proposed business model violates the reader's fixed "hands-on" constraint (which `CONTEXT.md` and `AGENT.md` define as physical site work). A proposition that fundamentally fails the reader's fixed constraints cannot earn a "TEST" verdict without modification.
+* **Concrete fix:** Either revise the business model to include a hands-on physical element (e.g., verifying physical shipments at the Dutch port against the supplier's documentary evidence), or change the verdict to **DO NOT ENTER** and cite the failure of the "hands-on" constraint as the kill fact.
+
+### 2. Unsupported claim of "geolocation tools" (Severity: High)
+* **Rule:** 8 (Receipts: every CHECK marker's row supports the sentence it follows; every verified row has an excerpt that says what the claim says)
+* **Quote:** "More damaging to the original pitch, Ukraine's State Forest Agency says its tracking system already follows batches from harvest to export and provides legality documents and geolocation tools. `<!-- CHECK: 02-ukraine-system -->`"
+* **What the cited source actually supports:** The excerpt (`02-ukraine-system.txt`) mentions a tracking system and legality documents ("e-logging permit, the electronic certificate of origin, the electronic waybill with photo documentation, as well as the functionality of the Exporter’s Electronic Cabinet"). Neither the verbatim excerpt nor the TSV claim mentions "geolocation tools."
+* **Concrete fix:** Remove "and geolocation tools" from the sentence so it faithfully matches the source, changing it to "and exporter tools" (which matches the TSV) or "and tracing tools."
+
+### 3. Date injection in verified TSV claim (Severity: Medium)
+* **Rule:** 8 (Receipts: every verified row has an excerpt that says what the claim says)
+* **Quote (from `checks/claims/02.tsv`):** "Ukraine's State Forest Agency says its system traces timber batches from harvest to export, had about 400 active users in April 2026, and provides legality documents and exporter tools."
+* **What the cited source actually supports:** The verbatim excerpt in `02-ukraine-system.txt` says "Currently, we have around 400 active users of this system", but does not contain the date "April 2026". A verified row must have an excerpt that explicitly says what the claim says; injecting dates from outside the verbatim passage violates the receipt rule.
+* **Concrete fix:** Remove "in April 2026" from the TSV claim to maintain strict receipt discipline, or expand the saved excerpt to include the publication date of the article if it was present in the source text.
+
+***
+
+**Verdict: REVISE**
+
+**The three fixes that matter most:**
+1. Revise the business model to incorporate hands-on physical work, or change the verdict to DO NOT ENTER due to failing the reader's fixed constraints.
+2. Remove "and geolocation tools" from the Ukraine timber system paragraph so it accurately reflects the cited source.
+3. Remove the unsupported "April 2026" date from the `02-ukraine-system` TSV claim so the excerpt fully supports the verification.
+
+codex
+The reports disagree most sharply on fit and evidence discipline. I’m now checking the exact marker-to-ledger-to-excerpt chain; I’m also treating reviewer assertions about what the book “defines” as claims that need proof, not as accepted premises.
+exec
+/bin/bash -lc 'nl -ba chapters/02-border-files.html; nl -ba checks/claims/02.tsv; nl -ba resources/sources/02/SOURCES.md; for f in resources/sources/02/excerpts/*.txt; do echo "FILE $f"; nl -ba "$f"; done' in /home/diablo/book19
+ succeeded in 156ms:
+     1	<!DOCTYPE html>
+     2	<html lang="en">
+     3	<head>
+     4	<meta charset="utf-8">
+     5	<meta name="viewport" content="width=device-width, initial-scale=1">
+     6	<title>The border creates the file. The broker owns the border. — The Third Engine</title>
+     7	<meta name="description" content="A test of supplier-data and declaration support for Dutch SMEs importing CBAM goods and Ukrainian wood.">
+     8	<link rel="stylesheet" href="../static/style.css">
+     9	<script src="../static/theme.js"></script>
+    10	</head>
+    11	<body>
+    12	<header class="site-header">
+    13	  <div class="wrap">
+    14	    <a class="brand" href="../index.html">The Third <span>Engine</span></a>
+    15	    <nav class="site-nav">
+    16	      <a href="../index.html">Contents</a>
+    17	      <a href="../about.html">Method</a>
+    18	      <button class="theme-toggle" type="button">☾ Dark</button>
+    19	    </nav>
+    20	  </div>
+    21	</header>
+    22	<main class="wrap">
+    23	<p class="kicker">Essay 2 of 6 · Border files for CEE imports · from pitch 7</p>
+    24	<h1>The border creates the file. The broker owns the border.</h1>
+    25	<p class="lede">A Dutch steel importer can clear its next load only if the right declarant sits behind the customs entry. Its later carbon bill depends on data held by the foreign mill. That gap appears made for a regulatory reader who can call the supplier in its own language. The fatal point is control. The importer or customs representative keeps the legal role, while a broker can bundle the same data chase into clearance. The first purchase is therefore not a grand compliance retainer. It is one paid supplier-evidence diagnostic, sold through a Dutch declarant, which proves that language can recover better data than the default-value route.</p>
+    26	
+    27	<section class="proposition">
+    28	<h2>The proposition</h2>
+    29	<p>The first buyer is the finance, procurement or customs lead of a Dutch metal importer above the CBAM threshold. It buys steel or aluminium from one Ukrainian, Turkish or Kazakh installation. The purchase event is a stopped import, an authorisation review, or the decision between default and actual emissions before the first annual declaration.</p>
+    30	<p>The initial unit is one importer, one producing installation and one customs-code family. The fixed product is a <em>supplier-evidence diagnostic</em>. It reconciles customs quantities, identifies the declared production route, obtains the supplier's available monitoring record, maps missing evidence, and compares the two lawful reporting routes. It ends with a handover pack for the importer or its authorised customs representative.</p>
+    31	<p>The business does not clear goods, become importer of record, buy certificates, verify emissions or give legal advice. A verifier must verify actual emissions. <!-- CHECK: 02-actual-verification --> The authorised declarant remains responsible for the declaration. <!-- CHECK: 02-declarant-responsibility --> The entrant coordinates the foreign installation and prepares evidence for those accountable parties. It never becomes software with a login.</p>
+    32	<p>The substitute is strong: use Commission default values, let procurement email the supplier, and have the existing customs broker submit the file. Default values require no verified installation report, although the Dutch authority says they usually create higher CBAM costs. <!-- CHECK: 02-default-route --> The service wins only where the avoidable certificate cost and internal effort exceed its fee.</p>
+    33	<p>The wood file is a later product, not part of the first sale. It would map Ukrainian timber origin, geolocation and legality evidence for the Dutch operator, then prepare a due-diligence statement for an authorised representative to submit. <!-- CHECK: 02-eudr-representative --> It earns a place only after a timber importer pays for a diagnostic. Combining two acronyms before either buyer pays would hide two sales motions.</p>
+    34	</section>
+    35	
+    36	<section class="changed">
+    37	<h2>What changed</h2>
+    38	<p>CBAM is no longer a coming rule. Its definitive regime began on 1 January 2026. <!-- CHECK: 02-definitive-start --> The Dutch threshold is more than 50 tonnes per importer per calendar year across covered goods, excluding electricity and hydrogen. Once crossed, the obligations apply to all covered imports in that year. <!-- CHECK: 02-cbam-threshold --> The covered physical categories include iron and steel, aluminium, cement, fertilisers, electricity and hydrogen. <!-- CHECK: 02-cbam-sectors --></p>
+    39	<p>An EU importer above the threshold needs authorised-declarant status, unless an indirect customs representative agrees to take over the CBAM obligations. Customs checks the status at import and does not release the goods without it. <!-- CHECK: 02-cbam-authorisation --> Applications filed by 31 March 2026 received a temporary pending-decision route. <!-- CHECK: 02-cbam-grace --> That date has passed. A later applicant that crosses the threshold must wait for approval, for which Customs states a maximum 120-day treatment period. <!-- CHECK: 02-cbam-late-application --></p>
+    40	<p>The recurring event sits later. The first annual declaration covers 2026 and is due by 30 September 2027. <!-- CHECK: 02-cbam-declaration-date --> The obligation exists now, while much of the cash and filing work arrives next year. Enforcement creates urgency for authorisation. It does not prove a 2026 consulting budget for supplier data.</p>
+    41	<p>The actual-data route is narrower than the pitch implied. A producing installation prepares an emissions report, and an accredited CBAM verifier checks it. The entrant can organise inputs but cannot turn unverified mill figures into actual values. In July 2026 the NEa said no accredited CBAM verifiers were yet available; nine firms had applied to the Dutch accreditation council and about thirty more had shown interest. <!-- CHECK: 02-verifier-capacity --> Default values therefore remain both a substitute and a bridge.</p>
+    42	<p>The rule nevertheless puts a price on better evidence. Standard values require no verified installation report. They receive an uplift of 10% for 2026, 20% for 2027 and 30% from 2028; the NEa says they usually produce higher costs than actual data. <!-- CHECK: 02-default-route --> That difference is the budget mechanism. It still must be calculated for one importer's codes, origin, quantity and production route before anyone quotes a service.</p>
+    43	<p>The pitch's number cannot be settled as asked. A March 2026 NEa newsletter reported almost 1,100 applications, 870 approved, and about 250 new applications after the definitive period began. It also said increasing numbers of applicants were below 50 tonnes and needed no authorisation. <!-- CHECK: 02-application-count --> An earlier NEa implementation estimate put the post-threshold Dutch population at no more than 1,500 declarants, based on 2023–2025 import statistics. <!-- CHECK: 02-population-estimate --></p>
+    44	<p>Those records do not identify how many applicants were above 50 tonnes, how many filed before 31 March, or how many eligible importers missed the date. <!-- CHECK: 02-count-boundary --> The requested numerator and denominator are not public. The honest addressable record is “no more than 1,500” plus an application count contaminated by unnecessary filings. That is enough to reject market-size theatre, not enough to forecast customers.</p>
+    45	<p>EUDR moved the other way. An enacted December 2025 amendment delayed general application to 30 December 2026 and most micro or small operators to 30 June 2027. It also reduced repeated downstream submissions by concentrating the due-diligence statement on the first operator placing the product on the EU market. <!-- CHECK: 02-eudr-revision --> The deadline has slipped twice, so budget timing deserves skepticism.</p>
+    46	<p>Ukraine is classified low-risk. Low-risk sourcing permits simplified due diligence when origin is unmixed, though the operator must still collect compliance information. <!-- CHECK: 02-ukraine-risk --> <!-- CHECK: 02-low-risk-effect --> More damaging to the original pitch, Ukraine's State Forest Agency says its tracking system already follows batches from harvest to export and provides legality documents and geolocation tools. <!-- CHECK: 02-ukraine-system --> The file may still need assembly in the EU system. The claim that polygons must be extracted by phone is no longer credible.</p>
+    47	</section>
+    48	
+    49	<section class="whyyou">
+    50	<h2>Why you</h2>
+    51	<p>The language edge is real only at the foreign installation. The useful call is not “please complete this questionnaire.” It is a conversation with the energy engineer about production routes, precursors, metering periods and why a number will face verification. Russian can work in parts of Ukraine and Kazakhstan; Polish helps with regional suppliers and associates. English connects the result to the importer's finance and customs teams.</p>
+    52	<p>Regulatory literacy supplies the boundary. It separates threshold, authorisation, actual values, default values, verification and certificate cash. The engineering habit turns an email chase into a data lineage: quantity to customs entry, good to code, product to installation, installation to process, process to source record. Internal automation can reduce errors, but the customer buys a signed handover pack, not access to a tool.</p>
+    53	<p>The Dutch-language gate is conditional, not passed. No Dutch trade exam appears in the CBAM roles reviewed here; the legal roles are importer, authorised declarant, indirect representative and accredited verifier. <!-- CHECK: 02-credential-boundary --> The operator's technical emissions report must be submitted in English under the implementing regulation. <!-- CHECK: 02-english-report --> That helps with the mill. It does not make A2 sufficient for Dutch cold sales, customs disputes or a finance director's risk questions.</p>
+    54	<p>The answer is a Dutch customs partner. The partner owns the local relationship, customs representation and Dutch explanation. The entrant contracts as its named CEE supplier-data specialist. Customs confirms that a service party may deliver the CBAM filing on the importer's behalf through chain authorisation, while the importer remains liable. <!-- CHECK: 02-service-provider-role --> If the partner insists on owning the method, supplier relationship and all margin, the channel fails.</p>
+    55	<p>Ingdilligenz GmbH in Würzburg is the precedent. Its own site markets import-data analysis, supplier communication, emissions support, XML preparation and report submission as a CBAM representative. <!-- CHECK: 02-precedent-offer --> An independent register trace records HRB 15952, incorporation on 17 November 2021 and €25,000 share capital. <!-- CHECK: 02-precedent-trace --> This proves that a small firm can persist on the shape. It does not establish Dutch prices, independence from software or payment for the language layer.</p>
+    56	<p>The constraint that breaks the fit is the buyer side. If the reader cannot find a Dutch broker willing to lead meetings and retain the importer contract, A2 makes direct acquisition brittle. If the reader wants physical site work, this also fails personally. It is desk work attached to metal, and the least physical candidate in the book.</p>
+    57	</section>
+    58	
+    59	<section class="sale">
+    60	<h2>The first sale</h2>
+    61	<p>Build ten prospect types, not a list of every importer. Use Ukrainian-steel stockholders, Turkish-steel fabricators, aluminium-profile importers, façade-system suppliers, fastening wholesalers, trailer and body builders, greenhouse-structure suppliers, metal furniture makers, fertiliser wholesalers and precast or cement-product importers. Each prospect must have a Dutch entity, a known non-EU supplier, likely annual mass above the threshold and no visible carbon team.</p>
+    62	<p>The route begins with two Dutch customs brokers and one carbon-accounting adviser. Ask each for one anonymised client whose supplier data remain incomplete. The partner should introduce the diagnostic, lead Dutch calls and keep declaration responsibility where already contracted. Start in the Zaandam–Rotterdam logistics corridor, but follow the supplier relationship rather than a postcode.</p>
+    63	<p>The fixed offer is a <strong>€2,000 design hurdle</strong>, 50% in advance. It covers one importer, one installation and one product family. The output is an actual-versus-default cost map, supplier evidence inventory, structured request, two foreign-language supplier sessions and a handover memo. It excludes verification, legal advice, customs correction and final filing.</p>
+    64	<p>The finance or customs lead signs. A stopped shipment is the urgent event; otherwise the decision is whether better data can save more certificate cash than it costs to obtain and verify. The diagnostic must state that saving before proposing a retainer. If default values are cheaper than the full data-and-verification path, recommend the default route and stop.</p>
+    65	<p>The kill fact is only partly settled. Customs Support Group markets customs clearance beside CBAM and EUDR reporting, with more than 1,700 customs experts and 60,000 clients. <!-- CHECK: 02-customs-support --> Deloitte Netherlands markets an integrated service spanning supplier solicitation, validation, authorised declaration and customs brokerage. <!-- CHECK: 02-deloitte-incumbent --> These firms can bundle the work. Neither publishes a comparable small-importer price or says the supplier-data work is free. <!-- CHECK: 02-price-boundary --> Two live broker quotes are still required.</p>
+    66	</section>
+    67	
+    68	<section class="economics">
+    69	<h2>Does the money work?</h2>
+    70	<p>Every amount below is a labelled design hurdle, not a market price or forecast. Certificates, verifier fees, customs duties and legal work remain on the customer's invoice. Passing them through would inflate revenue and create working-capital risk without adding margin.</p>
+    71	<div class="ledger-wrap"><table class="ledger">
+    72	<thead><tr><th>Model</th><th>Revenue hurdle</th><th>Direct cost / gross margin hurdle</th><th>Operating result hurdle</th></tr></thead>
+    73	<tbody>
+    74	<tr><td><strong>Year 1 beside the job:</strong> four CBAM diagnostics, two six-month retainers and two EUDR readiness diagnostics.</td><td>4 × €2k; 2 × 6 × €750; 2 × €2k. <strong>Total €21k.</strong></td><td>Carbon specialist review €3k; CEE associate €2k; partner share and travel €2k. <strong>Gross margin €14k (67%).</strong></td><td>Founder labour at a €24k replacement-cost hurdle plus €6k insurance, training, sales and admin leaves <strong>−€16k</strong>. No owner income.</td></tr>
+    75	<tr><td><strong>Mature design:</strong> twenty CBAM retainers, fifteen EUDR retainers and fifteen supplier onboardings.</td><td>20 × €12k; 15 × €6k; 15 × €3k. <strong>Total €375k.</strong></td><td>Delivery analyst €65k; CEE associate €50k; specialist review €15k; partner fees, travel and tools €15k. <strong>Gross margin €230k (61%).</strong></td><td>Founder replacement cost €100k plus €55k sales, insurance, legal and admin leaves <strong>€75k</strong> before tax and financing.</td></tr>
+    76	</tbody></table></div>
+    77	<p>Year one is paid discovery. Four diagnostics and two small retainers can fit around a job if supplier calls are scheduled and the broker handles emergencies. It cannot replace developer income. The negative result is deliberate: founder time is not free merely because it is used at night.</p>
+    78	<p>The mature case clears the owner target, but only at recurring prices far above the pitch's original per-shipment idea. A €150 statement fee cannot support senior supplier investigation. The mature CBAM retainer must cover a defined importer portfolio and leave verification outside. The EUDR retainer is lower because Ukraine's low-risk status and state tools reduce work.</p>
+    79	<p>Capacity is the real model. Twenty CBAM clients at one delivery day a month consume 240 days a year. Fifteen EUDR clients at half a day consume another 90. Supplier onboardings add about 45 days. One analyst and one associate provide most routine capacity; the founder sells, qualifies, escalates and reviews. If each mill still consumes founder negotiation every quarter, the table has too few people.</p>
+    80	<p>Working capital should be almost absent. Bill diagnostics 50% in advance and retainers quarterly in advance. Do not hold certificates or import goods. The <strong>year-one cash-at-risk hurdle is €12,000</strong>, released in stages after payment. Before evidence, spend at most €4,000. That is well below the €50,000 rule and leaves the reader's capital outside this experiment.</p>
+    81	</section>
+    82	
+    83	<section class="scale">
+    84	<h2>From service to company</h2>
+    85	<p><strong>Customer one</strong> is founder work. The asset is a controlled lineage for one installation: customs code, quantity, product, route, input, emissions source, responsible person, verifier question and unresolved exception. Every value keeps its origin and date. The final pack can leave as spreadsheets and documents.</p>
+    86	<p><strong>Customer five</strong> should include a second customs partner and a repeated producing installation. A trained CEE associate runs supplier intake and checks completeness. A carbon specialist reviews method questions. The founder handles qualification and exceptions. At least half the delivery hours must occur without the founder.</p>
+    87	<p><strong>Customer twenty</strong> means twenty importers across at least three channels. The twentieth receives the same scope, request protocol, evidence schema and default-versus-actual decision tree. The accumulating asset is a permissioned supplier and installation library, plus known evidence failures by production route. It is not a portal sold to customers.</p>
+    88	<p>Re-use needs consent. A mill can register its verified report so authorised declarants can use its data. <!-- CHECK: 02-installation-registry --> Contract and confidentiality terms still decide whether the entrant can retain a copy. Store only what the importer and installation permit. If every pack is customer-confidential and every supplier starts from zero, the asset is merely the team's experience.</p>
+    89	<p>Human work remains at the boundary: persuading the mill, understanding how production is measured, spotting an implausible mapping and deciding when to involve the verifier. Data transfer, evidence indexing, reconciliation and routine supplier follow-up can be delegated. The founder bottleneck is trusted multilingual escalation. The twentieth delivery is different only if prior installation knowledge cuts those hours.</p>
+    90	</section>
+    91	
+    92	<section class="competition">
+    93	<h2>The incumbent gets a turn</h2>
+    94	<p>The customs broker begins with the account, import data, authorisation and border workflow. Customs Support Group explicitly places CBAM and EUDR inside a portfolio of customs clearance, reporting and outsourcing. <!-- CHECK: 02-customs-support --> Deloitte can join supplier data, declaration, certificates and brokerage in one managed service. <!-- CHECK: 02-deloitte-incumbent --> The customer may prefer one accountable counterparty even if its foreign-language follow-up is slower.</p>
+    95	<p>The free substitute is also improving. The CBAM registry carries default values, while the Dutch authority publishes a calculator and guidance. <!-- CHECK: 02-default-route --> A large mill can register its installation once and share a verified record with buyers. A procurement employee can then connect it to customs quantities. Better standards and tooling compress the mechanical work.</p>
+    96	<p>On wood, the Ukrainian state is building the entrant's proposed upstream data service. Its tools expose origin, harvesting documents and geolocation. <!-- CHECK: 02-ukraine-system --> EU reform reduced downstream repetition, and low-risk classification removes full risk assessment in qualifying cases. <!-- CHECK: 02-eudr-revision --> <!-- CHECK: 02-low-risk-effect --> The wood line should be a cheap readiness diagnostic, not a bet on manual polygon retrieval.</p>
+    97	<p>The partner-capture response is structural. A broker gives the entrant two difficult suppliers, observes the protocol, then hires a Russian-speaking coordinator or sends the rest to Deloitte's tooling. The entrant never owned authorisation or the importer. Its defence is a cross-broker installation library and faster CEE resolution. Both depend on permissions the partner may refuse.</p>
+    98	</section>
+    99	
+   100	<div class="counter">
+   101	<div class="case-head"><span class="who">The capable failure</span></div>
+   102	<p>The company executes well. It recovers usable data from several mills, hands clean packs to Dutch brokers and helps importers compare actual and default costs. Accredited verifiers arrive. The largest mills then register their reports centrally, making the same verified dataset available to every customer.</p>
+   103	<p>Meanwhile the brokers add one multilingual coordinator and standardise their intake. Default values remain acceptable for small or dirty portfolios. For clean portfolios, supplier data become reusable and require little chasing. The valuable transition work trains both sides to remove the intermediary.</p>
+   104	<p>Nothing failed through poor execution. The legal role always belonged to the declarant, the source record belonged to the mill, and the customer belonged to the broker. The entrant kept no exclusive asset. Revenue becomes occasional remediation for strange installations. That can pay expert day rates, but it cannot sustain the recurring client count or founder replacement in the mature table.</p>
+   105	</div>
+   106	
+   107	<section class="monday">
+   108	<h2>The first ninety days</h2>
+   109	<ol>
+   110	<li><strong>Days 1–15:</strong> interview two Dutch customs brokers, one carbon accountant and six importers from the ten prospect types. Reconstruct one 2026 entry, the authorisation holder, supplier contact, chosen data route and any fee already paid. Conduct meetings outside day-job hours.</li>
+   111	<li><strong>Days 10–25:</strong> have a CBAM specialist review the scope, disclaimer and actual-versus-default worksheet. Spend at most a <strong>€1,500 hurdle</strong>. Do not market verification or declarant status.</li>
+   112	<li><strong>Days 20–40:</strong> select one product family and create a bilingual supplier request, evidence index and handover pack. Use the customer's existing files. Cap translation, secure storage and professional-insurance advice at a further <strong>€1,500 hurdle</strong>.</li>
+   113	<li><strong>Days 30–60:</strong> offer the €2,000 diagnostic to five qualified importers through at least two brokers. Require one named installation, 2026 customs quantities, a responsible declarant and a supplier contact. Take 50% in advance.</li>
+   114	<li><strong>Days 45–75:</strong> deliver one paid diagnostic. Compare the total cost of default values with actual data, including the customer's verifier quote. Record founder hours, associate hours, supplier responses and which evidence survives specialist review.</li>
+   115	<li><strong>Days 76–90:</strong> ask for a six-month €750 monthly retainer and a second importer from a different broker. In parallel, show one Ukrainian timber importer a €2,000 EUDR readiness diagnostic, but build nothing until paid. Total pre-evidence spend is capped at <strong>€4,000</strong>.</li>
+   116	</ol>
+   117	<p><strong>Pass:</strong> one CBAM diagnostic is paid, its buyer documents a net saving or avoided internal cost above the fee, and one broker offers a second importer while accepting the service boundary and supplier-data rights. <strong>Kill:</strong> no payment after five qualified offers; two brokers include comparable supplier work at no incremental charge; every case prefers default values after verification cost; or the partner will not let the entrant retain a reusable contact and process asset. The public record shows provider scope, not prices, and does not prove Dutch SME payment. <!-- CHECK: 02-payment-boundary --></p>
+   118	</section>
+   119	
+   120	<div class="verdict-box">
+   121	<h2>Verdict</h2>
+   122	<p class="verdict"><strong>TEST THROUGH A PARTNER</strong></p>
+   123	<p>The single assumption that would most change the verdict is that a Dutch customs broker will introduce a paying importer while leaving the entrant enough fee and permission to build a reusable CEE supplier-data asset.</p>
+   124	</div>
+   125	
+   126	<div class="reading">
+   127	<h2>Reading</h2>
+   128	<ul>
+   129	<li>European Union, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R2083">Regulation (EU) 2025/2083 simplifying and strengthening CBAM</a>.</li>
+   130	<li>Nederlandse Emissieautoriteit, <a href="https://www.emissieautoriteit.nl/regelgeving/cbam/verplichtingen/toelating-als-cbam-aangever">authorisation as a CBAM declarant</a> and <a href="https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden">declarations using default values</a>.</li>
+   131	<li>Nederlandse Emissieautoriteit, <a href="https://www.emissieautoriteit.nl/regelgeving/cbam/hulpmiddelen/cbam-nieuwsbrief">CBAM newsletter archive</a>, especially March and July 2026.</li>
+   132	<li>Dutch Customs, <a href="https://www.douane.nl/onderwerpen/vgem/milieu/cbam/">CBAM operational guidance</a>.</li>
+   133	<li>European Union, <a href="https://eur-lex.europa.eu/eli/reg/2023/1115">consolidated Regulation (EU) 2023/1115 on deforestation-free products</a>.</li>
+   134	<li>European Commission, <a href="https://green-forum.ec.europa.eu/countries-and-partnerships_en">EUDR country benchmarking and simplified due diligence</a>.</li>
+   135	<li>State Forest Resources Agency of Ukraine, <a href="https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions">timber tracking and exporter tools</a>.</li>
+   136	<li>Ingdilligenz, <a href="https://ingdilligenz.de/cbam-beratung/">CBAM consulting offer</a>; independent trace in the <a href="https://www.unternehmen24.info/Handelsregister/Deutschland/Handelsregisterauszug/Firma/4959350">Würzburg register record</a>.</li>
+   137	<li>Customs Support Group, <a href="https://www.customssupport.com/solutions/compliance-reporting/">compliance and reporting portfolio</a>; Deloitte Netherlands, <a href="https://www.deloitte.com/nl/en/services/tax/services/eu-carbon-border-adjustment-mechanism-cbam.html">managed CBAM services</a>. Vendor descriptions, not evidence of price or outcome.</li>
+   138	</ul>
+   139	</div>
+   140	
+   141	<nav class="chapter-nav" aria-label="Essay navigation">
+   142	  <span></span>
+   143	  <a href="../index.html">Contents</a>
+   144	  <span></span>
+   145	</nav>
+   146	</main>
+   147	<footer class="site-footer"><div class="wrap"><p>Six candidates. One third engine. Evidence before commitment.</p></div></footer>
+   148	</body>
+   149	</html>
+     1	id	claim	source_url	source_locator	status
+     2	02-cbam-threshold	From 1 January 2026 the CBAM threshold is more than 50 tonnes of covered goods per importer per calendar year; once exceeded, obligations cover all covered imports that year, with no threshold for electricity or hydrogen.	https://www.emissieautoriteit.nl/vraag-en-antwoord/faq-cbam/hoe-werkt-de-ondergrens-van-50-ton	excerpts/02-cbam-threshold.txt — “De ondergrens van 50 ton voor importeurs”	checked-by:codex:2026-09-05
+     3	02-cbam-sectors	Dutch Customs lists iron and steel, cement, fertilisers, aluminium, electricity and hydrogen as CBAM categories.	https://www.douane.nl/onderwerpen/vgem/milieu/cbam/	excerpts/02-cbam-sectors.txt — “CBAM-goederen”	checked-by:codex:2026-09-05
+     4	02-definitive-start	The CBAM definitive regime has applied since 1 January 2026.	https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en	excerpts/02-definitive-start.txt — opening	checked-by:codex:2026-09-05
+     5	02-cbam-authorisation	An EU importer above 50 tonnes needs authorised CBAM declarant status unless an indirect customs representative agrees to assume the obligations; Customs checks status and otherwise does not release the goods.	https://www.emissieautoriteit.nl/regelgeving/cbam/verplichtingen/toelating-als-cbam-aangever	excerpts/02-cbam-authorisation.txt — opening; “Welke bedrijven moeten een aanvraag indienen?”	checked-by:codex:2026-09-05
+     6	02-cbam-grace	Importers and indirect customs representatives that applied for authorisation by 31 March 2026 may continue importing while awaiting the decision.	https://www.emissieautoriteit.nl/regelgeving/cbam/verplichtingen/toelating-als-cbam-aangever	excerpts/02-cbam-grace.txt — temporary exception for pending applications	checked-by:codex:2026-09-05
+     7	02-cbam-late-application	Dutch Customs says an importer crossing 50 tonnes without authorisation must apply and cannot import while a later application is processed, for which the maximum treatment period is 120 days.	https://www.douane.nl/onderwerpen/vgem/milieu/cbam/	excerpts/02-cbam-late-application.txt — “Importeert u tijdens het jaar toch meer dan 50 ton”	checked-by:codex:2026-09-05
+     8	02-cbam-declaration-date	The first CBAM declaration covers 2026 and is due by 30 September 2027.	https://nederlandseemis.m6.mailplus.nl/archief/mailing-652129.html	excerpts/02-cbam-declaration-date.txt — newsletter introduction	checked-by:codex:2026-09-05
+     9	02-actual-verification	Actual CBAM data require an installation operator's emissions report verified by an accredited CBAM verifier.	https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-werkelijke-gegevens/accreditatie-en-verificatie	excerpts/02-actual-verification.txt — opening	checked-by:codex:2026-09-05
+    10	02-installation-registry	An installation operator may voluntarily register its installation and emissions report so an authorised declarant can use the data in its declaration.	https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte	excerpts/02-installation-registry.txt — actual-data route	checked-by:codex:2026-09-05
+    11	02-declarant-responsibility	NEa says the CBAM declarant remains responsible for all declaration data even when using information from an operator or verifier.	https://nederlandseemis.m6.mailplus.nl/archief/mailing-674382.html	excerpts/02-declarant-responsibility.txt — FAQ on responsibility	checked-by:codex:2026-09-05
+    12	02-verifier-capacity	In July 2026 the NEa said no accredited CBAM verifiers were yet available, nine firms had applied to RvA and about thirty more had expressed interest.	https://nederlandseemis.m6.mailplus.nl/archief/mailing-674382.html	excerpts/02-verifier-capacity.txt — “Huidige stand van zaken”	checked-by:codex:2026-09-05
+    13	02-default-route	NEa says default values require no verified installation report, usually produce higher CBAM costs than actual data, and carry uplifts of 10% in 2026, 20% in 2027 and 30% from 2028.	https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden	excerpts/02-default-route.txt — opening; “Ingebedde emissies”	checked-by:codex:2026-09-05
+    14	02-application-count	A March 2026 NEa newsletter reported almost 1,100 applications, 870 approvals and about 250 new applications after 1 January, while noting increasing applications from importers below 50 tonnes.	https://nederlandseemis.m6.mailplus.nl/archief/mailing-652129.html	excerpts/02-application-count.txt — “Terugblik aanvragen toelating”	checked-by:codex:2026-09-05
+    15	02-population-estimate	NEa's 2025 implementation assessment estimated that the 50-tonne threshold would limit the Dutch population to at most 1,500 CBAM declarants, based on 2023–2025 import statistics.	https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2025/09/16/uitvoeringstoets-nederlandse-emissieautoriteit-wetsvoorstel-operationalisering-cbam/Uitvoeringstoets-NEa-wetsvoorstel-operationalisering-CBAM.pdf	excerpts/02-population-estimate.txt — pp. 4–5	checked-by:codex:2026-09-05
+    16	02-count-boundary	The published counts do not disclose how many applicants were above 50 tonnes, how many applied by 31 March 2026, or how many eligible importers did not apply.	https://nederlandseemis.m6.mailplus.nl/archief/mailing-652129.html	research inference from published categories and omissions; no excerpt	inference
+    17	02-eudr-revision	The enacted December 2025 EUDR revision moved application to 30 December 2026 for most companies and 30 June 2027 for most micro/small operators, and concentrated due-diligence statement submission on the first operator rather than downstream firms.	https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026DC0191	excerpts/02-eudr-revision.txt — section 1.3 and revised framework summary	checked-by:codex:2026-09-05
+    18	02-eudr-representative	Under the consolidated EUDR an operator may mandate an authorised representative to submit the due-diligence statement, while the operator retains responsibility for compliance.	https://eur-lex.europa.eu/eli/reg/2023/1115	excerpts/02-eudr-representative.txt — Article 6(1)	checked-by:codex:2026-09-05
+    19	02-ukraine-risk	The European Commission's current EUDR country classification lists Ukraine as low risk.	https://green-forum.ec.europa.eu/countries-and-partnerships/country-classification-list_en	excerpts/02-ukraine-risk.txt — “U” country list	checked-by:codex:2026-09-05
+    20	02-low-risk-effect	The Commission says qualifying low-risk sourcing allows simplified due diligence: compliance information remains required, but full risk assessment and mitigation are not.	https://green-forum.ec.europa.eu/countries-and-partnerships_en	excerpts/02-low-risk-effect.txt — “What do the different risk classifications mean”	checked-by:codex:2026-09-05
+    21	02-ukraine-system	Ukraine's State Forest Agency says its system traces timber batches from harvest to export, had about 400 active users in April 2026, and provides legality documents and exporter tools.	https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions	excerpts/02-ukraine-system.txt — paragraphs on tracking and digital services	checked-by:codex:2026-09-05
+    22	02-credential-boundary	The reviewed official CBAM role descriptions establish importer/declarant, indirect representative, service-provider and accredited-verifier roles but no licensed CBAM-consultant credential.	https://www.douane.nl/onderwerpen/vgem/milieu/cbam/	research inference across official role descriptions; no excerpt	inference
+    23	02-english-report	Commission Implementing Regulation (EU) 2025/2547 requires the operator's emissions report to be submitted in English.	https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R2547	excerpts/02-english-report.txt — Article 4(4)	checked-by:codex:2026-09-05
+    24	02-service-provider-role	Dutch Customs says a service party filing on behalf of an importer is only providing a service, the importer remains liable, and the registry supports chain authorisation through eHerkenning.	https://www.douane.nl/onderwerpen/vgem/milieu/cbam/	excerpts/02-service-provider-role.txt — FAQ on service parties and chain authorisation	checked-by:codex:2026-09-05
+    25	02-precedent-offer	Ingdilligenz markets CBAM import-data analysis, supplier communication, emissions support, XML preparation and complete report submission as a CBAM representative.	https://ingdilligenz.de/cbam-beratung/	excerpts/02-precedent-offer.txt — service process	checked-by:codex:2026-09-05
+    26	02-precedent-trace	An independent registry-data service records Ingdilligenz GmbH under Würzburg HRB 15952, with articles dated 17 November 2021 and €25,000 share capital.	https://www.unternehmen24.info/Handelsregister/Deutschland/Handelsregisterauszug/Firma/4959350	excerpts/02-precedent-trace.txt — latest register publication	checked-by:codex:2026-09-05
+    27	02-customs-support	Customs Support Group markets customs clearance alongside CBAM and EUDR reporting and says it has more than 1,700 customs experts and 60,000 clients.	https://www.customssupport.com/solutions/compliance-reporting/	excerpts/02-customs-support.txt — service overview and company figures	checked-by:codex:2026-09-05
+    28	02-deloitte-incumbent	Deloitte Netherlands markets integrated CBAM services covering supplier data, authorised declaration, certificate work and customs brokerage.	https://www.deloitte.com/nl/en/services/tax/services/eu-carbon-border-adjustment-mechanism-cbam.html	excerpts/02-deloitte-incumbent.txt — “CBAM reporting”; managed-service FAQ	checked-by:codex:2026-09-05
+    29	02-price-boundary	The reviewed Customs Support, Deloitte and Ingdilligenz pages publish scope but no comparable small-importer price and do not say supplier-data work is free.	https://www.customssupport.com/solutions/compliance-reporting/	research inference across three vendor pages; no excerpt	inference
+    30	02-payment-boundary	No reviewed public source establishes that a Dutch SME importer will pay this entrant's proposed fee or preserve its reusable supplier-data rights.	https://www.emissieautoriteit.nl/regelgeving/cbam/hulpmiddelen/cbam-nieuwsbrief	research inference; no excerpt	inference
+     1	# Essay 2 — source index
+     2	
+     3	Live research accessed 2026-09-04. Official legal and operating sources are used first. Vendor pages establish marketed scope, not price, customer outcome or market share. Each checked claim has exactly one saved excerpt.
+     4	
+     5	1. **Nederlandse Emissieautoriteit, “Hoe werkt de ondergrens van 50 ton?”**
+     6	   URL: https://www.emissieautoriteit.nl/vraag-en-antwoord/faq-cbam/hoe-werkt-de-ondergrens-van-50-ton
+     7	   Accessed: 2026-09-04.
+     8	   Excerpt: `excerpts/02-cbam-threshold.txt`.
+     9	   Supports: the per-importer annual threshold, exclusions and consequence of crossing it (`02-cbam-threshold`).
+    10	
+    11	2. **European Commission, “CBAM definitive regime.”**
+    12	   URL: https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en
+    13	   Accessed: 2026-09-04.
+    14	   Excerpt: `excerpts/02-definitive-start.txt`.
+    15	   Supports: the start date of the definitive regime (`02-definitive-start`).
+    16	
+    17	3. **Nederlandse Emissieautoriteit, “Toelating als CBAM-aangever.”**
+    18	   URL: https://www.emissieautoriteit.nl/regelgeving/cbam/verplichtingen/toelating-als-cbam-aangever
+    19	   Accessed: 2026-09-04.
+    20	   Excerpts: `excerpts/02-cbam-authorisation.txt`, `excerpts/02-cbam-grace.txt`.
+    21	   Supports: the authorised-declarant requirement, customs check, indirect-representative route and temporary treatment of applications filed by 31 March 2026 (`02-cbam-authorisation`, `02-cbam-grace`).
+    22	
+    23	4. **Dutch Customs, “Carbon Border Adjustment Mechanism (CBAM).”**
+    24	   URL: https://www.douane.nl/onderwerpen/vgem/milieu/cbam/
+    25	   Accessed: 2026-09-04.
+    26	   Excerpts: `excerpts/02-cbam-sectors.txt`, `excerpts/02-cbam-late-application.txt`, `excerpts/02-service-provider-role.txt`.
+    27	   Supports: covered sectors; the import restriction and maximum application period for late applicants; and the filing-service, liability and eHerkenning boundary (`02-cbam-sectors`, `02-cbam-late-application`, `02-service-provider-role`).
+    28	
+    29	5. **Nederlandse Emissieautoriteit, “CBAM-aangifte met standaardwaarden.”**
+    30	   URL: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden
+    31	   Accessed: 2026-09-04.
+    32	   Excerpt: `excerpts/02-default-route.txt`.
+    33	   Supports: the no-verification default route, its usual cost direction and the enacted uplifts (`02-default-route`).
+    34	
+    35	6. **Nederlandse Emissieautoriteit, “CBAM-aangifte” and “Accreditatie en verificatie.”**
+    36	   URLs: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte and https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-werkelijke-gegevens/accreditatie-en-verificatie
+    37	   Accessed: 2026-09-04.
+    38	   Excerpts: `excerpts/02-actual-verification.txt`, `excerpts/02-installation-registry.txt`.
+    39	   Supports: the accredited-verifier requirement for actual data and optional installation registration (`02-actual-verification`, `02-installation-registry`).
+    40	
+    41	7. **Nederlandse Emissieautoriteit, CBAM newsletter, March 2026.**
+    42	   URL: https://nederlandseemis.m6.mailplus.nl/archief/mailing-652129.html
+    43	   Accessed: 2026-09-04, through the NEa newsletter archive.
+    44	   Excerpts: `excerpts/02-cbam-declaration-date.txt`, `excerpts/02-application-count.txt`.
+    45	   Supports: the first annual declaration date and the published application, approval and post-start application counts (`02-cbam-declaration-date`, `02-application-count`).
+    46	
+    47	8. **Nederlandse Emissieautoriteit, CBAM newsletter, July 2026.**
+    48	   URL: https://nederlandseemis.m6.mailplus.nl/archief/mailing-674382.html
+    49	   Accessed: 2026-09-04, through the NEa newsletter archive.
+    50	   Excerpts: `excerpts/02-verifier-capacity.txt`, `excerpts/02-declarant-responsibility.txt`.
+    51	   Supports: the then-current Dutch CBAM verifier-capacity position and the declarant's responsibility for third-party data (`02-verifier-capacity`, `02-declarant-responsibility`).
+    52	
+    53	9. **Nederlandse Emissieautoriteit, implementation assessment for Dutch CBAM operationalisation.**
+    54	   URL: https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2025/09/16/uitvoeringstoets-nederlandse-emissieautoriteit-wetsvoorstel-operationalisering-cbam/Uitvoeringstoets-NEa-wetsvoorstel-operationalisering-CBAM.pdf
+    55	   Accessed: 2026-09-04.
+    56	   Excerpt: `excerpts/02-population-estimate.txt`.
+    57	   Supports: the authority's maximum-population estimate and its import-statistics basis (`02-population-estimate`).
+    58	
+    59	10. **European Commission, Implementing Regulation (EU) 2025/2547 on embedded-emissions calculation.**
+    60	   URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R2547
+    61	   Accessed: 2026-09-04.
+    62	   Excerpt: `excerpts/02-english-report.txt`.
+    63	   Supports: English as the required language of the operator's emissions report (`02-english-report`).
+    64	
+    65	11. **European Commission, 2026 report on EUDR simplification.**
+    66	   URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026DC0191
+    67	   Accessed: 2026-09-04.
+    68	   Excerpt: `excerpts/02-eudr-revision.txt`.
+    69	   Supports: the enacted December 2025 delay and the narrowed downstream statement workflow (`02-eudr-revision`).
+    70	
+    71	12. **European Union, consolidated Regulation (EU) 2023/1115 on deforestation-free products.**
+    72	    URL: https://eur-lex.europa.eu/eli/reg/2023/1115
+    73	    Accessed: 2026-09-04.
+    74	    Excerpt: `excerpts/02-eudr-representative.txt`.
+    75	    Supports: an authorised representative's submission role and the operator's retained responsibility (`02-eudr-representative`).
+    76	
+    77	13. **European Commission, EUDR country classification and consequences.**
+    78	    URLs: https://green-forum.ec.europa.eu/countries-and-partnerships/country-classification-list_en and https://green-forum.ec.europa.eu/countries-and-partnerships_en
+    79	    Accessed: 2026-09-04.
+    80	    Excerpts: `excerpts/02-ukraine-risk.txt`, `excerpts/02-low-risk-effect.txt`.
+    81	    Supports: Ukraine's low-risk classification and the remaining information duty under simplified due diligence (`02-ukraine-risk`, `02-low-risk-effect`).
+    82	
+    83	14. **State Forest Resources Agency of Ukraine, “EU Regulation EUDR: how Ukraine is preparing for new export conditions.”**
+    84	    URL: https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions
+    85	    Accessed: 2026-09-04.
+    86	    Excerpt: `excerpts/02-ukraine-system.txt`.
+    87	    Supports: the agency's account of current timber traceability, users and available documents (`02-ukraine-system`). This is a government description of its own system, not an independent performance audit.
+    88	
+    89	15. **Ingdilligenz, “CBAM-Beratung.”**
+    90	    URL: https://ingdilligenz.de/cbam-beratung/
+    91	    Accessed: 2026-09-04.
+    92	    Excerpt: `excerpts/02-precedent-offer.txt`.
+    93	    Supports: the precedent firm's marketed supplier-data and report-submission offer (`02-precedent-offer`).
+    94	
+    95	16. **Unternehmen24, Würzburg register-data page for Ingdilligenz GmbH.**
+    96	    URL: https://www.unternehmen24.info/Handelsregister/Deutschland/Handelsregisterauszug/Firma/4959350
+    97	    Accessed: 2026-09-04.
+    98	    Excerpt: `excerpts/02-precedent-trace.txt`.
+    99	    Supports: the independent company trace, register number, formation date and stated capital (`02-precedent-trace`).
+   100	
+   101	17. **Customs Support Group, “Compliance Consulting.”**
+   102	    URL: https://www.customssupport.com/solutions/compliance-reporting/
+   103	    Accessed: 2026-09-04.
+   104	    Excerpt: `excerpts/02-customs-support.txt`.
+   105	    Supports: the incumbent's marketed combination of customs clearance, CBAM and EUDR reporting and its self-reported scale (`02-customs-support`).
+   106	
+   107	18. **Deloitte Netherlands, “EU Carbon Border Adjustment Mechanism.”**
+   108	    URL: https://www.deloitte.com/nl/en/services/tax/services/eu-carbon-border-adjustment-mechanism-cbam.html
+   109	    Accessed: 2026-09-04.
+   110	    Excerpt: `excerpts/02-deloitte-incumbent.txt`.
+   111	    Supports: the incumbent's marketed integrated supplier-data, declaration, certificate and customs service (`02-deloitte-incumbent`).
+   112	
+   113	## Evidence boundary
+   114	
+   115	The pitch's requested number was not available in the required form. The NEa published applications and approvals, but also said some applicants were below the threshold. It did not publish the count above 50 tonnes, the count filed by 31 March 2026, or the count of eligible non-applicants. Its separate “at most 1,500” figure is a planning estimate from historical imports, not a register count (`02-count-boundary`).
+   116	
+   117	The kill fact also remains partly open. Customs Support, Deloitte and Ingdilligenz describe overlapping services, but none publishes a comparable SME price or says supplier-data work is included free with clearance (`02-price-boundary`). No source shows a Dutch SME paying this proposed entrant, nor permission to retain supplier knowledge across clients (`02-payment-boundary`). Official role descriptions do not show a licensed CBAM-consultant credential, but absence in those descriptions is not a statutory opinion (`02-credential-boundary`). These are payment, partner and counsel questions for the ninety-day test.
+   118	
+   119	EUDR is enacted but not yet applicable on the dates stated. The December 2025 amendment is law, not a proposal. Ukraine's low-risk classification and state tools weaken the original wood-file wedge; they do not eliminate the Dutch operator's remaining information and submission duties.
+FILE resources/sources/02/excerpts/02-actual-verification.txt
+     1	URL: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-werkelijke-gegevens/accreditatie-en-verificatie
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Kiest een toegelaten CBAM-aangever voor een CBAM-aangifte op basis van werkelijke gegevens, dan is een geverifieerd emissieverslag van de exploitant van de productie-installatie nodig. Het emissieverslag moet zijn geverifieerd door een geaccrediteerde CBAM-verificateur.
+FILE resources/sources/02/excerpts/02-application-count.txt
+     1	URL: https://nederlandseemis.m6.mailplus.nl/archief/mailing-652129.html
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Inmiddels zijn bijna 1.100 aanvragen ingediend, waarvan er 870 zijn goedgekeurd.
+     6	
+     7	Op 1 januari 2026 startte de definitieve CBAM-periode. Daarna nam het aantal aanvragen opnieuw sterk toe. Importeurs die bij hun douaneaangifte merkten dat CBAM-verplichtingen golden, dienden alsnog een aanvraag in. Dit leidde tot ongeveer 250 nieuwe aanvragen.
+     8	
+     9	Vanaf 1 januari ontvangt de NEa steeds meer aanvragen van importeurs die minder dan 50 ton CBAM-goederen per jaar invoeren. Voor hen is geen toelating nodig.
+FILE resources/sources/02/excerpts/02-cbam-authorisation.txt
+     1	URL: https://www.emissieautoriteit.nl/regelgeving/cbam/verplichtingen/toelating-als-cbam-aangever
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Wie vanaf 1 januari 2026 meer dan 50 ton CBAM-goederen per jaar wil importeren naar de EU, moet zijn toegelaten als 'CBAM-aangever' of een indirect vertegenwoordiger inschakelen die is toegelaten. Bij de invoeraangifte controleert de Douane of de importeur of indirect douanevertegenwoordiger een toegelaten CBAM-aangever is. Zo niet, dan worden de goederen niet vrijgegeven voor het vrije verkeer.
+     6	
+     7	Als een in de EU gevestigde importeur zich laat vertegenwoordigen door een indirecte vertegenwoordiger die ermee instemt om de CBAM-verplichtingen over te nemen, moet niet de importeur, maar de indirecte douanevertegenwoordiger een toelating aanvragen.
+FILE resources/sources/02/excerpts/02-cbam-declaration-date.txt
+     1	URL: https://nederlandseemis.m6.mailplus.nl/archief/mailing-652129.html
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Wie vanaf 2026 meer dan 50 ton CBAM-goederen per kalenderjaar invoert in de EU, vraagt vooraf een toelating aan en betaalt een prijs voor de CO₂-uitstoot. Ook geldt een jaarlijkse CBAM-aangifte over het voorafgaande jaar. De eerste CBAM-aangifte gaat over 2026 en moet uiterlijk 30 september 2027 worden ingediend.
+FILE resources/sources/02/excerpts/02-cbam-grace.txt
+     1	URL: https://www.emissieautoriteit.nl/regelgeving/cbam/verplichtingen/toelating-als-cbam-aangever
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Importeurs en indirecte douanevertegenwoordigers die uiterlijk 31 maart 2026 een toelatingsaanvraag hebben ingediend, mogen, terwijl ze wachten op het besluit op hun aanvraag, CBAM-goederen blijven importeren.
+FILE resources/sources/02/excerpts/02-cbam-late-application.txt
+     1	URL: https://www.douane.nl/onderwerpen/vgem/milieu/cbam/
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	En bent u geen CBAM-aangever? U moet dan alsnog toelating als CBAM-aangever aanvragen bij de NEa. Tot u de toelating heeft, accepteert de Douane uw aangifte niet. De aanvraag duurt maximaal 120 dagen.
+FILE resources/sources/02/excerpts/02-cbam-sectors.txt
+     1	URL: https://www.douane.nl/onderwerpen/vgem/milieu/cbam/
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	CBAM-goederen zijn goederen in de categorieën ijzer en staal, cement, meststoffen, aluminium, elektriciteit en waterstof. De volledige lijst met goederencodes vindt u in Bijlage I van de Europese verordening.
+FILE resources/sources/02/excerpts/02-cbam-threshold.txt
+     1	URL: https://www.emissieautoriteit.nl/vraag-en-antwoord/faq-cbam/hoe-werkt-de-ondergrens-van-50-ton
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Per 1 januari 2026 geldt voor CBAM-goederen (met uitzondering van waterstof en elektriciteit) een ondergrens van 50 ton goederen per importeur per jaar. Zolang een importeur in een jaar minder dan 50 ton CBAM-goederen invoert, is CBAM niet van toepassing en is er dus geen verplichting om toegelaten te zijn.
+     6	
+     7	Vanaf het moment dat een importeur in een jaar meer dan 50 ton goederen importeert, geldt CBAM. Er is dan een toelating nodig en er moet CBAM-aangifte worden gedaan over alle CBAM-goederen die zijn ingevoerd. Er is geen vrijstelling van 50 ton vanaf dat moment.
+FILE resources/sources/02/excerpts/02-customs-support.txt
+     1	URL: https://www.customssupport.com/solutions/compliance-reporting/
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Our Customs and Trade Compliance Consulting
+     6	
+     7	CBAM Reporting
+     8	
+     9	Deforestation (EUDR) Reporting
+    10	
+    11	1700+ Customs experts
+    12	
+    13	60 000+ Clients
+    14	
+    15	Customs Clearance: Import / Export / Transit
+FILE resources/sources/02/excerpts/02-declarant-responsibility.txt
+     1	URL: https://nederlandseemis.m6.mailplus.nl/archief/mailing-674382.html
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	De CBAM-aangever is verantwoordelijk voor alle gegevens in de CBAM-aangifte: de hoeveelheid geïmporteerde goederen, de ingebedde emissies en het aantal in te leveren certificaten. Deze verantwoordelijkheid geldt ook als u gebruik maakt van gegevens van derden, zoals de exploitant of de verificateur.
+FILE resources/sources/02/excerpts/02-default-route.txt
+     1	URL: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Kiest u als toegelaten CBAM-aangever voor aangifte met standaardwaarden, dan is een geverifieerd emissieverslag van de exploitant van de installatie niet nodig.
+     6	
+     7	Een CBAM-aangifte met gebruik van standaardwaarden leidt doorgaans tot hogere CBAM-kosten dan wanneer u aangifte doet op basis van werkelijke gegevens.
+     8	
+     9	De standaardwaarden worden verhoogd met een opslag:
+    10	
+    11	* 10% in 2026
+    12	* 20% in 2027
+    13	* 30% vanaf 2028
+FILE resources/sources/02/excerpts/02-definitive-start.txt
+     1	URL: https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	This section contains information on the CBAM definitive regime applicable from 1 January 2026, including its functioning, governance, and main obligations for economic operators.
+FILE resources/sources/02/excerpts/02-deloitte-incumbent.txt
+     1	URL: https://www.deloitte.com/nl/en/services/tax/services/eu-carbon-border-adjustment-mechanism-cbam.html
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Standalone customs declarant and CBAM delegated party services, or integrated solutions combining CBAM declaration with customs brokerage via our Global Trade Operate services.
+     6	
+     7	A managed service can cover end to end activities including supplier data collection, supplier solicitation and validation, certificate procurement, declaration submission as authorised declarant, dashboard access and ongoing regulatory monitoring.
+FILE resources/sources/02/excerpts/02-english-report.txt
+     1	URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R2547
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage (Article 4(4)):
+     4	
+     5	The operator’s emissions report shall be submitted in English.
+FILE resources/sources/02/excerpts/02-eudr-representative.txt
+     1	URL: https://eur-lex.europa.eu/eli/reg/2023/1115
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage (Article 6(1)):
+     4	
+     5	Operators may mandate an authorised representative to submit the due diligence statement pursuant to Article 4(2) or to submit a simplified declaration pursuant to Article 4a(2) on their behalf. In such cases, the operator shall retain responsibility for the compliance of the relevant product with Article 3.
+FILE resources/sources/02/excerpts/02-eudr-revision.txt
+     1	URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026DC0191
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	On 19 December 2025, the European Parliament and the Council adopted a revised EUDR, adding an extra period before the entry into application and introducing some changes on substance. All companies, whether in the EU or elsewhere, received one more year to prepare for entry into application. More specifically, the EUDR will enter into application on 30 December 2026 with regard to all companies except for most micro- or small operators, for which the entry into application is 30 June 2027.
+     6	
+     7	Downstream operators and traders are no longer required to submit their own due diligence statement in the Information System nor to ascertain that due diligence was exercised across supply chains.
+FILE resources/sources/02/excerpts/02-installation-registry.txt
+     1	URL: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	De exploitant van de productie-installatie registreert de installatie en het emissieverslag vrijwillig in het CBAM-register. De toegelaten CBAM-aangever kan deze gegevens overnemen in de CBAM-aangifte.
+FILE resources/sources/02/excerpts/02-low-risk-effect.txt
+     1	URL: https://green-forum.ec.europa.eu/countries-and-partnerships_en
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Operators sourcing relevant products from countries classified as low-risk may conduct simplified due diligence, if they are certain that all of the relevant products were produced in low-risk countries, and have not undergone any mixing with high-risk, standard-risk or unknown origin products.
+     6	
+     7	An operator conducting simplified due diligence must still collect information demonstrating the compliance of its products, but does not need to conduct a full risk assessment or take risk mitigation measures.
+FILE resources/sources/02/excerpts/02-population-estimate.txt
+     1	URL: https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2025/09/16/uitvoeringstoets-nederlandse-emissieautoriteit-wetsvoorstel-operationalisering-cbam/Uitvoeringstoets-NEa-wetsvoorstel-operationalisering-CBAM.pdf
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage (PDF pp. 4–5):
+     4	
+     5	Door deze drempelwaarde wordt de doelgroep in Nederland beperkt tot maximaal 1500 CBAM-aangevers en zullen de uitvoeringskosten worden beperkt.
+     6	
+     7	Deze schatting is gebaseerd op invoerstatistieken van 2023-2025.
+FILE resources/sources/02/excerpts/02-precedent-offer.txt
+     1	URL: https://ingdilligenz.de/cbam-beratung/
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Wir analysieren Ihre Importdaten, unterstützen bei Emissionswerten und Lieferantenkommunikation und bereiten Daten für Quartalsberichte oder die Regelphase auch als XML-Report auf.
+     6	
+     7	Delegieren Sie die Berichtseingabe an uns: Wir bereiten Ihre Daten strukturiert auf und übernehmen die vollständige und fristgerechte Eingabe der CBAM-Berichte.
+FILE resources/sources/02/excerpts/02-precedent-trace.txt
+     1	URL: https://www.unternehmen24.info/Handelsregister/Deutschland/Handelsregisterauszug/Firma/4959350
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Amtsgericht Würzburg Aktenzeichen: HRB 15952 | Bekannt gemacht am: 20.11.2021 02:01 Uhr
+     6	
+     7	Gesellschaftsvertrag vom 17.11.2021.
+     8	
+     9	Stammkapital: 25.000,00 EUR.
+FILE resources/sources/02/excerpts/02-service-provider-role.txt
+     1	URL: https://www.douane.nl/onderwerpen/vgem/milieu/cbam/
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Moet de (service)partij die de CBAM-aangifte namens de importeur aanlevert, zichzelf vermelden in de douaneaangifte?
+     6	
+     7	Nee. De serviceprovider verleent alleen een dienst. De importeur blijft aansprakelijk.
+     8	
+     9	Het CBAM registry ondersteunt horizontale machtiging (ketenmachtiging) via eHerkenning.
+FILE resources/sources/02/excerpts/02-ukraine-risk.txt
+     1	URL: https://green-forum.ec.europa.eu/countries-and-partnerships/country-classification-list_en
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Ukraine
+     6	
+     7	low risk category
+FILE resources/sources/02/excerpts/02-ukraine-system.txt
+     1	URL: https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	We have created a comprehensive timber tracking system that allows us to trace the movement of every batch of products from the moment of harvesting to export.
+     6	
+     7	Currently, we have around 400 active users of this system—representatives of business, the agricultural sector, and forestry – and we are already providing exporters with all the necessary information for working with the European Union.
+     8	
+     9	In particular, during the consultations they discussed in detail the operation of digital services that help verify the legality of timber harvesting: the e-logging permit, the electronic certificate of origin, the electronic waybill with photo documentation, as well as the functionality of the Exporter’s Electronic Cabinet.
+FILE resources/sources/02/excerpts/02-verifier-capacity.txt
+     1	URL: https://nederlandseemis.m6.mailplus.nl/archief/mailing-674382.html
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Op dit moment zijn er nog geen geaccrediteerde CBAM-verificateurs beschikbaar.
+     6	
+     7	Negen bedrijven hebben een accreditatieaanvraag ingediend bij de Raad voor Accreditatie (RvA), met als doel om in 2027 verificaties te kunnen uitvoeren. Ongeveer dertig andere bedrijven hebben interesse getoond; zij kunnen later dit jaar een aanvraag indienen.
+
+exec
+/bin/bash -lc "sed -n '88,180p' chapters/02-border-files.html; sed -n '1,120p' checks/claims/02.tsv; sed -n '1,130p' resources/sources/02/SOURCES.md" in /home/diablo/book19
+ succeeded in 105ms:
+<p>Re-use needs consent. A mill can register its verified report so authorised declarants can use its data. <!-- CHECK: 02-installation-registry --> Contract and confidentiality terms still decide whether the entrant can retain a copy. Store only what the importer and installation permit. If every pack is customer-confidential and every supplier starts from zero, the asset is merely the team's experience.</p>
+<p>Human work remains at the boundary: persuading the mill, understanding how production is measured, spotting an implausible mapping and deciding when to involve the verifier. Data transfer, evidence indexing, reconciliation and routine supplier follow-up can be delegated. The founder bottleneck is trusted multilingual escalation. The twentieth delivery is different only if prior installation knowledge cuts those hours.</p>
+</section>
+
+<section class="competition">
+<h2>The incumbent gets a turn</h2>
+<p>The customs broker begins with the account, import data, authorisation and border workflow. Customs Support Group explicitly places CBAM and EUDR inside a portfolio of customs clearance, reporting and outsourcing. <!-- CHECK: 02-customs-support --> Deloitte can join supplier data, declaration, certificates and brokerage in one managed service. <!-- CHECK: 02-deloitte-incumbent --> The customer may prefer one accountable counterparty even if its foreign-language follow-up is slower.</p>
+<p>The free substitute is also improving. The CBAM registry carries default values, while the Dutch authority publishes a calculator and guidance. <!-- CHECK: 02-default-route --> A large mill can register its installation once and share a verified record with buyers. A procurement employee can then connect it to customs quantities. Better standards and tooling compress the mechanical work.</p>
+<p>On wood, the Ukrainian state is building the entrant's proposed upstream data service. Its tools expose origin, harvesting documents and geolocation. <!-- CHECK: 02-ukraine-system --> EU reform reduced downstream repetition, and low-risk classification removes full risk assessment in qualifying cases. <!-- CHECK: 02-eudr-revision --> <!-- CHECK: 02-low-risk-effect --> The wood line should be a cheap readiness diagnostic, not a bet on manual polygon retrieval.</p>
+<p>The partner-capture response is structural. A broker gives the entrant two difficult suppliers, observes the protocol, then hires a Russian-speaking coordinator or sends the rest to Deloitte's tooling. The entrant never owned authorisation or the importer. Its defence is a cross-broker installation library and faster CEE resolution. Both depend on permissions the partner may refuse.</p>
+</section>
+
+<div class="counter">
+<div class="case-head"><span class="who">The capable failure</span></div>
+<p>The company executes well. It recovers usable data from several mills, hands clean packs to Dutch brokers and helps importers compare actual and default costs. Accredited verifiers arrive. The largest mills then register their reports centrally, making the same verified dataset available to every customer.</p>
+<p>Meanwhile the brokers add one multilingual coordinator and standardise their intake. Default values remain acceptable for small or dirty portfolios. For clean portfolios, supplier data become reusable and require little chasing. The valuable transition work trains both sides to remove the intermediary.</p>
+<p>Nothing failed through poor execution. The legal role always belonged to the declarant, the source record belonged to the mill, and the customer belonged to the broker. The entrant kept no exclusive asset. Revenue becomes occasional remediation for strange installations. That can pay expert day rates, but it cannot sustain the recurring client count or founder replacement in the mature table.</p>
+</div>
+
+<section class="monday">
+<h2>The first ninety days</h2>
+<ol>
+<li><strong>Days 1–15:</strong> interview two Dutch customs brokers, one carbon accountant and six importers from the ten prospect types. Reconstruct one 2026 entry, the authorisation holder, supplier contact, chosen data route and any fee already paid. Conduct meetings outside day-job hours.</li>
+<li><strong>Days 10–25:</strong> have a CBAM specialist review the scope, disclaimer and actual-versus-default worksheet. Spend at most a <strong>€1,500 hurdle</strong>. Do not market verification or declarant status.</li>
+<li><strong>Days 20–40:</strong> select one product family and create a bilingual supplier request, evidence index and handover pack. Use the customer's existing files. Cap translation, secure storage and professional-insurance advice at a further <strong>€1,500 hurdle</strong>.</li>
+<li><strong>Days 30–60:</strong> offer the €2,000 diagnostic to five qualified importers through at least two brokers. Require one named installation, 2026 customs quantities, a responsible declarant and a supplier contact. Take 50% in advance.</li>
+<li><strong>Days 45–75:</strong> deliver one paid diagnostic. Compare the total cost of default values with actual data, including the customer's verifier quote. Record founder hours, associate hours, supplier responses and which evidence survives specialist review.</li>
+<li><strong>Days 76–90:</strong> ask for a six-month €750 monthly retainer and a second importer from a different broker. In parallel, show one Ukrainian timber importer a €2,000 EUDR readiness diagnostic, but build nothing until paid. Total pre-evidence spend is capped at <strong>€4,000</strong>.</li>
+</ol>
+<p><strong>Pass:</strong> one CBAM diagnostic is paid, its buyer documents a net saving or avoided internal cost above the fee, and one broker offers a second importer while accepting the service boundary and supplier-data rights. <strong>Kill:</strong> no payment after five qualified offers; two brokers include comparable supplier work at no incremental charge; every case prefers default values after verification cost; or the partner will not let the entrant retain a reusable contact and process asset. The public record shows provider scope, not prices, and does not prove Dutch SME payment. <!-- CHECK: 02-payment-boundary --></p>
+</section>
+
+<div class="verdict-box">
+<h2>Verdict</h2>
+<p class="verdict"><strong>TEST THROUGH A PARTNER</strong></p>
+<p>The single assumption that would most change the verdict is that a Dutch customs broker will introduce a paying importer while leaving the entrant enough fee and permission to build a reusable CEE supplier-data asset.</p>
+</div>
+
+<div class="reading">
+<h2>Reading</h2>
+<ul>
+<li>European Union, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R2083">Regulation (EU) 2025/2083 simplifying and strengthening CBAM</a>.</li>
+<li>Nederlandse Emissieautoriteit, <a href="https://www.emissieautoriteit.nl/regelgeving/cbam/verplichtingen/toelating-als-cbam-aangever">authorisation as a CBAM declarant</a> and <a href="https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden">declarations using default values</a>.</li>
+<li>Nederlandse Emissieautoriteit, <a href="https://www.emissieautoriteit.nl/regelgeving/cbam/hulpmiddelen/cbam-nieuwsbrief">CBAM newsletter archive</a>, especially March and July 2026.</li>
+<li>Dutch Customs, <a href="https://www.douane.nl/onderwerpen/vgem/milieu/cbam/">CBAM operational guidance</a>.</li>
+<li>European Union, <a href="https://eur-lex.europa.eu/eli/reg/2023/1115">consolidated Regulation (EU) 2023/1115 on deforestation-free products</a>.</li>
+<li>European Commission, <a href="https://green-forum.ec.europa.eu/countries-and-partnerships_en">EUDR country benchmarking and simplified due diligence</a>.</li>
+<li>State Forest Resources Agency of Ukraine, <a href="https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions">timber tracking and exporter tools</a>.</li>
+<li>Ingdilligenz, <a href="https://ingdilligenz.de/cbam-beratung/">CBAM consulting offer</a>; independent trace in the <a href="https://www.unternehmen24.info/Handelsregister/Deutschland/Handelsregisterauszug/Firma/4959350">Würzburg register record</a>.</li>
+<li>Customs Support Group, <a href="https://www.customssupport.com/solutions/compliance-reporting/">compliance and reporting portfolio</a>; Deloitte Netherlands, <a href="https://www.deloitte.com/nl/en/services/tax/services/eu-carbon-border-adjustment-mechanism-cbam.html">managed CBAM services</a>. Vendor descriptions, not evidence of price or outcome.</li>
+</ul>
+</div>
+
+<nav class="chapter-nav" aria-label="Essay navigation">
+  <span></span>
+  <a href="../index.html">Contents</a>
+  <span></span>
+</nav>
+</main>
+<footer class="site-footer"><div class="wrap"><p>Six candidates. One third engine. Evidence before commitment.</p></div></footer>
+</body>
+</html>
+id	claim	source_url	source_locator	status
+02-cbam-threshold	From 1 January 2026 the CBAM threshold is more than 50 tonnes of covered goods per importer per calendar year; once exceeded, obligations cover all covered imports that year, with no threshold for electricity or hydrogen.	https://www.emissieautoriteit.nl/vraag-en-antwoord/faq-cbam/hoe-werkt-de-ondergrens-van-50-ton	excerpts/02-cbam-threshold.txt — “De ondergrens van 50 ton voor importeurs”	checked-by:codex:2026-09-05
+02-cbam-sectors	Dutch Customs lists iron and steel, cement, fertilisers, aluminium, electricity and hydrogen as CBAM categories.	https://www.douane.nl/onderwerpen/vgem/milieu/cbam/	excerpts/02-cbam-sectors.txt — “CBAM-goederen”	checked-by:codex:2026-09-05
+02-definitive-start	The CBAM definitive regime has applied since 1 January 2026.	https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en	excerpts/02-definitive-start.txt — opening	checked-by:codex:2026-09-05
+02-cbam-authorisation	An EU importer above 50 tonnes needs authorised CBAM declarant status unless an indirect customs representative agrees to assume the obligations; Customs checks status and otherwise does not release the goods.	https://www.emissieautoriteit.nl/regelgeving/cbam/verplichtingen/toelating-als-cbam-aangever	excerpts/02-cbam-authorisation.txt — opening; “Welke bedrijven moeten een aanvraag indienen?”	checked-by:codex:2026-09-05
+02-cbam-grace	Importers and indirect customs representatives that applied for authorisation by 31 March 2026 may continue importing while awaiting the decision.	https://www.emissieautoriteit.nl/regelgeving/cbam/verplichtingen/toelating-als-cbam-aangever	excerpts/02-cbam-grace.txt — temporary exception for pending applications	checked-by:codex:2026-09-05
+02-cbam-late-application	Dutch Customs says an importer crossing 50 tonnes without authorisation must apply and cannot import while a later application is processed, for which the maximum treatment period is 120 days.	https://www.douane.nl/onderwerpen/vgem/milieu/cbam/	excerpts/02-cbam-late-application.txt — “Importeert u tijdens het jaar toch meer dan 50 ton”	checked-by:codex:2026-09-05
+02-cbam-declaration-date	The first CBAM declaration covers 2026 and is due by 30 September 2027.	https://nederlandseemis.m6.mailplus.nl/archief/mailing-652129.html	excerpts/02-cbam-declaration-date.txt — newsletter introduction	checked-by:codex:2026-09-05
+02-actual-verification	Actual CBAM data require an installation operator's emissions report verified by an accredited CBAM verifier.	https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-werkelijke-gegevens/accreditatie-en-verificatie	excerpts/02-actual-verification.txt — opening	checked-by:codex:2026-09-05
+02-installation-registry	An installation operator may voluntarily register its installation and emissions report so an authorised declarant can use the data in its declaration.	https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte	excerpts/02-installation-registry.txt — actual-data route	checked-by:codex:2026-09-05
+02-declarant-responsibility	NEa says the CBAM declarant remains responsible for all declaration data even when using information from an operator or verifier.	https://nederlandseemis.m6.mailplus.nl/archief/mailing-674382.html	excerpts/02-declarant-responsibility.txt — FAQ on responsibility	checked-by:codex:2026-09-05
+02-verifier-capacity	In July 2026 the NEa said no accredited CBAM verifiers were yet available, nine firms had applied to RvA and about thirty more had expressed interest.	https://nederlandseemis.m6.mailplus.nl/archief/mailing-674382.html	excerpts/02-verifier-capacity.txt — “Huidige stand van zaken”	checked-by:codex:2026-09-05
+02-default-route	NEa says default values require no verified installation report, usually produce higher CBAM costs than actual data, and carry uplifts of 10% in 2026, 20% in 2027 and 30% from 2028.	https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden	excerpts/02-default-route.txt — opening; “Ingebedde emissies”	checked-by:codex:2026-09-05
+02-application-count	A March 2026 NEa newsletter reported almost 1,100 applications, 870 approvals and about 250 new applications after 1 January, while noting increasing applications from importers below 50 tonnes.	https://nederlandseemis.m6.mailplus.nl/archief/mailing-652129.html	excerpts/02-application-count.txt — “Terugblik aanvragen toelating”	checked-by:codex:2026-09-05
+02-population-estimate	NEa's 2025 implementation assessment estimated that the 50-tonne threshold would limit the Dutch population to at most 1,500 CBAM declarants, based on 2023–2025 import statistics.	https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2025/09/16/uitvoeringstoets-nederlandse-emissieautoriteit-wetsvoorstel-operationalisering-cbam/Uitvoeringstoets-NEa-wetsvoorstel-operationalisering-CBAM.pdf	excerpts/02-population-estimate.txt — pp. 4–5	checked-by:codex:2026-09-05
+02-count-boundary	The published counts do not disclose how many applicants were above 50 tonnes, how many applied by 31 March 2026, or how many eligible importers did not apply.	https://nederlandseemis.m6.mailplus.nl/archief/mailing-652129.html	research inference from published categories and omissions; no excerpt	inference
+02-eudr-revision	The enacted December 2025 EUDR revision moved application to 30 December 2026 for most companies and 30 June 2027 for most micro/small operators, and concentrated due-diligence statement submission on the first operator rather than downstream firms.	https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026DC0191	excerpts/02-eudr-revision.txt — section 1.3 and revised framework summary	checked-by:codex:2026-09-05
+02-eudr-representative	Under the consolidated EUDR an operator may mandate an authorised representative to submit the due-diligence statement, while the operator retains responsibility for compliance.	https://eur-lex.europa.eu/eli/reg/2023/1115	excerpts/02-eudr-representative.txt — Article 6(1)	checked-by:codex:2026-09-05
+02-ukraine-risk	The European Commission's current EUDR country classification lists Ukraine as low risk.	https://green-forum.ec.europa.eu/countries-and-partnerships/country-classification-list_en	excerpts/02-ukraine-risk.txt — “U” country list	checked-by:codex:2026-09-05
+02-low-risk-effect	The Commission says qualifying low-risk sourcing allows simplified due diligence: compliance information remains required, but full risk assessment and mitigation are not.	https://green-forum.ec.europa.eu/countries-and-partnerships_en	excerpts/02-low-risk-effect.txt — “What do the different risk classifications mean”	checked-by:codex:2026-09-05
+02-ukraine-system	Ukraine's State Forest Agency says its system traces timber batches from harvest to export, had about 400 active users in April 2026, and provides legality documents and exporter tools.	https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions	excerpts/02-ukraine-system.txt — paragraphs on tracking and digital services	checked-by:codex:2026-09-05
+02-credential-boundary	The reviewed official CBAM role descriptions establish importer/declarant, indirect representative, service-provider and accredited-verifier roles but no licensed CBAM-consultant credential.	https://www.douane.nl/onderwerpen/vgem/milieu/cbam/	research inference across official role descriptions; no excerpt	inference
+02-english-report	Commission Implementing Regulation (EU) 2025/2547 requires the operator's emissions report to be submitted in English.	https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R2547	excerpts/02-english-report.txt — Article 4(4)	checked-by:codex:2026-09-05
+02-service-provider-role	Dutch Customs says a service party filing on behalf of an importer is only providing a service, the importer remains liable, and the registry supports chain authorisation through eHerkenning.	https://www.douane.nl/onderwerpen/vgem/milieu/cbam/	excerpts/02-service-provider-role.txt — FAQ on service parties and chain authorisation	checked-by:codex:2026-09-05
+02-precedent-offer	Ingdilligenz markets CBAM import-data analysis, supplier communication, emissions support, XML preparation and complete report submission as a CBAM representative.	https://ingdilligenz.de/cbam-beratung/	excerpts/02-precedent-offer.txt — service process	checked-by:codex:2026-09-05
+02-precedent-trace	An independent registry-data service records Ingdilligenz GmbH under Würzburg HRB 15952, with articles dated 17 November 2021 and €25,000 share capital.	https://www.unternehmen24.info/Handelsregister/Deutschland/Handelsregisterauszug/Firma/4959350	excerpts/02-precedent-trace.txt — latest register publication	checked-by:codex:2026-09-05
+02-customs-support	Customs Support Group markets customs clearance alongside CBAM and EUDR reporting and says it has more than 1,700 customs experts and 60,000 clients.	https://www.customssupport.com/solutions/compliance-reporting/	excerpts/02-customs-support.txt — service overview and company figures	checked-by:codex:2026-09-05
+02-deloitte-incumbent	Deloitte Netherlands markets integrated CBAM services covering supplier data, authorised declaration, certificate work and customs brokerage.	https://www.deloitte.com/nl/en/services/tax/services/eu-carbon-border-adjustment-mechanism-cbam.html	excerpts/02-deloitte-incumbent.txt — “CBAM reporting”; managed-service FAQ	checked-by:codex:2026-09-05
+02-price-boundary	The reviewed Customs Support, Deloitte and Ingdilligenz pages publish scope but no comparable small-importer price and do not say supplier-data work is free.	https://www.customssupport.com/solutions/compliance-reporting/	research inference across three vendor pages; no excerpt	inference
+02-payment-boundary	No reviewed public source establishes that a Dutch SME importer will pay this entrant's proposed fee or preserve its reusable supplier-data rights.	https://www.emissieautoriteit.nl/regelgeving/cbam/hulpmiddelen/cbam-nieuwsbrief	research inference; no excerpt	inference
+# Essay 2 — source index
+
+Live research accessed 2026-09-04. Official legal and operating sources are used first. Vendor pages establish marketed scope, not price, customer outcome or market share. Each checked claim has exactly one saved excerpt.
+
+1. **Nederlandse Emissieautoriteit, “Hoe werkt de ondergrens van 50 ton?”**
+   URL: https://www.emissieautoriteit.nl/vraag-en-antwoord/faq-cbam/hoe-werkt-de-ondergrens-van-50-ton
+   Accessed: 2026-09-04.
+   Excerpt: `excerpts/02-cbam-threshold.txt`.
+   Supports: the per-importer annual threshold, exclusions and consequence of crossing it (`02-cbam-threshold`).
+
+2. **European Commission, “CBAM definitive regime.”**
+   URL: https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en
+   Accessed: 2026-09-04.
+   Excerpt: `excerpts/02-definitive-start.txt`.
+   Supports: the start date of the definitive regime (`02-definitive-start`).
+
+3. **Nederlandse Emissieautoriteit, “Toelating als CBAM-aangever.”**
+   URL: https://www.emissieautoriteit.nl/regelgeving/cbam/verplichtingen/toelating-als-cbam-aangever
+   Accessed: 2026-09-04.
+   Excerpts: `excerpts/02-cbam-authorisation.txt`, `excerpts/02-cbam-grace.txt`.
+   Supports: the authorised-declarant requirement, customs check, indirect-representative route and temporary treatment of applications filed by 31 March 2026 (`02-cbam-authorisation`, `02-cbam-grace`).
+
+4. **Dutch Customs, “Carbon Border Adjustment Mechanism (CBAM).”**
+   URL: https://www.douane.nl/onderwerpen/vgem/milieu/cbam/
+   Accessed: 2026-09-04.
+   Excerpts: `excerpts/02-cbam-sectors.txt`, `excerpts/02-cbam-late-application.txt`, `excerpts/02-service-provider-role.txt`.
+   Supports: covered sectors; the import restriction and maximum application period for late applicants; and the filing-service, liability and eHerkenning boundary (`02-cbam-sectors`, `02-cbam-late-application`, `02-service-provider-role`).
+
+5. **Nederlandse Emissieautoriteit, “CBAM-aangifte met standaardwaarden.”**
+   URL: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden
+   Accessed: 2026-09-04.
+   Excerpt: `excerpts/02-default-route.txt`.
+   Supports: the no-verification default route, its usual cost direction and the enacted uplifts (`02-default-route`).
+
+6. **Nederlandse Emissieautoriteit, “CBAM-aangifte” and “Accreditatie en verificatie.”**
+   URLs: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte and https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-werkelijke-gegevens/accreditatie-en-verificatie
+   Accessed: 2026-09-04.
+   Excerpts: `excerpts/02-actual-verification.txt`, `excerpts/02-installation-registry.txt`.
+   Supports: the accredited-verifier requirement for actual data and optional installation registration (`02-actual-verification`, `02-installation-registry`).
+
+7. **Nederlandse Emissieautoriteit, CBAM newsletter, March 2026.**
+   URL: https://nederlandseemis.m6.mailplus.nl/archief/mailing-652129.html
+   Accessed: 2026-09-04, through the NEa newsletter archive.
+   Excerpts: `excerpts/02-cbam-declaration-date.txt`, `excerpts/02-application-count.txt`.
+   Supports: the first annual declaration date and the published application, approval and post-start application counts (`02-cbam-declaration-date`, `02-application-count`).
+
+8. **Nederlandse Emissieautoriteit, CBAM newsletter, July 2026.**
+   URL: https://nederlandseemis.m6.mailplus.nl/archief/mailing-674382.html
+   Accessed: 2026-09-04, through the NEa newsletter archive.
+   Excerpts: `excerpts/02-verifier-capacity.txt`, `excerpts/02-declarant-responsibility.txt`.
+   Supports: the then-current Dutch CBAM verifier-capacity position and the declarant's responsibility for third-party data (`02-verifier-capacity`, `02-declarant-responsibility`).
+
+9. **Nederlandse Emissieautoriteit, implementation assessment for Dutch CBAM operationalisation.**
+   URL: https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2025/09/16/uitvoeringstoets-nederlandse-emissieautoriteit-wetsvoorstel-operationalisering-cbam/Uitvoeringstoets-NEa-wetsvoorstel-operationalisering-CBAM.pdf
+   Accessed: 2026-09-04.
+   Excerpt: `excerpts/02-population-estimate.txt`.
+   Supports: the authority's maximum-population estimate and its import-statistics basis (`02-population-estimate`).
+
+10. **European Commission, Implementing Regulation (EU) 2025/2547 on embedded-emissions calculation.**
+   URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R2547
+   Accessed: 2026-09-04.
+   Excerpt: `excerpts/02-english-report.txt`.
+   Supports: English as the required language of the operator's emissions report (`02-english-report`).
+
+11. **European Commission, 2026 report on EUDR simplification.**
+   URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026DC0191
+   Accessed: 2026-09-04.
+   Excerpt: `excerpts/02-eudr-revision.txt`.
+   Supports: the enacted December 2025 delay and the narrowed downstream statement workflow (`02-eudr-revision`).
+
+12. **European Union, consolidated Regulation (EU) 2023/1115 on deforestation-free products.**
+    URL: https://eur-lex.europa.eu/eli/reg/2023/1115
+    Accessed: 2026-09-04.
+    Excerpt: `excerpts/02-eudr-representative.txt`.
+    Supports: an authorised representative's submission role and the operator's retained responsibility (`02-eudr-representative`).
+
+13. **European Commission, EUDR country classification and consequences.**
+    URLs: https://green-forum.ec.europa.eu/countries-and-partnerships/country-classification-list_en and https://green-forum.ec.europa.eu/countries-and-partnerships_en
+    Accessed: 2026-09-04.
+    Excerpts: `excerpts/02-ukraine-risk.txt`, `excerpts/02-low-risk-effect.txt`.
+    Supports: Ukraine's low-risk classification and the remaining information duty under simplified due diligence (`02-ukraine-risk`, `02-low-risk-effect`).
+
+14. **State Forest Resources Agency of Ukraine, “EU Regulation EUDR: how Ukraine is preparing for new export conditions.”**
+    URL: https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions
+    Accessed: 2026-09-04.
+    Excerpt: `excerpts/02-ukraine-system.txt`.
+    Supports: the agency's account of current timber traceability, users and available documents (`02-ukraine-system`). This is a government description of its own system, not an independent performance audit.
+
+15. **Ingdilligenz, “CBAM-Beratung.”**
+    URL: https://ingdilligenz.de/cbam-beratung/
+    Accessed: 2026-09-04.
+    Excerpt: `excerpts/02-precedent-offer.txt`.
+    Supports: the precedent firm's marketed supplier-data and report-submission offer (`02-precedent-offer`).
+
+16. **Unternehmen24, Würzburg register-data page for Ingdilligenz GmbH.**
+    URL: https://www.unternehmen24.info/Handelsregister/Deutschland/Handelsregisterauszug/Firma/4959350
+    Accessed: 2026-09-04.
+    Excerpt: `excerpts/02-precedent-trace.txt`.
+    Supports: the independent company trace, register number, formation date and stated capital (`02-precedent-trace`).
+
+17. **Customs Support Group, “Compliance Consulting.”**
+    URL: https://www.customssupport.com/solutions/compliance-reporting/
+    Accessed: 2026-09-04.
+    Excerpt: `excerpts/02-customs-support.txt`.
+    Supports: the incumbent's marketed combination of customs clearance, CBAM and EUDR reporting and its self-reported scale (`02-customs-support`).
+
+18. **Deloitte Netherlands, “EU Carbon Border Adjustment Mechanism.”**
+    URL: https://www.deloitte.com/nl/en/services/tax/services/eu-carbon-border-adjustment-mechanism-cbam.html
+    Accessed: 2026-09-04.
+    Excerpt: `excerpts/02-deloitte-incumbent.txt`.
+    Supports: the incumbent's marketed integrated supplier-data, declaration, certificate and customs service (`02-deloitte-incumbent`).
+
+## Evidence boundary
+
+The pitch's requested number was not available in the required form. The NEa published applications and approvals, but also said some applicants were below the threshold. It did not publish the count above 50 tonnes, the count filed by 31 March 2026, or the count of eligible non-applicants. Its separate “at most 1,500” figure is a planning estimate from historical imports, not a register count (`02-count-boundary`).
+
+The kill fact also remains partly open. Customs Support, Deloitte and Ingdilligenz describe overlapping services, but none publishes a comparable SME price or says supplier-data work is included free with clearance (`02-price-boundary`). No source shows a Dutch SME paying this proposed entrant, nor permission to retain supplier knowledge across clients (`02-payment-boundary`). Official role descriptions do not show a licensed CBAM-consultant credential, but absence in those descriptions is not a statutory opinion (`02-credential-boundary`). These are payment, partner and counsel questions for the ninety-day test.
+
+EUDR is enacted but not yet applicable on the dates stated. The December 2025 amendment is law, not a proposal. Ukraine's low-risk classification and state tools weaken the original wood-file wedge; they do not eliminate the Dutch operator's remaining information and submission duties.
+
+exec
+/bin/bash -lc "awk -F '\\t' 'NR>1 {s["'$5]++} END {for (k in s) print k, s[k]}'"' checks/claims/02.tsv; rg -o '<"'!-- CHECK: [''^ ]+ -->'"' chapters/02-border-files.html | sort | uniq -c; perl -0777 -ne 's/<["'^>]+>/ /g; s/&[''^;]+;/X/g; s/'"\\s+/ /g; @s=split(/(?<=[."'!?])'"\\s+/, "'$_); for $x (@s){@w=($x=~/'"\\b[\\w€–—-]+\\b/g); print scalar(@w),\"\\t\","'$x,"'"\\n\" if @w>40}' chapters/02-border-files.html" in /home/diablo/book19
+ succeeded in 135ms:
+inference 4
+checked-by:codex:2026-09-05 25
+      1 <!-- CHECK: 02-actual-verification -->
+      1 <!-- CHECK: 02-application-count -->
+      1 <!-- CHECK: 02-cbam-authorisation -->
+      1 <!-- CHECK: 02-cbam-declaration-date -->
+      1 <!-- CHECK: 02-cbam-grace -->
+      1 <!-- CHECK: 02-cbam-late-application -->
+      1 <!-- CHECK: 02-cbam-sectors -->
+      1 <!-- CHECK: 02-cbam-threshold -->
+      1 <!-- CHECK: 02-count-boundary -->
+      1 <!-- CHECK: 02-credential-boundary -->
+      2 <!-- CHECK: 02-customs-support -->
+      1 <!-- CHECK: 02-declarant-responsibility -->
+      3 <!-- CHECK: 02-default-route -->
+      1 <!-- CHECK: 02-definitive-start -->
+      2 <!-- CHECK: 02-deloitte-incumbent -->
+      1 <!-- CHECK: 02-english-report -->
+      1 <!-- CHECK: 02-eudr-representative -->
+      2 <!-- CHECK: 02-eudr-revision -->
+      1 <!-- CHECK: 02-installation-registry -->
+      2 <!-- CHECK: 02-low-risk-effect -->
+      1 <!-- CHECK: 02-payment-boundary -->
+      1 <!-- CHECK: 02-population-estimate -->
+      1 <!-- CHECK: 02-precedent-offer -->
+      1 <!-- CHECK: 02-precedent-trace -->
+      1 <!-- CHECK: 02-price-boundary -->
+      1 <!-- CHECK: 02-service-provider-role -->
+      1 <!-- CHECK: 02-ukraine-risk -->
+      2 <!-- CHECK: 02-ukraine-system -->
+      1 <!-- CHECK: 02-verifier-capacity -->
+
+web search: 
+web search: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden
+web search: 
+web search: site:eur-lex.europa.eu EUDR 19 December 2025 revised Regulation 30 December 2026 30 June 2027 ...
+web search: 
+web search: site:eur-lex.europa.eu/legal-content/EN/TXT 30 December 2026 EUDR 30 June 2027 ...
+web search: 
+web search: 
+web search: 
+web search: site:eur-lex.europa.eu/eli/reg/2025/2650 EUDR Regulation EU 2025 2650 ...
+web search: 
+web search: '30 December 2026'
+exec
+/bin/bash -lc "nl -ba drafts/reviews/02-flash.md | sed -n '1,190p'; nl -ba drafts/reviews/02-pro.md; nl -ba resources/sources/02/excerpts/02-ukraine-system.txt; nl -ba resources/sources/02/excerpts/02-precedent-trace.txt; nl -ba resources/sources/02/excerpts/02-eudr-revision.txt; nl -ba resources/sources/02/excerpts/02-default-route.txt" in /home/diablo/book19
+ succeeded in 126ms:
+     1	# Essay Review: `chapters/02-border-files.html`
+     2	**Candidate:** Border files for CEE imports (Pitch 7) · **Essay NN:** 02  
+     3	**Review Standard:** `CONTEXT.md` (Sections 1–7), `AGENT.md` (Priority Stack & Pre-Ship Test), `TEMPLATE.md`
+     4	
+     5	---
+     6	
+     7	## Ranked Findings by Severity
+     8	
+     9	### Finding 1 (Medium Severity) — Over-claiming on default values receipt
+    10	* **Category:** Rule 1 (*Never false*) & Rule 8 (*Receipts*)
+    11	* **Location:** Section 7 (`section.competition`), Paragraph 2, Line 95
+    12	* **Quoted Passage:**
+    13	  > `"The CBAM registry carries default values, while the Dutch authority publishes a calculator and guidance. <!-- CHECK: 02-default-route -->"`
+    14	* **What the cited source actually supports:**
+    15	  The cited excerpt [`resources/sources/02/excerpts/02-default-route.txt`](file:///home/diablo/book19/resources/sources/02/excerpts/02-default-route.txt) (and the ledger row `02-default-route`) contains only the NEa rules stating that default values require no verified installation report, usually result in higher CBAM costs, and incur statutory penalty uplifts of 10% in 2026, 20% in 2027, and 30% from 2028. It contains **no mention** of an NEa-published calculator or official guidance tools, nor does it confirm the registry's default value interface.
+    16	* **Concrete Fix:**
+    17	  Rephrase the sentence so the tagged clause strictly aligns with the excerpt, and state the tooling context separately without attributing it to `02-default-route`:
+    18	  ```html
+    19	  The CBAM registry enables default values without installation verification, carrying the statutory cost uplift. <!-- CHECK: 02-default-route --> Meanwhile, the Dutch authority publishes separate calculation guidance.
+    20	  ```
+    21	
+    22	---
+    23	
+    24	### Finding 2 (Medium Severity) — Marker stacking and misplaced claim anchor
+    25	* **Category:** Rule 8 (*Receipts*)
+    26	* **Location:** Section 2 (`section.changed`), Paragraph 11, Line 46
+    27	* **Quoted Passage:**
+    28	  > `"Ukraine is classified low-risk. Low-risk sourcing permits simplified due diligence when origin is unmixed, though the operator must still collect compliance information. <!-- CHECK: 02-ukraine-risk --> <!-- CHECK: 02-low-risk-effect -->"`
+    29	* **What the cited source actually supports:**
+    30	  `02-ukraine-risk` ([`02-ukraine-risk.txt`](file:///home/diablo/book19/resources/sources/02/excerpts/02-ukraine-risk.txt)) verifies solely that Ukraine is listed in the European Commission's low-risk country classification. `02-low-risk-effect` ([`02-low-risk-effect.txt`](file:///home/diablo/book19/resources/sources/02/excerpts/02-low-risk-effect.txt)) verifies the legal consequence: simplified due diligence applies without full risk assessment/mitigation, but compliance collection remains obligatory. Stacking both markers at the end leaves the first factual sentence unstamped while overloading the second.
+    31	* **Concrete Fix:**
+    32	  Place each marker immediately after the sentence it supports:
+    33	  ```html
+    34	  Ukraine is classified low-risk. <!-- CHECK: 02-ukraine-risk --> Low-risk sourcing permits simplified due diligence when origin is unmixed, though the operator must still collect compliance information. <!-- CHECK: 02-low-risk-effect -->
+    35	  ```
+    36	
+    37	---
+    38	
+    39	### Finding 3 (Low Severity) — Sourcing locator distinction for EUDR revision
+    40	* **Category:** Rule 1 (*Never false*) & Rule 8 (*Receipts*)
+    41	* **Location:** `checks/claims/02.tsv` (Row 17) & `resources/sources/02/SOURCES.md` (Item 11)
+    42	* **Quoted Passage:**
+    43	  > `checks/claims/02.tsv`: `"The enacted December 2025 EUDR revision moved application to 30 December 2026 for most companies and 30 June 2027 for most micro/small operators, and concentrated due-diligence statement submission on the first operator rather than downstream firms."`  
+    44	  > `source_url`: `https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026DC0191`
+    45	* **What the cited source actually supports:**
+    46	  CELEX `52026DC0191` is the European Commission's report/communication summarizing the 19 December 2025 political agreement and revised timeline. While the verbatim excerpt accurately quotes the adopted dates and downstream simplification, the primary legal act is the amending regulation adopted by Parliament and Council.
+    47	* **Concrete Fix:**
+    48	  Add a cross-reference in `SOURCES.md` to the consolidated EUDR Regulation (EU) 2023/1115 as amended, ensuring the primary legislative instrument is cited alongside the Commission's guidance document.
+    49	
+    50	---
+    51	
+    52	## Detailed Evaluation Against Book Rules
+    53	
+    54	### 1. Never False
+    55	* **Enacted Law vs. Proposal:** Cleanly separated. Regulation (EU) 2025/2083 (CBAM 50-tonne threshold and September 30 filing deadline) and the December 2025 EUDR revision are correctly presented as enacted law.
+    56	* **Expectation vs. Deadline:** The essay explicitly notes that while the CBAM authorization requirement took effect on 1 January 2026, the first financial declaration and surrender of certificates for 2026 does not occur until 30 September 2027 (Section 2, Paragraph 3). EUDR dates (30 Dec 2026 / 30 June 2027) are explicitly treated as subject to prior slippage.
+    57	* **Design Hurdles vs. Market Prices:** Handled strictly. Section 5 opens with: *"Every amount below is a labelled design hurdle, not a market price or forecast."* All diagnostic (€2k) and retainer fees (€750/mo, €12k/yr) are explicitly labelled as hurdles.
+    58	* **Date Consistency:** All dates align with 2026 primary sources and local timeline context (2026-09-04).
+    59	
+    60	---
+    61	
+    62	### 2. Buyer and Event
+    63	* **The Payer:** Named specifically as the finance, procurement, or customs lead of a Dutch SME metal importer crossing the 50-tonne threshold with Ukrainian, Turkish, or Kazakh suppliers (Section 1 & 4).
+    64	* **The Purchase Event:** Concrete triggers are named: a customs hold at the border, a post-March 2026 authorization review, or the financial evaluation of whether default emission penalty uplifts (10–30%) exceed the cost of acquiring and verifying actual installation data.
+    65	* **Anti-Regulation Discipline:** The essay explicitly rejects the assumption that regulation automatically creates demand:
+    66	  > *"Enforcement creates urgency for authorisation. It does not prove a 2026 consulting budget for supplier data."* (Section 2)
+    67	  > *"If default values are cheaper than the full data-and-verification path, recommend the default route and stop."* (Section 4)
+    68	
+    69	---
+    70	
+    71	### 3. Economics
+    72	* **Model Separation:**
+    73	  * **Founder Replacement Labour:** Hurdle of €24,000 in Year 1 (beside the job) and €100,000 in Mature year.
+    74	  * **Operating Expenses & Direct Costs:** Separately budgeted (CEE associate €2k/€50k; delivery analyst €65k; specialist review €3k/€15k; admin, sales, insurance €6k/€55k).
+    75	  * **Owner Income / Result:** Year 1 leaves **−€16k** (demonstrating that founder hours are not treated as free); Mature design yields **€75k** operating result before tax.
+    76	* **Arithmetic Consistency:**
+    77	  * Year 1: Revenue €21k (€8k diagnostics + €9k retainers + €4k EUDR) − Direct costs €7k = Gross margin €14k (66.7% → 67%). Gross margin €14k − Overheads/Founder (€24k + €6k = €30k) = **−€16k**.
+    78	  * Mature: Revenue €375k (€240k CBAM + €90k EUDR + €45k onboarding) − Direct costs €145k = Gross margin €230k (61.3% → 61%). Gross margin €230k − Overheads/Founder (€100k + €55k = €155k) = **€75k**.
+    79	  * Capacity: 240 CBAM days + 90 EUDR days + 45 onboarding days = 375 delivery days, covered by 2 delivery staff (~420–440 available working days).
+    80	* **Working Capital & Risk:** Advanced billing (50% upfront diagnostics, quarterly retainers) prevents inventory/certificate working-capital liabilities. Cash-at-risk is capped at €12,000 (pre-evidence spend ≤€4,000), well within the reader's €50,000 ceiling.
+    81	
+    82	---
+    83	
+    84	### 4. Scalability
+    85	* **Evolution of the Delivery:**
+    86	  * *Customer 1:* 100% founder delivery establishing data lineage templates.
+    87	  * *Customer 5:* Second broker channel; CEE associate and carbon specialist handle >50% of intake and review.
+    88	  * *Customer 20:* Accumulated library of permissioned installation data and known mill failure modes by production route across three broker channels.
+    89	* **No "Platform" Magic:** Explicitly rejects software productization:
+    90	  > *"It is not a portal sold to customers. The entrant never becomes software with a login."* (Section 1 & 6)
+    91	  > *"If every pack is customer-confidential and every supplier starts from zero, the asset is merely the team's experience."* (Section 6)
+    92	
+    93	---
+    94	
+    95	### 5. Incumbents and Capture
+    96	* **Fair Competitor Treatment:**
+    97	  * **Customs Support Group:** Acknowledged with 1,700+ customs experts and 60k clients offering integrated CBAM/EUDR clearance.
+    98	  * **Deloitte Netherlands:** Acknowledged for enterprise managed services handling data collection, declaration, and certificate procurement.
+    99	* **Margin-Capture Confronted:** Addressed as a central structural risk:
+   100	  > *"The partner-capture response is structural. A broker gives the entrant two difficult suppliers, observes the protocol, then hires a Russian-speaking coordinator or sends the rest to Deloitte's tooling."* (Section 7)
+   101	
+   102	---
+   103	
+   104	### 6. Capable Failure
+   105	* **Non-Straw-Man Mechanism:** Section 8 (`div.counter`) outlines a true structural defeat despite flawless execution:
+   106	  1. Entrant successfully extracts mill data and structures reporting packs.
+   107	  2. Large foreign mills subsequently register verified data centrally in the EU registry.
+   108	  3. Dutch customs brokers standardize intake and hire low-cost coordinators for routine filings.
+   109	  4. The entrant's valuable transition work educates both sides of the market to disintermediate the entrant, reducing the business to occasional low-volume remediation.
+   110	
+   111	---
+   112	
+   113	### 7. Dutch-Language Dependence & Reader Constraints
+   114	* **Language Gate:** Explicitly stated that A2 Dutch is insufficient for Dutch B2B sales and customs disputes. Answered honestly via the **Partner** channel (Dutch customs brokers fronting the client relationship, entrant acting as CEE data subcontractor).
+   115	* **Reader Constraints Respected:**
+   116	  * Hands-on: Founder personally conducts supplier interviews and diagnostic mappings.
+   117	  * Alongside the job: Year 1 model and 90-day plan operate around day-job hours.
+   118	  * Capital at risk: €4k pre-evidence spend; €12k Year 1 cash-at-risk hurdle (≤€50k limit).
+   119	  * No Dutch trade exam: Verified in official role descriptions (`02-credential-boundary`).
+   120	  * Outside software: Sells data lineage, diagnostic memos, and handover packs.
+   121	* **Precedent Trace:** Ingdilligenz GmbH in Würzburg verified via official German register data (Amtsgericht Würzburg HRB 15952, incorporated 17 Nov 2021, €25,000 share capital).
+   122	
+   123	---
+   124	
+   125	### 8. Receipts and Claims Ledger
+   126	* **Ledger Synchronization:** 29 unique claims in `checks/claims/02.tsv`, 36 markers in `chapters/02-border-files.html`. All status fields are valid (`checked-by:codex:2026-09-05` or `inference`). Zero open claims.
+   127	* **Inference Rows Honesty:**
+   128	  * `02-count-boundary`: Accurately states that published NEa statistics omit the specific numerator/denominator required by the pitch contract.
+   129	  * `02-credential-boundary`: Accurately states that absence of a consultant exam in role descriptions is an inference across published roles.
+   130	  * `02-price-boundary` & `02-payment-boundary`: Accurately identifies that vendor websites omit SME transaction pricing and do not prove payment willingness.
+   131	
+   132	---
+   133	
+   134	### 9. Verdict and Kill Assumption
+   135	* **Verdict:** `TEST THROUGH A PARTNER` (Matches `CONTEXT.md` allowed list). Earned by the combination of A2 language limitation and broker relationship ownership.
+   136	* **Kill Assumption:**
+   137	  > *"The single assumption that would most change the verdict is that a Dutch customs broker will introduce a paying importer while leaving the entrant enough fee and permission to build a reusable CEE supplier-data asset."* (Accurate and decisive).
+   138	
+   139	---
+   140	
+   141	### 10. Readability
+   142	* **Paragraph Length:** All body paragraphs are between 40 and 89 words. Lede is 106 words (satisfies TEMPLATE.md ≤130-word limit). Zero wall paragraphs.
+   143	* **Sentence Length:** **0 sentences exceed 40 words** across the entire essay.
+   144	* **Jargon vs. Mechanism:** Technical terms (*CBAM*, *EUDR*, *eHerkenning chain authorization*, *default value uplifts*, *accredited verifiers*) are paired immediately with their mechanical and legal implications.
+   145	
+   146	---
+   147	
+   148	## Verdict & Three Key Fixes
+   149	
+   150	### Overall Verdict: **REVISE**
+   151	
+   152	*(The chapter passes structural and economic gates with distinction; revision is required solely to correct two claim marker placements and refine one citation receipt.)*
+   153	
+   154	### The Three Fixes That Matter Most
+   155	
+   156	1. **Fix Marker 32 Receipt Over-Claim (Section 7, line 95):**  
+   157	   Reword `"The CBAM registry carries default values, while the Dutch authority publishes a calculator and guidance. <!-- CHECK: 02-default-route -->"` to separate the statutory default value rules supported by `02-default-route.txt` from generic statements about agency guidance.
+   158	2. **Unstack Markers 18 & 19 (Section 2, line 46):**  
+   159	   Move `<!-- CHECK: 02-ukraine-risk -->` immediately after `"Ukraine is classified low-risk."`, leaving `<!-- CHECK: 02-low-risk-effect -->` to anchor the subsequent sentence on simplified due diligence.
+   160	3. **Harmonize EUDR Legislative Citation in Sources Index:**  
+   161	   In `resources/sources/02/SOURCES.md` and `checks/claims/02.tsv` (Row 17), supplement the Commission Report CELEX (`52026DC0191`) with the primary reference to consolidated Regulation (EU) 2023/1115 as amended.
+     1	Here are the findings from reviewing `chapters/02-border-files.html` against the book's rules, ranked by severity.
+     2	
+     3	### 1. Hands-on constraint violation and unearned verdict (Severity: High)
+     4	* **Rule:** 7 (Reader constraints respected) and 9 (Verdict earned by evidence)
+     5	* **Quote:** "The constraint that breaks the fit is the buyer side. [...] If the reader wants physical site work, this also fails personally. It is desk work attached to metal, and the least physical candidate in the book." ... "Verdict: **TEST THROUGH A PARTNER**"
+     6	* **What the cited source actually supports:** The essay text openly admits that the proposed business model violates the reader's fixed "hands-on" constraint (which `CONTEXT.md` and `AGENT.md` define as physical site work). A proposition that fundamentally fails the reader's fixed constraints cannot earn a "TEST" verdict without modification.
+     7	* **Concrete fix:** Either revise the business model to include a hands-on physical element (e.g., verifying physical shipments at the Dutch port against the supplier's documentary evidence), or change the verdict to **DO NOT ENTER** and cite the failure of the "hands-on" constraint as the kill fact.
+     8	
+     9	### 2. Unsupported claim of "geolocation tools" (Severity: High)
+    10	* **Rule:** 8 (Receipts: every CHECK marker's row supports the sentence it follows; every verified row has an excerpt that says what the claim says)
+    11	* **Quote:** "More damaging to the original pitch, Ukraine's State Forest Agency says its tracking system already follows batches from harvest to export and provides legality documents and geolocation tools. `<!-- CHECK: 02-ukraine-system -->`"
+    12	* **What the cited source actually supports:** The excerpt (`02-ukraine-system.txt`) mentions a tracking system and legality documents ("e-logging permit, the electronic certificate of origin, the electronic waybill with photo documentation, as well as the functionality of the Exporter’s Electronic Cabinet"). Neither the verbatim excerpt nor the TSV claim mentions "geolocation tools."
+    13	* **Concrete fix:** Remove "and geolocation tools" from the sentence so it faithfully matches the source, changing it to "and exporter tools" (which matches the TSV) or "and tracing tools."
+    14	
+    15	### 3. Date injection in verified TSV claim (Severity: Medium)
+    16	* **Rule:** 8 (Receipts: every verified row has an excerpt that says what the claim says)
+    17	* **Quote (from `checks/claims/02.tsv`):** "Ukraine's State Forest Agency says its system traces timber batches from harvest to export, had about 400 active users in April 2026, and provides legality documents and exporter tools."
+    18	* **What the cited source actually supports:** The verbatim excerpt in `02-ukraine-system.txt` says "Currently, we have around 400 active users of this system", but does not contain the date "April 2026". A verified row must have an excerpt that explicitly says what the claim says; injecting dates from outside the verbatim passage violates the receipt rule.
+    19	* **Concrete fix:** Remove "in April 2026" from the TSV claim to maintain strict receipt discipline, or expand the saved excerpt to include the publication date of the article if it was present in the source text.
+    20	
+    21	***
+    22	
+    23	**Verdict: REVISE**
+    24	
+    25	**The three fixes that matter most:**
+    26	1. Revise the business model to incorporate hands-on physical work, or change the verdict to DO NOT ENTER due to failing the reader's fixed constraints.
+    27	2. Remove "and geolocation tools" from the Ukraine timber system paragraph so it accurately reflects the cited source.
+    28	3. Remove the unsupported "April 2026" date from the `02-ukraine-system` TSV claim so the excerpt fully supports the verification.
+     1	URL: https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	We have created a comprehensive timber tracking system that allows us to trace the movement of every batch of products from the moment of harvesting to export.
+     6	
+     7	Currently, we have around 400 active users of this system—representatives of business, the agricultural sector, and forestry – and we are already providing exporters with all the necessary information for working with the European Union.
+     8	
+     9	In particular, during the consultations they discussed in detail the operation of digital services that help verify the legality of timber harvesting: the e-logging permit, the electronic certificate of origin, the electronic waybill with photo documentation, as well as the functionality of the Exporter’s Electronic Cabinet.
+     1	URL: https://www.unternehmen24.info/Handelsregister/Deutschland/Handelsregisterauszug/Firma/4959350
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Amtsgericht Würzburg Aktenzeichen: HRB 15952 | Bekannt gemacht am: 20.11.2021 02:01 Uhr
+     6	
+     7	Gesellschaftsvertrag vom 17.11.2021.
+     8	
+     9	Stammkapital: 25.000,00 EUR.
+     1	URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52026DC0191
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	On 19 December 2025, the European Parliament and the Council adopted a revised EUDR, adding an extra period before the entry into application and introducing some changes on substance. All companies, whether in the EU or elsewhere, received one more year to prepare for entry into application. More specifically, the EUDR will enter into application on 30 December 2026 with regard to all companies except for most micro- or small operators, for which the entry into application is 30 June 2027.
+     6	
+     7	Downstream operators and traders are no longer required to submit their own due diligence statement in the Information System nor to ascertain that due diligence was exercised across supply chains.
+     1	URL: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden
+     2	Fetch date: 2026-09-04
+     3	Verbatim passage:
+     4	
+     5	Kiest u als toegelaten CBAM-aangever voor aangifte met standaardwaarden, dan is een geverifieerd emissieverslag van de exploitant van de installatie niet nodig.
+     6	
+     7	Een CBAM-aangifte met gebruik van standaardwaarden leidt doorgaans tot hogere CBAM-kosten dan wanneer u aangifte doet op basis van werkelijke gegevens.
+     8	
+     9	De standaardwaarden worden verhoogd met een opslag:
+    10	
+    11	* 10% in 2026
+    12	* 20% in 2027
+    13	* 30% vanaf 2028
+
+exec
+/bin/bash -lc "nl -ba AGENT.md | sed -n '20,70p'; nl -ba CONTEXT.md | sed -n '1,45p'; nl -ba scripts/prompts/review-checklist.md" in /home/diablo/book19
+ succeeded in 120ms:
+    20	3. **Make the money legible.** Revenue, gross margin, founder replacement cost, working capital
+    21	   and owner income are separate.
+    22	4. **Earn scalability.** State which work remains human, what can be delegated, and what asset
+    23	   accumulates. Never use "platform" as a magic word.
+    24	5. **Attack the idea.** Entrenched vendors, internal teams, consultancies, free tools, standards
+    25	   uncertainty and partner capture belong in the main argument.
+    26	6. **Leave a cheap next move.** The reader must be able to test the riskiest assumption without
+    27	   resigning or buying the full equipment stack.
+    28	
+    29	## Research rules
+    30	
+    31	- Browse because laws, deadlines, standards, products and competitors are current.
+    32	- Prefer primary sources for law and technical requirements.
+    33	- For competitors, use their own product documentation and pricing where published; label
+    34	  marketing claims as marketing claims.
+    35	- Record every relied-on URL and its purpose in `resources/sources/NN/SOURCES.md`.
+    36	- Write a claim ledger in `checks/claims/NN.tsv` before or alongside prose. Schema:
+    37	  `id<TAB>claim<TAB>source_url<TAB>source_locator<TAB>status` where status is `verified`,
+    38	  `inference`, or `open`. HTML may ship only with no `open` claims.
+    39	- Use `<!-- CHECK: id -->` immediately after the factual sentence or paragraph.
+    40	- Save the passage that supports each `verified` row as a text excerpt in
+    41	  `resources/sources/NN/excerpts/<slug>.txt` (URL, date fetched, then the verbatim passage),
+    42	  and name that file in the `source_locator` column. A `verified` row without an excerpt is
+    43	  not verified.
+    44	- Do not download or reproduce copyrighted reports unless needed and permitted; links and
+    45	  concise paraphrases are normally enough.
+    46	
+    47	## Voice
+    48	
+    49	Plain, adult, analytical. No startup cheerleading, future-of-X throat-clearing, fake scenes,
+    50	or inflated market-size paragraphs. Explain technical mechanisms where they change the business
+    51	case. The reader should feel that a skeptical operator and a skeptical investor wrote together.
+    52	
+    53	## Required challenge
+    54	
+    55	Each essay must contain at least one credible path by which capable execution still loses. This
+    56	is Book 4's counter-case discipline adapted to an opportunity that may not yet have a historical
+    57	post-mortem. It must not be a straw man such as "poor sales" or "bad execution."
+    58	
+    59	## Pre-ship test
+    60	
+    61	1. Can the reader name the buyer, purchase event and substitute?
+    62	2. Is demand evidence distinct from regulation and market size?
+    63	3. Does the economic model pay replacement-cost labour and still reach the owner target?
+    64	4. Is the twentieth delivery visibly different from the first?
+    65	5. Does the essay name why an incumbent, partner or customer might capture the margin?
+    66	6. Is Dutch-language dependence stated for this exact channel, and does the "Why you" section answer it honestly?
+    67	7. Is there a bounded 90-day experiment with a price, pass rule and kill rule?
+    68	8. Are all external claims receipted and all arithmetic labelled?
+    69	
+    70	## Coordination
+     1	# Book 19 — The Third Engine (working title) — CONTEXT
+     2	
+     3	## 1. Thesis
+     4	Books 4 and 18 covered firms as going concerns and an IT-adjacent second business. Book 19 asks what the
+     5	same reader can earn outside software that survives AI progress to 2030. Working thesis after the research
+     6	phase: no instrument found a secret market; the reader's edge is languages plus regulatory literacy plus
+     7	capital applied to physical work that Dutch operators find bureaucratic and foreign makers find foreign.
+     8	
+     9	## 2. Reader and fixed assumptions
+    10	The book 18 reader: ~40, enterprise developer, Zaandam, Dutch A2, English/Russian/Polish, ~EUR 100k, four
+    11	books of regulatory reading, engineering habit, ~30k LinkedIn audience. Draft edge inventory in
+    12	`drafts/edge-inventory.md` (published as a memo) awaits the author's correction. Four constraints still
+    13	open: passive vs hands-on; alongside the job or replacing it; capital ceiling; retraining tolerance.
+    14	
+    15	## 3. Method
+    16	Book 18 spine (demand → payment → economics → operations → resilience; scalability test; verdicts TEST NOW /
+    17	TEST THROUGH A PARTNER / WATCH / ACQUIRE, DO NOT BUILD / DO NOT ENTER) plus two gates: the A2 gate and the
+    18	AI gate. Research instruments run by agents from public sources with saved excerpts; each memo ends with an
+    19	honesty paragraph. Essays (when written) follow book 18's TEMPLATE plus a "Why you" section.
+    20	
+    21	## 4. State — v0.1 (2026-09-04, second pass)
+    22	Published: method, edge inventory, thirteen research memos (crowdfunding ×2 + comparison, diaspora, succession,
+    23	licences, trade flows, regulation-created work, AI physical footprint, boring business, two triages), and a
+    24	candidates table of thirteen under test, eight on watch, one held; ten pitches under `drafts/pitches/` written by the coordinating session under four stated assumptions; an ideation metaprompt (`scripts/prompts/idea-metaprompt.md`, runner `scripts/ideate.sh`) with two seeded runs and their precedent reviews. Book line, decided 2026-09-04: outside software, not outside engineering. No essays.
+    25	
+    26	## 5. Evidence rules (from book 18)
+    27	Primary sources for law, deadlines, standards; demand shown by buyer behaviour, enforcement, procurement or
+    28	filings, never by a regulation alone; named competitors and substitutes; no market-size theatre; no numbers
+    29	from memory; every external factual claim in HTML carries `<!-- CHECK: id -->` and a row in
+    30	`checks/claims/NN.tsv` with a saved excerpt under `resources/sources/NN/excerpts/`; enacted separated from
+    31	proposed, deadlines from expectations, obligation from budget; each essay makes the strongest case against
+    32	itself.
+    33	
+    34	## 6. Essay contracts (2026-09-05)
+    35	Each essay tests one picked pitch under the confirmed constraints. The pitch file is the contract; the essay
+    36	must settle the pitch's "number to settle first" and its kill fact from sources, or say the record cannot.
+    37	1. `01-cell-file.html` — pitch 2, `drafts/pitches/02-cell-file.md`.
+    38	2. `02-border-files.html` — pitch 7, `drafts/pitches/07-border-files.md`.
+    39	3. `03-joinery-steel-dossier.html` — pitch 6, `drafts/pitches/06-joinery-steel-dossier.md`.
+    40	4. `04-spray-crew-file.html` — pitch 10, `drafts/pitches/10-spray-crew-file.md`.
+    41	5. `05-owner-independent-acquisition.html` — pitch 3, `drafts/pitches/03-owner-independent-acquisition.md`;
+    42	   written as a step-two path: the job ends at closing.
+    43	6. `06-certified-inspection-microfirm.html` — pitch 9, `drafts/pitches/09-certified-inspection-microfirm.md`;
+    44	   also step two.
+    45	
+     1	Review this essay against the book's own rules (CONTEXT.md sections 1–7, AGENT.md priority
+     2	stack and pre-ship test). Rank findings by severity. For each: quote the passage, say what the
+     3	cited source (excerpt file or URL) actually supports, and give a concrete fix.
+     4	
+     5	1. Never false: is any proposal presented as enacted law, expectation as deadline, or design
+     6	   hurdle as market price? Check dates against the cited primary sources.
+     7	2. Buyer and event: is the payer and the purchase event named and plausible, or is a
+     8	   regulation standing in for demand?
+     9	3. Economics: does the model pay replacement-cost labour, working capital and the owner
+    10	   separately, and is the arithmetic internally consistent?
+    11	4. Scalability: is the twentieth customer concretely different from the first, or is
+    12	   "platform" doing the work?
+    13	5. Incumbents and capture: are named competitors treated fairly from their own material, and is
+    14	   the margin-capture risk by partner or customer confronted?
+    15	6. Capable failure: is it a non-straw-man path, or "poor execution" in disguise?
+    16	7. Dutch-language dependence stated for the exact channel and answered in the "Why you" section
+    17	   (paper, partner or fail); reader constraints respected (A2 Dutch; hands-on; alongside the job at
+    18	   first; EUR 100k with at most EUR 50k at risk in year one; no Dutch trade exam; outside software).
+    19	   Is the precedent firm real, with an independent trace?
+    20	8. Receipts: every CHECK marker's row supports the sentence it follows; every verified row has
+    21	   an excerpt that says what the claim says; inference rows are honest about what they infer.
+    22	9. Verdict: is it the one the evidence earns, and is the kill assumption the right one?
+    23	10. Readability: wall paragraphs, sentences over 40 words, jargon without mechanism.
+    24	
+    25	End with: verdict SHIP / REVISE / BLOCK, and the three fixes that matter most.
+
+codex
+**Verdict: REVISE — the opportunity remains testable, but the chapter currently attaches its offer to the wrong urgent event and fails the book’s receipt rules in several places.**
+
+# Consolidated review: `02-border-files.html`
+
+## Reviewer findings adjudicated
+
+| Reviewer finding | Disposition | Verification |
+|---|---|---|
+| Flash 1 — default-values marker overclaims its receipt | **CONFIRMED** | The saved [excerpt](/home/diablo/book19/resources/sources/02/excerpts/02-default-route.txt:5) and ledger row cover verification, cost direction and uplifts, but not registry inclusion or the calculator. The underlying [live NEa page](https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden) does support those facts, so this is a receipt defect rather than a false factual claim. Expand the ledger claim and excerpt or add a separate claim. |
+| Flash 2 — misplaced Ukraine markers | **CONFIRMED** | In the [chapter](/home/diablo/book19/chapters/02-border-files.html:46), `02-ukraine-risk` appears after the following sentence rather than immediately after “Ukraine is classified low-risk.” Move it to the first sentence. |
+| Flash 3 — EUDR revision lacks a primary legal source | **CONFIRMED, but its fix is incomplete** | The Commission report accurately summarizes the enacted change, but `AGENT.md` requires primary law. The correct act is [Regulation (EU) 2025/2650](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32025R2650). The consolidated EUDR is already listed in `SOURCES.md`; merely adding another cross-reference would not repair the claim’s source and excerpt. |
+| Pro 1 — “hands-on” necessarily means physical site work, so the verdict is unearned | **REJECTED** | Neither [CONTEXT.md](/home/diablo/book19/CONTEXT.md:9) nor [AGENT.md](/home/diablo/book19/AGENT.md:1) defines “hands-on” as physical site work. The proposed test has the founder conduct supplier interviews, mapping and delivery. The chapter honestly flags that it fails if the reader specifically requires site work. Adding port inspection would create a different business and is not justified by the fixed constraint. |
+| Pro 2 — “geolocation tools” is unsupported | **CONFIRMED as a receipt defect** | The saved [excerpt](/home/diablo/book19/resources/sources/02/excerpts/02-ukraine-system.txt:5) and TSV claim omit geolocation. The [live agency page](https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions) discusses the geolocation problem before describing its digital services, but does not cleanly state that the named services provide geolocation. Tighten the wording or save a passage that directly supports it. The reviewer also missed the second occurrence at chapter line 96. |
+| Pro 3 — “April 2026” is absent from the saved excerpt | **CONFIRMED as a receipt defect** | The live agency page is dated 15 April 2026, so the date is true. It is nevertheless absent from the saved excerpt, contrary to the local verification rule. Add the publication line to the excerpt; removing a true date is unnecessary. |
+
+No reviewer finding was unresolvable from the available record.
+
+## Ranked consolidated findings
+
+### 1. High — The urgent purchase event does not match the product
+
+> “The purchase event is a stopped import, an authorisation review, or the decision between default and actual emissions…”  
+> “The business does not clear goods [or] become importer of record…”  
+> “A stopped shipment is the urgent event…”
+
+The authorisation source says Customs withholds release when the importer or indirect representative lacks authorised-declarant status. The proposed supplier-evidence diagnostic neither supplies that status nor clears the shipment. Indeed, the chapter itself concedes that enforcement creates urgency for authorisation but does not prove a supplier-data budget.
+
+This conflates the broker’s urgent authorisation service with the entrant’s later emissions-data service. It weakens the buyer/event case and exaggerates near-term urgency before the September 2027 declaration.
+
+**Fix:** Make the actual-versus-default decision before annual declaration the primary event. If a stopped shipment remains, state explicitly that it triggers the broker’s separate authorisation service and may only generate a later referral for the entrant.
+
+### 2. Medium — Twenty-five ledger rows use an invalid status
+
+The required status vocabulary is `verified`, `inference`, or `open` ([AGENT.md](/home/diablo/book19/AGENT.md:36)). The ledger instead has 25 rows marked `checked-by:codex:2026-09-05` and four marked `inference`.
+
+This directly contradicts Flash’s assertion that all status fields are valid.
+
+**Fix:** Change the 25 supported rows to `verified`. If reviewer provenance is needed, store it outside the status field.
+
+### 3. Medium — The Ukraine-system receipt does not support all uses
+
+The same claim supports two chapter statements about geolocation, while its ledger row instead claims “about 400 active users in April 2026.” The saved excerpt supports the user count, tracing and named legality services, but neither the date nor a direct geolocation-tool claim.
+
+**Fix:** Add the page’s publication date and relevant geolocation context to the excerpt, then make the TSV and both prose uses match exactly. Prefer “addresses geolocation evidence” unless a source explicitly identifies the available geolocation function.
+
+### 4. Medium — The EUDR amendment is not receipted from the enacted instrument
+
+The chapter’s dates and downstream simplification appear accurate, but the ledger relies on a 2026 Commission report rather than Regulation (EU) 2025/2650. The same paragraph’s claim that “the deadline has slipped twice” is not supported by the saved excerpt.
+
+**Fix:** Replace the claim URL and excerpt with the amending regulation’s operative provisions. Add a separate receipt for the two prior deferrals or delete “twice.”
+
+### 5. Medium — The precedent date and conclusion are overstated
+
+> “An independent register trace records … incorporation on 17 November 2021…”  
+> “This proves that a small firm can persist on the shape.”
+
+The [saved record](/home/diablo/book19/resources/sources/02/excerpts/02-precedent-trace.txt:5) says the articles are dated 17 November and the notice was published on 20 November; it does not call 17 November the incorporation date. A register trace plus a current marketing page proves that the entity and offer exist, not commercial persistence, customers or payment.
+
+Flash repeats the same unsupported “incorporated 17 Nov” interpretation.
+
+**Fix:** Say “articles dated 17 November 2021; register notice published 20 November.” Limit the conclusion to proof of a real small-firm precedent unless trading or filing evidence establishes persistence.
+
+### 6. Medium — Mature capacity is asserted rather than demonstrated
+
+The model requires 375 delivery days across one analyst and one associate: 187.5 billable days each before leave, training, administration, specialist coordination and founder review. Flash’s claimed “420–440 available working days” is its own assumption, not evidence supplied by the chapter.
+
+**Fix:** Add a capacity bridge showing available days, target utilisation, non-delivery time and founder/specialist hours. Either reduce the client load or add delivery capacity if the resulting utilisation is implausible.
+
+### 7. Low — Default-route prose exceeds its saved claim
+
+> “The CBAM registry carries default values, while the Dutch authority publishes a calculator and guidance.”
+
+These facts are present on the live NEa page, but absent from both the ledger claim and saved excerpt.
+
+**Fix:** Expand `02-default-route` and its excerpt to include the registry and calculator passages, or split the tooling statement into its own checked claim.
+
+### 8. Low — Claim-marker placement is inconsistent
+
+At chapter line 46, the low-risk-country marker follows a different sentence. Similar stacked markers appear where EUDR reform and low-risk consequences are combined.
+
+**Fix:** Put each marker immediately after the sentence or clause it supports.
+
+## Checks that pass
+
+The revenue and margin arithmetic is correct; founder replacement labour and residual operating result are separated. The chapter also handles the A2 Dutch gate through a named partner channel, presents a credible capable-failure mechanism, treats incumbents and partner capture seriously, avoids platform rhetoric, supplies a bounded paid experiment, and has no detected sentences over 40 words.
+
+## Three fixes that matter most
+
+1. Re-anchor the sale to the annual emissions-data decision rather than a customs hold the service cannot resolve.
+2. Repair the evidence system: valid statuses, complete Ukraine/default excerpts, correctly placed markers and primary EUDR law.
+3. Add a defensible mature-capacity bridge and narrow the precedent claims to what the register actually proves.
+tokens used
+77,948

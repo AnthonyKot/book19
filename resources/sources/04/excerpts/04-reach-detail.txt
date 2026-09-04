@@ -1,10 +1,12 @@
 URL: https://eur-lex.europa.eu/eli/reg/2020/1149
 Fetched: 2026-09-05
-Provenance: live WebSearch/WebFetch; Annex XVII entry 74(4), (7) and (8).
+Provenance: Publications Office CELLAR copy of Commission Regulation (EU) 2020/1149; Annex XVII entry 74(4), (5), (7) and (8).
 
 “spraying in a ventilated booth”
 
 “spraying in open air, with limited or only natural ventilation (includes large industry working halls) and spraying with high energy (e.g. foams, elastomers)”
+
+“Such training shall be conducted by an expert on occupational safety and health with competence acquired by relevant vocational training.”
 
 “The supplier referred to in point (b) of paragraph 2 shall ensure that the recipient is provided with training material and courses pursuant to paragraphs 4 and 5 in the official language(s) of the Member State(s) where the substance(s) or mixture(s) are supplied.”
 

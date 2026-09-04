@@ -1,6 +1,14 @@
 URL: https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions
-Fetch date: 2026-09-04
+Fetch date: 2026-09-05
 Verbatim passage:
+
+posted 15 April 2026 13:08
+
+Given that starting next year exports to the EU will take place in accordance with EUDR requirements, American exporters are faced with the question of how to prove their products comply with this regulation. In particular, how to confirm the geolocation of timber harvesting sites.
+
+It was with this question that Alliance representatives approached the State Forest Agency of Ukraine.
+
+Ukraine is now using this time to improve digital services that will help businesses export products to the EU.
 
 We have created a comprehensive timber tracking system that allows us to trace the movement of every batch of products from the moment of harvesting to export.
 
