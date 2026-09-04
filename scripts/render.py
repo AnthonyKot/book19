@@ -24,6 +24,18 @@ MEMOS = [  # (slug, source markdown, title override)
     ("ideation-crossing-flows", "drafts/ideation/crossing-flows/ideas.md", "Ideation: crossing flows"),
     ("ideation-crossing-flows-reviewed", "drafts/ideation/crossing-flows/ideas-reviewed.md", "Ideation: crossing flows, precedent review"),
     ("triage-3", "drafts/notes/2026-09-04-fable-triage-3.md", "Triage, third pass: the ideation results"),
+    ("pitch-frame", "drafts/pitches/00-frame.md", "The pitch step: frame and template"),
+    ("pitch-01", "drafts/pitches/01-housing-agency-compliance.md", "Pitch 1: the housing and agency file"),
+    ("pitch-02", "drafts/pitches/02-cell-file.md", "Pitch 2: the cell file"),
+    ("pitch-03", "drafts/pitches/03-owner-independent-acquisition.md", "Pitch 3: buy the firm that does not need its owner"),
+    ("pitch-04", "drafts/pitches/04-machine-repair-microfirm.md", "Pitch 4: buy the machine-repair microfirm"),
+    ("pitch-05", "drafts/pitches/05-heat-pump-company.md", "Pitch 5: the heat-pump service company"),
+    ("pitch-06", "drafts/pitches/06-joinery-steel-dossier.md", "Pitch 6: the joinery and steel dossier"),
+    ("pitch-07", "drafts/pitches/07-border-files.md", "Pitch 7: the border files for CEE imports"),
+    ("pitch-08", "drafts/pitches/08-used-equipment-inspection.md", "Pitch 8: the used-equipment inspection"),
+    ("pitch-09", "drafts/pitches/09-certified-inspection-microfirm.md", "Pitch 9: buy the certified-inspection microfirm"),
+    ("ideation-site-person", "drafts/ideation/site-person/ideas.md", "Ideation: the worker as a file"),
+    ("ideation-certified-object", "drafts/ideation/certified-object/ideas.md", "Ideation: the object as a certificate"),
     ("edge-inventory", "drafts/edge-inventory.md", "Edge inventory (draft, for correction)"),
 ]
 def inline(t):
