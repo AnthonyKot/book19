@@ -1,0 +1,17 @@
+URL: https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en
+Fetched: 2026-09-04
+
+Verbatim passage:
+
+“The CBAM definitive regime applies from 1 January 2026.”
+
+“EU importers (or their indirect customs representatives) who import more than the single mass-based threshold of 50 tonnes of CBAM goods into the EU are required to apply for the status of authorised CBAM declarants.”
+
+“What products are under CBAM?
+CBAM covers
+- iron and steel
+- cement
+- aluminium
+- fertilizers
+- electricity
+- hydrogen”

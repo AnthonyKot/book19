@@ -1,0 +1,10 @@
+URL: https://publications.europa.eu/resource/celex/52018XC0309%2809%29
+Fetched: 2026-09-04
+
+Verbatim passages from the Official Journal table:
+
+“EN 1090-1:2009+A1:2011
+Execution of steel structures and aluminium structures — Part 1: Requirements for conformity assessment of structural components”
+
+“EN 14351-1:2006+A2:2016
+Windows and doors — Product standard, performance characteristics — Part 1: Windows and external pedestrian doorsets”

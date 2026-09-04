@@ -1,0 +1,19 @@
+URL: https://find-and-update.company-information.service.gov.uk/company/16295546/officers
+Fetched: 2026-09-04
+
+Verbatim passage:
+
+“FENBRO LTD
+Company number 16295546”
+
+“BRODZIK, Agnieszka Justyna
+Correspondence address
+2 Lok. 320, Ludna, 00-406 Warsaw, Poland
+Role Active
+Director”
+
+“BRODZIK, Pawel
+Correspondence address
+2 Lok. 320, Ludna, 00-406 Warsaw, Poland
+Role Active
+Director”

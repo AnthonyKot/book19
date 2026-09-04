@@ -1,0 +1,25 @@
+URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/plichten/melding-bouwactiviteit/
+Fetched: 2026-09-04
+
+Verbatim passage:
+
+“Vóór het in gebruik nemen van een bouwwerk moet eerst een gereedmelding naar het bevoegd gezag. Dit moet ten minste 2 weken voor het in gebruik nemen van het bouwwerk (artikel 2.21 Bbl).”
+
+“De gereedmelding bestaat uit:
+1. naam, adres en telefoonnummer van degene die de bouwmelding heeft gedaan
+2. adres, kadastrale aanduiding of coördinaten van de locatie waar de bouwactiviteit is uitgevoerd
+3. dagtekening
+4. de verklaring van de kwaliteitsborger
+5. informatie (als die van belang is) die ingaat op de getroffen maatregelen in het borgingsplan om bouwtechnische risico's te voorkomen of te beperken
+6. aanduiding van de gebruiksfuncties, verblijfsgebieden, verblijfsruimten en de afmetingen en de bezetting van alle ruimten, inclusief totaaloppervlakten per gebruiksfunctie
+7. informatie waaruit blijkt dat het bouwwerk voldoet aan de regels over:
+- bouwconstructie
+- luchtverversing
+- energiezuinigheid
+- milieuprestatie
+8. informatie over brandveiligheid
+9. informatie over toegepaste gelijkwaardige maatregelen”
+
+“De onderdelen d t/m i vormen samen het 'dossier bevoegd gezag'.”
+
+“Bij een onvolledige gereedmelding informeert de gemeente de indiener hierover. Het in gebruik nemen van het bouwwerk kan dan nog niet. Dat kan pas 2 weken nadat alle informatie die hoort bij de gereedmelding, bij de gemeente is.”

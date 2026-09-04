@@ -1,0 +1,12 @@
+URL: https://ec.europa.eu/eurostat/api/comext/dissemination/statistics/1.0/data/ds-045409?freq=A&reporter=NL&partner=PL&flow=1&indicators=VALUE_IN_EUROS&time=2025&product=7308&product=7610
+Fetched: 2026-09-04
+
+Verbatim JSON passage:
+
+“"value":{"0":160013376,"1":148271001}”
+
+“"product":{"label":"PRODUCT","category":{"index":{"7308":0,"7610":1},"label":{"7308":"Structures and parts of structures \"e.g., bridges and bridge-sections, lock-gates, towers, lattice masts, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, shutters, balustrades, pillars and columns\", of iron or steel; plates, rods, angles, shapes, sections, tubes and the like, prepared for use in structures, of iron or steel (excl. prefabricated buildings of heading 9406)","7610":"Structures and parts of structures \"e.g., bridges and bridge-sections, towers, lattice masts, pillars and columns, roofs, roofing frameworks, doors and windows and their frames and thresholds for doors, shutters, balustrades\", of aluminium (excl. prefabricated buildings of heading 9406); plates, rods, profiles, tubes and the like, prepared for use in structures, of aluminium"}}}”
+
+“"flow":{"label":"FLOW","category":{"index":{"1":0},"label":{"1":"IMPORT"}}}”
+
+“"time":{"label":"TIME_PERIOD","category":{"index":{"2025":0},"label":{"2025":"2025"}}}”
