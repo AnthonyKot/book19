@@ -1,0 +1,5 @@
+URL: https://find-and-update.company-information.service.gov.uk/company/07937140
+Publisher: Companies House (UK registrar)
+Fetched: 2026-09-04
+Excerpt (as summarised by the fetch tool):
+"SYNERGY ENVIRONMENTAL SOLUTIONS LIMITED", company number 07937140, incorporated "6 February 2012", status "Active", "Private limited Company", registered address "290 Leek Road, Stoke-On-Trent, England, ST4 2BX". SIC codes "28250 - Manufacture of non-domestic cooling and ventilation equipment" and "74901 - Environmental consulting activities". Last accounts made up to "31 March 2025"; next accounts due "31 December 2026". Size band not shown on the summary page.

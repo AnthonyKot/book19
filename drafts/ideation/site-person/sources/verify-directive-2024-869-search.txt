@@ -1,0 +1,8 @@
+URL: web search "Arbobesluit grenswaarde lood diisocyanaten 2026 implementatie richtlijn 2024/869" (results: wetgevingskalender.overheid.nl WGK026448; arboportaal.nl 2026-01-21; wetten.overheid.nl/EUR20240869; volandis.nl; itis.nl; salarisvanmorgen.nl 2025-04-10; internetconsultatie.nl)
+Publisher: various (Dutch government and sector sites)
+Fetched: 2026-09-04
+Excerpt (search summary):
+Wijzigingsrichtlijn 2024/869 wijzigt richtlijn 2004/37 ... introduceert grenswaarden voor diisocyanaten en verlaagt de grenswaarde voor lood. Vanaf 9 april 2026 gelden nieuwe regels voor het werken met lood en diisocyanaten. Deze regels moeten uiterlijk op 9 april 2026 zijn opgenomen in de Nederlandse wet- en regelgeving.
+Lood: grenswaarde voor beroepsmatige blootstelling van 0,15 mg/m3 naar 0,03 mg/m3.
+Diisocyanaten (NCO): grenswaarde 6 ug NCO/m3; kortdurende blootstelling 12 ug NCO/m3.
+Note: direct EUR-Lex HTML fetch (OJ:L_202400869) returned only the OJ navigation page; the figures below were confirmed on Arboportaal instead.
