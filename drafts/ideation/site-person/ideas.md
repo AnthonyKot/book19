@@ -58,29 +58,27 @@ the REACH renewal date. Every such figure is marked estimate, unverified. Log: `
 
 ### K1. The spray crew's file — diisocyanates for insulation, coating and paint crews
 
-1. **Iron plus paper.** A crew spraying PU foam, PU floor coating or 2K paint may not be exposed
-   above the new binding limit without a measured exposure assessment (NEN-EN 689), an updated
-   RI&E, a register of exposed workers, training and, above the action level, health surveillance
-   (verified: Arboportaal, Stb. 2025-337).
+1. **Iron plus paper.** A crew spraying PU foam, floor coating or 2K paint may not exceed the new
+   binding limit without a measured exposure assessment, an updated RI&E, a register of exposed
+   workers, training and, above the action level, health surveillance (verified: Arboportaal).
 2. **Dated rule.** In force 9 April 2026: 6 µg NCO/m³, 12 µg short-term, transitional 10/20 µg to
    31 December 2028 (verified). REACH certificates from August 2023 renew from August 2028
    (unverified).
-3. **Buyers.** Spray-foam, PU flooring and coating applicators, body shops and industrial sprayers
-   of 10–100 staff, often Polish- or Ukrainian-crewed. Incumbents: SGS Search, KWA, BMD,
-   arbodiensten, by the consultant-day, unpublished.
-4. **Edge.** Reads the rule; samples, logs and templates a crew's evidence in a day; briefs the crew
-   in Polish. No certificate before the first sale; the lab analyses.
+3. **Buyers.** Spray-foam, PU flooring and coating applicators, body shops, 10–100 staff, often
+   Polish- or Ukrainian-crewed. Incumbents: SGS Search, KWA, BMD, arbodiensten, by the day.
+4. **Edge.** Reads the rule; samples and templates a crew's evidence in a day; briefs the crew in
+   Polish. No certificate before the first sale.
 5. **Per unit.** Per crew survey (estimate €1,500–2,500) and per worker record. First test: two
    crews at one insulation firm, ~€4,000. Capital: two pumps and a calibrator, ~€6,000 (estimate).
    Step two: a certified Dutch arbeidshygiënist to countersign. Step three: the insulation
    contractor itself, sold on a clean file.
-6. **AI.** Foam is sprayed in attics by people; the retrofit wave adds crews and the 2029 limit a
-   second measurement each.
-7. **Kill fact.** Under the transitional limit a model-based assessment satisfies the Inspectorate
-   until 2029, so nobody pays for measurement.
+6. **AI.** People spray foam in attics; the retrofit wave adds crews, the 2029 limit adds
+   measurements.
+7. **Kill fact.** A model-based assessment satisfies the Inspectorate until 2029, so nobody pays
+   to measure.
 8. **Precedent.** Synergy Environmental Solutions Ltd, Stoke-on-Trent: air and urine isocyanate
-   monitoring for body shops, PU-foam installers and sprayers; incorporated 6 February 2012,
-   active, SIC 74901, BOHS (own site; Companies House). Also NOHH Ltd, Gateshead.
+   monitoring for body shops and PU-foam installers; incorporated 6 February 2012, active, BOHS
+   (own site; Companies House).
 
 | figure | value | status |
 |---|---|---|
@@ -104,28 +102,24 @@ the REACH renewal date. Every such figure is marked estimate, unverified. Log: `
 
 ### K2. The old-paint crew's file — lead and chromium VI for blasting and strip-out crews
 
-1. **Iron plus paper.** A crew blasting a bridge, stripping pre-1980 frames or demolishing an old
-   plant meets lead and chromium VI. From April 2026 the employer owes air sampling, a blood-lead
-   result per worker against a legal limit, a medical offer at the action level and a long-retained
-   register (limits verified; retention unverified).
-2. **Dated rule.** 9 April 2026: lead 0.03 mg/m³ (from 0.15) and 15 µg Pb/100 ml blood,
-   transitional 30 µg to 31 December 2028; medical offer above 0.015 mg/m³ or 9 µg (verified).
-3. **Buyers.** Blasting and steel-coating contractors, demolition and strip-out firms, restoration
-   painters, shooting-range and battery-recycling crews, 10–100 staff, Polish- and
-   Ukrainian-crewed. Incumbents: arbodiensten and hygiene bureaus at consultant-day rates.
+1. **Iron plus paper.** A crew blasting a bridge, stripping pre-1980 frames or demolishing an old plant
+   meets lead and chromium VI; the employer owes air sampling, a blood-lead result per worker, a
+   medical offer at the action level and a register (verified, bar retention).
+2. **Dated rule.** 9 April 2026: lead 0.03 mg/m³ (from 0.15), 15 µg Pb/100 ml blood, transitional
+   30 µg to 31 December 2028; medical offer above 0.015 mg/m³ or 9 µg (verified).
+3. **Buyers.** Blasting and steel-coating contractors, demolition and strip-out firms, 10–100
+   staff, Polish- and Ukrainian-crewed. Incumbents: arbodiensten and hygiene bureaus by the day.
 4. **Edge.** Reads the rule; runs sampling and blood-draw logistics with a partner bedrijfsarts;
-   explains a blood result to a Polish blaster. No Dutch exam.
+   explains the result to a Polish blaster. No Dutch exam.
 5. **Per unit.** Per site survey (estimate €1,500–3,000) plus per worker per round (estimate
-   €80–150, lab excluded). First test: one blasting contractor, two sites, ~€4,500. Capital: pumps
-   shared with K1, wipe kit, under €10,000. Step two: a Dutch bedrijfsarts. Step three: buy a small
-   blasting or strip-out contractor and run it on the file.
-6. **AI.** Old paint comes off by hand on scaffolds; the bridge and housing backlog adds sites, the
-   2029 blood limit doubles the rounds.
-7. **Kill fact.** Dutch blasting firms already run lead surveillance inside their arbodienst
-   contract, and pre-1980 paint is mostly gone.
-8. **Precedent.** EHS Analytical Solutions Inc., San Diego: lead air monitoring and wipe sampling
-   for construction and shooting ranges, blood-lead coordination, medical-surveillance support;
-   since 2004, veteran-owned SDVOSB/DVBE (own site; Govly procurement directory).
+   €80–150, lab excluded). First test: one contractor, two sites, ~€4,500. Capital under €10,000.
+   Step two: a Dutch bedrijfsarts. Step three: buy a small blasting or strip-out contractor.
+6. **AI.** Old paint comes off by hand; the bridge and housing backlog adds sites, the 2029 blood
+   limit doubles the rounds.
+7. **Kill fact.** Blasting firms already run lead surveillance inside their arbodienst contract, and
+   pre-1980 paint is mostly gone.
+8. **Precedent.** EHS Analytical Solutions Inc., San Diego: lead air monitoring for construction and
+   shooting ranges, blood-lead coordination; since 2004 (own site; Govly directory).
 
 | figure | value | status |
 |---|---|---|
@@ -149,26 +143,25 @@ the REACH renewal date. Every such figure is marked estimate, unverified. Log: `
 ### K3. The mask file — a fit test per face, then the respirator fleet
 
 1. **Iron plus paper.** A tight-fitting respirator protects only the face it was tested on. Dutch
-   law mandates an annual fit test in asbestos work (Arbobesluit 4.27, verified); the revised NVvA
-   guideline recommends one a year, preferably quantitative, on every tight-fitting mask in every
-   sector (verified); the new limits make the mask the last line for K1 and K2 crews.
+   law mandates an annual fit test in asbestos work (verified); the revised NVvA guideline
+   recommends one a year, preferably quantitative, on every tight-fitting mask in every sector
+   (verified); the new limits make the mask the last line for K1 and K2 crews.
 2. **Dated rule.** 9 April 2026 (lead, diisocyanates; verified) makes the fit-test record the only
-   defensible evidence that a mask meets a binding limit; 2029 tightens it again.
-3. **Buyers.** Welding and shipyard subcontractors, spray and insulation crews, demolition and
-   industrial-cleaning firms of 10–100 staff, Polish- and Ukrainian-crewed, working in English.
-   Incumbents: Dutch fit-test specialists in their own test rooms, prices unpublished.
-4. **Edge.** Measurement discipline, a record per face and mask model, instructions in the crew's
-   language, on site. No Dutch exam; Fit2Fit is an English scheme.
-5. **Per unit.** Per face (estimate €50–80; UK groups £350 for ten, £525 for twenty, verified).
-   First test: sixty faces across three firms, ~€4,000. Capital: a PortaCount, USD 11–17k new,
-   8.5–9.5k used (verified). Step two: a Dutch arbodienst as channel. Step three: own and service
-   the respirator fleet per crew-month, which is the iron.
-6. **AI.** No model tests a face; each new crew and mask model is a fresh record.
-7. **Kill fact.** 3M and Dräger distributors fit-test free with mask sales, so nobody outside
-   asbestos pays.
+   defensible evidence a mask meets a binding limit; 2029 tightens it.
+3. **Buyers.** Welding and shipyard subcontractors, spray crews, demolition and industrial-cleaning
+   firms of 10–100 staff, Polish- and Ukrainian-crewed. Incumbents: Dutch fit-test specialists in
+   their own test rooms, prices unpublished.
+4. **Edge.** A record per face and mask model, on site, in the crew's language. No Dutch exam;
+   Fit2Fit is an English scheme.
+5. **Per unit.** Per face (estimate €50–80; UK £350 for ten, verified). First test: sixty faces at
+   three firms, ~€4,000. Capital: a PortaCount, USD 11–17k new, 8.5–9.5k used (verified). Step
+   two: a Dutch arbodienst as channel. Step three: own and service the respirator fleet per
+   crew-month, which is the iron.
+6. **AI.** No model tests a face; every new crew and mask is a fresh record.
+7. **Kill fact.** 3M and Dräger distributors fit-test free with mask sales.
 8. **Precedent.** Respiratory Protective Assessment Ltd, Bristol: Fit2Fit-accredited testing for any
-   tight-fitting respirator, on site or in Bristol, trading since 1999, limited company since
-   1 March 2010 (own site; Companies House). Also Apex FTS, mobile nationwide.
+   tight-fitting respirator, on site, trading since 1999, incorporated 1 March 2010 (own site;
+   Companies House).
 
 | figure | value | status |
 |---|---|---|
@@ -191,8 +184,8 @@ the REACH renewal date. Every such figure is marked estimate, unverified. Log: `
 ## 4. Honest paragraph
 
 This seed found nothing a Dutch founder with the same reading could not: the directive is on
-Arboportaal and Dutch hygiene bureaus already sell every measurement above. The reader's addition is
-narrow and real: the crews on spray, blast and strip-out jobs are Polish and Ukrainian, a blood
+Arboportaal and Dutch hygiene bureaus already sell every measurement above. The reader adds something
+narrow: the crews on spray, blast and strip-out jobs are Polish and Ukrainian, a blood
 result or a leaking mask must be explained in their language, and only the Inspectorate's arrival
 makes a small contractor pay for a file nobody prices per crew. The seed's larger lesson is that it
 had been harvested: housing, agencies, grid, fleet and inspection are all "a person becomes a file".
