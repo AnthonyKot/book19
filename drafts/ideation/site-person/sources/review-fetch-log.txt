@@ -23,3 +23,5 @@
 22 fetch AVAG arbocatalogus 4.5 -> review-addition-A1-avag-4.5.txt (no article text)
 23 fetch Companies House search Impact Technical Services -> review-addition-A1-companies-house-its.txt
 24 search NL PAGO who may perform -> review-addition-A2-nl-pago-search.txt
+25 fetch NLA zelfinspectie Beoordelen -> review-verify-nla-beoordelen.txt
+Budget: 25 of 25 used (17 page fetches incl. 4 failed, 8 searches). Not attempted for lack of budget: Fit2Fit register entry for RPA and non-UK eligibility; EUR PortaCount price; NVPU/spray-foam firm count; Dutch incumbent day rates; Arbobesluit 4.15 article text; any Dutch pure-play LEV tester.
