@@ -21,7 +21,7 @@ honesty paragraph. Essays (when written) follow book 18's TEMPLATE plus a "Why y
 ## 4. State — v0.1 (2026-09-04, second pass)
 Published: method, edge inventory, thirteen research memos (crowdfunding ×2 + comparison, diaspora, succession,
 licences, trade flows, regulation-created work, AI physical footprint, boring business, two triages), and a
-candidates table of twelve under test, three on watch, one held; an ideation metaprompt (`scripts/prompts/idea-metaprompt.md`, runner `scripts/ideate.sh`) with two seeded runs and their precedent reviews. Book line, decided 2026-09-04: outside software, not outside engineering. No essays.
+candidates table of thirteen under test, eight on watch, one held; ten pitches under `drafts/pitches/` written by the coordinating session under four stated assumptions; an ideation metaprompt (`scripts/prompts/idea-metaprompt.md`, runner `scripts/ideate.sh`) with two seeded runs and their precedent reviews. Book line, decided 2026-09-04: outside software, not outside engineering. No essays.
 
 ## 5. Decision record
 - 2026-09-03 — Seed idea (user): crowdfunding platforms as a demand instrument. Run on codex and Gemini 3.8
@@ -45,3 +45,9 @@ candidates table of twelve under test, three on watch, one held; an ideation met
   elsewhere. Two seeded ideation agents, then two precedent-review agents. The first seed reproduced the editor's
   cobot CE idea unprompted. Triage 3: added the cell file (#2), border files for CEE imports (#7), used-equipment
   inspection (#8); watch: sanctions file, crowdfunding machinery hub, battery-pack file; cut: ML safety file.
+- 2026-09-05 — Second ideation round (seeds: the worker as a file; the object as a certificate) with the precedent
+  rule; precedent review on site-person; triage 4 added the spray crew's file (#13), five ideas to watch. Verdict:
+  the pool is close to complete for this reader's edge; no fifth seed. Pitch step started without the author's
+  four constraints: ten pitches under stated assumptions (hands-on; beside the job at first; €100k, ≤€50k at
+  risk in year one; no multi-year retraining), each saying what changes if an assumption is wrong. The author
+  picks five to seven for essays.

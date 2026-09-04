@@ -1,0 +1,6 @@
+URL: https://www.highergov.com/awardee/ehs-analytical-solutions-inc-12368833/
+Publisher: HigherGov (US federal awardee database drawn from SAM.gov; independent trace)
+Fetched: 2026-09-05
+Excerpt (as summarised by the fetch tool):
+EHS Analytical Solutions, Inc., San Diego, CA. UEI Z1RTBMG8T735, CAGE 8KXF8. "Date Founded: Aug. 5, 2019"; "Initial Federal Registration: Feb. 22, 2020"; last updated "Oct. 14, 2025", expires "Oct. 12, 2026". Employees "<500"; Subchapter S corporation, California. Certifications "Service Disabled Veteran Owned Small Business", "Veteran Owned Business". Primary NAICS "541690 - Other Scientific and Technical Consulting Services" plus eight others (environmental consulting, management consulting, training). Most recent federal award "Sept. 20, 2023"; amounts not displayed. Revenue not shown.
+Note: the firm's site says "serving ... since 2004"; the SAM record gives the corporation's founding as 2019. Either the practice predates the current corporation or the "since 2004" claim is the founder's experience. Age recorded as: corporation 2019 (verified), practice 2004 (own claim).

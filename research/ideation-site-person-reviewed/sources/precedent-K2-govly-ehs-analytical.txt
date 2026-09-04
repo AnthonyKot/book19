@@ -1,0 +1,5 @@
+URL: https://app.govly.com/public/vendors/ehs_analytical_solutions
+Publisher: Govly (US public-procurement vendor directory)
+Fetched: 2026-09-04
+Excerpt (as summarised by the fetch tool):
+EHS Analytical Solutions, "San Diego", "veteran-owned", "SDVOSB/DVBE status for government projects", specialises in "industrial hygiene, safety programs, and construction compliance", serves "manufacturing, biotech, aerospace, and construction sectors". Employee count, NAICS codes and contract awards not shown on the public listing.

@@ -210,9 +210,8 @@ door. It is K2's step two, not a business of the reader's.
 
 All three precedents held under a second trace, and that is the trap: each lives where the record is
 a legal duty the Netherlands lacks. RPA tests faces under COSHH guidance; Impact tests hoods on a
-14-month clock; EHS Analytical samples lead under OSHA. Only Synergy's unit, the isocyanate crew
-survey, meets a Dutch rule of the same weight, from April 2026. "A precedent exists" proved necessary,
+14-month clock; EHS Analytical samples lead under OSHA. Only Synergy's unit, the isocyanate
+survey, meets a Dutch rule of the same weight, from April 2026. "A precedent exists" is necessary,
 not sufficient; part 8 gains a question: does the precedent's rule exist here? The other change is
 part 4: the Inspectorate wants a hygienist-level assessor, so K1's partner moves from step two to the
-first sale. Three ideas became one desk with three lines and a step-three iron; K1 is still the one
-to fund.
+first sale. Three ideas became one desk with three lines and a step-three iron; K1 is the one to fund.

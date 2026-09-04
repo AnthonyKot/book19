@@ -36,6 +36,9 @@ MEMOS = [  # (slug, source markdown, title override)
     ("pitch-09", "drafts/pitches/09-certified-inspection-microfirm.md", "Pitch 9: buy the certified-inspection microfirm"),
     ("ideation-site-person", "drafts/ideation/site-person/ideas.md", "Ideation: the worker as a file"),
     ("ideation-certified-object", "drafts/ideation/certified-object/ideas.md", "Ideation: the object as a certificate"),
+    ("pitch-10", "drafts/pitches/10-spray-crew-file.md", "Pitch 10: the spray crew's file"),
+    ("ideation-site-person-reviewed", "drafts/ideation/site-person/ideas-reviewed.md", "Ideation: the worker as a file, precedent review"),
+    ("triage-4", "drafts/notes/2026-09-05-fable-triage-4.md", "Triage, fourth pass: the second ideation round"),
     ("edge-inventory", "drafts/edge-inventory.md", "Edge inventory (draft, for correction)"),
 ]
 def inline(t):

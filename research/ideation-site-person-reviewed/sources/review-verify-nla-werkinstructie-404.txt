@@ -1,0 +1,4 @@
+URL: https://www.nlarbeidsinspectie.nl/binaries/nlarbeidsinspectie/documenten/richtlijnen/2025/05/13/werkinstructie-blootstelling-gevaarlijke-stoffen/werkinstructie-blootstelling-gevaarlijke-stoffen-20250513.pdf
+Publisher: Nederlandse Arbeidsinspectie
+Fetched: 2026-09-05
+Excerpt: HTTP 404; the PDF path from the search result did not resolve. One fetch spent. Replaced by the Inspectorate's zelfinspectie "Beoordelen" page (review-verify-nla-beoordelen.txt).
