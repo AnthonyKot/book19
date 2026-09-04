@@ -23,7 +23,31 @@ Published: method, edge inventory, thirteen research memos (crowdfunding ×2 + c
 licences, trade flows, regulation-created work, AI physical footprint, boring business, two triages), and a
 candidates table of thirteen under test, eight on watch, one held; ten pitches under `drafts/pitches/` written by the coordinating session under four stated assumptions; an ideation metaprompt (`scripts/prompts/idea-metaprompt.md`, runner `scripts/ideate.sh`) with two seeded runs and their precedent reviews. Book line, decided 2026-09-04: outside software, not outside engineering. No essays.
 
-## 5. Decision record
+## 5. Evidence rules (from book 18)
+Primary sources for law, deadlines, standards; demand shown by buyer behaviour, enforcement, procurement or
+filings, never by a regulation alone; named competitors and substitutes; no market-size theatre; no numbers
+from memory; every external factual claim in HTML carries `<!-- CHECK: id -->` and a row in
+`checks/claims/NN.tsv` with a saved excerpt under `resources/sources/NN/excerpts/`; enacted separated from
+proposed, deadlines from expectations, obligation from budget; each essay makes the strongest case against
+itself.
+
+## 6. Essay contracts (2026-09-05)
+Each essay tests one picked pitch under the confirmed constraints. The pitch file is the contract; the essay
+must settle the pitch's "number to settle first" and its kill fact from sources, or say the record cannot.
+1. `01-cell-file.html` — pitch 2, `drafts/pitches/02-cell-file.md`.
+2. `02-border-files.html` — pitch 7, `drafts/pitches/07-border-files.md`.
+3. `03-joinery-steel-dossier.html` — pitch 6, `drafts/pitches/06-joinery-steel-dossier.md`.
+4. `04-spray-crew-file.html` — pitch 10, `drafts/pitches/10-spray-crew-file.md`.
+5. `05-owner-independent-acquisition.html` — pitch 3, `drafts/pitches/03-owner-independent-acquisition.md`;
+   written as a step-two path: the job ends at closing.
+6. `06-certified-inspection-microfirm.html` — pitch 9, `drafts/pitches/09-certified-inspection-microfirm.md`;
+   also step two.
+
+## 7. Common verdict (from book 18)
+Exactly one per essay: **TEST NOW**; **TEST THROUGH A PARTNER**; **WATCH**; **ACQUIRE, DO NOT BUILD**;
+**DO NOT ENTER**. Provisional until customer payment exists.
+
+## 8. Decision record
 - 2026-09-03 — Seed idea (user): crowdfunding platforms as a demand instrument. Run on codex and Gemini 3.8
   Flash; both traced to the downloaded Kickstarter dataset; verdict: instrument works, business narrow.
 - 2026-09-03 — Five further instruments run in parallel (three codex, two Gemini), agents barred from git.
@@ -51,3 +75,8 @@ candidates table of thirteen under test, eight on watch, one held; ten pitches u
   four constraints: ten pitches under stated assumptions (hands-on; beside the job at first; €100k, ≤€50k at
   risk in year one; no multi-year retraining), each saying what changes if an assumption is wrong. The author
   picks five to seven for essays.
+- 2026-09-05 — Constraints confirmed by the author: hands-on; alongside the job at first; €100k with ≤€50k at risk in
+  year one; retraining of days or weeks in English. Essay picks (six): 2 the cell file, 3 owner-independent
+  acquisition, 6 joinery/steel dossier, 7 border files, 9 certified-inspection microfirm, 10 spray crew's file.
+  Not picked: 1 housing/agency file, 4 machine repair, 5 heat pump, 8 used-equipment inspection (stay as pitches).
+  Essays 3 and 9 are written as step-two paths under the constraints (the job ends at closing).
