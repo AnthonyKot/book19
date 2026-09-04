@@ -3,6 +3,8 @@ Fetched: 2026-09-04
 Provenance: copied from drafts/ideation/assembled-machines/sources/iab-ce-kosten.txt and live-checked by search.
 
 Verbatim passage:
+“Let op! Berichten kunnen verouderd zijn, controleer altijd de actuele wet- en regelgeving.”
+
 “Het CE-markeren van een eenvoudige machine (wat is eenvoudig?) kost al gauw € 6000,– incl. gebruiksaanwijzing.”
 
 “Het CE-certificeren van een samenstel van machines, denk aan een grote procesinstallatie kost al gauw € 30.000,–.”

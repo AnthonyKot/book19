@@ -71,7 +71,7 @@ Live research accessed 2026-09-04. Legal claims use current official texts first
     URL: https://iab-ingenieurs.nl/vraag-en-antwoord/ce-markering-machines/machinerichtlijn-ce-markering-machines/wat-zijn-de-kosten-van-een-ce-markering/
     Accessed: 2026-09-04.
     Excerpt: `excerpts/01-incumbent-price.txt`.
-    Supports: published broad comparators for a simple machine and a machinery assembly, not a cobot-cell quote (`01-incumbent-price`).
+    Supports: undated, potentially stale published examples for a simple machine and a machinery assembly, not a current cobot-cell quote (`01-incumbent-price`). The page itself warns that posts may be outdated.
 
 13. **Cobots and Machinery Safety, “Collaborative Robot Force and Pressure Testing.”**
     URL: https://www.cobotsmachinerysafety.co.uk/force-pressure-testing
@@ -89,10 +89,10 @@ Live research accessed 2026-09-04. Legal claims use current official texts first
     URL: https://www.verwey-safety.nl/kennis/nieuws/item/19-training-machinery-safety-and-ce-marking
     Accessed: 2026-09-04.
     Excerpt: `excerpts/01-english-training.txt`.
-    Supports: availability of an English-delivered course in the Netherlands (`01-english-training`).
+    Supports: a 2017 advertisement for English delivery in the Netherlands, not current availability, duration, dates or price (`01-english-training`).
 
 ## Evidence boundary
 
-The public record did not settle the pitch's requested annual Netherlands cobot-installation count or the share installed without an integrator. IFR says it counts country installations, but detailed data are sold; TNO says the Netherlands is not explicit in the public 2025 material. No named Dutch provider reviewed published a comparable whole-cell file price. Absence of a published price does not disprove the kill fact. Nor does any source establish that Dutch SME engineering managers will buy this safety service in English. Those are the 90-day interview and payment gates.
+The public record did not settle the pitch's requested annual Netherlands cobot-installation count or the share installed without an integrator. IFR says it counts country installations, but detailed data are sold; TNO says the Netherlands is not explicit in the public 2025 material. The captured Pilz service page lists service scope without a public price. That narrow absence does not disprove the kill fact or exclude a private quote. Nor does any source establish that Dutch SME engineering managers will buy this safety service in English. Those are the 90-day interview and payment gates.
 
 The legal duty already exists under the Machinery Directive. The 2027 Regulation is enacted but not yet applicable. The Product Liability Directive is enacted at EU level; the cited Dutch implementation remained prospective in the source. Regulation, enforcement and technical change establish work, not customer budget.
