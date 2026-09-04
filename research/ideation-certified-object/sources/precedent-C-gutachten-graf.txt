@@ -1,0 +1,19 @@
+URL: https://gutachten-graf.de/ (firm's own site)
+Publisher: Gutachten Graf GmbH, Tulpenstraße 12, 53797 Lohmar, North Rhine-Westphalia, Germany
+Fetched: 2026-09-05 (WebFetch summary plus WebSearch summary; lines as returned)
+Independent traces: Northdata register extract, https://www.northdata.de/?id=6614841095749632
+  ("Gutachten Graf GmbH ... Geschäftsführer: Kai Frederik Graf ... Kapital: 25.000 € ... Rechtsform: GmbH");
+  TÜV Certipedia entry for Kai Graf, https://www.certipedia.com/quality_marks/0217464134.
+
+Who: Kai Graf, TÜV-certified Sachverständiger for photovoltaic systems; serves NRW and nationwide.
+What it sells to commercial-roof clients (as summarised by the fetch):
+  1. Acceptance inspections (Abnahme) documenting system condition
+  2. Structural and technical checks, installation verification, defect identification
+  3. Yield analysis from monitoring data and on-site analysis
+  4. Damage assessments after weather events or installation failures
+  5. Baubegleitung (construction-phase supervision) "~2% of project costs"
+Prices: "Standard assessments: starting €1,500"; "Large-scale/industrial projects: €3,000-€5,000+";
+  "Full construction supervision: approximately 2% of installation costs".
+Size and age: one expert plus office (estimate, unverified); founding year not stated on the fetched pages.
+Caveat: Kai Graf is also managing director of GRAF.SOLAR GmbH, an installer in Neunkirchen-Seelscheid, so
+  the "independent owner's engineer" is not fully independent of installation; the Dutch version should be.

@@ -1,0 +1,5 @@
+URL: https://wetten.overheid.nl/BWBR0008498/2026-04-09/
+Publisher: Overheid.nl (Arbeidsomstandighedenbesluit, consolidated 9 April 2026)
+Fetched: 2026-09-05
+Excerpt (as summarised by the fetch tool):
+Only the table of contents loaded. Confirmed article titles: "Artikel 4.2 Nadere voorschriften risico-inventarisatie en -evaluatie, beoordelen"; "Artikel 4.15 Lijst van werknemers"; "Artikel 2.14a Taken deskundigen"; afdelingen 6 and 7 of hoofdstuk 4 on specific substances. Article texts (measurement vs model, retention period, lead articles) did not load. Retention period for the exposed-workers list stays unverified from the primary text.

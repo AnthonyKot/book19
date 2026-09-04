@@ -1,0 +1,21 @@
+URL: https://www.deltauwb.de/energieaudit_16247/ (firm's own site) and search results for "Ingenieurbüro Schwark" / "DeltaUWB"
+Publisher: DeltaUWB GmbH (Ingenieurbüro Schwark), Dorfstr. 76, 99444 Blankenhain, Thuringia, Germany
+Fetched: 2026-09-05 (WebFetch summary plus WebSearch summary; lines as returned)
+Independent traces: directory listings cylex.de (https://web2.cylex.de/firma-home/ingenieurbuero-schwark---energieberatung-12819578.html)
+  and 11880.com (branchenbuch Blankenhain), both naming "DeltaUWB GmbH - Ingenieurbüro Schwark - Energieberatung".
+  A BAFA auditor-list entry was not fetched (budget); listed as a research question.
+
+History and size: "founded in 2016 in Blankenhain ... renamed to DeltaUWB GmbH in 2022. Since 2022 ... a second
+  office in Gotha". Owner-manager Dipl.-Ing. Anke Schwark; Dr. Julian Schwark leads "an interdisciplinary team
+  of Handwerksmeistern, Verfahrens- and Bauingenieuren" (master craftsmen, process and civil engineers).
+  Staff count not stated (a family engineering office, under ten people: estimate, unverified).
+What it sells: energy audits to DIN EN 16247-1 under §8 EDL-G and the Energieeffizienzgesetz, energy
+  concepts, funding advice, energy certificates, thermal-bridge calculations.
+To whom: "Besonders energieintensive Unternehmen aus den Bereichen Dienstleistungen, Handwerk, produzierender
+  Mittelstand und Industrie" including metalworking, textile and bakery sectors; "Klein und mittlere
+  Unternehmen and nicht KMUs"; also municipalities.
+Prices: not stated per audit. Funding line: "Bis zu 50 % der förderfähigen Kosten. Maximale Förderung:
+  3.000 Euro" for DIN EN 16247 audits (BAFA). A separate search result (deltauwb via DEN network summary)
+  mentioned "BAFA funding of EUR 6,000 ... one location"; the two figures are not reconciled.
+Caveat: German audit demand for SMEs is BAFA-subsidised; for non-SMEs it is the EDL-G duty. The Dutch
+  version has no subsidy, so the buyer pays the whole audit.

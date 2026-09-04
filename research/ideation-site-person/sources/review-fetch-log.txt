@@ -1,0 +1,27 @@
+# Review fetch log (2026-09-05)
+1 search RPA/Fit2Fit trace -> review-precedent-K3-search-rpa.txt
+2 search Synergy trace (own domain excluded) -> review-precedent-K1-search-synergy.txt
+3 search EHS Analytical trace (own domains excluded) -> review-precedent-K2-search-ehs.txt
+4 fetch EUR-Lex OJ PDF 2024/869 -> empty (review-verify-eurlex-refused.txt)
+5 fetch EUR-Lex PDF 2020/1149 -> empty (same file)
+6 search PortaCount EUR -> review-number-K3-portacount-eur-search.txt
+7 search UK LEV testing firms -> review-addition-A1-lev-search.txt
+8 search UK mobile health surveillance -> review-addition-A2-mobile-oh-search.txt
+9 fetch fit2fit.org -> review-precedent-K3-fit2fit-org.txt
+10 fetch Local Surveyors Direct (Synergy) -> review-precedent-K1-localsurveyorsdirect.txt
+11 fetch HigherGov (EHS Analytical) -> review-precedent-K2-highergov.txt
+12 fetch ECHA diisocyanates -> 403 (review-verify-echa-refused.txt)
+13 fetch wetten.overheid.nl/EUR20240869 -> review-verify-wetten-EUR20240869.txt
+14 fetch Arbobesluit consolidated -> TOC only (review-verify-arbobesluit-toc.txt)
+15 search NL model vs measurement -> review-verify-nl-model-vs-measurement-search.txt
+16 fetch ProCare Safety PortaCount -> review-number-K3-procaresafety.txt
+17 fetch Impact Technical Services LEV -> review-addition-A1-impact-technical-services.txt
+18 search NL LEV inspection rule -> review-addition-A1-nl-lev-rule-search.txt
+19 fetch ISOPA FAQ -> review-verify-isopa-faq.txt
+20 fetch NLA werkinstructie PDF -> 404 (review-verify-nla-werkinstructie-404.txt)
+21 search Arbobesluit 4.15 retention -> review-verify-4.15-retention-search.txt
+22 fetch AVAG arbocatalogus 4.5 -> review-addition-A1-avag-4.5.txt (no article text)
+23 fetch Companies House search Impact Technical Services -> review-addition-A1-companies-house-its.txt
+24 search NL PAGO who may perform -> review-addition-A2-nl-pago-search.txt
+25 fetch NLA zelfinspectie Beoordelen -> review-verify-nla-beoordelen.txt
+Budget: 25 of 25 used (17 page fetches incl. 4 failed, 8 searches). Not attempted for lack of budget: Fit2Fit register entry for RPA and non-UK eligibility; EUR PortaCount price; NVPU/spray-foam firm count; Dutch incumbent day rates; Arbobesluit 4.15 article text; any Dutch pure-play LEV tester.

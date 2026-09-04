@@ -1,0 +1,8 @@
+URL: https://iplo.nl/regelgeving/regels-voor-activiteiten/in-stand-houden-bestaand-bouwwerk/rijksregels/oplaadpunten-regels-bestaande-bouw/
+Publisher: Informatiepunt Leefomgeving (Dutch government)
+Fetched: 2026-09-05
+Lines returned: existing utiliteitsgebouw with "meer dan 20 parkeervakken ... Dan moet er vanaf 2025 minimaal 1
+  oplaadpunt zijn" (Bbl articles 3.87b and 3.87c). The rule "geldt dus niet voor een bestaand woongebouw".
+  The fetch reported "no specific exceptions for small and medium-sized enterprises (MKB)" on this page.
+Status: the current Dutch rule (one point, 1 January 2025) is verified; absence of an SME exemption is a
+  reading of one page, not of the Bbl text itself. The EPBD IV transposition (2027 tightening) was not found.

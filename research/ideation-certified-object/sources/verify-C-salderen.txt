@@ -1,0 +1,9 @@
+URL: WebSearch results (2026-09-05); primary: https://www.eerstekamer.nl/nieuws/20241217/wet_beeindiging_salderingsregeling
+  and https://ondernemersplein.overheid.nl/wetswijzigingen/afschaffen-salderingsregeling-vanaf-2027/
+  (Rijksoverheid page fetch returned 404).
+Publisher: Eerste Kamer, Ondernemersplein (search-engine summary)
+Fetched: 2026-09-05
+Lines returned: "De Eerste Kamer heeft op 17 december 2024 de Wet beëindiging salderingsregeling aangenomen,
+  waardoor salderen definitief per 1 januari 2027 stopt voor huishoudens en kleine bedrijven met zonnepanelen".
+  "De wet treedt in werking op 1 januari 2027. Tot en met 31 december 2026 blijft de huidige systematiek gelden."
+Status: VERIFIED, and it covers small businesses on small connections.

@@ -1,0 +1,5 @@
+URL: https://find-and-update.company-information.service.gov.uk/search/companies?q=Respiratory+Protective+Assessment
+Publisher: Companies House (UK registrar)
+Fetched: 2026-09-04
+Excerpt (as summarised by the fetch tool):
+"RESPIRATORY PROTECTIVE ASSESSMENT LTD", company number 07171896, incorporated "1 March 2010", address "The Old Bull Pen Latteridge Road, Latteridge, Bristol, United Kingdom, BS37 9TW". (The firm's own site says it has traded since 1999; the limited company dates from 2010.)

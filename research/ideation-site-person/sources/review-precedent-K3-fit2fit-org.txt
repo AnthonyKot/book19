@@ -1,0 +1,5 @@
+URL: https://www.fit2fit.org/
+Publisher: BSIF (British Safety Industry Federation), Fit2Fit RPE Fit Test Providers Accreditation Scheme
+Fetched: 2026-09-05
+Excerpt (as summarised by the fetch tool):
+Scheme run by BSIF with HSE: "In preparing the Fit2Fit RPE fit testers accreditation scheme, BSIF and other industry stakeholders have worked closely with the experts in Health and Safety Executive (HSE)." UK scheme, operated from Hemel Hempstead. "A full list of all Accredited Fit2Fit fit testers can be found here. The list shows the location of the tester and the area they cover whilst also identifying the method of fit test they can conduct." No statement about accrediting providers outside the UK; the register itself did not load, so RPA's entry was not seen here (its accreditation rests on the firm's own claim and the third-party directories in review-precedent-K3-search-rpa.txt). Whether a Dutch resident can be Fit2Fit-accredited: unverified.

@@ -1,0 +1,10 @@
+URL: https://www.rvo.nl/onderwerpen/energie-audit-eed
+Publisher: RVO (Rijksdienst voor Ondernemend Nederland)
+Fetched: 2026-09-05
+Lines returned: audit duty today for large enterprises: "250 fte of meer" or "jaaromzet van meer dan € 50 miljoen
+  én ... jaarlijkse balanstotaal van meer dan € 43 miljoen". "Under the revised directive (not yet
+  implemented), the requirement shifts to organizations using '10 TJ of meer aan energie' annually."
+  Reporting "Sinds 3 juli 2023 ... eens in de 4 jaar". A template "Sjabloon Onderzoeksplicht + EED-auditplicht"
+  exists. No auditor certification requirement is stated.
+Status: the Netherlands had NOT implemented the 10 TJ test at fetch date, with the EU deadline five weeks
+  away; the timing and form of the Dutch implementation is the number idea B depends on.

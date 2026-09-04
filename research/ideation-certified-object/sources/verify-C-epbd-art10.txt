@@ -1,0 +1,8 @@
+URL: https://www.mccannfitzgerald.com/knowledge/environmental-and-planning/legal-regulation-of-energy-performance-of-buildings
+Publisher: McCann FitzGerald (Irish law firm) (Commission annex-8 guidance PDF returned 404)
+Fetched: 2026-09-05
+Lines returned: "Member States must ensure that new buildings are solar-ready ... starting with all new public
+  and non-residential buildings with useful floor area larger than 250 m² by 31 December 2026" and further
+  deadlines of "31 December 2027" and "31 December 2029".
+Status: the first date and category VERIFIED; which categories carry 2027 (existing non-residential above
+  500 m² under major renovation, from memory) and 2029 (new residential) remain from memory.

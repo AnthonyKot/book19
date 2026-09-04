@@ -1,0 +1,10 @@
+URL: https://www.arboportaal.nl/actueel/nieuws/2026/01/21/let-op-nieuwe-regels-voor-werken-met-lood-en-diisocyanaten-vanaf-9-april-2026
+Publisher: Arboportaal (Ministerie van SZW)
+Fetched: 2026-09-04
+Excerpt (as summarised by the fetch tool, quotes are from the page):
+"Vanaf 9 april 2026 verandert de regelgeving voor werken met lood en diisocyanaten."
+Lead: biological limit "15 ug Pb/100 ml bloed"; exposure limit "0,03 mg Pb/m3 lucht, als een tijdgewogen gemiddelde (TGG) over 8 uur".
+Diisocyanates: 6 ug NCO/m3 (8h); short-term 12 ug NCO/m3.
+Transitional period 9 April 2026 - 31 December 2028: lead biological limit 30 ug Pb/100 ml; diisocyanates 10 ug NCO/m3 and short-term 20 ug NCO/m3.
+Employer obligations: update the RI&E; offer medical examination when exposure exceeds "0,015 mg Pb/m3" or blood lead exceeds "9 ug Pb/100 ml"; for women of reproductive age at "4,5 ug Pb/100 ml bloed"; STOP strategy; worker training on hazards.
+Sectors named for diisocyanates: "isolatieschuim, coatings, lijmen en kitten".
