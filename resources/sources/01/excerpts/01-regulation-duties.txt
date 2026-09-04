@@ -1,0 +1,7 @@
+URL: https://eur-lex.europa.eu/eli/reg/2023/1230/en
+Fetched: 2026-09-04
+
+Verbatim passage:
+“Before placing machinery or a related product on the market or putting it into service, manufacturers shall draw up the technical documentation set out in Annex IV, Part A and carry out the relevant conformity assessment procedure referred to in Article 25 or have it carried out.”
+
+“manufacturers shall draw up the EU declaration of conformity in accordance with Article 21 and affix the CE marking in accordance with Article 24.”

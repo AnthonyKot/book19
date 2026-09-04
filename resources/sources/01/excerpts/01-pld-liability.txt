@@ -1,0 +1,7 @@
+URL: https://eur-lex.europa.eu/eli/dir/2024/2853/oj
+Fetched: 2026-09-04
+
+Verbatim passage:
+“This Directive shall apply to products placed on the market or put into service after 8 December 2026.”
+
+“Any natural or legal person that substantially modifies a product outside the manufacturer’s control and thereafter makes it available on the market or puts it into service shall be considered to be a manufacturer of that product”

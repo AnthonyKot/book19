@@ -1,0 +1,7 @@
+URL: https://eur-lex.europa.eu/eli/reg/2023/1230/en
+Fetched: 2026-09-04
+
+Verbatim passage:
+“A natural or legal person that carries out a substantial modification of machinery or a related product shall be considered to be a manufacturer for the purposes of this Regulation”
+
+“if the substantial modification has an impact on the safety of only machinery or a related product that is part of an assembly of machinery, for that affected machinery or related product, as demonstrated in the risk assessment.”

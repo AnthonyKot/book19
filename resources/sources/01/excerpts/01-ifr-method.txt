@@ -1,0 +1,7 @@
+URL: https://ifr.org/about-world-robotics/
+Fetched: 2026-09-04
+
+Verbatim passage:
+“For industrial robots, installations per country by type, industries and application are counted, including global installations for cobots (robots designed to be used in a collaborative setting) considered separately.”
+
+“Both reports as well as a premium version including access to the World Robotics database [...] can be purchased through the webshop of VDMA Verlag.”

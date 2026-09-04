@@ -1,0 +1,10 @@
+URL: https://find-and-update.company-information.service.gov.uk/company/12096383
+Fetched: 2026-09-04
+Provenance: live-checked; earlier search excerpt copied in part from drafts/ideation/assembled-machines/sources/precedent-A-companies-house.txt.
+
+Verbatim passage:
+“Company status Active”
+“Incorporated on 10 July 2019”
+“Last accounts made up to 31 July 2025”
+“Last statement dated 30 June 2026”
+“71122 - Engineering related scientific and technical consulting activities”

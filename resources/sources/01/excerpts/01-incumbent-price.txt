@@ -1,0 +1,8 @@
+URL: https://iab-ingenieurs.nl/vraag-en-antwoord/ce-markering-machines/machinerichtlijn-ce-markering-machines/wat-zijn-de-kosten-van-een-ce-markering/
+Fetched: 2026-09-04
+Provenance: copied from drafts/ideation/assembled-machines/sources/iab-ce-kosten.txt and live-checked by search.
+
+Verbatim passage:
+“Het CE-markeren van een eenvoudige machine (wat is eenvoudig?) kost al gauw € 6000,– incl. gebruiksaanwijzing.”
+
+“Het CE-certificeren van een samenstel van machines, denk aan een grote procesinstallatie kost al gauw € 30.000,–.”

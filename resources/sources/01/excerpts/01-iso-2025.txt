@@ -1,0 +1,9 @@
+URL: https://www.iso.org/standard/73934.html
+Fetched: 2026-09-04
+
+Verbatim passage:
+“ISO 10218-2 is the second part of the international standard that specifies requirements for the safety of industrial robot applications and robot cells.”
+
+“Publication date: 2025-02”
+
+“the design, integration, commissioning, operation, maintenance, decommissioning and disposal”

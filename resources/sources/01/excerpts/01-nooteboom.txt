@@ -1,0 +1,8 @@
+URL: https://www.yaskawa.nl/use-cases/case/lascobot-bij-nooteboom-voorzien-van-ce-markering-door-juiste-risico-inventarisatie-en--evaluatie-ri-e-_u14279
+Fetched: 2026-09-04
+Provenance: live-checked; second passage also copied from drafts/ideation/assembled-machines/sources/addition-metaalnieuws-nooteboom.txt, which attributes the same case.
+
+Verbatim passage:
+“De systeemintegrator van de robotapplicatie verzorgt de installatie, de Risico Inventarisatie en -Evaluatie (RI&E), het technisch dossier, de CE-markering en de oplevering.”
+
+“Automise heeft samen met de veiligheidsdeskundige van Nooteboom een RI&E opgesteld, welke is beoordeeld door een extern deskundige.”

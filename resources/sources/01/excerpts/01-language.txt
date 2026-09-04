@@ -1,0 +1,7 @@
+URL: https://business.gov.nl/regulations/safety-requirements-machinery/
+Fetched: 2026-09-04
+
+Verbatim passage:
+“They should for instance be provided in a language the user understands well.”
+
+“For machines governed by the Machinery Directive, for example, you must provide a manual in the language of the country in which you market the product”

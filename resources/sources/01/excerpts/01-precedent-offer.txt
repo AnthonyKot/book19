@@ -1,0 +1,8 @@
+URL: https://www.cobotsmachinerysafety.co.uk/force-pressure-testing
+Fetched: 2026-09-04
+Provenance: live-checked; the earlier firm summary is drafts/ideation/assembled-machines/sources/precedent-A-cobots-machinery-safety.txt.
+
+Verbatim passage:
+“Using calibrated testing equipment, our engineers measure: Transient and quasi-static contact forces between the robot and operator; Surface pressure distribution during impact; Stopping distances and speeds of robotic motion”
+
+“Documentation to support CE/UKCA marking and regulatory inspections”
