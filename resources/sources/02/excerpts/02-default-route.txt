@@ -1,0 +1,13 @@
+URL: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-standaardwaarden
+Fetch date: 2026-09-04
+Verbatim passage:
+
+Kiest u als toegelaten CBAM-aangever voor aangifte met standaardwaarden, dan is een geverifieerd emissieverslag van de exploitant van de installatie niet nodig.
+
+Een CBAM-aangifte met gebruik van standaardwaarden leidt doorgaans tot hogere CBAM-kosten dan wanneer u aangifte doet op basis van werkelijke gegevens.
+
+De standaardwaarden worden verhoogd met een opslag:
+
+* 10% in 2026
+* 20% in 2027
+* 30% vanaf 2028

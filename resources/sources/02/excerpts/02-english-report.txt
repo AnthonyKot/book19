@@ -1,0 +1,5 @@
+URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32025R2547
+Fetch date: 2026-09-04
+Verbatim passage (Article 4(4)):
+
+The operator’s emissions report shall be submitted in English.

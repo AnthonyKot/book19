@@ -1,0 +1,8 @@
+URL: https://opendata.cbs.nl/ODataApi/odata/81156ned/TypedDataSet
+Fetched: 2026-09-04
+
+TABLE F. CBS 81156ned Bedrijfsleven; arbeids- en financiële gegevens per branche (x mln EUR; werkzame personen x1000). Margins computed by agent: operating margin = Bedrijfsresultaat / Netto-omzet; pre-tax margin = Resultaat voor belastingen / Netto-omzet; personnel share = Personele kosten / Netto-omzet; revenue per worker = Netto-omzet / werkzame personen (kEUR).
+
+46 Groothandel | 2024 | 736.4 | 648435.0 | 628409.0 | 42600.0 | 8757.0 | 26451.0 | 34481.0 | 4.1 | 5.3 | 6.6 | 880547
+
+Provenance: copied from drafts/research/boring-business/sources/cbs-81156-financien-per-branche.txt, fetched from CBS OData on 2026-09-04. The saved source warns that this is an all-size branch aggregate and ratios are computed.

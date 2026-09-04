@@ -1,0 +1,9 @@
+URL: https://assets.abnamro.com/api/public/content/sectorprognoses-abn-amro-bedrijfsopvolging-dec-2025.pdf
+Fetched: 2026-09-04
+
+Top 15 branches met hoogst aantal ondernemers van 65 jaar en ouder
+(Aantal ondernemers 65+ met bedrijven met 2 of meer werkzame personen)
+
+3. Groothandel en handelsbemiddeling 5.210 15,7
+
+Provenance: copied from drafts/research/boring-business/sources/abnamro-sectorprognoses-bedrijfsopvolging-dec2025.txt, fetched from the publisher PDF on 2026-09-04.

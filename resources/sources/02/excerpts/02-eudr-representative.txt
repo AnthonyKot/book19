@@ -1,0 +1,5 @@
+URL: https://eur-lex.europa.eu/eli/reg/2023/1115
+Fetch date: 2026-09-04
+Verbatim passage (Article 6(1)):
+
+Operators may mandate an authorised representative to submit the due diligence statement pursuant to Article 4(2) or to submit a simplified declaration pursuant to Article 4a(2) on their behalf. In such cases, the operator shall retain responsibility for the compliance of the relevant product with Article 3.

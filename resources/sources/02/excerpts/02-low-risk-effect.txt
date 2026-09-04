@@ -1,0 +1,7 @@
+URL: https://green-forum.ec.europa.eu/countries-and-partnerships_en
+Fetch date: 2026-09-04
+Verbatim passage:
+
+Operators sourcing relevant products from countries classified as low-risk may conduct simplified due diligence, if they are certain that all of the relevant products were produced in low-risk countries, and have not undergone any mixing with high-risk, standard-risk or unknown origin products.
+
+An operator conducting simplified due diligence must still collect information demonstrating the compliance of its products, but does not need to conduct a full risk assessment or take risk mitigation measures.

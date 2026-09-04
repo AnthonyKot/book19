@@ -1,0 +1,5 @@
+URL: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte
+Fetch date: 2026-09-04
+Verbatim passage:
+
+De exploitant van de productie-installatie registreert de installatie en het emissieverslag vrijwillig in het CBAM-register. De toegelaten CBAM-aangever kan deze gegevens overnemen in de CBAM-aangifte.

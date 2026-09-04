@@ -1,0 +1,9 @@
+URL: https://www.kwa.nl/nieuws/blootstellingsonderzoeken-gevaarlijke-stoffen--hoe-werkt-dat-
+Fetched: 2026-09-05
+Provenance: live WebSearch/WebFetch; “Een verrassend proces” and “Werknemer draagt apparatuur.”
+
+“Bepaling van blootstelling gaat vervolgens met schattingsmodellen of metingen.”
+
+“Soms is de blootstelling zodanig complex dat een model niet geschikt is. In die gevallen kunnen we de blootstelling vaak bepalen met behulp van metingen.”
+
+“We laten dan bijvoorbeeld een werknemer gedurende zijn werkdag een pompje bij zich dragen.”

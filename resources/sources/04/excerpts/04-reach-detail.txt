@@ -1,0 +1,11 @@
+URL: https://eur-lex.europa.eu/eli/reg/2020/1149
+Fetched: 2026-09-05
+Provenance: live WebSearch/WebFetch; Annex XVII entry 74(4), (7) and (8).
+
+“spraying in a ventilated booth”
+
+“spraying in open air, with limited or only natural ventilation (includes large industry working halls) and spraying with high energy (e.g. foams, elastomers)”
+
+“The supplier referred to in point (b) of paragraph 2 shall ensure that the recipient is provided with training material and courses pursuant to paragraphs 4 and 5 in the official language(s) of the Member State(s) where the substance(s) or mixture(s) are supplied.”
+
+“The employer or self-employed shall document the successful completion of the training referred to in paragraphs 4 and 5. The training shall be renewed at least every five years.”

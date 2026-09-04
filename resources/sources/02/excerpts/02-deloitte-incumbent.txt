@@ -1,0 +1,7 @@
+URL: https://www.deloitte.com/nl/en/services/tax/services/eu-carbon-border-adjustment-mechanism-cbam.html
+Fetch date: 2026-09-04
+Verbatim passage:
+
+Standalone customs declarant and CBAM delegated party services, or integrated solutions combining CBAM declaration with customs brokerage via our Global Trade Operate services.
+
+A managed service can cover end to end activities including supplier data collection, supplier solicitation and validation, certificate procurement, declaration submission as authorised declarant, dashboard access and ongoing regulatory monitoring.

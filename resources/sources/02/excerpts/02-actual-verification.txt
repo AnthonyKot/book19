@@ -1,0 +1,5 @@
+URL: https://www.emissieautoriteit.nl/regelgeving/cbam/cbam-aangifte/cbam-aangifte-met-werkelijke-gegevens/accreditatie-en-verificatie
+Fetch date: 2026-09-04
+Verbatim passage:
+
+Kiest een toegelaten CBAM-aangever voor een CBAM-aangifte op basis van werkelijke gegevens, dan is een geverifieerd emissieverslag van de exploitant van de productie-installatie nodig. Het emissieverslag moet zijn geverifieerd door een geaccrediteerde CBAM-verificateur.

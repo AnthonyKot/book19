@@ -1,0 +1,7 @@
+URL: https://eur-lex.europa.eu/eli/reg/2020/1149
+Fetched: 2026-09-05
+Provenance: live WebSearch/WebFetch; Annex XVII entry 74(1).
+
+“Shall not be used as substances on their own, as a constituent in other substances or in mixtures for industrial and professional use(s) after 24 August 2023, unless:
+(a) the concentration of diisocyanates individually and in combination is less than 0,1 % by weight, or
+(b) the employer or self-employed ensures that industrial or professional user(s) have successfully completed training on the safe use of diisocyanates prior to the use of the substance(s) or mixture(s).”

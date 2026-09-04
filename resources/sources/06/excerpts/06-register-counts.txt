@@ -1,0 +1,12 @@
+URL: https://www.ascert.nl/certificaatregister
+Fetch date: 2026-09-05
+Verbatim passage:
+
+Type certificaat | Aantal geldige certificaten
+
+DIA | 798
+DTA | 1566
+Asbestverwijderingsbedrijf | 249
+Asbestinventarisatiebedrijf | 155
+
+Alle persoonscertificaten hebben een geldigheid van drie jaar. Uitzonderingen hierop zijn het DAV-1 certificaat (6 maanden) en het DAA certificaat (10 jaar).

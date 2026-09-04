@@ -1,0 +1,9 @@
+URL: https://www.douane.nl/onderwerpen/vgem/milieu/cbam/
+Fetch date: 2026-09-04
+Verbatim passage:
+
+Moet de (service)partij die de CBAM-aangifte namens de importeur aanlevert, zichzelf vermelden in de douaneaangifte?
+
+Nee. De serviceprovider verleent alleen een dienst. De importeur blijft aansprakelijk.
+
+Het CBAM registry ondersteunt horizontale machtiging (ketenmachtiging) via eHerkenning.

@@ -1,0 +1,9 @@
+URL: https://forest.gov.ua/en/news/eu-regulation-eudr-how-ukraine-is-preparing-for-new-export-conditions
+Fetch date: 2026-09-04
+Verbatim passage:
+
+We have created a comprehensive timber tracking system that allows us to trace the movement of every batch of products from the moment of harvesting to export.
+
+Currently, we have around 400 active users of this system—representatives of business, the agricultural sector, and forestry – and we are already providing exporters with all the necessary information for working with the European Union.
+
+In particular, during the consultations they discussed in detail the operation of digital services that help verify the legality of timber harvesting: the e-logging permit, the electronic certificate of origin, the electronic waybill with photo documentation, as well as the functionality of the Exporter’s Electronic Cabinet.

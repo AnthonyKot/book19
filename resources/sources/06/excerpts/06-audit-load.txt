@@ -1,0 +1,10 @@
+URL: https://zoek.officielebekendmakingen.nl/stcrt-2026-29952.html
+Fetch date: 2026-09-05
+Verbatim passage:
+
+Gemiddeld aantal DIA’s werkzaam per vestiging per certificatiejaar | Totaal aantal asbestinventarisatierapporten per certificatiejaar van de vestiging | Totaal aantal beoordelingen per certificatiejaar door de certificerende instelling
+
+1–2 | < 500 | 4
+3–5 | 500–1100 | 6
+6–8 | 1100–1600 | 9
+> 8 | > 1600 | 12

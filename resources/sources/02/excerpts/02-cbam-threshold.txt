@@ -1,0 +1,7 @@
+URL: https://www.emissieautoriteit.nl/vraag-en-antwoord/faq-cbam/hoe-werkt-de-ondergrens-van-50-ton
+Fetch date: 2026-09-04
+Verbatim passage:
+
+Per 1 januari 2026 geldt voor CBAM-goederen (met uitzondering van waterstof en elektriciteit) een ondergrens van 50 ton goederen per importeur per jaar. Zolang een importeur in een jaar minder dan 50 ton CBAM-goederen invoert, is CBAM niet van toepassing en is er dus geen verplichting om toegelaten te zijn.
+
+Vanaf het moment dat een importeur in een jaar meer dan 50 ton goederen importeert, geldt CBAM. Er is dan een toelating nodig en er moet CBAM-aangifte worden gedaan over alle CBAM-goederen die zijn ingevoerd. Er is geen vrijstelling van 50 ton vanaf dat moment.

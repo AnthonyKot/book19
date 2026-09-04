@@ -1,0 +1,15 @@
+URL: https://www.ascert.nl/zoek-een-certificaat?certificatenumber=&city=&company=asbest&postalcode=&type=processcertificate
+Fetch date: 2026-09-05
+Verbatim passage:
+
+Buro Pear Asbestinventarisaties V.O.F.
+04-08-2026 23-01-2027
+Asbestinventarisatie
+Hengelo
+Status: geldig
+
+Advies Lieren B.V. h.o.d.n. A.L. Asbestinventarisering Lieren
+22-12-2025 22-12-2028
+Asbestinventarisatie
+Lieren
+Status: geldig
