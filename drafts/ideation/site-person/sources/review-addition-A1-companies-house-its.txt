@@ -1,0 +1,5 @@
+URL: https://find-and-update.company-information.service.gov.uk/search/companies?q=Impact+Technical+Services
+Publisher: Companies House (UK registrar; independent trace)
+Fetched: 2026-09-05
+Excerpt (as summarised by the fetch tool):
+"IMPACT TECHNICAL SERVICES LTD", company number 07532316, "Incorporated on 16 February 2011", status Active, registered address "3 Kingsley Street, Leicester, LE2 6DY" (matches the firm's site). (An unrelated "Impact Technical Solutions Ltd", Manchester, dissolved 23 September 2025.)

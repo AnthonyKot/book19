@@ -1,0 +1,11 @@
+Fetch log, 2026-09-05. Twenty-five calls in total (17 WebFetch, 8 WebSearch). Failed or empty:
+  eur-lex.europa.eu HTML of Directive 2024/1275 (empty body)
+  rvo.nl/onderwerpen/laadinfrastructuur-gebouwen (404)
+  energy.ec.europa.eu energy-audits topic page (404)
+  rijksoverheid.nl salderingsregeling page (404)
+  cp-energie.de GEIG page (404)
+  energy.ec.europa.eu annex 9 (Article 14 guidance) PDF (404)
+  energy.ec.europa.eu annex 8 (Article 10 guidance) PDF (404)
+  en.wikipedia.org EPBD 2024 (returned only the transposition date)
+Sources not reached and left as research questions: the Article 14 SME clause, the one-per-ten ratio, the BAFA
+  auditor list entry for DeltaUWB, the founding year of Gutachten Graf GmbH.

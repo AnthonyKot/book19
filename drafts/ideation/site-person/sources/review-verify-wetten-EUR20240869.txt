@@ -1,0 +1,5 @@
+URL: https://wetten.overheid.nl/EUR20240869
+Publisher: Overheid.nl (wetten.nl EU-law index page)
+Fetched: 2026-09-05
+Excerpt (as summarised by the fetch tool):
+Index page for Richtlijn (EU) 2024/869: "Uiterste implementatiedatum: 09-04-2026". The page is an administrative summary; Annex III values, biological limit, health-surveillance, training and record-retention provisions are not reproduced; it links to https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32024L0869. Transposition deadline 9 April 2026: verified here (second source after the Wetgevingskalender).

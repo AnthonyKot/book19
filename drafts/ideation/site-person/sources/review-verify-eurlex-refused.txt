@@ -1,0 +1,4 @@
+URL: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202400869 and https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32020R1149
+Publisher: EUR-Lex (Publications Office)
+Fetched: 2026-09-05
+Excerpt: both PDF fetches returned empty content to the fetch tool (two fetches spent, nothing extracted). Directive 2024/869 and Regulation 2020/1149 were re-attempted through Dutch government mirrors and ECHA/ISOPA pages instead; see review-verify-*.txt.

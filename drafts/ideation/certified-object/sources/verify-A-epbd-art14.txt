@@ -1,0 +1,12 @@
+URL: WebSearch results (2026-09-05) for Directive 2024/1275 Article 14; primary text at
+  https://eur-lex.europa.eu/eli/dir/2024/1275/oj/eng (EUR-Lex HTML fetch returned empty; Commission
+  annex-9 guidance PDF returned 404).
+Publisher: search-engine summary of EUR-Lex and Commission pages
+Fetched: 2026-09-05
+Line returned: "With regard to all non-residential buildings with more than 20 car parking spaces, Member States
+  shall, by 1 January 2027, ensure the installation of infrastructure for sustainable mobility, including
+  recharging points for electric vehicles and bicycle parking facilities."
+Not returned: the ratio (one point per ten spaces, from memory) and whether Article 14 lets Member States
+  exempt buildings owned and occupied by SMEs. Both remain UNVERIFIED.
+Transposition deadline (Wikipedia, https://en.wikipedia.org/wiki/Energy_Performance_of_Buildings_Directive_2024,
+  fetched 2026-09-05): "Member States were required to transpose the directive by 29 May 2026".

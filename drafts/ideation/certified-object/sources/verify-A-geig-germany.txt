@@ -1,0 +1,11 @@
+URL: WebSearch results (2026-09-05) for GEIG (Gebäude-Elektromobilitätsinfrastruktur-Gesetz), incl.
+  https://www.gesetze-im-internet.de/geig/BJNR035400021.html and installer pages (enercity, Mennekes, cp energie)
+Publisher: search-engine summary
+Fetched: 2026-09-05
+Lines returned: "Bei Bestandsgebäuden gilt seit 01.01.2025: Jedes Nichtwohngebäude mit mehr als 20
+  Stellplätzen muss mindestens einen funktionsfähigen Ladepunkt haben." "Bis zum 1. Januar 2027 ... entweder
+  jeder zweite Stellplatz bekommt Ladeinfrastruktur (Vollausbau) oder ... mindestens einen Ladepunkt pro zehn
+  Stellplätze (Mindestausbau)." "Dieses Gesetz ist nicht anzuwenden auf Nichtwohngebäude, die sich im Eigentum
+  von kleinen und mittleren Unternehmen befinden und überwiegend von diesen selbst genutzt werden."
+Use: Germany's transposition carries exactly the SME exemption that is idea A's kill fact; whether the Dutch
+  Bbl will copy it is the first research question.

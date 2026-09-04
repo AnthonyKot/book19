@@ -1,0 +1,12 @@
+URL: WebSearch results (2026-09-05) for Directive (EU) 2023/1791 Article 11; primary text at
+  https://eur-lex.europa.eu/eli/dir/2023/1791/oj/eng; Commission topic page returned 404.
+Publisher: search-engine summary of EUR-Lex and consultancy pages (DNV, certiget, PACI)
+Fetched: 2026-09-05
+Lines returned: "Enterprises with an average annual consumption higher than 10 TJ of energy over the previous
+  three years, taking all energy carriers together, which do not implement an energy management system are
+  subject to an energy audit. Enterprises shall carry out a first energy audit by 11 October 2026 and
+  subsequent energy audits are carried out at least every four years." "Enterprises with an average annual
+  consumption higher than 85 TJ ... implement an energy management system ... certified by an independent
+  body ... at the latest by 11 October 2027." Action plan on the audit's recommendations required.
+Status: thresholds and dates VERIFIED. "All energy carriers together" supports counting transport fuel;
+  the Dutch reading is a research question.

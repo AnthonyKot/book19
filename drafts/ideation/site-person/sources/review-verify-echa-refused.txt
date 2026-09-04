@@ -1,0 +1,4 @@
+URL: https://echa.europa.eu/hot-topics/diisocyanates
+Publisher: ECHA
+Fetched: 2026-09-05
+Excerpt: HTTP 403 Forbidden; nothing retrieved. One fetch spent.

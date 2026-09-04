@@ -1,0 +1,5 @@
+URL: https://safeusediisocyanates.eu/faq/
+Publisher: ISOPA / ALIPA (industry associations running the REACH diisocyanate training platform)
+Fetched: 2026-09-05
+Excerpt (as summarised by the fetch tool):
+"As from 24 August 2023 adequate training is required before industrial or professional use." "all employees who use or handle products that contain min. 0,1% of diisocyanates receive the appropiate training". "The fee for a web-based training on the ISOPA/ALIPA website is €15 (+ applicable value added tax)." Quick guides listed in English, French, German, Dutch and Italian; no full language list on this page; Polish, Ukrainian and Russian not mentioned. Certificate validity and renewal not on this page (the platform page saved 2026-09-04 says "certificate valid for 5 years"). Conclusion: training mandatory from 24 August 2023 verified; five-year validity verified on the platform page; the exact renewal date (from 24 August 2028) follows arithmetically and the regulation text itself was not read (EUR-Lex and ECHA refused).

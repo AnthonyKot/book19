@@ -1,0 +1,22 @@
+URL: https://amprenewables.co.uk/commercial/ev-charging
+Publisher: AMP Renewables Ltd (firm's own site), Washington, Tyne and Wear, UK
+Fetched: 2026-09-05 (WebFetch summary; lines below are as returned by the fetch)
+Independent trace: Companies House search, https://find-and-update.company-information.service.gov.uk/search/companies?q=amp+renewables (fetched 2026-09-05):
+  AMP RENEWABLES LTD, company number 09420963, Active, incorporated 4 February 2015,
+  8 Bede House, Tower Road, Washington, Tyne And Wear, NE37 2SH.
+
+What it sells: workplace and fleet EV charging as an installed system with the file:
+  - "Smart load balancing to add chargers without supply upgrades"
+  - "OZEV Workplace Charging Scheme grant applications handled"
+  - "DNO/G99 applications for installations above 16A/phase"
+  - OCPP hardware 7 kW / 22 kW AC, 50-150 kW DC; multi-site billing; fleet integration (Webfleet, Geotab)
+To whom: "Businesses with off-street parking, from small offices (2-5 chargers) to fleet depots and hotel chains (100+ chargers)"
+Prices stated: per charger installed "£1,000 and £2,500"; small office 2-5 chargers "£3,500-£9,500";
+  medium workplace 6-15 chargers "£11,000-£32,000"; large 16-40 chargers "£35,000-£90,000";
+  OZEV grant "up to £350 per socket, capped at 40 sockets".
+Size and age: trading "EST. 1985" (site), Ltd since 2015 (Companies House); accreditations NICEIC D124458,
+  MCS, Gas Safe, ISO 9001/14001/45001, SafeContractor. Staff count not stated (small regional contractor;
+  estimate, unverified).
+Caveat: a general electrical and renewables contractor whose workplace-charging line carries the grid
+  application, load management and grant file; not a compliance-only specialist. UK demand is grant-assisted
+  (OZEV), which is the subsidy question for the Dutch version.
