@@ -8,6 +8,8 @@ Title: Asbestinventarisatie Huisaansluitingen
 
 Description: Het voorwerp van de aanbesteding is het uitvoeren van asbestinventarisaties van huisaansluitingen.
 
+ID result lot: LOT-0002
+
 Winner:
 Official name: AFRS Ingenieurs B.V.
 

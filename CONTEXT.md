@@ -18,10 +18,10 @@ TEST THROUGH A PARTNER / WATCH / ACQUIRE, DO NOT BUILD / DO NOT ENTER) plus two 
 AI gate. Research instruments run by agents from public sources with saved excerpts; each memo ends with an
 honesty paragraph. Essays (when written) follow book 18's TEMPLATE plus a "Why you" section.
 
-## 4. State — v0.1 (2026-09-04, second pass)
+## 4. State — v0.2 (2026-09-05): six essays live
 Published: method, edge inventory, thirteen research memos (crowdfunding ×2 + comparison, diaspora, succession,
 licences, trade flows, regulation-created work, AI physical footprint, boring business, two triages), and a
-candidates table of thirteen under test, eight on watch, one held; ten pitches under `drafts/pitches/` written by the coordinating session under four stated assumptions; an ideation metaprompt (`scripts/prompts/idea-metaprompt.md`, runner `scripts/ideate.sh`) with two seeded runs and their precedent reviews. Book line, decided 2026-09-04: outside software, not outside engineering. No essays.
+candidates table of thirteen under test, eight on watch, one held; ten pitches under `drafts/pitches/`; six essays under `chapters/` (codex-drafted from the pitches with live research and excerpts, panel-reviewed, revised, read by the coordinating session), verdicts: 01 cell file TEST THROUGH A PARTNER, 02 border files TEST THROUGH A PARTNER, 03 joinery/steel dossier WATCH, 04 spray crew's file TEST THROUGH A PARTNER, 05 owner-independent acquisition ACQUIRE DO NOT BUILD, 06 certified-inspection microfirm ACQUIRE DO NOT BUILD; an ideation metaprompt (`scripts/prompts/idea-metaprompt.md`, runner `scripts/ideate.sh`) with two seeded runs and their precedent reviews. Book line, decided 2026-09-04: outside software, not outside engineering. No essays.
 
 ## 5. Evidence rules (from book 18)
 Primary sources for law, deadlines, standards; demand shown by buyer behaviour, enforcement, procurement or
@@ -80,3 +80,8 @@ Exactly one per essay: **TEST NOW**; **TEST THROUGH A PARTNER**; **WATCH**; **AC
   acquisition, 6 joinery/steel dossier, 7 border files, 9 certified-inspection microfirm, 10 spray crew's file.
   Not picked: 1 housing/agency file, 4 machine repair, 5 heat pump, 8 used-equipment inspection (stay as pitches).
   Essays 3 and 9 are written as step-two paths under the constraints (the job ends at closing).
+- 2026-09-05 — Six essays drafted (codex sol, one pilot then five in parallel), panel-reviewed (agy flash + pro, codex
+  consolidating), all six REVISE, revisions applied by codex, all gates pass (structure, claims with excerpts,
+  links), read by the coordinating session, nav wired, index section added, pushed as v0.2. No verdict is TEST
+  NOW: the honest finding of the round is that every family-A idea passes only through a Dutch-speaking partner
+  who owns the customer layer, and both family-B ideas are step-two acquisitions gated on one target existing.
